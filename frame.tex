@@ -1,0 +1,100 @@
+\documentclass{elsart}
+\usepackage[pdftex]{hyperref}
+\usepackage{amstext,amsmath,amsfonts,amssymb}
+\usepackage{bm}
+\usepackage{lscape}
+\usepackage{graphicx}
+\usepackage{vruler}
+\usepackage{color}
+\usepackage{subfigure}
+\usepackage{mathrsfs}
+\usepackage{eufrak}
+\usepackage{float}
+\usepackage{rotating}
+\textwidth 17.0cm
+\oddsidemargin 0.0cm
+\evensidemargin 0.0cm
+\topmargin 0.5cm
+% ===========================================================================
+
+\begin{document}
+\newcommand{\blue}[1]{{\color{blue}{#1}\color{black}}}
+\newcommand{\red}[1]{{\color{red}{#1}\color{black}}}
+
+\newcommand{\green}[1]{{\color{green}{#1}\color{black}}}
+\newcommand{\yellow}[1]{{\color{yellow}{#1}\color{black}}}
+\newcommand{\darkblue}[1]{{\color{darkblue}{#1}\color{black}}}
+\newcommand{\darkgreen}[1]{{\color{darkgreen}{#1}\color{black}}}
+\newcommand{\darkred}[1]{{\color{darkred}{#1}\color{black}}}
+\newcommand{\lightred}[1]{{\color{lightred}{#1}\color{black}}}
+\newcommand{\pink}[1]{{\color{pink}{#1}\color{black}}}
+\newcommand{\gray}[1]{{\color{gray}{#1}\color{black}}}
+\newcommand{\black}[1]{{\color{black}{#1}\color{black}}}
+\newcommand{\magenta}[1]{\color{magenta}{#1}\color{black}}
+\newcommand{\darkmag}[1]{\color{darkmag}{#1}\color{black}}
+
+\def\CalT{\mathcal{T}}
+\def\rmBH{\mathrm{BH}}
+\def\rmDVCS{\mathrm{DVCS}}
+\def\CalI{\mathcal{I}}
+\def\rmunp{\mathrm{unp}}
+\def\rmTP{\mathrm{TP}}
+\def\rmRe{\mathrm{Re}}
+\def\rmIm{\mathrm{Im}}
+
+\def\xbj{x_{B}}
+\def\qsr{Q^{2}}
+
+\def\gpdH{\emph{H}}
+\def\gpdE{\emph{E}}
+\def\gpdHtil{\widetilde{H}}
+\def\gpdEtil{\widetilde{E}}
+
+
+\def\CalH{\mathcal{H}}
+\def\CalE{\mathcal{E}}
+\def\CalHtil{\widetilde{\mathcal{H}}}
+\def\CalEtil{\widetilde{\mathcal{E}}}
+
+\def\CalN{\mathcal{N}}
+\def\CUU{\sigma_{U}}
+\def\Lumi{\mathcal{L}\,}
+\def\xx{\bm{x}}
+\def\tt{\bm{\eta}}
+\def\AC{A_C}
+\def\AUT{A_{UT}}
+\def\AUTDVCS{A_{UT,\rmDVCS}}
+\def\AUTI{A_{UT,\CalI}}
+\def\desy{{\sc desy}}
+
+ \begin{frontmatter}
+
+\title{
+	Beam-Helicity and Charge Asymmetries \\
+        in the Bethe-Heitler and DVCS processes on \\
+        an Unpolarised Proton Target
+  	\underline{Paper Tag: PDVCS (v0.5)}
+        \underline{Drafting Committee: DC90 (\today)}
+}
+
+\collab{HERMES Collaboration}
+\begin{abstract}
+Beam\blue{-}helicity and charge asymmetries in the hard exclusive leptoproduction of
+real photons from an unpolarised proton target \blue{by} a 27.6\,GeV lepton beam 
+are extracted from the HERMES unpolarised data set of 2006-2007 using a
+missing-mass event selection technique. The beam-charge asymmetry amplitudes extracted from the new data set are statistically more precise than those extracted from an earlier data set of 1996-2005 previously analysed in the same manner by the collaboration. \blue{Results from both data sets are found to be} compatible with each other. Combined results from these data sets are extracted and are the statistically most precise asymmetry amplitude measurements available in the HERMES kinematic region.
+\end{abstract}
+
+\end{frontmatter}
+% 
+\setvruler[15pt][1][1][3][1][30pt][30pt][-42pt]
+\include{theory}
+\include{experiment_and_data}
+\include{background_and_systematic}
+\include{results}
+\include{summary}
+\include{append}
+% this is a test comment to test the pull push mechanism
+\bibliographystyle{ieeetr}
+\bibliography{jburnsref}
+\end{document}

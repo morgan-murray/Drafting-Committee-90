@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: frame.aux
+A level-1 auxiliary file: theory.aux
+A level-1 auxiliary file: experiment_and_data.aux
+A level-1 auxiliary file: background_and_systematic.aux
+A level-1 auxiliary file: results.aux
+A level-1 auxiliary file: summary.aux
+A level-1 auxiliary file: append.aux
+The style file: ieeetr.bst
+Database file #1: jburnsref.bib
+Warning--empty title in brasse
+You've used 19 entries,
+            1876 wiz_defined-function locations,
+            605 strings with 6529 characters,
+and the built_in function-call counts, 4303 in all, are:
+= -- 450
+> -- 108
+< -- 0
++ -- 47
+- -- 28
+* -- 260
+:= -- 614
+add.period$ -- 21
+call.type$ -- 19
+change.case$ -- 16
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 258
+empty$ -- 411
+format.name$ -- 28
+if$ -- 1084
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 16
+newline$ -- 62
+num.names$ -- 19
+pop$ -- 43
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 184
+stack$ -- 0
+substring$ -- 231
+swap$ -- 118
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 39
+width$ -- 21
+write$ -- 185
+(There was 1 warning)
