@@ -1,7 +1,7 @@
 \begin{thebibliography}{10}
 
 \bibitem{Mue94}
-D. M\"uller et al., Fortschr. Phys. {\bf 42} (1994) 101
+D. M\"uller et al., Fortschr. Phys. {\bf 42} (1994) 101.
 
 \bibitem{Ji97a}
 X. Ji, Phys. Rev. Lett. {\bf 78} (1997) 610.
@@ -9,11 +9,17 @@ X. Ji, Phys. Rev. Lett. {\bf 78} (1997) 610.
 \bibitem{Rad97}
 A.V. Radyushkin, Phys. Lett. \textbf{B380} (1996) 417.
 
+\bibitem{Air01}
+HERMES Collaboration, A. Airapetian et al., 
+Phys. Rev. Lett.  \textbf{87} (2001) 182001.
+
 \bibitem{Air06}
-HERMES Collaboration, A. Airapetian et al., Phys. Rev. \textbf{D75} (2007) 011103.
+HERMES Collaboration, A. Airapetian et al., 
+Phys. Rev. \textbf{D75} (2007) 011103.
 
 \bibitem{Air08}
-HERMES Collaboration, A. Airapetian et al., JHEP \textbf{06} (2008) 066.
+HERMES Collaboration, A. Airapetian et al., 
+JHEP \textbf{06} (2008) 066.
 
 \bibitem{Air09}
 HERMES Collaboration, A. Airapetian et al., 
@@ -21,11 +27,19 @@ JHEP {\bf 0911} (2009) 083.
 
 \bibitem{Air10}
 HERMES Collaboration, A. Airapetian et al., 
-Nucl. Phys. {\bf B829} (2009) 1
+Nucl. Phys. {\bf B829} (2009) 1.
 
 \bibitem{Air10a}
 HERMES Collaboration, A. Airapetian et al., 
+Phys. Rev. {\bf C81} (2010) 035202.
+
+\bibitem{Air10b}
+HERMES Collaboration, A. Airapetian et al., 
 JHEP {\bf 06} (2010) 019.
+
+\bibitem{Air11}
+HERMES Collaboration, A. Airapetian et al., 
+Nucl. Phys. {\bf B842} (2011) 265.
 
 \bibitem{Bel02b}
 A.V. Belitsky and D. M\"uller, 
