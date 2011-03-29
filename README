@@ -1,0 +1,4 @@
+The paper is written with pdflatex in mind.
+
+To build, type pdflatex frame.tex.
+
