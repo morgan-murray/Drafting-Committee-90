@@ -1,0 +1,2169 @@
+
+===========================================================================
+G. Schnell [gunar.schnell@desy.de] reject DATE: 2011.05.05 COMMENTS:
+++++++++++++++++ Comments to Draft 90, 1st circulation
+++++++++++++++++++++ "Beam-helicity and charge asymmetries in the BH and
+DVCS processes on an unpolarized proton target"
++++++++++++++++++++++++++++++ version 1.0
++++++++++++++++++++++++++++++++++ I congratulate the DC to a already
+quite matured draft. It nicely presents the enormous data set without
+too much repetition of DC69. Nevertheless, at the end I had to push the
+red button as the analysis is not yet finished as we all know. The
+incident with the shifted calo blocks shows how careful we have to be
+when publishing a high-precission result, even more when attempting a
+cross section comparison for two different beam charges. Do we really
+trust our understanding of the detector, especially its stability, as
+well as beam helicity balancing to state systematics on a per mille
+level? 
+
+YES, WE THINK SO. SEE SPECIFIC REPLIES.(AT NO POINT DO WE STATE THAT WE KNOW ANYTHING TO BETTER THAN 0.1%!)
+
+In particular: - was anything done about trigger efficiencies? 
+
+YES. STUDIES UNDERWAY.
+
+- only the uncertainty on the magnitude of the beam polarization is taken
+into account, but extraction requires (after weighting of events) beam-
+helicity balancing, e.g., the uncertainty on \int dL (|P^+| - |P^-|) (or
+in other words: one needs to consider both the uncertainty on the
+average and the difference of the beam polarizations of the two two
+helicity states, which is more than just stating a scale uncertainty,
+i.e., the uncertainty stemming from the average) 
+
+WE DON'T PERFORM BEAM HELICITY BALANCING, INSTEAD WE WEIGHT THE FIT. IN THE FIT, THE BEAM POLARISATION IS AVERAGED YEAR-ON-YEAR. ONE WHOULD EXPECT THAT ANY STOCHASTIC FLUCTUATION IN THE BEAM POLARISATION WOULD BE AVERAGED OUT IN THIS PROCESS, LEAVING ONLY THE SCALE UNCERTAINTY AS A RELEVANT VALUE FOR QUOTATIONS. VARYING THE BEAM HELICITY BY 1% RESULTS IN XXXXX EFFECT ON THE FIT
+
+How sensitive is the
+fit to slight imbalances of the two beam-helicity states?
+
+WE DON'T BALANCE BEAM HELICITY, SO THIS QUESTION IS NOT APPLICABLE. SEE PREVIOUS REPLY.
+
+ - when going to the new event-selection and amplitude-extration method (no strict
+exclusivity cut and, I guess, kinematic fitting?) will we do this for
+all years, or only 2006 and 2007? What will be done with the systematics
+coming from the missing-mass shift? 
+
+COVERED IN ANALYSIS TALK.
+
+I assume it also has to be re-evaluated? - what about the photon-energy correction: what is used there now? 
+
+SEE RELEASE TALK
+
+- handling of systematics: take, e.g., systematics on A_LU,DVCS^s1: it's 0.001 for combined data set but 0.008 and 0.004 for
+06/07 and 96/05 data sets, respectively. How can it be so much smaller?
+Which systematics from the two years cancelled each other? OR A_C^c0:
+0.005 for 96/07 but 0.008 for both separate data sets OR A_C^c1: 0.014
+so much larger than for c0 term even though, I believe that the constant
+term is more difficult than the cosphi term; and here one has the
+opposite trend: the combined data has a worse uncertainty than the
+single data sets ... I am not saying such behavior is impossible, but I
+would feel better if I understood the (non-)cancelation effects 
+
+THE CHANGE IS DUE TO SHIFTS IN THE MISSING MASS DISTRIBUTION AND THE TWO ACCEPTANCES IN THE DATASET. THE CANCELLATION IS A 'FORTUNATE' OCCURRENCE, IT MAY JUST AS EASILY HAVE GONE THE OTHER WAY. WE SEE NO OTHER WAY TO DEAL WITH THE SYSTEMATICS AT PRESENT.
+
+===========================================================================
+M. Diefenthaler [mdiefent@illinois.edu] accept DATE: 2011.04.25
+COMMENTS: Main itema: 
+
+1) In many sections of the draft you point out
+that you can combine the data recorded in the years 1996--2005 and
+2006--2007. In my point of view you should re- write the publication to
+present the 1996--2007 data, i.e.: 
+
+
+1.1) You should not address the data compatibility neither in the abstract nor in the conclusion. 
+
+WE DISAGREE
+
+1.2) You should not include figures 2 and 3 showing the asymmetries extracted
+from the 1996--2005 or 2006--2007 data (if you include the figures than
+show the error bands as in figures 4 and 5 to give the reader a fair
+chance for a compatibility check). 
+
+WE DISAGREE.
+
+1.3) But you should convince the
+reader that the data is compatible, i.e.: - you should mention which
+statistical test you have used (and not just a statistical test as in
+line 513) - you should state confidence level for the (dis)agreement
+(with and without systematic uncertainties which can be anti-correlated
+for the 1996--2005 and 2006-- 2007 data taking periods). - you should
+also state confidence levels for the kinematics and not only for the
+asymmetries (it is very important that the kinematic values agree even
+though there is no strong dependence for your results) 
+
+WE DISAGREE. THE READER SHOULD SHOW SOME TRUST TO THE WRITER THAT HE HAS DONE THIS WORK AND IT IS REASONABLE. THE DATA YOU TALK ABOUT WILL BE MADE AVAILABLE TO ANY REFEREE BUT WILL NOT BE PUT INTO THE FINAL PUBLICATION.
+
+
+1.4) You should
+include the data taking period 1996--2005 in section 2 and describe the
+chances in the experimental setup (which beam charge in which year,
+average beam polarization etc.). The reader will appreciate quantitative
+statements and might be lost with statements such as "the beam
+polarization was lower in 2006 and 2007" (line 555--556). 
+
+DISAGREE. 96-05 DATA IS COVERED ADEQUATELY IN PREVIOUS PUBLICATIONS.
+
+2) I understand that your asymmetries are related to Compton form factors
+that are related to GPD convoluted with a hard scattering kernel. But
+apart from providing input to phenomenologists, we should give a physics
+message. You quote that you have three times more events than the
+original publication [7]. But there is not more information about GDP
+revealed in your draft than in reference [7]. So please be more precise
+here. 
+
+IT IS NOT POSSIBLE TO LINK TO GPDS FROM ASYMMETRIES DIRECTLY IN A SIMPLE MANNER. THIS IS A COMPLICATED PROCEDURE AND INTERESTED READERS SHOULD READ MULLER/LIUTI PAPERS FOR BETTER INFORMATION THAT WE CAN PROVIDE.
+
+
+3) The latest DVSC publications are very similar w.r.t. text. I
+understand that you are not interested in reinventing the wheel, but
+there is some potential for changes: 3.1) After the introduction's first
+sentence you could mention what we learn from GDP. 3.2) You should skip
+"Although GDP are difficult to access experimentally". It is up to the
+reader to decide how difficult the measurement of Compton form factors
+is compared to the study of the helicity distributions for strange
+quarks or gluons or the analysis of the quark flavor asymmetry in the
+nucleon (to give examples for familiar PDF). 3.3) The awesome jargon
+cluster "Each CFF is a convolution of a hard scattering kernel with a
+GDP that describes a soft part of the scattering process" might be worth
+disentangling (i.e. explain in more sentences). 3.4) In line 165 you
+could give the precise formula for the skewness variable. 3.5) The
+remark in lines 168-169 (skewness variable as observable) should be
+included in the results chapter. 3.6) The caption of figure 1 should be
+changed. Please be very short or describe both processes in about the
+same detail. As there might be higher order contributions, you should be
+careful with the general description of the DVCS process. 
+
+THERE ARE MANY THINGS THAT WE COULD DO, BUT TO IMPLEMENT MANY OF THESE SUGGESTIONS WOULD PROVIDE TOO MUCH THEORETICAL DETAIL NOT SUITABLE FOR AN EXPERIMENTAL PAPER OR REPEAT INFORMATION THAT IS EXPLAINED ELSEWHERE. WE HAVE EXPANDED THE DESCRIPTION OF BH IN THE CAPTION TO FIGURE 1.
+
+4) The eye should be pleased as well. So please improve the layout of the
+publication: 
+
+4.1) Please align all formula. DONE BY THE JOURNAL 
+
+4.2) Please use in text mode A = B / C instead of A = \frac{B}{C}. DISAGREE 
+
+4.3) Please reduce the number of page breaks. DONE BY THE JOURNAL 
+
+4.4) Please improve the plots (thicker error bars, both the data points and its error should be visible in every bin (e.g. figure's 5 t-dependence for cos(2phi)), the symbols and also to text are too small (e.g. figure 7) FIGURE 7 IS UPDATED.
+
+4.5) Please include tables 3 - 5 only in the HepData database or use landscape format here. 
+
+DISAGREE
+
+5) Last but not least: Please choose a more catchy title (as, e.g. reference [7]). also no jargon.
+
+WITHOUT A SUGGESTION, WE PREFER TO KEEP THE TITLE AS IT IS.
+
+
+===========================================================================
+S. Yen [stan@triumf.ca] accept DATE: 2011.04.25 COMMENTS: Title:
+"Beam-Charge Asymmetries" instead of "Charge Asymmetries"
+
+AGREE
+
+===========================================================================
+P. Kravchenko [polina@mail.desy.de] accept DATE: 2011.04.24 COMMENTS:
+Dear all! This is a very nice paper. I have only minor comments.
+General: All figures - it would be better to add more numbers for
+horizontal axis.
+
+DISAGREE.
+
+===========================================================================
+E. De Sanctis [desanctis@lnf.infn.it] accept DATE: 2011.04.22 COMMENTS:
+I suggest we submit the paper to EPJC or EPJA instead of JHEP.
+
+WE DISAGREE. THIS IS PART OF A SERIES OF PAPERS, ALL OF WHICH ARE PUBLISHED IN JHEP
+
+
+===========================================================================
+P. Zupranski [zupran@fuw.edu.pl] accept DATE: 2011.04.21 COMMENTS:
+submitted for group Warsaw In our opinion the paper is well written.
+Congratulations! General remark: A figure of the missing mass
+distributions would be desirable.
+
+WE DISAGREE. THIS TECHNIQUE IS COVERED WELL IN EARLIER PAPERS AND THESES TO WHICH THE READER IS WELCOME TO REFER. INCLUDING IT HERE WOULD ALSO UNDULY FOCUS ON ONLY ONE (SMALL) CONTRIBUTION TO THE SYST. UNCERTAINTY.
+
+===========================================================================
+K. Rith [klaus.rith@desy.de] accept DATE: 2011.04.12 COMMENTS: Another
+nice DVCS paper!! I have only very few comments Klaus * Main comment:
+The analysis should be repeated and updated taking into account the
+recent findings about wrong pedestals in the calorimeter!!! 
+
+DONE.
+
+* General comment: in the dvcsHunpol paper [JHEP 11 (2009)] the editors have
+changed ?Eq.? to ?eq.?, ?Ref.? to ?ref.? and ?Figs.? to ?figures?
+
+WE LEAVE THIS TO THE JOURNAL, I THINK.
+
+===========================================================================
+L. De Nardo [ldenardo@mail.desy.de] accept DATE: 2011.04.06 COMMENTS:
+Congratulations on this very well written paper! I have only a few
+comments. -my affiliation is Gent
+
+SORRY! WILL BE FIXED FOR THE NEXT VERSION.
+
+005 replace ?Charge? by ?Beam-Charge? as it is used later everywhere in the
+text 077 ditto
+
+AGREED
+
+007 you write out Bethe--Heitler
+(use two hyphens!) but not DVCS, isn't that inconsistent? 
+
+DVCS IS A VERY COMMON INITIALISM FOR THE PROCESS, WHEREAS BH ISN'T. WRITING OUT DVCS WOULD LEAD TO A 4-LINE TITLE, WHICH WOULD BE TOO LONG.
+
+--------------------
+Fig.1 caption: make a distinction
+between (a) and (b) figure labels and the (e), (p), ... symbols for
+particles. Add a comments the Bethe-Heitler radiation can be from
+scattered electron as well.
+
+Figure 1: there are two
+more diagrams contributing (cf. DC69)
+
+Figure 1: we would prefer to add also the BH
+FSR diagram.
+
+WE HAVE ADDED THE DC69 FIGURE VERSION INSTEAD  XXXXX
+
+--------------------
+
+fig1:
+move figure 1 to the bottom of the page.
+
+IN GENERAL, FIGURES ARE AT THE TOP OF THE PAGE. THIS WILL BE DECIDED BY THE JOURNAL IN THE FINAL RECKONING
+
+Table 1: I would prefer to write "1" instead of "--" for the
+unsupressed contributions. The text states AC^cos(0phi) undergoes a
+kinematic suppression, but ths does not appear in the Table.
+
+WILL ADD DETAIL OF KINEMATIC SUPPRESSION.
+
+Eq 1.7: add a comma before and
+
+OK
+
+Fig. 2, 3, ... is it possible to align
+numbers according to their decimal points? (vertical axis)
+
+CAN ADD 0.0 TO HORIZONTAL AXIS? XXXXX
+
+---------------
+Table 2 (435): total systematic uncertainty 0.006
+
+Table 2 Why is the total systematic
+uncertainty written twice here (in the 2nd and 6th columns)? Also, it is
+given as both 0.05 and 0.06 for A_LU,I^sin2phi
+
+Tab. 2:
+Are the delta_syst values in the 2nd column and the last column
+redundant information?
+
+Table 2. Syst uncertainty for
+ALU,I^{sin2\phi} is different from the one in Table 3.
+
+RE: 0.005 & 0.006 WHOOPS! GOOD SPOT! WAS A TYPO. WE HAVE REMOVED THE DOUBLE-ENTRY
+----------------
+
+Figs 2 & 3: The key is somewhat unclear. The
+2006-2006 points are "this work"? The reference is "1996-2005 HERMES
+data"?
+
+YES. WE HAVE CHANGED THIS.
+
+Are figs. 2 and 3 really necessary?
+
+YES.
+
+Figs 4 & 5: Are these just replotting of Fig 2 & 3 with curves
+and combining the data sets? If so, it could be argued that Figs. 2 & 3
+are not needed.
+
+THEY'RE HERE TO SHOW THE EFFECT FROM CHANGING THE ACCEPTANCE (SLIGHTLY). THEY ARE NOT STRICTLY NECESSARY BUT THEY ARE NICE-TO-SEE FOR THE READER.
+
+Eq. 3.3: do you really
+add all this sin\nphi terms ? If yes the sentence at 304 is not true
+(not all the sin\phi terms are physically motivated).
+
+GOOD SPOT. THE EQN. WAS INCORRECT.
+
+Tables 3-6 - col. 2,3,4: these are
+<-t>, <xB>, and <Q2> - col. 1: Q2 and -t ranges need units -?-> adopt
+DC69 style? 
+
+YES.
+
+Fig.4: the curves of
+Liuti's predictions are too light to be well visible. In the first row
+the ystematic band looks odd when comparing the -t projection versus the
+rest.
+
+WE HAVE NO PROBLEMS DISTINGUISHING LIUTI'S CURVES. THE T-PROJECTION SYSTEMATICS ARE DRIVEN BY THE GOOD T-RESOLUTION COMPARED TO THE (POORER) SMALL-XBJ RESOLUTION. WE CHECKED THE CALCULATIONS. 
+
+fig4,5 The crosses by Guidal should be lines as
+usually done for theory models
+
+NO, BECAUSE THE GUIDAL POINTS ARE NOT THEORY MODELS, RATHER EXTRACTIONS OF CFFS AT CERTAIN POINTS THAT SHOULD NOT NECESSARILY BE INTERPOLATED AND NEVER EXTRAPOLATED. HOWEVER, WE WILL REMOVE THESE POINTS AS THEY ARE UNPUBLISHED AND MICHEL PREFERS TO PRESENT THEM FR THE FIRST TIME HIMSELF.
+
+Figure 5: do we see the kinematic suppression of AC^cos(0phi) with
+respect AC^cos(phi) we describe in the text, having the best achivable
+statistics at HERMES ? How big is the expected suppression ?  Is
+this related to the additional k factor ? 
+
+NOT CALCULABLE. THE 'C-FUNCTION' UNDERLYING THE CO-EFFICIENT IS A FUNCTION OF 'Y' THAT IS DETERMINED ON THE EVENT LEVEL, SO WE CANNOT SIMPLY CALCULATE THE 'K' VALUE FOR EACH BIN AND CHECK THAT IT MATCHES THE THEORETICAL EXPECTATION.
+
+
+-----------------
+Fig.6 and 7: update the layout
+to be more similar to the previous figures, since the data-points are
+too small, expecially in Figure 7.
+
+Figs 6 and 7 - data tables are
+missing - maybe put xB ranges on top of plot - use same font size for
+horizontal and vertical axes - include assoc. fraction (maybe only in
+tables to be provided) - use bigger symbols (same as in previous figs.)
+- horizontal axis label should be centered - make plots transparent (and
+thus solve the problem of losing the "1" on the "10"s of the 2nd and 3rd
+column axis labels -
+
+
+Figures 6 and 7: please adapt the dot sizes to the other
+figures!
+
+Fig 7: - align vertical axis labels and then don't
+crop part of them as, e.g., in cos(3phi) - labels should be further away
+from plot than numbers
+
+
+Figure 7: something wrong with middle panel 0^-2 ->
+10^-2
+
+Figure 7 these symbols are much too small and should be increased
+substantially horizontal axis: ?0^2? should read ?10^-2? (twice)
+
+AGREED
+----------------
+
+Fig. 7 any explanation of the large systematics of the last
+t bin in the first xB range?
+
+THEY'RE DRIVEN BY THE RESOLUTION OF THE SPECTROMETER COMING FROM MC STUDIES.
+
+
+Fig.7: the y axis range in A_C^cos phi plot can be
+slightly expanded from -0.3 to 0.2
+
+DISAGREE, ALL SCALES IN THE AMPLITUDES ARE KEPT THE SMAE DELIBERATELY.
+
+- author list
+will need an update (e.g., missing "Now at" etc.) and I hope we will use
+a style consistent with previous HERMES JHEP publications, e.g., DC69.
+(cf. the wiki entry for HERMES author lists) 
+
+THE AUTHOR LIST WILL BE TAKEN FROM THE OFFICIAL LIST GENERATED BY NAOMI. THE JHEP TITLE STYLE ENCOURAGES AUTHORS TO USE THEIR LOGO; WE'RE OF THE OPINION TO FOLLOW THE JOURNAL GUIDELINES.
+
+070: Affiliation 21: please
+change into: Istituto Nazionale di Fisica Nucleare, Sezione di Roma,
+gruppo Sanit\`a and Istituto Superiore di Sanit\`a,
+
+WE'LL DO THAT IN THE NEXT VERSION
+
+--------
+77 Beam-helicity and -charge
+77: charge -> beam-charge
+
+CHANGED
+--------
+
+077-086--Abstract: The abstract does a good job od describing the data,
+but does not tell me why I would be interested in this data. Some insite
+into what I'm learning about nucleon structure from these data would be
+helpful
+
+THIS IS A DIFFICULT QUESTION OF INTERPRETATION. NOT WITHIN THE SCOPE OF THE PAPER.
+
+082 delete ?by the collaboration?
+
+DISAGREE
+
+084-086: "most precise asymmetry amplitude measurements
+available in the HERMES kinematic region." Of course this is a true
+statement, why else would we pb publishing it?
+
+WE COULD BE PUBLISHING THE 06-07 MEASUREMENTS SEPARATELY - A NEW RESULT WOTH PUBLISHING BUT NOT NECESSARILY MORE PRECISE.
+
+084 shouldn?t there be
+a hyphen after ?asymmetry??
+
+NO.
+-------
+147: "absorbed" -> "re-absorbed" or "reabsorbed"
+
+147:
+replace "is absorbed" with "is reabsorbed"
+
+THAT IMPLIES A TIME-ORDERING THAT DOES NOT NECESSARILY EXIST
+-------
+
+147:
+fraction -> longitudinal momentum fraction
+
+AGREED
+
+148 -> Bethe--Heitler (please change it throughout the manuscript)
+
+AGREED
+
+152-155: I understand this is the last paper
+of a series, but this single sentence is too short as a motivation of
+the study.
+
+DONE
+
+152 I would prefer to not use
+capitalized words when they are generally not capitalized, e.g.,
+"parton", "distribution" etc. If you still like to do so, please be
+consistent and do it everywhere, e.g., also at the end of this line
+
+THIS IS TYPICAL ENGLISH STYLE - WE WILL KEEP IT AS IT IS.
+
+154 I don't understand the logic/flow here: "Although GPDs are difficult to
+access ..., ... HERMES ... published results on " DVCS. Wouldn't it be
+more helpful to comment on why they are difficult to access and that
+DVCS is one way to do so? And then one could list the published results
+and as this is a community-wide effort I would restrain from listing
+only HERMES (in the Introduction!), but all experiments. (Otherwise it
+might read like, yeah it's difficult to access but HERMES (and only
+HERMES) can do it.")
+
+WE ARE TREADING A BALANCE BETWEEN TWO CAMPS: SOME PEOPLE WANT A VERY QUICK UPDATE PAPER AND SOME WOULD PREFER SOMETHING MORE THOROUGH. WE WOULD BE CRITICISED FOR INCLUDING TOO MUCH 'OVERVIEW' INFORMATION. NEVERTHELESS, YOUR ADVICE IS VALID AND WE WILL ADD AN EXTRA SENTENCE, MAYBE TWO.
+
+157 Form Factors -?-> form factors
+
+THIS IS TO INDICATE WHERE THE INTIALISM CFF COMES FROM.
+
+157-159: skip
+"via Compton Form Factors (CFFs). Each ... process." Don't need to be so
+specific here. This point is covered later. 
+
+WE ALREADY DESCRIBE GPDS EARLIER IN THE PARAGRAPH AND WANT TO PROVIDE SOME BASIC INTUITIVE HANDLE ON THEM HERE. ALTHOUGH IT IS REPEATED LATER, IT IS WORTHWHILE TO GIVE THE READER A MENTAL 'HOOK' ON THE IDEA HERE, WE FEEL.
+
+158: *calculable* hard scattering kernel
+
+THIS INFORMATION IS ALREADY IMPLIED BY 'HARD'.
+
+
+-------------
+158 "a" -> "the" (as far as I can see from Fig. 1 there is only one soft part in each diagram). Anyway, also this is a bit vague: what is "that" referring to?
+To "a GPD"? The scattering process can be influenced by more than one
+GPD (cf. Eq. 3.7), while each CFF involves one GPD only.
+
+YES, YOU UNDERSTOOD THE MEANING PRECISELY. THEREFORE, IT CANNOT BE THAT VAGUEÉAND NOBODY ELSE SEEMED TO HAVE A PROBLEM.
+
+158: replace "a soft part"
+with "the soft part"
+
+SEE COMMENT ABOVE. SEVERAL GPDS DESCRIBE THE ENTIRE SOFT PART OF THE PROCESS, THEREFORE EACH GPD ONLY DESCRIBES A PART OF THE PROCESS.
+-------------
+
+
+159 depend upon four ---> depend on four
+
+DISAGREE
+
+----------
+164: "the difference
+in the change" sounds a double counting. Is not "the difference" enough
+
+
+164: skip "in the change"
+
+AGREED
+----------
+165: replace "written" by
+"expressed"
+
+165 written as ---> given by
+
+NO. NOT EXPRESSED BY XI, NOT GIVEN BY XI. IF ANYTHING 'LABELLED BY', WHICH IS SYNONYMOUS WITH 'WRITTEN AS'
+-----------
+
+167 ... Bjorken limit of Q^2 --> \infty with
+fixed t, \xi is related .. ---> ... Bjorken limit Q^2 --> \infty with
+fixed t, the skewness \xi is related ..
+
+AGREED
+
+-----------
+169 against ->
+as a function of
+
+169: Replace ". . .
+presented against. . ." with ". . . presented as a function of. . ."
+
+AGREED
+-----------
+
+170 representation of --->
+representing
+
+NO.
+
+170 -> "Exclusive leptoproduction ..."
+
+AGREED
+
+171 -?-> deeply virtual Compton
+scattering
+
+NO. SEE PREVIOUS COMMENT ABOUT INITIALISMS AT 152.
+
+------------
+171-172: "experimentally indistinguishable" -> rephrase, they are
+somehow distinguishable otherwise we cannot measure the DVCS ...
+
+171 This statement and figure are not fully correct,
+given that the start of the sentence suggests that you talk about
+general leptoproduction. First of all in fig. 1b there can be a photon
+line also on e', and on p and p'. The latter are almost always left out,
+but formally they are present (and they are not completely negligible,
+see PRC64 (2001) 054610). And in fig1a there should be a blob with
+'legs': p, gamma*, p', and gamma. What happens within the blob requires
+a model. Only under the conditions of deep-inelastic production the
+given diagram may apply (and even then as leading term only). Finally
+all this is up to and including 2nd order in alpha only.
+
+171: I don't think you really mean what is written here, that is that
+either DVCS or BH describe the observed process completely. Rather you
+coul try saying "Leptoproduction of real photons (ep->e'p'gamma) arises
+from two experimentally indistinguishable . . ."
+
+REPHRASED
+---------------
+
+172 "a quark" - it's not just "a" quark but the active quark
+
+REPHRASED
+
+176 For the calculation of BH, the elastic form factors of
+the nucleon are needed. We feel that this piece of information is
+missing here.
+
+YOU NEED THE ELASTIC FORM FACTORS TO CALCULATE ALL THE COEFFICIENTS IN EQNS. 1.3 AND 1.4. THIS IS DETAIL THAT DOESN'T HELP THE READER TOO MUCH AND WE GIVE A REFERENCE WHERE ONE CAN DISCOVER THE INFORMATION VERY EASILY.
+
+178: to --> into
+
+NO
+
+178: ... amplitude in the interference ...
+
+NO
+
+178 amplifies
+the (small) DVCS amplitude in the interference term
+
+WE ALREADY SAY THAT BH DOMINATES.
+
+178 "amplifies the contribution of the DVCS amplitude"
+lead to confusion. Part of the confusion was caused by the interference
+term not being given explicitly in terms of tau_BH and tau_DVCS. Could
+this be added?
+
+WE'LL ADD IT IN 1.2
+
+179: remove the
+word "useful"
+
+NO - ONE CAN CONSTRAIN GPDS E.G. FROM OUR MEASUREMENT OF F2 AS WELL, BUT NOT USEFULLY. WE'RE POINTING OUT HERE THAT THE INTERFERENCE TERM IS ONE OF THE MORE USEFUL RESULTS EXTRACTED AT HERMES FOR THE CONSTRAINT OF GPDS.
+
+181 -> for exclusive leptoproduction Eqs 1.3-1.5 please absorb the
+constant terms in the cosine sums
+
+THIS IS A STYLE KEPT FOR CONSISTENCY WITH PREVIOUS PAPERS.
+
+--------
+181 move four-fold
+in front of differential
+
+181: "The four-fold differential"
+
+AGREED
+--------
+
+--------
+182,196 written as 
+
+182: "written as:"
+
+182/190/196 : add "as" just before the equations to
+make the sentences flow better.
+
+196: written AS
+
+190 written ---> written as
+
+AGREED
+--------
+
+189 Shouldn?t it read ?The square of the
+scattering???
+
+AGREED
+
+195 process / process / term seems to be mixing different
+categories
+
+AGREED
+
+196: ... can be written in terms of Fourier series ...
+
+DISAGREE
+
+196: "written" ->
+"decomposed as:" or "expanded as:"
+
+DISAGREE
+
+196 These contributions can be
+written ---> These contributions are usually expanded into the
+contributing Fourier modes with respect to \phi.
+
+DISAGREE
+
+207 It is not the charge of the lepton beam, rather the
+charge of one lepton in the beam
+
+AGREED
+
+210: listing the five coefficients
+(c_n^BH, c_n^DVCS, c_n^I, s_n^DVCS, s_n^I) is more clear and probably
+requires less text.
+
+WE PREFER IT THIS WAY SO WE CAN REFER TO THE SUPERSCRIPTS LATER IN THE PAPER.
+
+212 are -> were 
+
+CHANGED
+
+212: "There are two sets of asymmetries that are" ->
+"Two sets of asymmetries are"
+
+CHANGED
+
+213: "... or positron beam (see Ref.
+[7]):"
+
+DISGAREE
+
+214: we do not disentangle the two since part of the
+DVCS contribution enters in the denominators. 
+
+AGREED
+
+214-218: skip whole sentence ("In orde to... following
+asymmetries:") and simply write: "These can be expressed respectively
+as:"
+
+CHANGED
+
+218 as in Ref. [7] --->
+as Ref. [7]
+
+AGREED
+
+Eq. 1.6-1.8: to simplify
+the text, you can put a simbol for the denominator and explicit it as
+additional equation.
+
+DISAGREE
+
+--------
+eqs 1.6-8 separate lines
+with large fractions with more vertical space to facilitate the
+readability of these equations.
+
+
+230: leave more space between the two lines of eq. 1.7
+
+UP TO JOURNAL'S STYLE FILE
+--------
+
+242-243: I would prefer to keep the same symbol
+(with two superscripts) and write the first superscript refers to the
+charge of the beam and the second to ....
+
+WE PREFER THE CURRENT VERSION
+
+243 "beam spin ..." -> "positive
+(negative) beam helicity" 
+
+NO, BEAM SPIN PROJECTED ON THE MOMENTUM AXIS IS (FRAME DEPENDENT) HELICITY. PROJECTING HELICITY ONTO THE MOMENTUM DIRECTION IS NONSENSICAL!
+
+---------
+245 the "additional" here is a bit lost. I
+would once again mention Ref. 7. In any way, this paper reports first
+the independent data set of 2006 and 2007 and then results from the
+total data set. Suggestion: This article reports on the analysis of the
+data set taken during 2006 and 2007, after the HERMES experiment was
+upgraded in the target region. The results do not make use of any of the
+... equipment, e.g., a missing-mass technique for event selection is
+used. In addition, results of the largest DVCS data set on unpolarized
+protons to be published by HERMES, i.e., the combined data of Ref. 7 and
+of these new 2006 and 2007 data, will be reported.
+
+245 here, (comma)
+
+245: "additionally,larger" an
+"independent" should refer to something.
+
+245
+Compared to ... the analysis presented here includes ...
+
+245: Begin
+with: "Compared to the results previously published in Ref. [7], the
+analysis presented here ..."
+
+245 You need to mention the 96-05 data
+here, otherwise "larger" has no meaning.
+
+CHANGED
+--------
+246: add comma after "2007"
+
+DISAGREE
+
+247 Why not, if
+it is available? Give some argument, please.
+
+247-248: Since the
+upgrade of the target region was not used, I would not bother to mention
+it.
+
+248 - The
+phrase 'upgraded detector equipment' is rather vague. Why not say
+without the use of detection of the recoil proton?
+
+CHANGED THE PHRASING SLIGHTLY.
+---------
+
+249: "that will
+be published by HERMES" -> "available at HERMES"
+
+DISAGREE
+------------
+
+261 data were collected from 1996 until 2007! So either like: "The additional data to Ref. 7 were collected in 2006 and 2007 with the HERMES spectrometer ..."
+or "The data were collected during the 1996-2007 data-taking periods, of
+which only the 2006 and 2007 data is new compared to Ref. 7." (Or
+something similar.)
+
+Line 261 "The
+NEW DATA REPORTED IN THIS PAPER were collected in 2006 ... AND
+SUPPLEMENTS THE 1997-2005 DATA SET REPORTED IN [7]"
+
+261 The additional data (or
+similar) ...
+
+AGREED
+-------------
+263 inconsistency: Hermes is in \sc while HERA and
+DESY are not
+
+AGREED
+
+------
+264 , respectively, (2 comma's)
+
+AGREED
+
+265-266: "data samples
+are approximately 246 pb^-1 and 1460 pb^-1, respectively, with
+average..."
+
+CHANGED
+-------
+
+-line 266 , we think the Thomas
+Thesis we refer here for polarimeters is not correct one and our
+suggestion is to cite Thomas Thesis after luminosity numbers and for
+Polarimeters cite usual TPOL (D. Barber et al ...) and LPOL(...M.
+Beckmann et al....)
+
+XXXXXXX
+
+--------
+268 You should not give orders to the reader. I propose to
+write ?more details can be found in refs. [16, 17]?
+
+268:
+'consult' seems a little harsch. How about 'more details can be found in
+Refs.[16,17]'?
+
+DISAGREE.
+--------
+
+268 An event was selected as having ... ---> An event was
+defined as having ...
+
+NO, IT WAS SELECTED THAT WAY.
+
+269: are we going to keep this
+"one photon" criterium ? Or you run over the new productions, where the
+problem of fake photons should be fixed, or you should release this
+requirement to improve the time-dependence systematics.
+
+NO, THIS WAS WRITTEN BEFORE THE MULTI-PHOTON ALGORITHM WAS DEVELOPED!SEE RELEASE TALK AND 2ND CIRC.
+
+269-274:
+although you refer to other paper for details, it would be nice for the
+reader to give a motivation for the cuts at least for the ones specific
+to this analysis.
+
+CAUGHT BETWEEN TWO CONFLICTING DESIRES: SHORT PAPER AS AN UPDATE OR LONG PAPER WITH EVERYTHING DETAILED. THESE CUTS ARE THE EASIEST TO REFERENCE AWAY, SO WE DO SO.
+
+269 I believe that is going to change, i.e., no strict
+exclusivity cut any longer
+
+YEP.
+
+269: Could you explain a bit more of what defined "one photon" and
+"one lepton" events? The paper, as presented, assumes that all readers
+accept that HERMES does this correctly--true, but either some words
+about this or a reference to how this is done is needed.
+
+CONSULT 16, 17 FOR MORE DETAILS.
+
+269: "An event was selected as having...spectrometer." ->
+"Only events having ...spectrometer were selected."
+
+WHY?
+
+270 does it make sense to also mention the t
+range covered?
+
+YES IT DOES. CHANGED.
+
+271: why do you need
+an upper cut on Q2 (Q2<10 GeV2)?
+
+TO DEFINE A KINEMATIC BOUNDARY IS ALL. THIS LOSES BASICALLY NO EVENTS.
+
+272: ... and real photon was required ...
+
+DISAGREE
+
+273 I would also mention that photons nearly collinear to
+the scattered lepton were excluded. (as far as I remember)
+
+DISAGREE
+
+273 to be within the limits ---> to lie within the
+limits
+
+DISAGREE
+
+275-283 & 398-406 Similar as in draft 91 it is mentioned that the peak/region in M_X^2 for positrons and electrons is shifted by 0.17 GeV^2, and now, in addition, there is a time dependent shift in the 2007 data set. The shift is taken
+into account in the systematic error, but no hint whatsoever as to its
+possible origin is given (energy/momentum calibrations of detector
+parts, misalignments, physics???). Such an hint would be most welcome.
+
+FIXED NOW
+
+275: "An event sample ... requiring" ->
+"The event sample was further selected by requiring"
+
+DISAGREE
+
+275:
+replace "using a missing-mass" with "using the missing-mass"
+
+DISAGREE
+
+276: "measurement
+corresponded" -> "process corresponds"
+
+NO, A PROCESS DOESN'T HAVE A MISSING MASS. A MEASUREMENT DOES.
+
+-line 277 we are wondering that the missing mass
+resolution we put only on Calorimeter, is it true and are we sure that
+Spectrometer Momentum and Beam momentum uncertainties doesn't
+contribute??? Ate least for Mx2 position shift we are discussing that
+Beam energy uncertainty could play a role(see last DVCS list for
+discussions)
+
+YES, UNLESS THERE'S SOME OTHER INDICATION THAT BEAM MOMENTUM UNCERTAINTY IS VERY MUCH HIGHER THAN WE HAVE SEEN.
+
+277: A picture
+is worth a thousand words Here a missing mass plot with the cut shown
+would be useful (or a reference to such a plot).
+
+CAN BE FOUND IN DC69 (SEE 16, 17 FOR MORE DETAILS)
+
+278 q and p are
+already defined in 161 and 166. Here you only need to define q?
+
+SURE, BUT IT'S NICER TO DEFINE THEM ALL SO THERE'S NO CONFUSION.
+
+279: you should motivate why the mass window is
+asimmetric with respect the proton mass.
+
+CONSULT 16,17 FOR MORE DETAILS
+
+280-283: the sentence is not
+clear. At miminum: shifted in specific time-intervals... differences in
+the missing-mass distributions of the electron...
+
+THIS IS NO LONGER DONE.
+
+-line 280-283, please specify a bit in detail or in
+systematics section, exactly for which period(how much in pb-1 it makes)
+Mx2 was shifted, from text its difficult to get it.
+
+THIS IS NO LONGER DONE.
+
+280 Even if it is understood what is meant, the formula is incorrect, as
+it says 2.25 < Mx2 < 2.89.
+
+AGREED.
+
+281: "reflect the observed
+differences"
+
+DISAGREE
+
+Line 288 Equation
+3.1 e_l and P_l have not been previously defined Line
+
+E_L IS DEFINED IN 206. AGREE WITH P_L
+
+292 comma
+before "and"
+
+DISAGREE
+
+292: I am not sure the word
+"expanded" is the right choice here.
+
+WE ARE.
+
+303: .. Fourier series in the
+azimuthal dependencies of the ...
+
+NOPE.
+
+303 - I do not
+understand 'truncation of the infinite series caused by the azimuthal
+dependencies in the denominator..' Can the text be made more explicit?
+
+DIVISION OF TWO FOURIER SERIES CAN LEAD TO 'FALSE' HARMONICS ARISING. WE CUT THOSE OFF. WE IMPROVED THE TEXT.
+
+303: "infinite Fourier series" -> "Fourier series." then
+skip "caused ... Eqs. 1.6-1.8."
+
+DISAGREE
+
+304 dependencies -> dependences
+
+AGREE
+
+304 - 308 "extraneous harmonics caused by the denominators".Denominators
+in Eqs. 1.6-1.8 are even functions of \phi (included propagators) , I
+guess they can not produce cos[sin] harmonics in ALU[Ac] asymmetries.
+Then, does it make sense to mention that the consistency check
+amplitudes might have small non-zero values due to the normalization
+uncertainty?
+
+YES, WE PHRASED THIS BADLY. IS NOW REPHRASED. HOWEVER, WE STILL ONLY FIT WITH PHYSICS-MOTIVATED ASYMMETRIES - WE ASSUME THAT THE POTENTIAL (SMALL) NORMALIZATION UNCERTAINTY IS INCLUDED WITH THE STATISTICAL UNCERTAINTY - PREVIOUS STUDIES ON FIT STABILITY FROM VARIOUS THESES SUGGEST THIS.
+
+
+304:
+replace "from Eqs." with "of Eqs."
+
+AGREE
+
+308: some of these terms are also
+expected to be zero not just small if the normalizations are handled
+correctly.
+
+DISAGREE. DUE TO EXPERIMENTAL UNCERTAINTIES, IT IS HIGHLY, HIGHLY UNLIKELY THAT YOU EXTRACT EXACTLY 0.00000 FROM A HARMONIC IN A FIT TO DATA. THESE TERMS *SHOULD* BE ZERO, BUT ARE MERELY EXPECTED TO BE COMPATIBLE WITH ZERO WITHIN STATISTICAL UNCERTAINTIES ARISING FROM 'IMPERFECT' INPUT TO THE FIT ARISING FROM MEASUREMENT UNCERTAINTIES.
+
+308: "small" means nothing. Say, e.g.
+"consistent with zero"
+
+OK.
+
+310 comma before "and"
+
+NO.
+
+312: "Weight are introduced per event in ..." ->
+"Event weights are introduces in ..."
+
+AGREE
+
+315: actually it
+is c_n^I, the others c_n enter only in the denominator.
+
+YES, AGREE.
+
+316: what do you
+mean by "may also be affected" ? The asymmetry amplitude is surely
+affected. Maybe you mean in a not negligible way ?
+
+YES, THAT'S WHAT WE MEAN
+
+317: ... denominators of Eqs. ...
+
+DISAGREE
+
+317: Replace ". . .
+complex Compton Form Factors. A CFF is . . ." with ". . . complex
+Compton Form Factors (CFF). A CFF is . . ." Thus defining CFF.
+
+YES, CHANGED
+
+318 Form Factors -> form factors
+
+DISAGREE
+
+318 delete "A CFF ..." as it is repetition
+of 157
+
+DISAGREE - NECESSARY TO KEEP SENTENCES A MANAGEABLE LENGTH
+
+318: A reference is needed
+to tell the reader where this C-functions are defined.
+
+AGREE
+
+318:
+"C-functions" which are combinations of complex Compton ... 
+
+DISAGREE
+
+318: "is a specific combination"
+
+DISAGREE
+
+318 explicitly define (CFF) at
+the end of this sentence.
+
+AGREED
+
+318/19: delete sentence "A CFF is a
+convolution .." it is a repetition of sentence in line 158
+
+THIS IS STILL NECESSARY TO RELINK CFFS WITH GPDS. IN THIS SPECIFIC CASE, WE ARE WILLING TO SACRIFICE BREVITY FOR NARRATIVE EASE.
+
+-------------------
+320: delete
+"relatively" it is superfluous
+
+320: remove the word "relatively"
+
+NOT SUPERFLUOUS. INDICATES THAT THE CONTRIBUTION OF GPDS TO CROSS-SECTION IS SURPRESSED RELATIVE TO THE OTHER GPDS, NOT NECESSARILY ALL GPDS.
+--------------------
+
+321: .. The access of each ...
+
+DISAGREE
+
+321-323: skip whole sentence: "The access ... is twist-2."
+
+DISAGREE
+
+327: from what I
+understand also AC^cos(0phi) is leading twist, although kinematically
+supressed. 
+
+WILL ADD THIS TO THE TABLE
+
+--------
+327: "At
+HERMES kinematic conditions" -> "At HERMES kinematics"
+
+327, 368 kinematic conditions ---> kinematics
+
+327: "At HERMES kinematic conditions" is
+colloquial and should be rewritten. Appears at several other places.
+
+
+NO, "AT HERMES KINEMATICS" IS COLLOQUIAL. IF NO SUGGESTION FORTHCOMING, WILL LEAVE AS IS.
+-------
+
+328 Inconsistent with 601.
+
+NO. "LEADING", NOT "LEADING-TWIST".
+
+---------
+329: ... to the
+Fourier coefficients ...
+
+329: "repsectively
+to the Fourier"
+
+DISAGREE. SINCE WE SPECIFY WHICH, WE CAN SKIP THE ARTICLE.
+---------
+
+329: skip "for an
+unpolarized target" (already clear from UT indices)
+
+DISAGREE
+
+330 up to now in the paper those Fourier coefficients were
+without subscript "unp" - need to decide whether to be conform to DC69
+or to keep in mind DC80 (which is less relevant here)
+
+MADE UNP TO KEEP CONSISTENCY WITH BMK!
+
+339 -> so the k factor should cancel in the
+ratio
+
+EXISTS DUE TO THE DVCS TERM IN THE DENOMINATOR
+
+339 Is it t or t'
+in this formula for k? I thought that it was t', but as the difference
+is small, most times t is used.
+
+IT IS DELTA2, I.E. -t.
+
+340: add "as" before Eq 3.7
+
+DISAGREE
+
+344: too many "respectively" just remove them
+in both lines
+
+DISAGREE
+
+353 table 1: the last column represents
+a RELATIVE Suppression, for which one expects a dimensionless number or
+quantity. Hoever, 1/Q clearly has a dimension. Moreover, some columns
+have a hyphen as entry. What would that mean 1 or 0?
+
+HYPHEN IS STANDARD 'NO ENTRY' TERMINOLOGY. RELATIVE SUPPRESSION CAN OF COURSE HAVE A UNIT IF SOMETHING IS SUPPRESSED TO SOMETHING ELSE DUE TO A KINEMATIC PREFACTOR AS IS THE CASE HERE!!!
+
+--------
+354: the
+*relative* suppression
+
+354: "suppression factor"
+
+CHANGED
+--------
+
+357 -t/4M^{2} 
+
+AGREE - WELL SPOTTED!
+
+358: rephrase: "conditions
+(...) the contributions of the CFFs H^tilde and epsilon in Eq. 3.7 can
+be neglected in first approximation with respect to..."
+
+AGREE
+
+361: "determined
+solely by the CFF H, and therefore by the GPD H"
+
+DISGAREE
+
+361: "Using this
+dependence, H" -> "Therefore, the GPD H"
+
+AGREED
+
+364: only at 602 we explain the kinematic
+suppression of c0^I in words. Better anticipate here with a formula like
+3.5/3.6.
+
+AGREED
+
+368: "HERMES kinematic
+conditions" -> "HERMES kinematics"
+
+DISAGREE
+
+368-369: speaking about specific coefficients, the sentence
+results indirect and therefore unclear (what does make the s1^DVCS
+coefficient small?). Better remind the DVCS amplitude is much smaller
+than BH in our kinematic regime and that ALU,DVCS^sin(phi) is higher
+twist.
+
+ADDED "TWIST-3" TO "THIS AMPLITUDE"
+
+---------
+370: replace "will be" by "is"
+
+370: "will be" -> "is"
+
+OK
+---------
+
+371: "extract
+... of GPDs from" -> "contrain GPDs from"
+
+DISAGREE - ONE CAN CONSTRAIN GPDS FROM THIS INFORMATION, JUST NOT USEFULLY.
+
+371 for the
+constraint of ---> to constrain
+
+AGREED.
+
+373 - It would be helpful to be more explicit about the C^I_T<unp
+function here. I researched older HERMES papers to find that it is the
+Compton FF corresponding to gluon transversity. It would be useful to
+state that.
+
+DON'T SEE HOW THIS HELPS ANYTHING IN PARTICULAR ABOUT THIS PAPER. BASICALLY, THIS AMPLITUDE IS SO SUPPRESSED, YOU SHOULD FORGET ABOUT IT. THERE'S NO POINT IN GIVING MORE DETAILS ABOUT SOMETHING SO INACCESSIBLE AND UNKNOWN.
+
+375-376: "of leading tiwst" -> "leadong twist"
+
+DISAGREE
+
+-------
+377 -> fine-structure constant
+377 structure
+377: ... fine structure
+constant of the strong force.
+377: structue-> structure
+
+NOT FOR GLUONS!
+-------
+
+-------
+377 fine structue
+-> strong coupling constant (solves the typo also)
+
+377: "fine structure constan"... shouldn't it be
+alpha-strong?
+
+377
+replace ?fine structure? by ?strong coupling?
+
+
+YES. OOPS! ;-)
+--------
+
+----------------
+390 suggests that all
+uncertainties are mentioned, but then in 398 'another' one is discussed,
+and 407 starts another discussion. Please be more systematic.
+
+391-398: the reasoning is involved, with some repetitions. I
+would propose to remove "determined as in Ref.[6,7]" in 392. Move
+"Contributions.... production" in 393-395 at 398 (the beginning of the
+next paragraph). And start 395 as "The procedure to evaluate the
+systematic uncertainty is described in detail in ...".
+
+391-406: Whole paragrapf should be rewritten: "The
+extracted ... from a combination of various contributions. One of these
+is the background from processes that result in the production of
+neutral mesons, determinated as in Refs. [6,7]. Another contribution
+comes frm the relative shift of the missing mass distributions observed
+between electron and positron data [16,17]. The missing-mass
+distribution is also adjusted ... data taking periods respectively. This
+uncertainty affects the beam-helicity amplitudes ... scale uncertainty."
+
+393: "Contributions to the ...." -> I do
+not like the way this sentence is written. Try to reformulate it.
+
+L393:
+in the data >> xxxxxx
+
+393 uncertainties on the amplitudes --->
+uncertainties of the amplitudes
+
+394 the procedure is described ---> the
+procedure to estimate them is described
+
+398:
+replace "There are shifts ..." with "The position of the missing mass
+distribution varies from electron to positron data [16,17]" In addition
+there is no explanation given for the shift of the missing mass and its
+size.
+
+PHRASING IMPROVED
+----------------
+
+
+----------
+400: what is
+adjusted (anyway a "cooking" term I don't like) the missing-mass
+distribution or the missing-mass window ?
+
+L400: is also adjusted>> Seems to be rather an
+unfortunate expression as may suggest some "playing with the data".
+sugg: also corrected
+
+SEE NEW VERSION XXXXX
+-----------
+
+401 As
+before [6,7], one quarter...
+
+AGREED
+
+L401 "One quarter of the difference.."
+What means this one quarter? Usual estimation for the systematics is
+half of the max. difference, where this "quarter" is coming from? 
+
+STANDARD DVCS ANALYSIS TECHNIQUE.
+
+- Looking on Figs. 3 and 4 the reader can note that you have in some
+places (e.g. last two points in t dependence for A_c^{cos(\phi)} on Fig.
+3) quite big difference between the old and new data. Following the
+conservative way this should be somehow qualified as a year dependence,
+and the corresponding estimation for possible systematics should be
+done? Later in Lines 513-516 you are stating that the ststistical test
+on incompatibility was performed and no significant difference was
+recognized, can you provide me with the numbers to quantiify words like
+"significant" in sense of incompatibility? Best regards, Norik
+
+YES, SEE SUPPORTING LITERATURE. (IF THERE WERE NO LARGE DIFFERENCES IN DATA SETS THIS SIZE, WE WOULD BE SUSPICIOUS :-)
+
+402 see my comment about beam polarization
+uncertainties
+
+L405: which is present in the beam helicity
+amplitudes >> xxxxx
+
+DISAGREE
+
+407 "including the
+acceptance of the spectrometer" -- is this an uncertainty in the
+acceptance of the spectrometer, which should cancel out in any asymmetry
+measurement, or effects of the non-zero angular acceptance resulting in
+smearing of kinematic quantitities?
+
+THIS IS THE SECOND. 
+
+408 Which radiative processes are meant? BH
+is treated explicitly already. And a ref. to what is included (and how)
+is needed.
+
+RADIATIVE PROCESS THAT EFFECT THE DETECTION OF EVENTS, E.G. CALO SHOWERS THAT SPILL. NOT TO DO WITH 'PHYSICS'. XXXXX
+
+410: ... that included these effects. An event ...
+
+DISAGREE
+
+412: I would
+remove "because it describes the data well ..." -> This is not really a
+good argument since it is a model.
+
+DISAGREE - WE DON'T TRY TO EXTRACT ANY PHYSICAL MEANING FROM IT. IT MAY AS WELL BE AN ARBITRARY GENERATION BECAUSE IT'S ONLY USED TO EXTRACT THE MAGNITUDE OF DETECTOR EFFECTS ON THE DATA.
+
+412: skip "because it describes the data well and is consistent with
+Ref. [7]."
+
+DISAGREE
+
+414: ... procedure to extract
+amplitudes as was for experimental data.
+
+DISAGREE
+
+416: "same" of what ? i.e.
+"same GPD model in input to the MC generator"
+
+THINK THIS IS CLEAR ENOUGH ALREADY - YOU WORKED IT OUT AND NO-ONE ELSE HAD A PROBLEM. CHANGED ANYWAY
+
+417: "kinematic bin from the uncertainty contributions
+of...uncertainties added in quadrature." -> "kinematic bin by adding in
+quadrature the contributions of ... uncertainties. These contributions
+and the resulting total uncertainty are reported in Table 2 for the
+amplitudes extracted in a single bin (overall HERMES kinematic domain)."
+and skip line 421.
+
+AGREED
+
+418 comma after "detector effects"
+
+DISAGREE
+
+L419: detector effects >> too vague sugg: detector
+efficiency
+
+DISAGREE. IS SEVERAL DETECTOR EFFECTS, NOT JUST EFFICIENCY
+
+
+420-422: to my
+understanding the new productions account for the best knowledge of
+detector misalignment, but do not account for beam slopes. The
+sensitivity of any analysis on the latter (systematic error) should be
+still studied with dedicated MC productions. Was it considered ?
+
+NOT CONSIDERED. PREVIOUS ANALYSES THAT CONSIDERED BEAM SLOPES SHOWED THAT THEY MADE NEGLIGIBLE CONTRIBUTIONS TO UNCERTAINTIES AND WE HAVE NOT THE TIME TO REMAKE MC PRODUCTIONS AND COMPLETE FURTHER STUDIES IN THIS WAY.
+
+
+420 an attentive referee would probably ask why there is no misalignment uncertainty for the new data? This question becomes even more relevant when combining
+the two data sets.
+
+420 How was this eliminated?
+
+CHANGED
+
+
+L421: has been >> was
+
+DISAGREE
+
+424 delete \delta+. Is \delta+ the only
+baryonic state included in the MC simulation of fractional
+contributions?
+
+NO AND YES, RESPECTIVELY.
+
+-------------
+425 the rest
+
+425: ".. from THE test of the data ..."
+
+426: rest -> the rest
+
+AGREED
+
+--------------
+
+426: ... allow a separation of
+the latter events from the rest ...
+
+DISGAREE
+
+L428: to estimate the contribution >>>
+to estimate the relative (or fractional) contribution
+
+AGREED
+
+L428:from resonant
+production>> from the nucleon resonances produced
+
+DISAGREE
+
+429: "denoted as associated"
+
+DISAGREE
+
+430 "are shown ... each figure" - this is not true as
+in the results section there are also the 2D plots, which have no info
+at all on the associated fraction
+
+WILL BE ADDED
+
+430: ... in the section "results".
+
+DISAGREE
+
+430 Say something
+about the possible uncertainty in those fractions, please.
+
+ASSOC. FRACTIONS ARE CALCULATED FROM THE BRASSE PARAMETERISATION WHICH WAS SELECTED AFTER A STUDY OF THREE CANDIDATES THAT LL ARE FAIRLY SIMILAR (SEE DVCS WIKI). TRUTH IS NO-ONE KNOWS WHAT THAT ASSOC. FRACTION SHOULD BE, AND THERE'S NO EASY, OBVIOUS WAY TO ESTIAMTE THE UNCERTAINTY ON THE FRACTIONS.
+
+
+-line 474....we think that Fig 2 and Fig.3 we can remove. In text(line 515) there is very strong clarification that we can merge two datasets and we do.
+Probably Referee could ask this Figures to see that sentence(line 515)
+is correct, but the comparison Figures we think we can remove from
+Paper. -as a Future Analyser for AC(0cos(phi)) we like to understand the
+table 4 and 6 estimation sys error for Overall point. For 2006-2007 we
+have 0.008 and by adding 2005-2006 dataset we see that it became 0.005.
+We anticipate that we can reduce statistical error, but not systematical
+one, is this true??? Thanks Avetik
+
+WE ARE NOT LIMITED IN THE NUMBER OF PAGES AND SINCE THIS DATA HAS NOT BEEN PUBLISHED BEFORE IT IS GOOD TO SHOW IT. THE TWO ACCEPTANCES AND SETS OF MISSING MASS SHIFTS IN THE DATA SETS CANCEL IN THE SYSTEMATIC ERRORS FORTUITOUSLY.
+
+494: ... separately for ...
+
+DISAGREE
+
+
+498 actually, have we ever tried to
+estimate the uncertainty on the assoc. fractions? (just curious)
+
+YES SEE ANSWER ABOVE.
+
+------------------
+497:
+"imprecision" is not correct here. precision has to do with stat power.
+You should write either "inaccuracy" or even better "uncertainty".
+
+498 I don't like the use of "imprecision" in
+describing the scale uncertainty due to the uncertainty on the
+polarization measurement, this also applies to the captions of the
+tables at the end
+
+498: replace "imprecision of" by
+"uncertainty in" ... measurements.
+
+498
+imprecision of the -> uncertainty of the
+
+IMPRECISION IS PERFECTLY SUITED HERE. DICTIONARY DEFINITION: 'NOT ACCURATE'. HOWEVER, WILL CHANGE IT SINCE SEVERAL COMPLAINTS.
+-------------------
+
+506- this sentence sounds very
+confusing. try to reformulate it.
+
+WHAT IS CONFUSING? REFORMULATE IT HOW? NOT A VERY USEFUL COMMENT.
+
+507 I would add "in the limits given in section 2" after "("overall")" (which
+is of course not (yet) true for the t -- no range given)
+
+DISGAREE
+
+507 comma after
+x_B
+
+NO
+
+507 509: ... contribution from the
+event yield of ...
+
+NO.
+
+-----------
+507 projected against --->
+projected on
+
+507 projected on..
+
+NO.
+----------
+
+511: ... in the caption of the figures.
+
+NO. SEVERAL CAPTIONS, SEVERAL FIGURES!
+
+-------------
+513: "A
+statistical test was applied ..."; it would be better to mention the
+test performed 
+
+513ff what
+test, and how significant?
+
+515: quote the kind of
+test (T-test, chi2-test?) and the resulting Confidence Level e.g.: the
+data sets are compatible at 95 C.L. ...or 99 C.L.
+
+STUDENT'S TEST. NOT WORHT DISCUSSING IN PAPER (SEE ANSWER TO COMMENTS PREVIOUSLY). MORE INFORMATION WILL BE MADE AVAILABLE TO ANY REFEREE IF ASKED FOR. XXXXX
+--------------
+
+513: remove
+"in order"
+
+DISAGREE
+
+513: ... for a possible ...
+
+DISAGREE
+
+514 -?-> " ... in this test as the biggest contributions to the
+systematics are highly correlated." -- of course only if true
+
+AGREE
+
+514: replace "both" by "the two"
+
+NO.
+
+Line 514 it is written: 'This test revealed
+no significant evidence for incompatibility between data sets.' I
+believe that this is true, but I would address to two largest -t points
+in Fig.3 A_C(cos \phi) and A_C(cos(0\phi)) explicitely at this point. As
+the two quantities are related I assume that the significance of the
+deviation in both asymmetries is equal to that for a deviation in only
+one. Is this true ? I would also guess that the significance of the
+deviation could be affected by the Associated Fraction. In any case I
+think that you should add a few remarks to explain why the apparent
+difference is not significant. 
+
+SEE PREVIOUS ANSWERS
+
+
+515: I do not like the word "significant" in this context because it
+leaves some doubt about the compatibility.
+
+ONE CANNOT TEST FOR COMPATIBILITY, BUT ONLY FOR INCOMPATIBILITY. GIVEN THAT ONE NEVER GETS A 0% CHANCE THAT TWO DATA SETS ARE INCOMPATIBLE, IT IS DIFFICULT TO WRITE THIS SECTION PRECISELY WITHOUT GLOSSING OVER THE ACTUAL TRUTH. IF THERE ARE CAST-IRON SUGGESTIONS, WE'D APPRECIATE THEM.
+
+515: ... for an
+incompatibility ...
+
+NO.
+
+548 again,
+this brings up the question whether we can ensure stability of the
+experimental setup (or better its influence on the extracted asymmetry
+amplitudes, in particular A_C, over 12 years on the per mille level (I
+recall other analyses that had to throw out data sets as they increased
+too much the year dependence)
+
+IF WE CAN OVER 10 YEARS, WHY NOT 12?
+
+548: I do not like "experimental operation", sounds
+weired
+
+DISAGREE
+
+551 I guess we have millions of analyzable
+events in 2006/07. Maybe restrict phrasing to exclusive photonproduction
+events or something similar
+
+WE FEEL THIS INFORMATION IS GIVEN BY CONTEXT.
+
+551: "analyzable events" -> chose other wording
+
+WHICH OTHER WORDING?
+
+-----------
+552-554: what does
+"weighted towards the 2006-2007 results" mean?
+
+553 "are thus weighted towards the
+2006-07 result" led to confusion (sounds like that actively some weights
+were introduced?) Could this be reformulated using e.g. "the larger
+impact of the 2006-07 data set"?
+
+
+554:
+skip to repeat "weighting towards the 2006-2007 result". Anyway I do not
+understand what we mean by "weigthed towards": the expression suggests
+the two results are different. Actually it is true for the systematics,
+but this sentence does not adress the point.
+
+
+IF YOU TAKE ONE DATA SET THAT HAS X EVENTS AND ANOTHER THAT HAS 3X AND AVERAGE, THE RESULT IS WEIGHTED TOWARD THE GREATER DATA SET.
+
+CHANGED TO 'RESEMBLE'
+
+----------
+
+555: beam
+helicity -> beam-helicity
+
+AGREED
+
+559: "value" ->
+"magnitude"
+
+AGREED
+
+559-589: skip sentence "of any of the amplitudes... data
+set."
+
+NO.
+
+----------
+584: calculations *from* Ref[22] Best regards, Marco.
+
+584 calculations 'from' Ref.22
+
+AGREED.
+----------
+
+
+589: ... bin over
+the entire ...
+
+DISGAREE
+
+
+589 "has" ->"shows" or "reveals" (it certainly _has_ a strong dependence on t if it has to vanish for t-> 0
+
+AGREED.
+
+----------
+590: can you reformulate this sentence along the line
+that -t has to go to zero for -t approaching zero?
+
+590 and Fig. 4 Not only diminish, but go to
+zero. For that reason it would be interesting to see the behaviour of
+the models at very low -t.
+
+591 it may be correct that the amplitude has to
+vanish, but I can't see it from the reason you give: both the numerator
+and the denominator of the asymmetry have BH propagators that cause the
+k factors according to line
+
+AGREED
+---------
+
+
+591: skip "of the amplitude" to avoid repetitions.
+
+DISAGREE
+
+---------
+592: "can constrain the GPD H"
+
+593: ... constraining
+the GPD H. ....
+
+DISAGREE
+---------
+
+594: "term" is unclear.
+
+AGREE
+
+----------
+594 are -> is
+
+594 amplitude is shown
+
+AGREE
+-----------
+
+594: ... squared DVCS term. This amplitude is shown in
+fig. 4. Both the A_LU,DVCS and the A_LU,I amplitude are compatible with
+zero over the full range -t, x_B and Q^2. ...
+
+AGREED
+
+----------------
+L594: amplitude >>
+amplitudes
+
+595: amplitude *is* shown. Anyway I would skip the sentence in
+favor of a simple ", see Fig.4" at the end of the previous sentence.
+
+595 amplitude shows
+
+595: amplitude
+'are' -> amplitude 'is'
+
+L596: show >> shows
+
+
+CHANGED AS ABOVE
+----------------
+
+----------------
+597-600 this is out of place and not particularly
+informative. I would move it to the systematics section and possibly
+expand a little. You might cite previous publication as to how the
+detector MC comes into play. If I were to read the reference would it be
+obvious how to extend to using two data sets with different MCs?
+
+598 Very vague statement.
+
+AGREED
+---------------
+
+L599: the equipment >> the experimental
+conditions
+
+CHANGED
+
+---------------
+Line 602-603 It is not clear from eq.
+3.6 that there is an inverse relationship between c_0 and c_I, since eq.
+3.6 does not have a c_0 term, and it's not clear how this is related to
+k. 
+
+602: -> from eq. 3.6 you
+can not see that c_0 is inverse prop. to c_1
+
+602 You probably mean: opposite sign, and it
+is not clear at all what k has to do with this. One expects to see a
+relation between c0 and c1.
+
+AGREED - CHANGED
+---------------
+
+----------------
+L635: sign >> signs
+
+635,636 These amplitudes diverge with ... ---> These
+amplitudes have opposite sign and increase in magnitude with -t,
+starting from close to zero. They show no discernible dependence ...
+
+636x: What is meant by 'no discernible
+dependence'? I see a different xB and Q2 behaviour, which is present
+also in the models.
+
+636: I see
+a clear x (and Q2) dependence instead, at least for AC^cos(0phi).
+
+CHANGED
+-----------------
+
+637: "value" -> "magnitude"
+
+DISAGREE
+
+L637: in value >> xxxxxxx
+
+DISAGREE
+
+L639: Both of
+>> Both
+
+DISAGREE
+
+640:
+"kinematic conditions" -> "kinematics"
+
+DISAGREE
+
+641 are these curves the functional dependences on either -t, x_B,
+or Q^2, or---which I believe---plotted at the average kinematics of each
+of the HERMES points? Then we should say so.
+
+PLOTTED AT THE BIN CENTERS. UPDATED.
+
+642 now "Hera" is in \sc
+(unlike in 263)
+
+YES.
+
+642 maybe add references to the experimental data used
+
+CAN BE FOUND IN REFERENCE.
+
+----------------
+642-643: "the colliders at HERA
+and HERMES and Jefferson Lab" -> "the collider experiments at HERA and
+from the HERMES and Jefferson Lab experiments."
+
+L642: HERMES >> from HERMES (HERMES is not a collider)
+
+642 colliders --> collider experiments
+
+642
+information from the colliders at HERA and HERMES and Jefferson Lab --->
+information from H1, ZEUS, HERMES and the experiemnts at Jefferson Lab.
+
+642:
+delete "and" before HERMES
+
+642 I
+might put HERMES before HERA here, as written the sentence reads a
+little weird.
+
+CHANGED
+----------------
+
+643: I do not like the word
+"minimalist"
+
+POSSIBLY IT DOESN'T LIKE YOU. THIS IS HOW THE AUTHORS DESCRIBE IT.
+
+645 remove hyphen after "physically"
+
+AGREED
+
+673: citations [24,25] comes before
+citation [22] in 680. The figure captions restore the order, but I would
+prefer the text follows it.
+
+DISAGREE
+
+673 some people would be happy to see it this way
+but Jefferson Lab is still only a facility and not a laboratory (are you
+trying to make the referee from JLab happy?:-) -> "Jefferson Lab"
+
+WE DON'T SAY 'NATIONAL LABORATORY'. WHAT IS IT THAT YOU THINK 'LAB' IS SHORT FOR? LABRADOR? :-)
+
+673 would "Hall A of .." not be better than "... in ..."
+
+YES IT WOULD.
+
+673: ... a model fit not including data ...in Hall A at ...
+
+DISAGREE
+
+673: "Jefferson
+Laboratory" -> "Jefferson Lab" (as in 643 and 684)
+
+WE PREFER TO CHANGE IT THE OTHER WAY ROUND.
+
+L673:
+without data >> disregarding the data
+
+DISAGREE
+
+674: this data -> 'these' data
+
+CHANGED.
+
+676: replace "calculation" by "results"
+
+AGREED
+
+-------------
+676: "All of the
+amplitudes" -> "All amplitudes"
+
+L677: All of >> All
+
+DISAGREE, BUT CHANGED 
+--------------
+
+678 Fig. 738 were -> was
+
+DISAGREE
+
+678: "made from" -> "based on"
+
+AGREED
+
+L678: shows >>
+show
+AGREED
+
+---------
+678 Figs. -> Fig.
+
+678 add ?and 5? after ?4?
+
+AGREED
+---------
+
+679 describe accurately -> accurately
+describe
+
+DISAGREE
+
+682 -> "elastic-scattering data"
+
+CHANGED
+
+685 again, are x and Q2 dependences plotted or
+model at average kinematics of each bin?
+
+MODEL AT AVG KINS.
+
+686: -> do you want to add that
+actually the slope has the opposite sign? fig7. what is the source of
+the huge syst. uncertainty in the last bin in the -t dependence?
+
+NOT CONVINCED THAT THE DATA HAS AN OBJECTIVE SLOPE.
+
+UNCERTAINTY COMES FROM MC - HIGH-T/LOW-XB CORRESPONDS TO REGION OF SPECTROMETER WITH POOR RESOLUTION.
+
+687:
+"using Compton..." -> "based on Compton"
+
+DISAGREE.
+
+687 (Guidal fits) - Ref [23] is 'Priv Comm' - is there the change of an
+arXiv by the date of submission? It is very hard to guess what was done
+exactly from the few lines in draft 90. - Did Guidal use only HERMES
+data or also JLab for this specific work? - We do not like the Guidal
+results being shown as points, especially not in the plot with the main
+result of the paper. This gives too my the impression of measured data.
+Please consider connecting the data points by a line, dropping the
+symbols.
+
+GUIDAL'S POINTS ARE ONLY VALID AS POINTS - THEY ARE EXTRACTED AT FIXED KINEMATICS AND CANNTO (SHOULD NOT) BE EXTRAPOLATED. GUIDAL USED BOTH JLAB AND HERMES DATA. THIS SECTION IS REMOVED AS HE PLANS TO PUBLISH THIS NEW WORK SEPARATELY.
+
+------------------
+688 -> form factors (not
+capitalized)
+
+Line 688 "Compton Form factors extracted from experimental data... "
+What experimental quantitites in particular were used to obtain these
+CFF's? [23] is only a private communication which gives no details. If
+the CFF's are largely extracted from the same beam-helicity and
+beam-charge asymmetries shown in this paper, then its' not so surprising
+that the open crosses give good agreement with data. If the CFF's were
+extracted from completely different observables, then it's much more
+significant that there is good agreement with data.
+
+715 -> form factors
+
+716 either use the
+abbreviation CFF throughout the paper or spell it out, but please don't
+mix them at random and not in one sentence
+
+717: somewhat a tautology, if the CFF are
+extracted using a set of data compatible with (and merged into) the
+present result.
+
+717:
+... by these calculations. ...
+
+WILL BE REMOVED
+-----------------
+
+718 "that" -> ", which"
+
+DISAGREE
+
+721 dependence on any -> dependence of any
+
+AGREED
+
+722 , 723 The calligraphic A does not appear in the plots. Use
+either "A" or write out beam-charge asymmetry" etc.
+
+CALLIGRAPHIC A IS DEFINED IN 3.2 - 3.4 AS SET OF AMPLITUDES
+
+722 either -> any
+
+AGREED
+
+723 I would be more brave and claim that only at smaller values of xB the
+strong t dependences of the constant and the cos\phi term are visible,
+but not for large x
+
+WE STATE NO ADDITIONAL FEATURES - YOU COULD DEDUCE THIS FROM THE 1D PROJECTIONS ALSO.
+
+Sec 6: Similar ciritisim to the abstract--the reader is
+told hwo good the data is, but only one sentence saying that they have
+to do with GPDs--can any stronger conclusion be drawn?
+
+NOT SIMPLY, NO.
+
+737
+delete ?new?
+
+DISAGREE
+
+----------
+L738:were >> was
+
+738 'were'
+extracted -> was extracted (set is singular)
+
+739 were extracted -> was
+extracted
+
+AGREE
+----------
+
+739: add comma after "period"
+
+AGREE
+
+740 datasets, (one word, comma)
+
+DISAGREE
+
+740/741 A comparison of ...
+data sets have shown -> A comparison of ... data sets has shown
+
+AGREE
+
+742 -?-> statistically most precise
+
+DISAGREE
+
+---------------
+743-745: "that will be published by
+the HERMES ..." -> "obtained by the HERMES collaboration. The extracted
+asymmetry amplitudes show a strong signal in the first harmonic ...""
+
+
+743: "that will be publiushed by the HERMES collaboration" -> "available
+at the HERMES experiment"
+
+
+743: "will be published by the HERMES
+collaboration" is too strong. I would write "is available from HERMES".
+
+WHY TOO STRONG? IT'S CORRECT.
+-----------------
+
+744 as this was
+already known I would replace "show" by "confirms" (and singular not
+plural!)
+
+DISAGREE
+
+-----------------
+744: ... amplitudes shows ...
+
+744/745
+The result of .. amplitudes show -> The result of .. amplitudes shows
+
+744 show -> shows
+
+AGREE
+-----------------
+
+-------------
+745 -?-> nonzero
+
+745 non-zero
+
+745 non zero -> non-zero
+
+AGREE NON-ZERO
+-------------
+
+746 -> higher-order
+
+AGREE
+
+746: "Each of the other" -> "All the other"
+
+DISAGREE
+
+------------
+747 is consistent (each is singular) ref [7] JHEP 11
+
+L747: are >> is
+
+AGREE
+
+747 amplitudes are consistent ---> amplitudes is consistent
+
+AGREE, BUT NO REF IN THE SUMMARY.
+-------------
+
+749 "No"? - see my comment to 723
+
+SEE MY ANSWER
+
+750 "t" -> "x_B"
+
+CHANGED IN 751.
+
+-------------
+766 please add "the Basque Foundation for
+Science (IKERBASQUE);" after "NSF);"
+
+766 add ?the Basque Foundation for Science (IKERBASQUE);?
+
+LATEST WEB VERSION WILL BE USED. IS IT CHANGED?
+--------------
+
+780, 820, 840, 875 ?-t?, ?x_B? and ?Q^2? should be replaced by ?<-t?>,
+?<x_B>? and ?<Q^2>?
+
+YES!
+
+796- Try to
+make smaller sentences in the caption. 
+
+DISAGREE.
+
+798 -> this is also true for all
+the other captions of the tables.
+
+DISAGREE - THE OTHERS ARE BEAM CHARGE OR HAVE DIFFERENT POLARISAITON!
+
+914 replace ?0911? by ?11?
+
+AGREE
+
+923 replace ?471? by ?A471?
+
+AGREE
+
+934 add arXiv identifier
+
+AGREE
+
+References HERMES -> \sc Hermes (dito for CLAS?) 
+
+[22] -?->submitted 
+
+DISAGREE
+
+[22] and [23] miss a full stop at end of line
+
+AGREE.
