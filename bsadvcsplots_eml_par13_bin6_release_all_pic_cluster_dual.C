@@ -521,7 +521,7 @@
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   TLegendEntry *entry=leg->AddEntry("l1","Kumericki + Mueller (a)","l");
+   TLegendEntry *entry=leg->AddEntry("l1","KM10 (a)","l");
    entry->SetLineColor(4);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
@@ -530,7 +530,7 @@
    entry->SetMarkerSize(1);
    entry->SetTextAlign(12);
    entry->SetTextColor(1);
-   entry=leg->AddEntry("ll1","Kumericki + Mueller (b)","l");
+   entry=leg->AddEntry("ll1","KM11 (b)","l");
    entry->SetLineColor(6);
    entry->SetLineStyle(2);
    entry->SetLineWidth(1);
@@ -1006,7 +1006,7 @@
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   entry=leg->AddEntry("lll1","Liuti + Goldstein","l");
+   entry=leg->AddEntry("lll1","GHL11","l");
    entry->SetLineColor(8);
    entry->SetLineStyle(4);
    entry->SetLineWidth(1);

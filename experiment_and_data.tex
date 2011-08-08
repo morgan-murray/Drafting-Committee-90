@@ -1,5 +1,5 @@
 \section{Experiment and Data Selection}
-The new data presented in this work were collected in 2006 and 2007\red{. As in ref.~\cite{Air09}, the data were collected} with the H{\sc ermes}
+The new data presented in this work were collected in 2006 and 2007. As in ref.~\cite{Air09}, the data were collected with the H{\sc ermes}
 spectrometer \cite{Ack98} using the longitudinally polarised 27.6\,GeV
 electron and positron beams incident upon an unpolarised hydrogen gas
 target internal to the H{\sc era} lepton storage ring at D{\sc esy}. The integrated luminosities of the electron and positron data samples, respectively, are
@@ -12,7 +12,7 @@ was selected as having exactly one photon and one lepton
 track detected within the acceptance of the spectrometer.
 The event selection is subject to the kinematic constraints 1\,GeV$^{2}$ $<$
 Q$^{2}$ $<$ 10\,GeV$^{2}$, 0.03 $<$ $x_{\textrm{B}}$ $<$ 0.35,
-$0.0$\,GeV$^2 < -t < 0.7$\,GeV$^2$, $W^{2}$ $>$
+$-t < 0.7$\,GeV$^2$, $W^{2}$ $>$
 9\,GeV$^{2}$ and $\nu$ $<$ 22\,GeV, where $W$ is the invariant mass of the
 $\gamma^{*}p$ system and $\nu$ is the energy of the virtual photon in the target
 rest frame. The polar angle between the virtual and real photons was required to
@@ -23,7 +23,13 @@ An event sample was selected using a missing-mass technique requiring
 that the squared missing-mass $M_{\textrm{X}}^{2}=(q+P-q')^{2}$
 of the $e\,p \rightarrow\, e'\,\gamma\, \textrm{X}$ measurement
 corresponded to the square of the proton mass within the limits of the
-energy resolution of the H{\sc ermes} calorimeter. Here, $q$ is the four-momentum of the virtual photon, $p$ is the initial four-momentum of the target proton and $q'$ is the four-momentum of the produced photon. The ``exclusive region'' was defined as $-$($1.5$\,GeV)$^{2} < M_{\textrm{X}}^{2}$ $<$ (1.7\,GeV)$^{2}$, as in ref.~\cite{Air09}. This exclusive region was shifted by up to 0.17\,GeV$^{2}$ to reflect observed differences in the distributions of the electron and positron data samples~\cite{Bur10}. 
+energy resolution of the H{\sc ermes} calorimeter. Here, $q$ is the
+four-momentum of the virtual photon, $p$ is the initial four-momentum
+of the target proton and $q'$ is the four-momentum of the produced
+photon. The ``exclusive region'' was defined as $-$($1.5$\,GeV)$^{2} <
+M_{\textrm{X}}^{2}$ $<$ (1.7\,GeV)$^{2}$, as in
+ref.~\cite{Air09}. This exclusive region was shifted by up to
+0.17\,GeV$^{2}$ \red{for certain subsets of the data in order }to reflect observed differences in the distributions of the electron and positron data samples~\cite{Bur10}. 
 
 \section{Experimental Extraction of Asymmetry Amplitudes}
 
@@ -86,21 +92,14 @@ may also be affected by the lepton propagators and the other
 $\phi$-dependent terms in the denominators in
 Eqs.~\ref{e:alui}-\ref{e:ac}. The  $s_{n,\textrm{unp}}^{W}$ and $c_{n,\textrm{unp}}^{V}$ Fourier
 coefficients depend on ``$\mathcal{C}$-functions'' \cite{{Bel02b}}, each of which is a
-combination of complex Compton Form Factors (CFF). A CFF is a convolution of a GPD with a hard scattering kernel. Contributions of GPDs to the cross section may be relatively suppressed by powers of $1/Q$, the origin of which may be kinematic in nature or due to the twist level of the GPD. Leading twist is twist-2. Typically, the contribution of a twist-$n$ GPD, and hence the corresponding CFF, is suppressed by $\mathcal{O}(1/Q^{n-2})$. Table~\ref{tab_amplitudes} presents the asymmetry amplitudes extracted in this analysis and the related Fourier coefficients, dominant $\mathcal{C}$-function, twist-level and level of suppression.
+combination of complex Compton Form Factors (CFF\red{s}). A CFF is a convolution of a GPD with a hard scattering kernel. Contributions of GPDs to the cross section may be relatively suppressed by powers of $1/Q$, the origin of which may be kinematic in nature or due to the twist level of the GPD. Leading twist is twist-2. Typically, the contribution of a twist-$n$ GPD, and hence the corresponding CFF, is suppressed by $\mathcal{O}(1/Q^{n-2})$. Table~\ref{tab_amplitudes} presents the asymmetry amplitudes extracted in this analysis and the related Fourier coefficients, dominant $\mathcal{C}$-function, twist-level and level of suppression.
 
 At H{\sc ermes} kinematic conditions, the leading-twist beam-helicity asymmetry amplitude is $A_{\textrm{LU,I}}^{\sin\phi}$ and the leading beam-charge asymmetry amplitude is $A^{\cos\phi}_{\textrm{C}}$. These asymmetry amplitudes, for an unpolarised target, are sensitive respectively to Fourier coefficients $s_{1,\textrm{unp}}^{\textrm{I}}$ and $c_{1,\textrm{unp}}^{\textrm{I}}$. Both of these Fourier coefficients have a dominant contribution from the $\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$-function:
-\begin{center}
-\begin{equation}
- s_{1,\textrm{unp}}^{\textrm{I}} \approx 8\lambda ky(2-y)\mathfrak{Im}\mathcal{C}_{\textrm{unp}}^{\textrm{I}},
-\label{eq:s1}
-\end{equation}
-\end{center}
-\begin{center}
-\begin{equation}
- c_{1,\textrm{unp}}^{\textrm{I}} \approx 8k(2- 2y + y^{2})\mathfrak{Re}\mathcal{C}_{\textrm{unp}}^{\textrm{I}},
-\label{eq:c1}
-\end{equation}
-\end{center}
+\begin{eqnarray}
+s_{1,\textrm{unp}}^{\textrm{I}} \approx&\,\,\,\,8\lambda ky(2-y)\mathfrak{Im}\mathcal{C}_{\textrm{unp}}^{\textrm{I}}\quad\red{\textrm{and}}&\label{eq:s1}
+\\
+ c_{1,\textrm{unp}}^{\textrm{I}} \approx&8k(2- 2y + y^{2})\mathfrak{Re}\mathcal{C}_{\textrm{unp}}^{\textrm{I}}\,,&\label{eq:c1}
+\end{eqnarray}
 where the definition of the kinematic factor $k$ is found
   in ref.\cite{Bel02b}. The $\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$-function can be
 written
@@ -123,20 +122,19 @@ and therefore GPD $H$ can be constrained through
 measurements of $A_{\textrm{LU,I}}^{\sin\phi}$ and $A^{\cos\phi}_{\textrm{C}}$.
 The asymmetry amplitudes $A_{\textrm{LU},\textrm{I}}^{\sin(2\phi)}$,
 $A^{\cos(0\phi)}_{\textrm{C}}$ and $A^{\cos(2\phi)}_{\textrm{C}}$ also depend
-upon this $\mathcal{C}$-function. However, the $A^{\cos(0\phi)}_{\textrm{C}}$ amplitude is kinematically suppressed compared to the $A^{\cos\phi}_{\textrm{C}}$ amplitude, and the  $A_{\textrm{LU,I}}^{\sin(2\phi)}$ and $A^{\cos(2\phi)}_{\textrm{C}}$ amplitudes \red{are} higher
-twist \red{quantities} (see Table~\ref{tab_amplitudes}).
+upon this $\mathcal{C}$-function. However, the $A^{\cos(0\phi)}_{\textrm{C}}$ amplitude is kinematically suppressed compared to the $A^{\cos\phi}_{\textrm{C}}$ amplitude, and the  $A_{\textrm{LU,I}}^{\sin(2\phi)}$ and $A^{\cos(2\phi)}_{\textrm{C}}$ amplitudes are higher\red{-}twist quantities (see Table~\ref{tab_amplitudes}).
 
 The DVCS asymmetry amplitude $A^{\sin\phi}_{\textrm{LU,DVCS}}$ has a
-contribution from the $\mathcal{C}_{\textrm{unp}}^{\textrm{DVCS}}$ function,
+contribution from the $\mathcal{C}_{\textrm{unp}}^{\textrm{DVCS}}$\red{-}fnction,
 which is bilinear in CFFs. However, this twist-3 amplitude is inherently small at HERMES kinematic conditions due to the size of the $s_{1}^{\textrm{DVCS}}$ Fourier coefficient compared to the contribution from the $c_{n}^{\textrm{BH}}$ coefficients in the denominator of Eq.~\ref{e:aludvcs}. As a result of
 the more complicated dependence on the CFFs and this suppression, it
 is more difficult to constrain GPDs
-\red{via} the measurement of $A^{\sin\phi}_{\textrm{LU,DVCS}}$ than from the
+via the measurement of $A^{\sin\phi}_{\textrm{LU,DVCS}}$ than from the
 kinematically-unsuppressed leading-twist amplitudes.
 
 The $A^{\cos(3\phi)}_{\textrm{C}}$ amplitude depends on the
 $c_{3,\textrm{unp}}^{\textrm{I}}$ Fourier coefficient and hence the
-$\mathcal{C}_{\textrm{T,unp}}^{\textrm{I}}$ function. Although the CFFs
+$\mathcal{C}_{\textrm{T,unp}}^{\textrm{I}}$\red{-}ffunction. Although the CFFs
 in this function are of leading twist, they relate to gluon helicity-flip GPDs and are thus suppressed by $\alpha_{\textrm{S}}/\pi$,
 where $\alpha_{\textrm{S}}$ is the strong coupling constant.
 \begin{table}
@@ -178,9 +176,9 @@ $\mathfrak{Re}\mathcal{C}_{\textrm{T,unp}}^{\textrm{I}}$ &  2 & $\alpha_{\textrm
  \end{tabular}
 }
 \caption{Asymmetry amplitudes that can
-be extracted from the available data set, the related Fourier coefficients,
- the $\mathcal{C}$-functions, the twist level and the suppression
- relative to the leading amplitudes at H{\sc ermes} kinematic conditions. {The constant K is defined in ref.~\cite{Bel02b}}.}
+be extracted from the available data set, the related Fourier
+coefficients, dominant $\mathcal{C}$-function, twist-level and level of
+suppression relative to the leading amplitudes at H{\sc ermes} kinematic conditions. {The constant K is defined in ref.~\cite{Bel02b}}.}
 \label{tab_amplitudes}
 \end{center}
 \end{table}
