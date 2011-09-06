@@ -557,7 +557,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -565,20 +565,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.0210962);
-   gre->SetPointError(0,0,0.00325248);
-   gre->SetPoint(1,0.018761,-0.0169322);
-   gre->SetPointError(1,0,0.00718519);
-   gre->SetPoint(2,0.04394,-0.0048622);
-   gre->SetPointError(2,0,0.00727148);
-   gre->SetPoint(3,0.078792,-0.0124538);
-   gre->SetPointError(3,0,0.00781673);
-   gre->SetPoint(4,0.142805,-0.0162538);
-   gre->SetPointError(4,0,0.00675921);
-   gre->SetPoint(5,0.260879,-0.0399285);
-   gre->SetPointError(5,0,0.00912486);
-   gre->SetPoint(6,0.466061,-0.0719502);
-   gre->SetPointError(6,0,0.013896);
+   gre->SetPoint(0,0.018761,-0.0169322);
+   gre->SetPointError(0,0,0.00718519);
+   gre->SetPoint(1,0.04394,-0.0048622);
+   gre->SetPointError(1,0,0.00727148);
+   gre->SetPoint(2,0.078792,-0.0124538);
+   gre->SetPointError(2,0,0.00781673);
+   gre->SetPoint(3,0.142805,-0.0162538);
+   gre->SetPointError(3,0,0.00675921);
+   gre->SetPoint(4,0.260879,-0.0399285);
+   gre->SetPointError(4,0,0.00912486);
+   gre->SetPoint(5,0.466061,-0.0719502);
+   gre->SetPointError(5,0,0.013896);
    
    TH1F *Graph29 = new TH1F("Graph29","Graph",100,0.01041267,10.41267);
    Graph29->SetMinimum(-0.09467175);
@@ -663,7 +661,39 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   line = new TLine(0.019,0.00927,0.044,0.0115);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.044,0.0115,0.079,0.0153);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.079,0.0153,0.143,0.0161);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.143,0.0161,0.261,0.00252);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.261,0.00252,0.463,-0.0522);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -671,20 +701,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.0210962);
-   gre->SetPointError(0,0,0.00325248);
-   gre->SetPoint(1,0.018761,-0.0169322);
-   gre->SetPointError(1,0,0.00718519);
-   gre->SetPoint(2,0.04394,-0.0048622);
-   gre->SetPointError(2,0,0.00727148);
-   gre->SetPoint(3,0.078792,-0.0124538);
-   gre->SetPointError(3,0,0.00781673);
-   gre->SetPoint(4,0.142805,-0.0162538);
-   gre->SetPointError(4,0,0.00675921);
-   gre->SetPoint(5,0.260879,-0.0399285);
-   gre->SetPointError(5,0,0.00912486);
-   gre->SetPoint(6,0.466061,-0.0719502);
-   gre->SetPointError(6,0,0.013896);
+   gre->SetPoint(0,0.018761,-0.0169322);
+   gre->SetPointError(0,0,0.00718519);
+   gre->SetPoint(1,0.04394,-0.0048622);
+   gre->SetPointError(1,0,0.00727148);
+   gre->SetPoint(2,0.078792,-0.0124538);
+   gre->SetPointError(2,0,0.00781673);
+   gre->SetPoint(3,0.142805,-0.0162538);
+   gre->SetPointError(3,0,0.00675921);
+   gre->SetPoint(4,0.260879,-0.0399285);
+   gre->SetPointError(4,0,0.00912486);
+   gre->SetPoint(5,0.466061,-0.0719502);
+   gre->SetPointError(5,0,0.013896);
    
    TH1F *Graph30 = new TH1F("Graph30","Graph",100,0.01041267,10.41267);
    Graph30->SetMinimum(-0.09467175);
@@ -767,7 +795,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -775,20 +803,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,0.0408359);
-   gre->SetPointError(0,0,0.0045693);
-   gre->SetPoint(1,0.018761,0.00521573);
-   gre->SetPointError(1,0,0.0100352);
-   gre->SetPoint(2,0.04394,0.00676987);
-   gre->SetPointError(2,0,0.00988295);
-   gre->SetPoint(3,0.078792,0.0281252);
-   gre->SetPointError(3,0,0.010946);
-   gre->SetPoint(4,0.142805,0.0515053);
-   gre->SetPointError(4,0,0.00944455);
-   gre->SetPoint(5,0.260879,0.108146);
-   gre->SetPointError(5,0,0.0129717);
-   gre->SetPoint(6,0.466061,0.13433);
-   gre->SetPointError(6,0,0.0210767);
+   gre->SetPoint(0,0.018761,0.00521573);
+   gre->SetPointError(0,0,0.0100352);
+   gre->SetPoint(1,0.04394,0.00676987);
+   gre->SetPointError(1,0,0.00988295);
+   gre->SetPoint(2,0.078792,0.0281252);
+   gre->SetPointError(2,0,0.010946);
+   gre->SetPoint(3,0.142805,0.0515053);
+   gre->SetPointError(3,0,0.00944455);
+   gre->SetPoint(4,0.260879,0.108146);
+   gre->SetPointError(4,0,0.0129717);
+   gre->SetPoint(5,0.466061,0.13433);
+   gre->SetPointError(5,0,0.0210767);
    
    TH1F *Graph31 = new TH1F("Graph31","Graph",100,0.01041267,10.41267);
    Graph31->SetMinimum(-0.02084209);
@@ -833,6 +859,39 @@
    line->SetLineColor(6);
    line->SetLineStyle(2);
    line->Draw();
+
+
+   line = new TLine(0.019,0.0164,0.044,0.0258);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.044,0.0258,0.079,0.0405);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.079,0.0405,0.143,0.0589);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.143,0.0589,0.261,0.0865);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.261,0.0865,0.463,0.103);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
    
    Double_t *dum = 0;
    pline = new TPolyLine(14,dum,dum,"");
@@ -873,7 +932,7 @@
    pline->SetPoint(13,0.7,-0.05);
    pline->Draw("fsame");
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -881,20 +940,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,0.0408359);
-   gre->SetPointError(0,0,0.0045693);
-   gre->SetPoint(1,0.018761,0.00521573);
-   gre->SetPointError(1,0,0.0100352);
-   gre->SetPoint(2,0.04394,0.00676987);
-   gre->SetPointError(2,0,0.00988295);
-   gre->SetPoint(3,0.078792,0.0281252);
-   gre->SetPointError(3,0,0.010946);
-   gre->SetPoint(4,0.142805,0.0515053);
-   gre->SetPointError(4,0,0.00944455);
-   gre->SetPoint(5,0.260879,0.108146);
-   gre->SetPointError(5,0,0.0129717);
-   gre->SetPoint(6,0.466061,0.13433);
-   gre->SetPointError(6,0,0.0210767);
+   gre->SetPoint(0,0.018761,0.00521573);
+   gre->SetPointError(0,0,0.0100352);
+   gre->SetPoint(1,0.04394,0.00676987);
+   gre->SetPointError(1,0,0.00988295);
+   gre->SetPoint(2,0.078792,0.0281252);
+   gre->SetPointError(2,0,0.010946);
+   gre->SetPoint(3,0.142805,0.0515053);
+   gre->SetPointError(3,0,0.00944455);
+   gre->SetPoint(4,0.260879,0.108146);
+   gre->SetPointError(4,0,0.0129717);
+   gre->SetPoint(5,0.466061,0.13433);
+   gre->SetPointError(5,0,0.0210767);
    
    TH1F *Graph32 = new TH1F("Graph32","Graph",100,0.01041267,10.41267);
    Graph32->SetMinimum(-0.02084209);
@@ -942,7 +999,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -950,20 +1007,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.00337482);
-   gre->SetPointError(0,0,0.00451815);
-   gre->SetPoint(1,0.018761,-0.0229755);
-   gre->SetPointError(1,0,0.0100258);
-   gre->SetPoint(2,0.04394,-0.00311072);
-   gre->SetPointError(2,0,0.0101185);
-   gre->SetPoint(3,0.078792,0.0125814);
-   gre->SetPointError(3,0,0.0108518);
-   gre->SetPoint(4,0.142805,-0.00775603);
-   gre->SetPointError(4,0,0.00935325);
-   gre->SetPoint(5,0.260879,-0.00288739);
-   gre->SetPointError(5,0,0.0125982);
-   gre->SetPoint(6,0.466061,0.0489308);
-   gre->SetPointError(6,0,0.0194663);
+   gre->SetPoint(0,0.018761,-0.0229755);
+   gre->SetPointError(0,0,0.0100258);
+   gre->SetPoint(1,0.04394,-0.00311072);
+   gre->SetPointError(1,0,0.0101185);
+   gre->SetPoint(2,0.078792,0.0125814);
+   gre->SetPointError(2,0,0.0108518);
+   gre->SetPoint(3,0.142805,-0.00775603);
+   gre->SetPointError(3,0,0.00935325);
+   gre->SetPoint(4,0.260879,-0.00288739);
+   gre->SetPointError(4,0,0.0125982);
+   gre->SetPoint(5,0.466061,0.0489308);
+   gre->SetPointError(5,0,0.0194663);
    
    TH1F *Graph33 = new TH1F("Graph33","Graph",100,0.01041267,10.41267);
    Graph33->SetMinimum(-0.04314114);
@@ -1013,7 +1068,7 @@
    pline->SetPoint(13,0.7,-0.1);
    pline->Draw("fsame");
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -1021,20 +1076,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.00337482);
-   gre->SetPointError(0,0,0.00451815);
-   gre->SetPoint(1,0.018761,-0.0229755);
-   gre->SetPointError(1,0,0.0100258);
-   gre->SetPoint(2,0.04394,-0.00311072);
-   gre->SetPointError(2,0,0.0101185);
-   gre->SetPoint(3,0.078792,0.0125814);
-   gre->SetPointError(3,0,0.0108518);
-   gre->SetPoint(4,0.142805,-0.00775603);
-   gre->SetPointError(4,0,0.00935325);
-   gre->SetPoint(5,0.260879,-0.00288739);
-   gre->SetPointError(5,0,0.0125982);
-   gre->SetPoint(6,0.466061,0.0489308);
-   gre->SetPointError(6,0,0.0194663);
+   gre->SetPoint(0,0.018761,-0.0229755);
+   gre->SetPointError(0,0,0.0100258);
+   gre->SetPoint(1,0.04394,-0.00311072);
+   gre->SetPointError(1,0,0.0101185);
+   gre->SetPoint(2,0.078792,0.0125814);
+   gre->SetPointError(2,0,0.0108518);
+   gre->SetPoint(3,0.142805,-0.00775603);
+   gre->SetPointError(3,0,0.00935325);
+   gre->SetPoint(4,0.260879,-0.00288739);
+   gre->SetPointError(4,0,0.0125982);
+   gre->SetPoint(5,0.466061,0.0489308);
+   gre->SetPointError(5,0,0.0194663);
    
    TH1F *Graph34 = new TH1F("Graph34","Graph",100,0.01041267,10.41267);
    Graph34->SetMinimum(-0.04314114);
@@ -1082,7 +1135,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -1090,20 +1143,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.00210999);
-   gre->SetPointError(0,0,0.00452289);
-   gre->SetPoint(1,0.018761,-0.0134897);
-   gre->SetPointError(1,0,0.0100014);
-   gre->SetPoint(2,0.04394,0.0045953);
-   gre->SetPointError(2,0,0.0101082);
-   gre->SetPoint(3,0.078792,-0.0233938);
-   gre->SetPointError(3,0,0.0108698);
-   gre->SetPoint(4,0.142805,0.00576635);
-   gre->SetPointError(4,0,0.00938416);
-   gre->SetPoint(5,0.260879,0.0121857);
-   gre->SetPointError(5,0,0.0126546);
-   gre->SetPoint(6,0.466061,0.0296601);
-   gre->SetPointError(6,0,0.0186045);
+   gre->SetPoint(0,0.018761,-0.0134897);
+   gre->SetPointError(0,0,0.0100014);
+   gre->SetPoint(1,0.04394,0.0045953);
+   gre->SetPointError(1,0,0.0101082);
+   gre->SetPoint(2,0.078792,-0.0233938);
+   gre->SetPointError(2,0,0.0108698);
+   gre->SetPoint(3,0.142805,0.00576635);
+   gre->SetPointError(3,0,0.00938416);
+   gre->SetPoint(4,0.260879,0.0121857);
+   gre->SetPointError(4,0,0.0126546);
+   gre->SetPoint(5,0.466061,0.0296601);
+   gre->SetPointError(5,0,0.0186045);
    
    TH1F *Graph35 = new TH1F("Graph35","Graph",100,0.01041267,10.41267);
    Graph35->SetMinimum(-0.04251642);
@@ -1285,7 +1336,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -1293,20 +1344,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.0210962);
-   gre->SetPointError(0,0,0.00325248);
-   gre->SetPoint(1,0.04907,-0.0452876);
-   gre->SetPointError(1,0,0.00729229);
-   gre->SetPoint(2,0.069647,-0.0353133);
-   gre->SetPointError(2,0,0.00677944);
-   gre->SetPoint(3,0.089392,-0.0166357);
-   gre->SetPointError(3,0,0.00799069);
-   gre->SetPoint(4,0.113598,-0.00710004);
-   gre->SetPointError(4,0,0.00831663);
-   gre->SetPoint(5,0.157213,-0.00648597);
-   gre->SetPointError(5,0,0.0088629);
-   gre->SetPoint(6,0.245365,0.0186729);
-   gre->SetPointError(6,0,0.0156001);
+   gre->SetPoint(0,0.04907,-0.0452876);
+   gre->SetPointError(0,0,0.00729229);
+   gre->SetPoint(1,0.069647,-0.0353133);
+   gre->SetPointError(1,0,0.00677944);
+   gre->SetPoint(2,0.089392,-0.0166357);
+   gre->SetPointError(2,0,0.00799069);
+   gre->SetPoint(3,0.113598,-0.00710004);
+   gre->SetPointError(3,0,0.00831663);
+   gre->SetPoint(4,0.157213,-0.00648597);
+   gre->SetPointError(4,0,0.0088629);
+   gre->SetPoint(5,0.245365,0.0186729);
+   gre->SetPointError(5,0,0.0156001);
    
    TH1F *Graph37 = new TH1F("Graph37","Graph",100,0.0101699,10.1699);
    Graph37->SetMinimum(-0.06126518);
@@ -1352,6 +1401,37 @@
    line->SetLineStyle(2);
    line->Draw();
    
+   line = new TLine(0.049,-0.0231,0.07,-0.000451);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.07,-0.000451,0.089,0.00601);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.089,0.00601,0.114,0.0187);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.114,0.0187,0.157,0.0357);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.1560769,0.0357,0.2428242,0.0719);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+
    Double_t *dum = 0;
    pline = new TPolyLine(14,dum,dum,"");
    pline->SetFillColor(5);
@@ -1391,28 +1471,7 @@
    pline->SetPoint(13,0.3,-0.12);
    pline->Draw("fsame");
    
-   gre = new TGraphErrors(7);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.0210962);
-   gre->SetPointError(0,0,0.00325248);
-   gre->SetPoint(1,0.04907,-0.0452876);
-   gre->SetPointError(1,0,0.00729229);
-   gre->SetPoint(2,0.069647,-0.0353133);
-   gre->SetPointError(2,0,0.00677944);
-   gre->SetPoint(3,0.089392,-0.0166357);
-   gre->SetPointError(3,0,0.00799069);
-   gre->SetPoint(4,0.113598,-0.00710004);
-   gre->SetPointError(4,0,0.00831663);
-   gre->SetPoint(5,0.157213,-0.00648597);
-   gre->SetPointError(5,0,0.0088629);
-   gre->SetPoint(6,0.245365,0.0186729);
-   gre->SetPointError(6,0,0.0156001);
+  
    
    TH1F *Graph38 = new TH1F("Graph38","Graph",100,0.0101699,10.1699);
    Graph38->SetMinimum(-0.06126518);
@@ -1422,6 +1481,28 @@
    gre->SetHistogram(Graph38);
    
    gre->Draw("p");
+
+  leg = new TLegend(0.07,0.87,0.9,0.99,NULL,"b1NDC");
+   leg->SetBorderSize(0);
+   leg->SetTextFont(62);
+   leg->SetLineColor(0);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(0);
+   entry=leg->AddEntry("NULL","GHL11","l");
+
+   ci = TColor::GetColor("#009900");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(4);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextAlign(12);
+   entry->SetTextColor(1);
+   leg->Draw();
+
    pad1_3->Modified();
    pad1->cd();
   
@@ -1460,7 +1541,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -1468,20 +1549,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,0.0408359);
-   gre->SetPointError(0,0,0.0045693);
-   gre->SetPoint(1,0.04907,0.0163265);
-   gre->SetPointError(1,0,0.0108102);
-   gre->SetPoint(2,0.069647,0.0275994);
-   gre->SetPointError(2,0,0.00953009);
-   gre->SetPoint(3,0.089392,0.0443738);
-   gre->SetPointError(3,0,0.0113176);
-   gre->SetPoint(4,0.113598,0.0295142);
-   gre->SetPointError(4,0,0.0118269);
-   gre->SetPoint(5,0.157213,0.0493886);
-   gre->SetPointError(5,0,0.0125444);
-   gre->SetPoint(6,0.245365,0.05003);
-   gre->SetPointError(6,0,0.0220802);
+   gre->SetPoint(0,0.04907,0.0163265);
+   gre->SetPointError(0,0,0.0108102);
+   gre->SetPoint(1,0.069647,0.0275994);
+   gre->SetPointError(1,0,0.00953009);
+   gre->SetPoint(2,0.089392,0.0443738);
+   gre->SetPointError(2,0,0.0113176);
+   gre->SetPoint(3,0.113598,0.0295142);
+   gre->SetPointError(3,0,0.0118269);
+   gre->SetPoint(4,0.157213,0.0493886);
+   gre->SetPointError(4,0,0.0125444);
+   gre->SetPoint(5,0.245365,0.05003);
+   gre->SetPointError(5,0,0.0220802);
    
    TH1F *Graph39 = new TH1F("Graph39","Graph",100,0.0101699,10.1699);
    Graph39->SetMinimum(0);
@@ -1527,6 +1606,38 @@
    line->SetLineStyle(2);
    line->Draw();
    
+   line = new TLine(0.049,0.053,0.07,0.0483);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.07,0.0483,0.089,0.0535);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.089,0.0535,0.114,0.0531);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.114,0.0531,0.157,0.0492);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(0.157,0.0492,0.2428242,0.0422);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   
+
    Double_t *dum = 0;
    pline = new TPolyLine(14,dum,dum,"");
    pline->SetFillColor(5);
@@ -1566,7 +1677,7 @@
    pline->SetPoint(13,0.3,-0.05);
    pline->Draw("fsame");
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -1574,20 +1685,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,0.0408359);
-   gre->SetPointError(0,0,0.0045693);
-   gre->SetPoint(1,0.04907,0.0163265);
+   gre->SetPoint(0,0.04907,0.0163265);
    gre->SetPointError(1,0,0.0108102);
-   gre->SetPoint(2,0.069647,0.0275994);
-   gre->SetPointError(2,0,0.00953009);
-   gre->SetPoint(3,0.089392,0.0443738);
-   gre->SetPointError(3,0,0.0113176);
-   gre->SetPoint(4,0.113598,0.0295142);
-   gre->SetPointError(4,0,0.0118269);
-   gre->SetPoint(5,0.157213,0.0493886);
-   gre->SetPointError(5,0,0.0125444);
-   gre->SetPoint(6,0.245365,0.05003);
-   gre->SetPointError(6,0,0.0220802);
+   gre->SetPoint(1,0.069647,0.0275994);
+   gre->SetPointError(1,0,0.00953009);
+   gre->SetPoint(2,0.089392,0.0443738);
+   gre->SetPointError(2,0,0.0113176);
+   gre->SetPoint(3,0.113598,0.0295142);
+   gre->SetPointError(3,0,0.0118269);
+   gre->SetPoint(4,0.157213,0.0493886);
+   gre->SetPointError(4,0,0.0125444);
+   gre->SetPoint(5,0.245365,0.05003);
+   gre->SetPointError(5,0,0.0220802);
    
    TH1F *Graph40 = new TH1F("Graph40","Graph",100,0.0101699,10.1699);
    Graph40->SetMinimum(0);
@@ -1635,7 +1744,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -1643,20 +1752,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.00337482);
-   gre->SetPointError(0,0,0.00451815);
-   gre->SetPoint(1,0.04907,-0.017212);
-   gre->SetPointError(1,0,0.0100684);
-   gre->SetPoint(2,0.069647,-0.0188834);
-   gre->SetPointError(2,0,0.00945925);
-   gre->SetPoint(3,0.089392,0.00467092);
-   gre->SetPointError(3,0,0.0110655);
-   gre->SetPoint(4,0.113598,-0.000611619);
-   gre->SetPointError(4,0,0.0115614);
-   gre->SetPoint(5,0.157213,-0.000306236);
-   gre->SetPointError(5,0,0.0123269);
-   gre->SetPoint(6,0.245365,0.0512571);
-   gre->SetPointError(6,0,0.021596);
+   gre->SetPoint(0,0.04907,-0.017212);
+   gre->SetPointError(0,0,0.0100684);
+   gre->SetPoint(1,0.069647,-0.0188834);
+   gre->SetPointError(1,0,0.00945925);
+   gre->SetPoint(2,0.089392,0.00467092);
+   gre->SetPointError(2,0,0.0110655);
+   gre->SetPoint(3,0.113598,-0.000611619);
+   gre->SetPointError(3,0,0.0115614);
+   gre->SetPoint(4,0.157213,-0.000306236);
+   gre->SetPointError(4,0,0.0123269);
+   gre->SetPoint(5,0.245365,0.0512571);
+   gre->SetPointError(5,0,0.021596);
    
    TH1F *Graph41 = new TH1F("Graph41","Graph",100,0.0101699,10.1699);
    Graph41->SetMinimum(-0.03846223);
@@ -1706,7 +1813,7 @@
    pline->SetPoint(13,0.3,-0.1);
    pline->Draw("fsame");
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -1714,20 +1821,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.00337482);
-   gre->SetPointError(0,0,0.00451815);
-   gre->SetPoint(1,0.04907,-0.017212);
-   gre->SetPointError(1,0,0.0100684);
-   gre->SetPoint(2,0.069647,-0.0188834);
-   gre->SetPointError(2,0,0.00945925);
-   gre->SetPoint(3,0.089392,0.00467092);
-   gre->SetPointError(3,0,0.0110655);
-   gre->SetPoint(4,0.113598,-0.000611619);
-   gre->SetPointError(4,0,0.0115614);
-   gre->SetPoint(5,0.157213,-0.000306236);
-   gre->SetPointError(5,0,0.0123269);
-   gre->SetPoint(6,0.245365,0.0512571);
-   gre->SetPointError(6,0,0.021596);
+   gre->SetPoint(0,0.04907,-0.017212);
+   gre->SetPointError(0,0,0.0100684);
+   gre->SetPoint(1,0.069647,-0.0188834);
+   gre->SetPointError(1,0,0.00945925);
+   gre->SetPoint(2,0.089392,0.00467092);
+   gre->SetPointError(2,0,0.0110655);
+   gre->SetPoint(3,0.113598,-0.000611619);
+   gre->SetPointError(3,0,0.0115614);
+   gre->SetPoint(4,0.157213,-0.000306236);
+   gre->SetPointError(4,0,0.0123269);
+   gre->SetPoint(5,0.245365,0.0512571);
+   gre->SetPointError(5,0,0.021596);
    
    TH1F *Graph42 = new TH1F("Graph42","Graph",100,0.0101699,10.1699);
    Graph42->SetMinimum(-0.03846223);
@@ -1775,7 +1880,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -1783,20 +1888,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.00210999);
-   gre->SetPointError(0,0,0.00452289);
-   gre->SetPoint(1,0.04907,0.00376462);
-   gre->SetPointError(1,0,0.00946139);
-   gre->SetPoint(2,0.069647,-0.0120016);
-   gre->SetPointError(2,0,0.00946593);
-   gre->SetPoint(3,0.089392,-0.00855164);
-   gre->SetPointError(3,0,0.0110749);
-   gre->SetPoint(4,0.113598,-0.00928997);
-   gre->SetPointError(4,0,0.0114718);
-   gre->SetPoint(5,0.157213,0.0018675);
-   gre->SetPointError(5,0,0.0121252);
-   gre->SetPoint(6,0.245365,0.00575454);
-   gre->SetPointError(6,0,0.0212837);
+   gre->SetPoint(0,0.04907,0.00376462);
+   gre->SetPointError(0,0,0.00946139);
+   gre->SetPoint(1,0.069647,-0.0120016);
+   gre->SetPointError(1,0,0.00946593);
+   gre->SetPoint(2,0.089392,-0.00855164);
+   gre->SetPointError(2,0,0.0110749);
+   gre->SetPoint(3,0.113598,-0.00928997);
+   gre->SetPointError(3,0,0.0114718);
+   gre->SetPoint(4,0.157213,0.0018675);
+   gre->SetPointError(4,0,0.0121252);
+   gre->SetPoint(5,0.245365,0.00575454);
+   gre->SetPointError(5,0,0.0212837);
    
    TH1F *Graph43 = new TH1F("Graph43","Graph",100,0.0101699,10.1699);
    Graph43->SetMinimum(-0.02631811);
@@ -1846,7 +1949,7 @@
    pline->SetPoint(13,0.3,-0.1);
    pline->Draw("fsame");
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -1854,20 +1957,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.00210999);
-   gre->SetPointError(0,0,0.00452289);
-   gre->SetPoint(1,0.04907,0.00376462);
-   gre->SetPointError(1,0,0.00946139);
-   gre->SetPoint(2,0.069647,-0.0120016);
-   gre->SetPointError(2,0,0.00946593);
-   gre->SetPoint(3,0.089392,-0.00855164);
-   gre->SetPointError(3,0,0.0110749);
-   gre->SetPoint(4,0.113598,-0.00928997);
-   gre->SetPointError(4,0,0.0114718);
-   gre->SetPoint(5,0.157213,0.0018675);
-   gre->SetPointError(5,0,0.0121252);
-   gre->SetPoint(6,0.245365,0.00575454);
-   gre->SetPointError(6,0,0.0212837);
+   gre->SetPoint(0,0.04907,0.00376462);
+   gre->SetPointError(0,0,0.00946139);
+   gre->SetPoint(1,0.069647,-0.0120016);
+   gre->SetPointError(1,0,0.00946593);
+   gre->SetPoint(2,0.089392,-0.00855164);
+   gre->SetPointError(2,0,0.0110749);
+   gre->SetPoint(3,0.113598,-0.00928997);
+   gre->SetPointError(3,0,0.0114718);
+   gre->SetPoint(4,0.157213,0.0018675);
+   gre->SetPointError(4,0,0.0121252);
+   gre->SetPoint(5,0.245365,0.00575454);
+   gre->SetPointError(5,0,0.0212837);
    
    TH1F *Graph44 = new TH1F("Graph44","Graph",100,0.0101699,10.1699);
    Graph44->SetMinimum(-0.02631811);
@@ -1978,7 +2079,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -1986,20 +2087,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.0210962);
-   gre->SetPointError(0,0,0.00325248);
-   gre->SetPoint(1,1.19965,-0.0478526);
-   gre->SetPointError(1,0,0.00678223);
-   gre->SetPoint(2,1.59143,-0.0218446);
-   gre->SetPointError(2,0,0.00761821);
-   gre->SetPoint(3,2.08034,-0.0276909);
-   gre->SetPointError(3,0,0.00737616);
-   gre->SetPoint(4,2.76859,-0.0172148);
-   gre->SetPointError(4,0,0.00810289);
-   gre->SetPoint(5,3.76701,0.011359);
-   gre->SetPointError(5,0,0.0089951);
-   gre->SetPoint(6,5.85101,0.00600266);
-   gre->SetPointError(6,0,0.0105817);
+   gre->SetPoint(0,1.19965,-0.0478526);
+   gre->SetPointError(0,0,0.00678223);
+   gre->SetPoint(1,1.59143,-0.0218446);
+   gre->SetPointError(1,0,0.00761821);
+   gre->SetPoint(2,2.08034,-0.0276909);
+   gre->SetPointError(2,0,0.00737616);
+   gre->SetPoint(3,2.76859,-0.0172148);
+   gre->SetPointError(3,0,0.00810289);
+   gre->SetPoint(4,3.76701,0.011359);
+   gre->SetPointError(4,0,0.0089951);
+   gre->SetPoint(5,5.85101,0.00600266);
+   gre->SetPointError(5,0,0.0105817);
    
    TH1F *Graph45 = new TH1F("Graph45","Graph",100,0.01633611,16.33611);
    Graph45->SetMinimum(-0.06213372);
@@ -2045,6 +2144,37 @@
    line->SetLineStyle(2);
    line->Draw();
    
+   line = new TLine(1.199,0.00411,1.59,0.00810);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(1.601199,0.00810,2.079,0.00859);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(2.079,0.00859,2.768,0.0102);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(2.791973,0.0102,3.417566,0.0137);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(3.766,0.0137,5.789,0.0332);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+
    Double_t *dum = 0;
    pline = new TPolyLine(14,dum,dum,"");
    pline->SetFillColor(5);
@@ -2084,7 +2214,7 @@
    pline->SetPoint(13,10,-0.12);
    pline->Draw("fsame");
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -2092,20 +2222,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.0210962);
-   gre->SetPointError(0,0,0.00325248);
-   gre->SetPoint(1,1.19965,-0.0478526);
-   gre->SetPointError(1,0,0.00678223);
-   gre->SetPoint(2,1.59143,-0.0218446);
-   gre->SetPointError(2,0,0.00761821);
-   gre->SetPoint(3,2.08034,-0.0276909);
-   gre->SetPointError(3,0,0.00737616);
-   gre->SetPoint(4,2.76859,-0.0172148);
-   gre->SetPointError(4,0,0.00810289);
-   gre->SetPoint(5,3.76701,0.011359);
-   gre->SetPointError(5,0,0.0089951);
-   gre->SetPoint(6,5.85101,0.00600266);
-   gre->SetPointError(6,0,0.0105817);
+   gre->SetPoint(0,1.19965,-0.0478526);
+   gre->SetPointError(0,0,0.00678223);
+   gre->SetPoint(1,1.59143,-0.0218446);
+   gre->SetPointError(1,0,0.00761821);
+   gre->SetPoint(2,2.08034,-0.0276909);
+   gre->SetPointError(2,0,0.00737616);
+   gre->SetPoint(3,2.76859,-0.0172148);
+   gre->SetPointError(3,0,0.00810289);
+   gre->SetPoint(4,3.76701,0.011359);
+   gre->SetPointError(4,0,0.0089951);
+   gre->SetPoint(5,5.85101,0.00600266);
+   gre->SetPointError(5,0,0.0105817);
    
    TH1F *Graph46 = new TH1F("Graph46","Graph",100,0.01633611,16.33611);
    Graph46->SetMinimum(-0.06213372);
@@ -2153,7 +2281,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -2161,20 +2289,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,0.0408359);
-   gre->SetPointError(0,0,0.0045693);
-   gre->SetPoint(1,1.19965,0.0285365);
-   gre->SetPointError(1,0,0.00950263);
-   gre->SetPoint(2,1.59143,0.040593);
-   gre->SetPointError(2,0,0.0106);
-   gre->SetPoint(3,2.08034,0.0308691);
-   gre->SetPointError(3,0,0.0103152);
-   gre->SetPoint(4,2.76859,0.0592602);
-   gre->SetPointError(4,0,0.0115388);
-   gre->SetPoint(5,3.76701,0.0370374);
-   gre->SetPointError(5,0,0.012714);
-   gre->SetPoint(6,5.85101,0.0378956);
-   gre->SetPointError(6,0,0.0150815);
+   gre->SetPoint(0,1.19965,0.0285365);
+   gre->SetPointError(0,0,0.00950263);
+   gre->SetPoint(1,1.59143,0.040593);
+   gre->SetPointError(1,0,0.0106);
+   gre->SetPoint(2,2.08034,0.0308691);
+   gre->SetPointError(2,0,0.0103152);
+   gre->SetPoint(3,2.76859,0.0592602);
+   gre->SetPointError(3,0,0.0115388);
+   gre->SetPoint(4,3.76701,0.0370374);
+   gre->SetPointError(4,0,0.012714);
+   gre->SetPoint(5,5.85101,0.0378956);
+   gre->SetPointError(5,0,0.0150815);
    
    TH1F *Graph47 = new TH1F("Graph47","Graph",100,0.01633611,16.33611);
    Graph47->SetMinimum(0.01385736);
@@ -2220,6 +2346,37 @@
    line->SetLineStyle(2);
    line->Draw();
    
+   line = new TLine(1.199,0.0606,1.59,0.0581);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(1.59,0.0581,2.079,0.0550);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(2.079,0.0550,2.768,0.0516);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(2.768,0.0516,3.766,0.0424);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+   line = new TLine(3.766,0.0424,5.789,0.0430);
+
+   ci = TColor::GetColor("#009900");
+   line->SetLineColor(ci);
+   line->SetLineStyle(4);
+   line->Draw();
+
    Double_t *dum = 0;
    pline = new TPolyLine(14,dum,dum,"");
    pline->SetFillColor(5);
@@ -2259,7 +2416,7 @@
    pline->SetPoint(13,10,-0.05);
    pline->Draw("fsame");
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -2267,20 +2424,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,0.0408359);
-   gre->SetPointError(0,0,0.0045693);
-   gre->SetPoint(1,1.19965,0.0285365);
-   gre->SetPointError(1,0,0.00950263);
-   gre->SetPoint(2,1.59143,0.040593);
-   gre->SetPointError(2,0,0.0106);
-   gre->SetPoint(3,2.08034,0.0308691);
-   gre->SetPointError(3,0,0.0103152);
-   gre->SetPoint(4,2.76859,0.0592602);
-   gre->SetPointError(4,0,0.0115388);
-   gre->SetPoint(5,3.76701,0.0370374);
-   gre->SetPointError(5,0,0.012714);
-   gre->SetPoint(6,5.85101,0.0378956);
-   gre->SetPointError(6,0,0.0150815);
+   gre->SetPoint(0,1.19965,0.0285365);
+   gre->SetPointError(0,0,0.00950263);
+   gre->SetPoint(1,1.59143,0.040593);
+   gre->SetPointError(1,0,0.0106);
+   gre->SetPoint(2,2.08034,0.0308691);
+   gre->SetPointError(2,0,0.0103152);
+   gre->SetPoint(3,2.76859,0.0592602);
+   gre->SetPointError(3,0,0.0115388);
+   gre->SetPoint(4,3.76701,0.0370374);
+   gre->SetPointError(4,0,0.012714);
+   gre->SetPoint(5,5.85101,0.0378956);
+   gre->SetPointError(5,0,0.0150815);
    
    TH1F *Graph48 = new TH1F("Graph48","Graph",100,0.01633611,16.33611);
    Graph48->SetMinimum(0.01385736);
@@ -2328,7 +2483,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -2336,20 +2491,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.00337482);
-   gre->SetPointError(0,0,0.00451815);
-   gre->SetPoint(1,1.19965,-0.00811314);
-   gre->SetPointError(1,0,0.00939042);
-   gre->SetPoint(2,1.59143,-0.0198102);
-   gre->SetPointError(2,0,0.0105831);
-   gre->SetPoint(3,2.08034,-0.0123477);
-   gre->SetPointError(3,0,0.0102621);
-   gre->SetPoint(4,2.76859,0.0140411);
-   gre->SetPointError(4,0,0.0112216);
-   gre->SetPoint(5,3.76701,-0.00791166);
-   gre->SetPointError(5,0,0.0125219);
-   gre->SetPoint(6,5.85101,0.0358407);
-   gre->SetPointError(6,0,0.014703);
+   gre->SetPoint(0,1.19965,-0.00811314);
+   gre->SetPointError(0,0,0.00939042);
+   gre->SetPoint(1,1.59143,-0.0198102);
+   gre->SetPointError(1,0,0.0105831);
+   gre->SetPoint(2,2.08034,-0.0123477);
+   gre->SetPointError(2,0,0.0102621);
+   gre->SetPoint(3,2.76859,0.0140411);
+   gre->SetPointError(3,0,0.0112216);
+   gre->SetPoint(4,3.76701,-0.00791166);
+   gre->SetPointError(4,0,0.0125219);
+   gre->SetPoint(5,5.85101,0.0358407);
+   gre->SetPointError(5,0,0.014703);
    
    TH1F *Graph49 = new TH1F("Graph49","Graph",100,0.01633611,16.33611);
    Graph49->SetMinimum(-0.038487);
@@ -2399,7 +2552,7 @@
    pline->SetPoint(13,10,-0.1);
    pline->Draw("fsame");
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -2407,20 +2560,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.00337482);
-   gre->SetPointError(0,0,0.00451815);
-   gre->SetPoint(1,1.19965,-0.00811314);
-   gre->SetPointError(1,0,0.00939042);
-   gre->SetPoint(2,1.59143,-0.0198102);
-   gre->SetPointError(2,0,0.0105831);
-   gre->SetPoint(3,2.08034,-0.0123477);
-   gre->SetPointError(3,0,0.0102621);
-   gre->SetPoint(4,2.76859,0.0140411);
-   gre->SetPointError(4,0,0.0112216);
-   gre->SetPoint(5,3.76701,-0.00791166);
-   gre->SetPointError(5,0,0.0125219);
-   gre->SetPoint(6,5.85101,0.0358407);
-   gre->SetPointError(6,0,0.014703);
+   gre->SetPoint(0,1.19965,-0.00811314);
+   gre->SetPointError(0,0,0.00939042);
+   gre->SetPoint(1,1.59143,-0.0198102);
+   gre->SetPointError(1,0,0.0105831);
+   gre->SetPoint(2,2.08034,-0.0123477);
+   gre->SetPointError(2,0,0.0102621);
+   gre->SetPoint(3,2.76859,0.0140411);
+   gre->SetPointError(3,0,0.0112216);
+   gre->SetPoint(4,3.76701,-0.00791166);
+   gre->SetPointError(4,0,0.0125219);
+   gre->SetPoint(5,5.85101,0.0358407);
+   gre->SetPointError(5,0,0.014703);
    
    TH1F *Graph50 = new TH1F("Graph50","Graph",100,0.01633611,16.33611);
    Graph50->SetMinimum(-0.038487);
@@ -2468,7 +2619,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -2476,20 +2627,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.00210999);
-   gre->SetPointError(0,0,0.00452289);
-   gre->SetPoint(1,1.19965,0.00474503);
-   gre->SetPointError(1,0,0.00935975);
-   gre->SetPoint(2,1.59143,-0.00390607);
-   gre->SetPointError(2,0,0.010596);
-   gre->SetPoint(3,2.08034,-1.61439e-05);
-   gre->SetPointError(3,0,0.010233);
-   gre->SetPoint(4,2.76859,-0.0102038);
-   gre->SetPointError(4,0,0.0112813);
-   gre->SetPoint(5,3.76701,-0.0123391);
-   gre->SetPointError(5,0,0.0124678);
-   gre->SetPoint(6,5.85101,0.00495839);
-   gre->SetPointError(6,0,0.0147797);
+   gre->SetPoint(0,1.19965,0.00474503);
+gre->SetPointError(0,0,0.00935975);
+   gre->SetPoint(1,1.59143,-0.00390607);
+   gre->SetPointError(1,0,0.010596);
+   gre->SetPoint(2,2.08034,-1.61439e-05);
+   gre->SetPointError(2,0,0.010233);
+   gre->SetPoint(3,2.76859,-0.0102038);
+   gre->SetPointError(3,0,0.0112813);
+   gre->SetPoint(4,3.76701,-0.0123391);
+   gre->SetPointError(4,0,0.0124678);
+   gre->SetPoint(5,5.85101,0.00495839);
+   gre->SetPointError(5,0,0.0147797);
    
    TH1F *Graph51 = new TH1F("Graph51","Graph",100,0.01633611,16.33611);
    Graph51->SetMinimum(-0.0292614);
@@ -2539,7 +2688,7 @@
    pline->SetPoint(13,10,-0.1);
    pline->Draw("fsame");
    
-   gre = new TGraphErrors(7);
+   gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -2547,20 +2696,18 @@
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,-99,-0.00210999);
-   gre->SetPointError(0,0,0.00452289);
-   gre->SetPoint(1,1.19965,0.00474503);
-   gre->SetPointError(1,0,0.00935975);
-   gre->SetPoint(2,1.59143,-0.00390607);
-   gre->SetPointError(2,0,0.010596);
-   gre->SetPoint(3,2.08034,-1.61439e-05);
-   gre->SetPointError(3,0,0.010233);
-   gre->SetPoint(4,2.76859,-0.0102038);
-   gre->SetPointError(4,0,0.0112813);
-   gre->SetPoint(5,3.76701,-0.0123391);
-   gre->SetPointError(5,0,0.0124678);
-   gre->SetPoint(6,5.85101,0.00495839);
-   gre->SetPointError(6,0,0.0147797);
+   gre->SetPoint(0,1.19965,0.00474503);
+   gre->SetPointError(0,0,0.00935975);
+   gre->SetPoint(1,1.59143,-0.00390607);
+   gre->SetPointError(1,0,0.010596);
+   gre->SetPoint(2,2.08034,-1.61439e-05);
+   gre->SetPointError(2,0,0.010233);
+   gre->SetPoint(3,2.76859,-0.0102038);
+   gre->SetPointError(3,0,0.0112813);
+   gre->SetPoint(4,3.76701,-0.0123391);
+   gre->SetPointError(4,0,0.0124678);
+   gre->SetPoint(5,5.85101,0.00495839);
+   gre->SetPointError(5,0,0.0147797);
    
    TH1F *Graph52 = new TH1F("Graph52","Graph",100,0.01633611,16.33611);
    Graph52->SetMinimum(-0.0292614);
