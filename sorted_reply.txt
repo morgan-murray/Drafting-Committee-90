@@ -20,7 +20,7 @@ YES, WE THINK SO. SEE SPECIFIC REPLIES.(AT NO POINT DO WE STATE THAT WE KNOW ANY
 
 In particular: - was anything done about trigger efficiencies? 
 
-YES. STUDIES UNDERWAY.
+YES. SEE JB'S UPDATED RERELEASE TALK.
 
 - only the uncertainty on the magnitude of the beam polarization is taken
 into account, but extraction requires (after weighting of events) beam-
@@ -30,7 +30,7 @@ average and the difference of the beam polarizations of the two two
 helicity states, which is more than just stating a scale uncertainty,
 i.e., the uncertainty stemming from the average) 
 
-WE DON'T PERFORM BEAM HELICITY BALANCING, INSTEAD WE WEIGHT THE FIT. IN THE FIT, THE BEAM POLARISATION IS AVERAGED YEAR-ON-YEAR. ONE WHOULD EXPECT THAT ANY STOCHASTIC FLUCTUATION IN THE BEAM POLARISATION WOULD BE AVERAGED OUT IN THIS PROCESS, LEAVING ONLY THE SCALE UNCERTAINTY AS A RELEVANT VALUE FOR QUOTATIONS. VARYING THE BEAM HELICITY BY 1% RESULTS IN XXXXX EFFECT ON THE FIT
+WE DON'T PERFORM BEAM HELICITY BALANCING, INSTEAD WE WEIGHT THE FIT. IN THE FIT, THE BEAM POLARISATION IS AVERAGED YEAR-ON-YEAR. ONE WHOULD EXPECT THAT ANY STOCHASTIC FLUCTUATION IN THE BEAM POLARISATION WOULD BE AVERAGED OUT IN THIS PROCESS, LEAVING ONLY THE SCALE UNCERTAINTY AS A RELEVANT VALUE FOR QUOTATIONS. SEE JB'S RERELEASE TALK.
 
 How sensitive is the
 fit to slight imbalances of the two beam-helicity states?
@@ -195,14 +195,42 @@ DONE.
 * General comment: in the dvcsHunpol paper [JHEP 11 (2009)] the editors have
 changed ?Eq.? to ?eq.?, ?Ref.? to ?ref.? and ?Figs.? to ?figures?
 
-WE LEAVE THIS TO THE JOURNAL, I THINK.
+DONE.
+
+=========================================================================== 
+F. Ellinghaus [Frank.Ellinghaus@desy.de] reject DATE: 2011.04.25 
+
+Dear All, sorry for that red button, but I'm totally surprised by the final results and thus I guess I'm questioning the analysis. 
+
+PLEASE SEE EXTRA RELEASE TALK.
+
+Basically, the results get worse when you combine the 1996-2005 and the 2006/07 data, when compared to the 2006/07 data alone. This is due to a dramatic increase in the systematic uncertainty, see, e.g., ALUI-sinphi (0.026 -> 0.047) or AC-cosphi (0.003 -> 0.014) in tables 3-6. This cannot happen as the results are in agreement (i.e., there is no error inflation in order to release tension between results.) Basically, by adding information your result cannot get worse if the combination is done the right/best way. 
+
+SYSTEMATIC UNCERTAINTY FOR NEW RESULTS WAS DONE USING A DIFFERENT GENERATOR AND A DIFFERENT GEOMETRY WIN THE MC. IT'S PERFECTLY REASONABLE FOR THE SYSTEMATIC ERROR TO GET WORSE WHEN ADDING TWO DIFFERENT RESULTS, IN FACT IT IS EXPECTED. IT WOULD BE UNREASONABLE IF THE STATISTICAL ERROR WERE TO WORSEN, BUT THAT DID NOT HAPPEN.
+
+Unfortunately it is not stated at all in the paper how the combination is done. What you should do is to add the stat and the uncorrelated (between the two periods) sys errors in quadrature separately for the two periods. Based on this uncertainty you should do a weighted average of two results. 
+
+THIS IS MORE OR LESS WHAT WE HAVE.
+
+Or did you do a full re-analysis of the 1996-2005 data? This should not be done unless you have new improved techniques (I don't think there are any) or you have not enough information on the old data in order to do a combination (which also should not be the case I think). 
+
+WE DID NOT CHANGE ANY ANALYSIS DETAILSREGARDING 96-05 DATA. IN THE ANALYSIS FOR THIS 1.0 VERSION OF THE PAPER, THE SYSTEMATICS WERE CALCULATED BY ADDING THE UNCORRELATED MISSING MASS AND BACKGROUND FRACTIONS AND THE MC WAS A MIX IF EVENTS EXTRACTED WITH THE TWO DIFFERENT GENERATORS AND GEOMETRIES. THE CURRENT VERSION OF THE PAPER SIMPLIFIES THIS; WE SIMPLY EXTRACT MC SYSTEMATICS FROM THE DUAL GENERATOR AND PRERECOIL GEOMETRY (NO DUAL GENERATOR AVAILABLE FOR POST-RECOIL GEOMETRY) AS AGREED WITH COLLABORATION AT RELEASE TALK.
+
+Anyhow, also with a full new analysis the additional data should not make the result worse. The paper is nice, but given that all but the result chapter are basically copy&paste of the 1996-2005 paper, I wonder if you have discussed to make all of this much shorter by simply citing the old paper and maybe submit the shortened version to PRD-rapid instead? That would set it apart some more. Table 3 and table 4 should be removed once the combined result is better than the one from 2006/2007 alone..... 
+
+THIS PAPER IS IMPROVED OVER DC69 IN SEVERAL WAYS. THE EQUATIONS ARE RECHECKED AND THE RELATIVE SUPPRESSIONS OF THE AMPLITUDES ARE CLARIFIED. DIAGREE THAT WE SHOULD GIVE LESS DATA ON PRINCIPLE. SINCE THIS IS ONE IN A SERIES OF PAPERS IN JHEP, IT HAS BEEN DECIDED TO CONTINUE PUBLISHING THERE.
+
+One more question: In line 267 it is said that "the procedure to select events is similar to the one" for the 1996-2005 data. Where does the event selection differ? I think it should be the same except you have a very good reason, and you will need to discuss the impact of this change, otherwise one does not know how to interpret all the figures with both sets of results shown. I was not able to find the difference in the event selection.... Cheers, Frank 
+
+MISSING MASS EVENT SELECTION IS DIFFERENT BECAUSE THE MISSING MASS SHIFT HAS TO BE TAILORED BETWEEN DATA SETS. THIS IS MORE OR LESS THE ONLY CHANGE.
+
 
 ===========================================================================
 L. De Nardo [ldenardo@mail.desy.de] accept DATE: 2011.04.06 COMMENTS:
 Congratulations on this very well written paper! I have only a few
 comments. -my affiliation is Gent
 
-SORRY! WILL BE FIXED FOR THE NEXT VERSION.
+SORRY! IS FIXED NOW
 
 005 replace ?Charge? by ?Beam-Charge? as it is used later everywhere in the
 text 077 ditto
@@ -226,7 +254,7 @@ more diagrams contributing (cf. DC69)
 Figure 1: we would prefer to add also the BH
 FSR diagram.
 
-WE HAVE ADDED THE DC69 FIGURE VERSION INSTEAD  XXXXX
+WE HAVE ADDED THE DC69 FIGURE VERSION INSTEAD
 
 --------------------
 
@@ -248,7 +276,7 @@ OK
 Fig. 2, 3, ... is it possible to align
 numbers according to their decimal points? (vertical axis)
 
-CAN ADD 0.0 TO HORIZONTAL AXIS? XXXXX
+CAN ADD 0.0 TO AXIS? DONE.
 
 ---------------
 Table 2 (435): total systematic uncertainty 0.006
@@ -300,12 +328,12 @@ Liuti's predictions are too light to be well visible. In the first row
 the ystematic band looks odd when comparing the -t projection versus the
 rest.
 
-WE HAVE NO PROBLEMS DISTINGUISHING LIUTI'S CURVES. THE T-PROJECTION SYSTEMATICS ARE DRIVEN BY THE GOOD T-RESOLUTION COMPARED TO THE (POORER) SMALL-XBJ RESOLUTION. WE CHECKED THE CALCULATIONS. 
+DARKENED LIUTI'S CURVES. THE T-PROJECTION SYSTEMATICS ARE DRIVEN BY THE GOOD T-RESOLUTION COMPARED TO THE (POORER) SMALL-XBJ RESOLUTION. WE CHECKED THE CALCULATIONS. 
 
 fig4,5 The crosses by Guidal should be lines as
 usually done for theory models
 
-NO, BECAUSE THE GUIDAL POINTS ARE NOT THEORY MODELS, RATHER EXTRACTIONS OF CFFS AT CERTAIN POINTS THAT SHOULD NOT NECESSARILY BE INTERPOLATED AND NEVER EXTRAPOLATED. HOWEVER, WE WILL REMOVE THESE POINTS AS THEY ARE UNPUBLISHED AND MICHEL PREFERS TO PRESENT THEM FR THE FIRST TIME HIMSELF.
+NO, BECAUSE THE GUIDAL POINTS ARE NOT THEORY MODELS, RATHER EXTRACTIONS OF CFFS AT CERTAIN POINTS FROM DATA THAT SHOULD NOT NECESSARILY BE INTERPOLATED AND NEVER EXTRAPOLATED. HOWEVER, WE WILL REMOVE THESE POINTS AS THEY ARE UNPUBLISHED AND MICHEL PREFERS TO PRESENT THEM FOR THE FIRST TIME HIMSELF.
 
 Figure 5: do we see the kinematic suppression of AC^cos(0phi) with
 respect AC^cos(phi) we describe in the text, having the best achivable
@@ -355,7 +383,7 @@ THEY'RE DRIVEN BY THE RESOLUTION OF THE SPECTROMETER COMING FROM MC STUDIES.
 Fig.7: the y axis range in A_C^cos phi plot can be
 slightly expanded from -0.3 to 0.2
 
-DISAGREE, ALL SCALES IN THE AMPLITUDES ARE KEPT THE SMAE DELIBERATELY.
+DISAGREE, ALL SCALES IN THE AMPLITUDES ARE KEPT THE SAME DELIBERATELY.
 
 - author list
 will need an update (e.g., missing "Now at" etc.) and I hope we will use
@@ -427,7 +455,7 @@ capitalized words when they are generally not capitalized, e.g.,
 "parton", "distribution" etc. If you still like to do so, please be
 consistent and do it everywhere, e.g., also at the end of this line
 
-THIS IS TYPICAL ENGLISH STYLE - WE WILL KEEP IT AS IT IS.
+WE CAPITALISED PARTON DISTRIBUTION FUNCTIONS.
 
 154 I don't understand the logic/flow here: "Although GPDs are difficult to
 access ..., ... HERMES ... published results on " DVCS. Wouldn't it be
@@ -687,7 +715,7 @@ readability of these equations.
 
 230: leave more space between the two lines of eq. 1.7
 
-UP TO JOURNAL'S STYLE FILE
+DONE.
 --------
 
 242-243: I would prefer to keep the same symbol
@@ -791,7 +819,7 @@ suggestion is to cite Thomas Thesis after luminosity numbers and for
 Polarimeters cite usual TPOL (D. Barber et al ...) and LPOL(...M.
 Beckmann et al....)
 
-XXXXXXX
+AGREED
 
 --------
 268 You should not give orders to the reader. I propose to
@@ -826,14 +854,14 @@ CAUGHT BETWEEN TWO CONFLICTING DESIRES: SHORT PAPER AS AN UPDATE OR LONG PAPER W
 269 I believe that is going to change, i.e., no strict
 exclusivity cut any longer
 
-YEP.
+SEE NEW VERSION.
 
 269: Could you explain a bit more of what defined "one photon" and
 "one lepton" events? The paper, as presented, assumes that all readers
 accept that HERMES does this correctly--true, but either some words
 about this or a reference to how this is done is needed.
 
-CONSULT 16, 17 FOR MORE DETAILS.
+"CONSULT 16, 17 FOR MORE DETAILS."
 
 269: "An event was selected as having...spectrometer." ->
 "Only events having ...spectrometer were selected."
@@ -1172,7 +1200,7 @@ DISGAREE
 361: "Using this
 dependence, H" -> "Therefore, the GPD H"
 
-AGREED
+CHANGED
 
 364: only at 602 we explain the kinematic
 suppression of c0^I in words. Better anticipate here with a formula like
@@ -1297,13 +1325,13 @@ L400: is also adjusted>> Seems to be rather an
 unfortunate expression as may suggest some "playing with the data".
 sugg: also corrected
 
-SEE NEW VERSION XXXXX
+SEE NEW VERSION
 -----------
 
 401 As
 before [6,7], one quarter...
 
-AGREED
+DISAGREE
 
 L401 "One quarter of the difference.."
 What means this one quarter? Usual estimation for the systematics is
@@ -1343,7 +1371,7 @@ THIS IS THE SECOND.
 is treated explicitly already. And a ref. to what is included (and how)
 is needed.
 
-RADIATIVE PROCESS THAT EFFECT THE DETECTION OF EVENTS, E.G. CALO SHOWERS THAT SPILL. NOT TO DO WITH 'PHYSICS'. XXXXX
+RADIATIVE PROCESS THAT EFFECT THE DETECTION OF EVENTS, E.G. CALO SHOWERS THAT SPILL. NOT TO DO WITH 'NEW PHYSICS' AS SUCH.
 
 410: ... that included these effects. An event ...
 
@@ -1395,11 +1423,13 @@ detector misalignment, but do not account for beam slopes. The
 sensitivity of any analysis on the latter (systematic error) should be
 still studied with dedicated MC productions. Was it considered ?
 
-NOT CONSIDERED. PREVIOUS ANALYSES THAT CONSIDERED BEAM SLOPES SHOWED THAT THEY MADE NEGLIGIBLE CONTRIBUTIONS TO UNCERTAINTIES AND WE HAVE NOT THE TIME TO REMAKE MC PRODUCTIONS AND COMPLETE FURTHER STUDIES IN THIS WAY.
+NOT CONSIDERED. PREVIOUS ANALYSES THAT CONSIDERED BEAM SLOPES SHOWED THAT THEY MADE NEGLIGIBLE CONTRIBUTIONS TO UNCERTAINTIES (SEE ZHENYU'S NOTE WITH ELKE FOR EXAMPLE) AND WE HAVE NOT THE TIME TO REMAKE MC PRODUCTIONS AND COMPLETE FURTHER STUDIES IN THIS WAY. 
 
 
 420 an attentive referee would probably ask why there is no misalignment uncertainty for the new data? This question becomes even more relevant when combining
 the two data sets.
+
+ELIMINATED BY PRE- AND POST-EXPERIMENT SURVEYS AND REGULAR ALIGNMENT RUNS.
 
 420 How was this eliminated?
 
@@ -1450,7 +1480,7 @@ DISAGREE
 in the results section there are also the 2D plots, which have no info
 at all on the associated fraction
 
-WILL BE ADDED
+CHANGED PHRASING
 
 430: ... in the section "results".
 
@@ -1547,7 +1577,7 @@ test, and how significant?
 test (T-test, chi2-test?) and the resulting Confidence Level e.g.: the
 data sets are compatible at 95 C.L. ...or 99 C.L.
 
-STUDENT'S TEST. NOT WORHT DISCUSSING IN PAPER (SEE ANSWER TO COMMENTS PREVIOUSLY). MORE INFORMATION WILL BE MADE AVAILABLE TO ANY REFEREE IF ASKED FOR. XXXXX
+STUDENT'S TEST. NOT WORTH DISCUSSING IN PAPER (SEE ANSWER TO COMMENTS PREVIOUSLY). MORE INFORMATION WILL BE MADE AVAILABLE TO ANY REFEREE IF ASKED FOR.
 --------------
 
 513: remove
@@ -1566,7 +1596,7 @@ AGREE
 
 514: replace "both" by "the two"
 
-NO.
+AGREE
 
 Line 514 it is written: 'This test revealed
 no significant evidence for incompatibility between data sets.' I
@@ -1579,7 +1609,7 @@ deviation could be affected by the Associated Fraction. In any case I
 think that you should add a few remarks to explain why the apparent
 difference is not significant. 
 
-SEE PREVIOUS ANSWERS
+SEE OTHER ANSWERS
 
 
 515: I do not like the word "significant" in this context because it
@@ -1686,7 +1716,7 @@ vanish, but I can't see it from the reason you give: both the numerator
 and the denominator of the asymmetry have BH propagators that cause the
 k factors according to line
 
-AGREED
+READER IS POINTED TO DEFINITION OF k IN BMK, WHICH HAS DEPENDENCE ON t.
 ---------
 
 
@@ -2036,7 +2066,7 @@ AGREE
 
 739: add comma after "period"
 
-AGREE
+DISAGREE
 
 740 datasets, (one word, comma)
 
@@ -2156,9 +2186,11 @@ AGREE
 
 934 add arXiv identifier
 
-AGREE
+DISAGREE
 
 References HERMES -> \sc Hermes (dito for CLAS?) 
+
+AGREE.
 
 [22] -?->submitted 
 
