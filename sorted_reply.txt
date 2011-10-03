@@ -20,7 +20,7 @@ YES, WE THINK SO. SEE SPECIFIC REPLIES.(AT NO POINT DO WE STATE THAT WE KNOW ANY
 
 In particular: - was anything done about trigger efficiencies? 
 
-YES. SEE JB'S UPDATED RERELEASE TALK.
+YES. SEE JB'S UPDATED RERELEASE TALK, SLIDE 27.
 
 - only the uncertainty on the magnitude of the beam polarization is taken
 into account, but extraction requires (after weighting of events) beam-
@@ -35,18 +35,22 @@ WE DON'T PERFORM BEAM HELICITY BALANCING, INSTEAD WE WEIGHT THE FIT. IN THE FIT,
 How sensitive is the
 fit to slight imbalances of the two beam-helicity states?
 
-WE DON'T BALANCE BEAM HELICITY, SO THIS QUESTION IS NOT APPLICABLE. SEE PREVIOUS REPLY.
+WE DON'T BALANCE BEAM HELICITY, SO THIS QUESTION IS NOT
+APPLICABLE. SEE PREVIOUS REPLY. HAVE ALSO PREVIOUSLY ADDRESSED
+IMBALANCED BEAM HELICITY DATA USING ML METHOD AND SEEMS OK; SEE
+E.G. TTSA FITTING NOTE.
 
  - when going to the new event-selection and amplitude-extration method (no strict
 exclusivity cut and, I guess, kinematic fitting?) will we do this for
 all years, or only 2006 and 2007? What will be done with the systematics
 coming from the missing-mass shift? 
 
-COVERED IN ANALYSIS TALK.
+SEE RELEASE TALK. NEITHER MM (TRADITIONAL NOR MULTIPLE) SEEMS TO MAKE
+A DIFFERENCE AFTER MULTICLUSTER APPROACH. USE TRADITIONAL METHOD.
 
 I assume it also has to be re-evaluated? - what about the photon-energy correction: what is used there now? 
 
-SEE RELEASE TALK
+SEE RELEASE TALK PAGE 12.
 
 - handling of systematics: take, e.g., systematics on A_LU,DVCS^s1: it's 0.001 for combined data set but 0.008 and 0.004 for
 06/07 and 96/05 data sets, respectively. How can it be so much smaller?
@@ -72,7 +76,8 @@ present the 1996--2007 data, i.e.:
 
 1.1) You should not address the data compatibility neither in the abstract nor in the conclusion. 
 
-WE DISAGREE
+WE DISAGREE. 1996-2005 IS ALREADY PUBLISHED AND THIS PAPER IS AN
+UPDATE. THAT SHOULD BE CLEAR FROM THE ABSTRACT AND CONCLUSION.
 
 1.2) You should not include figures 2 and 3 showing the asymmetries extracted
 from the 1996--2005 or 2006--2007 data (if you include the figures than
@@ -111,7 +116,14 @@ original publication [7]. But there is not more information about GDP
 revealed in your draft than in reference [7]. So please be more precise
 here. 
 
-IT IS NOT POSSIBLE TO LINK TO GPDS FROM ASYMMETRIES DIRECTLY IN A SIMPLE MANNER. THIS IS A COMPLICATED PROCEDURE AND INTERESTED READERS SHOULD READ MULLER/LIUTI PAPERS FOR BETTER INFORMATION THAT WE CAN PROVIDE.
+IT IS NOT POSSIBLE TO LINK TO GPDS FROM ASYMMETRIES DIRECTLY IN A
+SIMPLE MANNER. THIS IS A COMPLICATED PROCEDURE AND INTERESTED READERS
+SHOULD READ MULLER/LIUTI PAPERS FOR BETTER INFORMATION THAT WE CAN
+PROVIDE. THERE ARE RUMOURS IN THEORETICAL COMMUNITY ABOUT DOING A
+QUANTUM-INFORMATION ANALYSIS OF PAST AND POTENTIAL EXPERIMENTS TO
+DETERMINE THIS QUESTION, BUT THS IS A LARGE BODY OF WORK AND THE SAME
+ARGUMENT S APPLICABLE TO ALL PREVIOUS PUBLICATIONS. WE CAN NOT SOLE IT
+FOR THIS ONE.
 
 
 3) The latest DVSC publications are very similar w.r.t. text. I
@@ -133,7 +145,10 @@ changed. Please be very short or describe both processes in about the
 same detail. As there might be higher order contributions, you should be
 careful with the general description of the DVCS process. 
 
-THERE ARE MANY THINGS THAT WE COULD DO, BUT TO IMPLEMENT MANY OF THESE SUGGESTIONS WOULD PROVIDE TOO MUCH THEORETICAL DETAIL NOT SUITABLE FOR AN EXPERIMENTAL PAPER OR REPEAT INFORMATION THAT IS EXPLAINED ELSEWHERE. WE HAVE EXPANDED THE DESCRIPTION OF BH IN THE CAPTION TO FIGURE 1.
+THERE ARE MANY THINGS THAT WE COULD DO, BUT TO IMPLEMENT MANY OF THESE
+SUGGESTIONS WOULD PROVIDE TOO MUCH THEORETICAL DETAIL NOT SUITABLE FOR
+AN EXPERIMENTAL PAPER OR REPEAT INFORMATION THAT IS EXPLAINED
+ELSEWHERE. WE HAVE, HOWEVER, EXPANDED THE DESCRIPTION OF BH IN THE CAPTION TO FIGURE 1.
 
 4) The eye should be pleased as well. So please improve the layout of the
 publication: 
@@ -206,7 +221,7 @@ PLEASE SEE EXTRA RELEASE TALK.
 
 Basically, the results get worse when you combine the 1996-2005 and the 2006/07 data, when compared to the 2006/07 data alone. This is due to a dramatic increase in the systematic uncertainty, see, e.g., ALUI-sinphi (0.026 -> 0.047) or AC-cosphi (0.003 -> 0.014) in tables 3-6. This cannot happen as the results are in agreement (i.e., there is no error inflation in order to release tension between results.) Basically, by adding information your result cannot get worse if the combination is done the right/best way. 
 
-SYSTEMATIC UNCERTAINTY FOR NEW RESULTS WAS DONE USING A DIFFERENT GENERATOR AND A DIFFERENT GEOMETRY WIN THE MC. IT'S PERFECTLY REASONABLE FOR THE SYSTEMATIC ERROR TO GET WORSE WHEN ADDING TWO DIFFERENT RESULTS, IN FACT IT IS EXPECTED. IT WOULD BE UNREASONABLE IF THE STATISTICAL ERROR WERE TO WORSEN, BUT THAT DID NOT HAPPEN.
+SYSTEMATIC UNCERTAINTY FOR NEW RESULTS WAS DONE USING A DIFFERENT GENERATOR AND A DIFFERENT GEOMETRY IN THE MC. IT'S PERFECTLY REASONABLE FOR THE SYSTEMATIC ERROR TO GET WORSE WHEN ADDING TWO DIFFERENT RESULTS, IN FACT IT IS EXPECTED. IT WOULD BE UNREASONABLE IF THE STATISTICAL ERROR WERE TO WORSEN, BUT THAT DID NOT HAPPEN.
 
 Unfortunately it is not stated at all in the paper how the combination is done. What you should do is to add the stat and the uncorrelated (between the two periods) sys errors in quadrature separately for the two periods. Based on this uncertainty you should do a weighted average of two results. 
 
@@ -214,11 +229,11 @@ THIS IS MORE OR LESS WHAT WE HAVE.
 
 Or did you do a full re-analysis of the 1996-2005 data? This should not be done unless you have new improved techniques (I don't think there are any) or you have not enough information on the old data in order to do a combination (which also should not be the case I think). 
 
-WE DID NOT CHANGE ANY ANALYSIS DETAILSREGARDING 96-05 DATA. IN THE ANALYSIS FOR THIS 1.0 VERSION OF THE PAPER, THE SYSTEMATICS WERE CALCULATED BY ADDING THE UNCORRELATED MISSING MASS AND BACKGROUND FRACTIONS AND THE MC WAS A MIX IF EVENTS EXTRACTED WITH THE TWO DIFFERENT GENERATORS AND GEOMETRIES. THE CURRENT VERSION OF THE PAPER SIMPLIFIES THIS; WE SIMPLY EXTRACT MC SYSTEMATICS FROM THE DUAL GENERATOR AND PRERECOIL GEOMETRY (NO DUAL GENERATOR AVAILABLE FOR POST-RECOIL GEOMETRY) AS AGREED WITH COLLABORATION AT RELEASE TALK.
+WE DID NOT CHANGE ANY ANALYSIS DETAILS REGARDING 96-05 DATA. IN THE ANALYSIS FOR THIS 1.0 VERSION OF THE PAPER, THE SYSTEMATICS WERE CALCULATED BY ADDING THE UNCORRELATED MISSING MASS AND BACKGROUND FRACTIONS AND THE MC WAS A MIX IF EVENTS EXTRACTED WITH THE TWO DIFFERENT GENERATORS AND GEOMETRIES. THE CURRENT VERSION OF THE PAPER SIMPLIFIES THIS; WE SIMPLY EXTRACT MC SYSTEMATICS FROM THE DUAL GENERATOR AND PRERECOIL GEOMETRY (NO DUAL GENERATOR AVAILABLE FOR POST-RECOIL GEOMETRY) AS AGREED WITH COLLABORATION AT RELEASE TALK.
 
 Anyhow, also with a full new analysis the additional data should not make the result worse. The paper is nice, but given that all but the result chapter are basically copy&paste of the 1996-2005 paper, I wonder if you have discussed to make all of this much shorter by simply citing the old paper and maybe submit the shortened version to PRD-rapid instead? That would set it apart some more. Table 3 and table 4 should be removed once the combined result is better than the one from 2006/2007 alone..... 
 
-THIS PAPER IS IMPROVED OVER DC69 IN SEVERAL WAYS. THE EQUATIONS ARE RECHECKED AND THE RELATIVE SUPPRESSIONS OF THE AMPLITUDES ARE CLARIFIED. DIAGREE THAT WE SHOULD GIVE LESS DATA ON PRINCIPLE. SINCE THIS IS ONE IN A SERIES OF PAPERS IN JHEP, IT HAS BEEN DECIDED TO CONTINUE PUBLISHING THERE.
+THIS PAPER IS IMPROVED OVER DC69 IN SEVERAL WAYS, E.G. THE EQUATIONS ARE RECHECKED AND THE RELATIVE SUPPRESSIONS OF THE AMPLITUDES ARE CLARIFIED. DISAGREE THAT WE SHOULD GIVE LESS DATA ON PRINCIPLE. SINCE THIS IS ONE IN A SERIES OF PAPERS IN JHEP, IT HAS BEEN DECIDED TO CONTINUE PUBLISHING THERE.
 
 One more question: In line 267 it is said that "the procedure to select events is similar to the one" for the 1996-2005 data. Where does the event selection differ? I think it should be the same except you have a very good reason, and you will need to discuss the impact of this change, otherwise one does not know how to interpret all the figures with both sets of results shown. I was not able to find the difference in the event selection.... Cheers, Frank 
 
@@ -230,7 +245,7 @@ L. De Nardo [ldenardo@mail.desy.de] accept DATE: 2011.04.06 COMMENTS:
 Congratulations on this very well written paper! I have only a few
 comments. -my affiliation is Gent
 
-SORRY! IS FIXED NOW
+SORRY!
 
 005 replace ?Charge? by ?Beam-Charge? as it is used later everywhere in the
 text 077 ditto
@@ -276,7 +291,7 @@ OK
 Fig. 2, 3, ... is it possible to align
 numbers according to their decimal points? (vertical axis)
 
-CAN ADD 0.0 TO AXIS? DONE.
+WILL LOOK INTO IT.
 
 ---------------
 Table 2 (435): total systematic uncertainty 0.006
@@ -340,7 +355,7 @@ respect AC^cos(phi) we describe in the text, having the best achivable
 statistics at HERMES ? How big is the expected suppression ?  Is
 this related to the additional k factor ? 
 
-NOT CALCULABLE. THE 'C-FUNCTION' UNDERLYING THE CO-EFFICIENT IS A FUNCTION OF 'Y' THAT IS DETERMINED ON THE EVENT LEVEL, SO WE CANNOT SIMPLY CALCULATE THE 'K' VALUE FOR EACH BIN AND CHECK THAT IT MATCHES THE THEORETICAL EXPECTATION.
+NOT OBVIOUSLY CALCULABLE. THE 'C-FUNCTION' UNDERLYING THE CO-EFFICIENT IS A FUNCTION OF 'Y' THAT IS DETERMINED ON THE EVENT LEVEL, SO WE CANNOT SIMPLY CALCULATE THE 'K' VALUE FOR EACH BIN AND CHECK THAT IT MATCHES THE THEORETICAL EXPECTATION.
 
 
 -----------------
@@ -371,7 +386,7 @@ Figure 7: something wrong with middle panel 0^-2 ->
 Figure 7 these symbols are much too small and should be increased
 substantially horizontal axis: ?0^2? should read ?10^-2? (twice)
 
-AGREED
+AGREED. (LAST WILL BE FIXED BEFORE SENDING TO JOURNAL).
 ----------------
 
 Fig. 7 any explanation of the large systematics of the last
@@ -410,7 +425,8 @@ but does not tell me why I would be interested in this data. Some insite
 into what I'm learning about nucleon structure from these data would be
 helpful
 
-THIS IS A DIFFICULT QUESTION OF INTERPRETATION. NOT WITHIN THE SCOPE OF THE PAPER.
+THIS IS A DIFFICULT QUESTION OF INTERPRETATION. NOT WITHIN THE SCOPE
+OF THE PAPER. SEE PREVIOUS REPLY TO M. DIEFENTALER.
 
 082 delete ?by the collaboration?
 
@@ -727,7 +743,7 @@ WE PREFER THE CURRENT VERSION
 243 "beam spin ..." -> "positive
 (negative) beam helicity" 
 
-NO, BEAM SPIN PROJECTED ON THE MOMENTUM AXIS IS (FRAME DEPENDENT) HELICITY. PROJECTING HELICITY ONTO THE MOMENTUM DIRECTION IS NONSENSICAL!
+NO, BEAM SPIN PROJECTED ON THE MOMENTUM AXIS IS (FRAME DEPENDENT) HELICITY. PROJECTING HELICITY ONTO THE MOMENTUM DIRECTION IS REDUNDANT!
 
 ---------
 245 the "additional" here is a bit lost. I
@@ -866,7 +882,7 @@ about this or a reference to how this is done is needed.
 269: "An event was selected as having...spectrometer." ->
 "Only events having ...spectrometer were selected."
 
-WHY?
+WHY??? SEMANTICALLY THE SAME!
 
 270 does it make sense to also mention the t
 range covered?
@@ -943,13 +959,14 @@ CONSULT 16,17 FOR MORE DETAILS
 clear. At miminum: shifted in specific time-intervals... differences in
 the missing-mass distributions of the electron...
 
-THIS IS NO LONGER DONE.
+DISAGREE.
 
 -line 280-283, please specify a bit in detail or in
 systematics section, exactly for which period(how much in pb-1 it makes)
 Mx2 was shifted, from text its difficult to get it.
 
-THIS IS NO LONGER DONE.
+THIS WOULD STRESS AN ALMOST NEGLIGIBLE UNCERTAINTY. NOT SURE THAT THE
+READER GAINS ANYTHING FROM THOSE DETAILS.
 
 280 Even if it is understood what is meant, the formula is incorrect, as
 it says 2.25 < Mx2 < 2.89.
@@ -1337,7 +1354,7 @@ L401 "One quarter of the difference.."
 What means this one quarter? Usual estimation for the systematics is
 half of the max. difference, where this "quarter" is coming from? 
 
-STANDARD DVCS ANALYSIS TECHNIQUE.
+STANDARD DVCS ANALYSIS TECHNIQUE. SEE PREVIOUS RELEASE REPORTS AD NAUSEAM.
 
 - Looking on Figs. 3 and 4 the reader can note that you have in some
 places (e.g. last two points in t dependence for A_c^{cos(\phi)} on Fig.
@@ -1396,7 +1413,7 @@ DISAGREE
 416: "same" of what ? i.e.
 "same GPD model in input to the MC generator"
 
-THINK THIS IS CLEAR ENOUGH ALREADY - YOU WORKED IT OUT AND NO-ONE ELSE HAD A PROBLEM. CHANGED ANYWAY
+CHANGED.
 
 417: "kinematic bin from the uncertainty contributions
 of...uncertainties added in quadrature." -> "kinematic bin by adding in
@@ -1423,7 +1440,7 @@ detector misalignment, but do not account for beam slopes. The
 sensitivity of any analysis on the latter (systematic error) should be
 still studied with dedicated MC productions. Was it considered ?
 
-NOT CONSIDERED. PREVIOUS ANALYSES THAT CONSIDERED BEAM SLOPES SHOWED THAT THEY MADE NEGLIGIBLE CONTRIBUTIONS TO UNCERTAINTIES (SEE ZHENYU'S NOTE WITH ELKE FOR EXAMPLE) AND WE HAVE NOT THE TIME TO REMAKE MC PRODUCTIONS AND COMPLETE FURTHER STUDIES IN THIS WAY. 
+NOT CONSIDERED. PREVIOUS ANALYSES THAT CONSIDERED BEAM SLOPES SHOWED THAT THEY MADE NEGLIGIBLE CONTRIBUTIONS TO UNCERTAINTIES (SEE ZHENYU'S NOTE WITH ELKE FOR EXAMPLE) AND WE HAVE NOT THE RESOURCES TO REMAKE MC PRODUCTIONS AND COMPLETE FURTHER STUDIES IN THIS WAY. 
 
 
 420 an attentive referee would probably ask why there is no misalignment uncertainty for the new data? This question becomes even more relevant when combining
@@ -1577,7 +1594,7 @@ test, and how significant?
 test (T-test, chi2-test?) and the resulting Confidence Level e.g.: the
 data sets are compatible at 95 C.L. ...or 99 C.L.
 
-STUDENT'S TEST. NOT WORTH DISCUSSING IN PAPER (SEE ANSWER TO COMMENTS PREVIOUSLY). MORE INFORMATION WILL BE MADE AVAILABLE TO ANY REFEREE IF ASKED FOR.
+STUDENT'S TEST. NOT WORTH DISCUSSING IN PAPER (SEE ANSWER TO COMMENTS PREVIOUSLY). MORE INFORMATION WILL BE MADE AVAILABLE TO ANY REFEREE IF REQUESTED.
 --------------
 
 513: remove
@@ -1894,7 +1911,10 @@ DISAGREE
 but Jefferson Lab is still only a facility and not a laboratory (are you
 trying to make the referee from JLab happy?:-) -> "Jefferson Lab"
 
-WE DON'T SAY 'NATIONAL LABORATORY'. WHAT IS IT THAT YOU THINK 'LAB' IS SHORT FOR? LABRADOR? :-)
+JLAB IS NOT A NATIONAL LABORATORY BUT WE DON'T SAY 'NATIONAL
+LABORATORY'. WE ONLY SAY 'LABORATORY'. WHAT IS IT THAT YOU THINK 'LAB'
+IS SHORT FOR? LABRADOR? :-) (THAT WOULD BE COOL. MORE COUNTRIES SHOULD
+HAVE NATIONAL LABRADORS.)
 
 673 would "Hall A of .." not be better than "... in ..."
 
