@@ -1,7 +1,7 @@
 {
 //=========Macro generated from canvas: combined/
-//=========  (Fri Aug 19 16:51:13 2011) by ROOT version5.28/00b
-   TCanvas *combined = new TCanvas("combined", "",0,44,1200,756);
+//=========  (Thu Oct  6 15:24:37 2011) by ROOT version5.28/00b
+   TCanvas *combined = new TCanvas("combined", "",-7,22,1200,756);
    gStyle->SetOptStat(0);
    combined->SetHighLightColor(2);
    combined->Range(0,0,1,1);
@@ -47,27 +47,27 @@
    pad1_1->SetFrameFillStyle(0);
    pad1_1->SetFrameBorderMode(0);
    
-   TH1F *hframe__1__1 = new TH1F("hframe__1__1","",3,0,2);
-   hframe__1__1->SetMinimum(-0.65);
-   hframe__1__1->SetMaximum(0.25);
-   hframe__1__1->SetDirectory(0);
-   hframe__1__1->SetStats(0);
-   hframe__1__1->GetXaxis()->SetBinLabel(2,"Integrated Over All Kinematics");
-   hframe__1__1->GetXaxis()->SetBit(TAxis::kLabelsHori);
-   hframe__1__1->GetXaxis()->SetLabelOffset(0.015);
-   hframe__1__1->GetXaxis()->SetLabelSize(0.01);
-   hframe__1__1->GetXaxis()->SetTitleSize(0.01);
-   hframe__1__1->GetXaxis()->SetTickLength(0);
-   hframe__1__1->GetYaxis()->SetTitle("A_{LU,I}^{sin #phi}");
-   hframe__1__1->GetYaxis()->CenterTitle(true);
-   hframe__1__1->GetYaxis()->SetNdivisions(205);
-   hframe__1__1->GetYaxis()->SetLabelFont(63);
-   hframe__1__1->GetYaxis()->SetLabelOffset(0.05);
-   hframe__1__1->GetYaxis()->SetLabelSize(25);
-   hframe__1__1->GetYaxis()->SetTitleSize(35);
-   hframe__1__1->GetYaxis()->SetTitleOffset(4.5);
-   hframe__1__1->GetYaxis()->SetTitleFont(63);
-   hframe__1__1->Draw(" ");
+   TH1F *hframe__1__1__1 = new TH1F("hframe__1__1__1","",3,0,2);
+   hframe__1__1__1->SetMinimum(-0.65);
+   hframe__1__1__1->SetMaximum(0.25);
+   hframe__1__1__1->SetDirectory(0);
+   hframe__1__1__1->SetStats(0);
+   hframe__1__1__1->GetXaxis()->SetBinLabel(2,"Integrated Over All Kinematics");
+   hframe__1__1__1->GetXaxis()->SetBit(TAxis::kLabelsHori);
+   hframe__1__1__1->GetXaxis()->SetLabelOffset(0.015);
+   hframe__1__1__1->GetXaxis()->SetLabelSize(0.01);
+   hframe__1__1__1->GetXaxis()->SetTitleSize(0.01);
+   hframe__1__1__1->GetXaxis()->SetTickLength(0);
+   hframe__1__1__1->GetYaxis()->SetTitle("A_{LU,I}^{sin #phi}");
+   hframe__1__1__1->GetYaxis()->CenterTitle(true);
+   hframe__1__1__1->GetYaxis()->SetNdivisions(205);
+   hframe__1__1__1->GetYaxis()->SetLabelFont(63);
+   hframe__1__1__1->GetYaxis()->SetLabelOffset(0.05);
+   hframe__1__1__1->GetYaxis()->SetLabelSize(25);
+   hframe__1__1__1->GetYaxis()->SetTitleSize(35);
+   hframe__1__1__1->GetYaxis()->SetTitleOffset(4.5);
+   hframe__1__1__1->GetYaxis()->SetTitleFont(63);
+   hframe__1__1__1->Draw(" ");
    TLine *line = new TLine(0,0,2,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -112,12 +112,12 @@
    gre->SetPoint(0,1,-0.22947);
    gre->SetPointError(0,0,0.0178633);
    
-   TH1F *Graph11 = new TH1F("Graph11","Graph",100,0.9,2.1);
-   Graph11->SetMinimum(-0.250906);
-   Graph11->SetMaximum(-0.208034);
-   Graph11->SetDirectory(0);
-   Graph11->SetStats(0);
-   gre->SetHistogram(Graph11);
+   TH1F *Graph111 = new TH1F("Graph111","Graph",100,0.9,2.1);
+   Graph111->SetMinimum(-0.250906);
+   Graph111->SetMaximum(-0.208034);
+   Graph111->SetDirectory(0);
+   Graph111->SetStats(0);
+   gre->SetHistogram(Graph111);
    
    gre->Draw("p");
    pad1_1->Modified();
@@ -141,27 +141,27 @@
    pad1_5->SetFrameFillStyle(0);
    pad1_5->SetFrameBorderMode(0);
    
-   TH1F *hframe__2__2 = new TH1F("hframe__2__2","",3,0,2);
-   hframe__2__2->SetMinimum(-0.45);
-   hframe__2__2->SetMaximum(0.3);
-   hframe__2__2->SetDirectory(0);
-   hframe__2__2->SetStats(0);
-   hframe__2__2->GetXaxis()->SetBinLabel(2,"Integrated Over All Kinematics");
-   hframe__2__2->GetXaxis()->SetBit(TAxis::kLabelsHori);
-   hframe__2__2->GetXaxis()->SetLabelOffset(0.015);
-   hframe__2__2->GetXaxis()->SetLabelSize(0.01);
-   hframe__2__2->GetXaxis()->SetTitleSize(0.01);
-   hframe__2__2->GetXaxis()->SetTickLength(0);
-   hframe__2__2->GetYaxis()->SetTitle("A_{LU,DVCS}^{sin #phi}");
-   hframe__2__2->GetYaxis()->CenterTitle(true);
-   hframe__2__2->GetYaxis()->SetNdivisions(205);
-   hframe__2__2->GetYaxis()->SetLabelFont(63);
-   hframe__2__2->GetYaxis()->SetLabelOffset(0.05);
-   hframe__2__2->GetYaxis()->SetLabelSize(25);
-   hframe__2__2->GetYaxis()->SetTitleSize(35);
-   hframe__2__2->GetYaxis()->SetTitleOffset(4.5);
-   hframe__2__2->GetYaxis()->SetTitleFont(63);
-   hframe__2__2->Draw(" ");
+   TH1F *hframe__2__2__2 = new TH1F("hframe__2__2__2","",3,0,2);
+   hframe__2__2__2->SetMinimum(-0.45);
+   hframe__2__2__2->SetMaximum(0.3);
+   hframe__2__2__2->SetDirectory(0);
+   hframe__2__2__2->SetStats(0);
+   hframe__2__2__2->GetXaxis()->SetBinLabel(2,"Integrated Over All Kinematics");
+   hframe__2__2__2->GetXaxis()->SetBit(TAxis::kLabelsHori);
+   hframe__2__2__2->GetXaxis()->SetLabelOffset(0.015);
+   hframe__2__2__2->GetXaxis()->SetLabelSize(0.01);
+   hframe__2__2__2->GetXaxis()->SetTitleSize(0.01);
+   hframe__2__2__2->GetXaxis()->SetTickLength(0);
+   hframe__2__2__2->GetYaxis()->SetTitle("A_{LU,DVCS}^{sin #phi}");
+   hframe__2__2__2->GetYaxis()->CenterTitle(true);
+   hframe__2__2__2->GetYaxis()->SetNdivisions(205);
+   hframe__2__2__2->GetYaxis()->SetLabelFont(63);
+   hframe__2__2__2->GetYaxis()->SetLabelOffset(0.05);
+   hframe__2__2__2->GetYaxis()->SetLabelSize(25);
+   hframe__2__2__2->GetYaxis()->SetTitleSize(35);
+   hframe__2__2__2->GetYaxis()->SetTitleOffset(4.5);
+   hframe__2__2__2->GetYaxis()->SetTitleFont(63);
+   hframe__2__2__2->Draw(" ");
    line = new TLine(0,0,2,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -176,12 +176,12 @@
    gre->SetPoint(0,1,0.0170274);
    gre->SetPointError(0,0,0.0179248);
    
-   TH1F *Graph22 = new TH1F("Graph22","Graph",100,0.9,2.1);
-   Graph22->SetMinimum(-0.00448236);
-   Graph22->SetMaximum(0.03853716);
-   Graph22->SetDirectory(0);
-   Graph22->SetStats(0);
-   gre->SetHistogram(Graph22);
+   TH1F *Graph222 = new TH1F("Graph222","Graph",100,0.9,2.1);
+   Graph222->SetMinimum(-0.00448236);
+   Graph222->SetMaximum(0.03853716);
+   Graph222->SetDirectory(0);
+   Graph222->SetStats(0);
+   gre->SetHistogram(Graph222);
    
    gre->Draw("p");
    
@@ -214,12 +214,12 @@
    gre->SetPoint(0,1,0.0170274);
    gre->SetPointError(0,0,0.0179248);
    
-   TH1F *Graph33 = new TH1F("Graph33","Graph",100,0.9,2.1);
-   Graph33->SetMinimum(-0.00448236);
-   Graph33->SetMaximum(0.03853716);
-   Graph33->SetDirectory(0);
-   Graph33->SetStats(0);
-   gre->SetHistogram(Graph33);
+   TH1F *Graph333 = new TH1F("Graph333","Graph",100,0.9,2.1);
+   Graph333->SetMinimum(-0.00448236);
+   Graph333->SetMaximum(0.03853716);
+   Graph333->SetDirectory(0);
+   Graph333->SetStats(0);
+   gre->SetHistogram(Graph333);
    
    gre->Draw("p");
    pad1_5->Modified();
@@ -243,27 +243,27 @@
    pad1_9->SetFrameFillStyle(0);
    pad1_9->SetFrameBorderMode(0);
    
-   TH1F *hframe__3__3 = new TH1F("hframe__3__3","",3,0,2);
-   hframe__3__3->SetMinimum(-0.45);
-   hframe__3__3->SetMaximum(0.25);
-   hframe__3__3->SetDirectory(0);
-   hframe__3__3->SetStats(0);
-   hframe__3__3->GetXaxis()->SetBinLabel(2,"Overall");
-   hframe__3__3->GetXaxis()->SetBit(TAxis::kLabelsHori);
-   hframe__3__3->GetXaxis()->SetLabelOffset(0.015);
-   hframe__3__3->GetXaxis()->SetLabelSize(0.01);
-   hframe__3__3->GetXaxis()->SetTitleSize(0.01);
-   hframe__3__3->GetXaxis()->SetTickLength(0);
-   hframe__3__3->GetYaxis()->SetTitle("A_{LU,I}^{sin (2#phi)}");
-   hframe__3__3->GetYaxis()->CenterTitle(true);
-   hframe__3__3->GetYaxis()->SetNdivisions(205);
-   hframe__3__3->GetYaxis()->SetLabelFont(63);
-   hframe__3__3->GetYaxis()->SetLabelOffset(0.05);
-   hframe__3__3->GetYaxis()->SetLabelSize(25);
-   hframe__3__3->GetYaxis()->SetTitleSize(35);
-   hframe__3__3->GetYaxis()->SetTitleOffset(4.5);
-   hframe__3__3->GetYaxis()->SetTitleFont(63);
-   hframe__3__3->Draw(" ");
+   TH1F *hframe__3__3__3 = new TH1F("hframe__3__3__3","",3,0,2);
+   hframe__3__3__3->SetMinimum(-0.45);
+   hframe__3__3__3->SetMaximum(0.25);
+   hframe__3__3__3->SetDirectory(0);
+   hframe__3__3__3->SetStats(0);
+   hframe__3__3__3->GetXaxis()->SetBinLabel(2,"Overall");
+   hframe__3__3__3->GetXaxis()->SetBit(TAxis::kLabelsHori);
+   hframe__3__3__3->GetXaxis()->SetLabelOffset(0.015);
+   hframe__3__3__3->GetXaxis()->SetLabelSize(0.01);
+   hframe__3__3__3->GetXaxis()->SetTitleSize(0.01);
+   hframe__3__3__3->GetXaxis()->SetTickLength(0);
+   hframe__3__3__3->GetYaxis()->SetTitle("A_{LU,I}^{sin (2#phi)}");
+   hframe__3__3__3->GetYaxis()->CenterTitle(true);
+   hframe__3__3__3->GetYaxis()->SetNdivisions(205);
+   hframe__3__3__3->GetYaxis()->SetLabelFont(63);
+   hframe__3__3__3->GetYaxis()->SetLabelOffset(0.05);
+   hframe__3__3__3->GetYaxis()->SetLabelSize(25);
+   hframe__3__3__3->GetYaxis()->SetTitleSize(35);
+   hframe__3__3__3->GetYaxis()->SetTitleOffset(4.5);
+   hframe__3__3__3->GetYaxis()->SetTitleFont(63);
+   hframe__3__3__3->Draw(" ");
    line = new TLine(0,0,2,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -278,12 +278,12 @@
    gre->SetPoint(0,1,-0.0095337);
    gre->SetPointError(0,0,0.0178093);
    
-   TH1F *Graph44 = new TH1F("Graph44","Graph",100,0.9,2.1);
-   Graph44->SetMinimum(-0.03090486);
-   Graph44->SetMaximum(0.01183746);
-   Graph44->SetDirectory(0);
-   Graph44->SetStats(0);
-   gre->SetHistogram(Graph44);
+   TH1F *Graph444 = new TH1F("Graph444","Graph",100,0.9,2.1);
+   Graph444->SetMinimum(-0.03090486);
+   Graph444->SetMaximum(0.01183746);
+   Graph444->SetDirectory(0);
+   Graph444->SetStats(0);
+   gre->SetHistogram(Graph444);
    
    gre->Draw("p");
    
@@ -316,12 +316,12 @@
    gre->SetPoint(0,1,-0.0095337);
    gre->SetPointError(0,0,0.0178093);
    
-   TH1F *Graph55 = new TH1F("Graph55","Graph",100,0.9,2.1);
-   Graph55->SetMinimum(-0.03090486);
-   Graph55->SetMaximum(0.01183746);
-   Graph55->SetDirectory(0);
-   Graph55->SetStats(0);
-   gre->SetHistogram(Graph55);
+   TH1F *Graph555 = new TH1F("Graph555","Graph",100,0.9,2.1);
+   Graph555->SetMinimum(-0.03090486);
+   Graph555->SetMaximum(0.01183746);
+   Graph555->SetDirectory(0);
+   Graph555->SetStats(0);
+   gre->SetHistogram(Graph555);
    
    gre->Draw("p");
    pad1_9->Modified();
@@ -345,30 +345,30 @@
    pad1_13->SetFrameFillStyle(0);
    pad1_13->SetFrameBorderMode(0);
    
-   TH1F *hframe__4__4 = new TH1F("hframe__4__4","",3,0,2);
-   hframe__4__4->SetMinimum(0);
-   hframe__4__4->SetMaximum(0.45);
-   hframe__4__4->SetDirectory(0);
-   hframe__4__4->SetStats(0);
-   hframe__4__4->GetXaxis()->SetTitle("overall");
-   hframe__4__4->GetXaxis()->CenterTitle(true);
-   hframe__4__4->GetXaxis()->SetNdivisions(0);
-   hframe__4__4->GetXaxis()->SetLabelFont(63);
-   hframe__4__4->GetXaxis()->SetLabelOffset(0.02);
-   hframe__4__4->GetXaxis()->SetLabelSize(25);
-   hframe__4__4->GetXaxis()->SetTitleSize(30);
-   hframe__4__4->GetXaxis()->SetTitleOffset(5);
-   hframe__4__4->GetXaxis()->SetTitleFont(63);
-   hframe__4__4->GetYaxis()->SetTitle("#splitline{Assoc.}{fraction}");
-   hframe__4__4->GetYaxis()->CenterTitle(true);
-   hframe__4__4->GetYaxis()->SetNdivisions(205);
-   hframe__4__4->GetYaxis()->SetLabelFont(63);
-   hframe__4__4->GetYaxis()->SetLabelOffset(0.05);
-   hframe__4__4->GetYaxis()->SetLabelSize(25);
-   hframe__4__4->GetYaxis()->SetTitleSize(25);
-   hframe__4__4->GetYaxis()->SetTitleOffset(6.1);
-   hframe__4__4->GetYaxis()->SetTitleFont(63);
-   hframe__4__4->Draw(" ");
+   TH1F *hframe__4__4__4 = new TH1F("hframe__4__4__4","",3,0,2);
+   hframe__4__4__4->SetMinimum(0);
+   hframe__4__4__4->SetMaximum(0.45);
+   hframe__4__4__4->SetDirectory(0);
+   hframe__4__4__4->SetStats(0);
+   hframe__4__4__4->GetXaxis()->SetTitle("overall");
+   hframe__4__4__4->GetXaxis()->CenterTitle(true);
+   hframe__4__4__4->GetXaxis()->SetNdivisions(0);
+   hframe__4__4__4->GetXaxis()->SetLabelFont(63);
+   hframe__4__4__4->GetXaxis()->SetLabelOffset(0.02);
+   hframe__4__4__4->GetXaxis()->SetLabelSize(25);
+   hframe__4__4__4->GetXaxis()->SetTitleSize(30);
+   hframe__4__4__4->GetXaxis()->SetTitleOffset(5);
+   hframe__4__4__4->GetXaxis()->SetTitleFont(63);
+   hframe__4__4__4->GetYaxis()->SetTitle("#splitline{Assoc.}{fraction}");
+   hframe__4__4__4->GetYaxis()->CenterTitle(true);
+   hframe__4__4__4->GetYaxis()->SetNdivisions(205);
+   hframe__4__4__4->GetYaxis()->SetLabelFont(63);
+   hframe__4__4__4->GetYaxis()->SetLabelOffset(0.05);
+   hframe__4__4__4->GetYaxis()->SetLabelSize(25);
+   hframe__4__4__4->GetYaxis()->SetTitleSize(25);
+   hframe__4__4__4->GetYaxis()->SetTitleOffset(6.1);
+   hframe__4__4__4->GetYaxis()->SetTitleFont(63);
+   hframe__4__4__4->Draw(" ");
    line = new TLine(0,0,2,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -380,12 +380,12 @@
    graph->SetMarkerStyle(20);
    graph->SetPoint(0,1,0.132095);
    
-   TH1F *Graph_Graph_Graph11 = new TH1F("Graph_Graph_Graph11","Graph",100,0.9,2.1);
-   Graph_Graph_Graph11->SetMinimum(0.032095);
-   Graph_Graph_Graph11->SetMaximum(1.232095);
-   Graph_Graph_Graph11->SetDirectory(0);
-   Graph_Graph_Graph11->SetStats(0);
-   graph->SetHistogram(Graph_Graph_Graph11);
+   TH1F *Graph_Graph_Graph_Graph111 = new TH1F("Graph_Graph_Graph_Graph111","Graph",100,0.9,2.1);
+   Graph_Graph_Graph_Graph111->SetMinimum(0.032095);
+   Graph_Graph_Graph_Graph111->SetMaximum(1.232095);
+   Graph_Graph_Graph_Graph111->SetDirectory(0);
+   Graph_Graph_Graph_Graph111->SetStats(0);
+   graph->SetHistogram(Graph_Graph_Graph_Graph111);
    
    graph->Draw("p");
    pad1_13->Modified();
@@ -410,18 +410,18 @@
    pad1_2->SetFrameFillStyle(0);
    pad1_2->SetFrameBorderMode(0);
    
-   TH1F *hframe__5__5 = new TH1F("hframe__5__5","",21,0.009,0.8);
-   hframe__5__5->SetMinimum(-0.65);
-   hframe__5__5->SetMaximum(0.25);
-   hframe__5__5->SetDirectory(0);
-   hframe__5__5->SetStats(0);
-   hframe__5__5->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
-   hframe__5__5->GetXaxis()->SetNdivisions(505);
-   hframe__5__5->GetXaxis()->SetLabelSize(0.1);
-   hframe__5__5->GetXaxis()->SetTitleSize(0.1);
-   hframe__5__5->GetXaxis()->SetTitleOffset(1.01);
-   hframe__5__5->GetYaxis()->SetNdivisions(205);
-   hframe__5__5->Draw(" ");
+   TH1F *hframe__5__5__5 = new TH1F("hframe__5__5__5","",21,0.009,0.8);
+   hframe__5__5__5->SetMinimum(-0.65);
+   hframe__5__5__5->SetMaximum(0.25);
+   hframe__5__5__5->SetDirectory(0);
+   hframe__5__5__5->SetStats(0);
+   hframe__5__5__5->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
+   hframe__5__5__5->GetXaxis()->SetNdivisions(505);
+   hframe__5__5__5->GetXaxis()->SetLabelSize(0.1);
+   hframe__5__5__5->GetXaxis()->SetTitleSize(0.1);
+   hframe__5__5__5->GetXaxis()->SetTitleOffset(1.01);
+   hframe__5__5__5->GetYaxis()->SetNdivisions(205);
+   hframe__5__5__5->Draw(" ");
    line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -552,12 +552,12 @@
    gre->SetPoint(5,0.4633875,-0.1692474);
    gre->SetPointError(5,0,0.072485);
    
-   TH1F *Graph66 = new TH1F("Graph66","Graph",100,0.0168849,0.510791);
-   Graph66->SetMinimum(-0.3609304);
-   Graph66->SetMaximum(-0.07689215);
-   Graph66->SetDirectory(0);
-   Graph66->SetStats(0);
-   gre->SetHistogram(Graph66);
+   TH1F *Graph666 = new TH1F("Graph666","Graph",100,0.0168849,0.510791);
+   Graph666->SetMinimum(-0.3609304);
+   Graph666->SetMaximum(-0.07689215);
+   Graph666->SetDirectory(0);
+   Graph666->SetStats(0);
+   gre->SetHistogram(Graph666);
    
    gre->Draw("p");
    line = new TLine(0,0,0,0);
@@ -617,18 +617,18 @@
    pad1_6->SetFrameFillStyle(0);
    pad1_6->SetFrameBorderMode(0);
    
-   TH1F *hframe__6__6 = new TH1F("hframe__6__6","",21,0.009,0.8);
-   hframe__6__6->SetMinimum(-0.45);
-   hframe__6__6->SetMaximum(0.3);
-   hframe__6__6->SetDirectory(0);
-   hframe__6__6->SetStats(0);
-   hframe__6__6->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
-   hframe__6__6->GetXaxis()->SetNdivisions(505);
-   hframe__6__6->GetXaxis()->SetLabelSize(0.1);
-   hframe__6__6->GetXaxis()->SetTitleSize(0.1);
-   hframe__6__6->GetXaxis()->SetTitleOffset(1.01);
-   hframe__6__6->GetYaxis()->SetNdivisions(205);
-   hframe__6__6->Draw(" ");
+   TH1F *hframe__6__6__6 = new TH1F("hframe__6__6__6","",21,0.009,0.8);
+   hframe__6__6__6->SetMinimum(-0.45);
+   hframe__6__6__6->SetMaximum(0.3);
+   hframe__6__6__6->SetDirectory(0);
+   hframe__6__6__6->SetStats(0);
+   hframe__6__6__6->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
+   hframe__6__6__6->GetXaxis()->SetNdivisions(505);
+   hframe__6__6__6->GetXaxis()->SetLabelSize(0.1);
+   hframe__6__6__6->GetXaxis()->SetTitleSize(0.1);
+   hframe__6__6__6->GetXaxis()->SetTitleOffset(1.01);
+   hframe__6__6__6->GetYaxis()->SetNdivisions(205);
+   hframe__6__6__6->Draw(" ");
    line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -654,12 +654,12 @@
    gre->SetPoint(5,0.466061,-0.107249);
    gre->SetPointError(5,0,0.0726422);
    
-   TH1F *Graph77 = new TH1F("Graph77","Graph",100,0.0168849,0.510791);
-   Graph77->SetMinimum(-0.2134626);
-   Graph77->SetMaximum(0.1893939);
-   Graph77->SetDirectory(0);
-   Graph77->SetStats(0);
-   gre->SetHistogram(Graph77);
+   TH1F *Graph777 = new TH1F("Graph777","Graph",100,0.0168849,0.510791);
+   Graph777->SetMinimum(-0.2134626);
+   Graph777->SetMaximum(0.1893939);
+   Graph777->SetDirectory(0);
+   Graph777->SetStats(0);
+   gre->SetHistogram(Graph777);
    
    gre->Draw("p");
    
@@ -723,12 +723,12 @@
    gre->SetPoint(5,0.466061,-0.107249);
    gre->SetPointError(5,0,0.0726422);
    
-   TH1F *Graph88 = new TH1F("Graph88","Graph",100,0.0168849,0.510791);
-   Graph88->SetMinimum(-0.2134626);
-   Graph88->SetMaximum(0.1893939);
-   Graph88->SetDirectory(0);
-   Graph88->SetStats(0);
-   gre->SetHistogram(Graph88);
+   TH1F *Graph888 = new TH1F("Graph888","Graph",100,0.0168849,0.510791);
+   Graph888->SetMinimum(-0.2134626);
+   Graph888->SetMaximum(0.1893939);
+   Graph888->SetDirectory(0);
+   Graph888->SetStats(0);
+   gre->SetHistogram(Graph888);
    
    gre->Draw("p");
    pad1_6->Modified();
@@ -753,18 +753,18 @@
    pad1_10->SetFrameFillStyle(0);
    pad1_10->SetFrameBorderMode(0);
    
-   TH1F *hframe__7__7 = new TH1F("hframe__7__7","",21,0.009,0.8);
-   hframe__7__7->SetMinimum(-0.45);
-   hframe__7__7->SetMaximum(0.25);
-   hframe__7__7->SetDirectory(0);
-   hframe__7__7->SetStats(0);
-   hframe__7__7->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
-   hframe__7__7->GetXaxis()->SetNdivisions(505);
-   hframe__7__7->GetXaxis()->SetLabelSize(0.1);
-   hframe__7__7->GetXaxis()->SetTitleSize(0.1);
-   hframe__7__7->GetXaxis()->SetTitleOffset(1.01);
-   hframe__7__7->GetYaxis()->SetNdivisions(205);
-   hframe__7__7->Draw(" ");
+   TH1F *hframe__7__7__7 = new TH1F("hframe__7__7__7","",21,0.009,0.8);
+   hframe__7__7__7->SetMinimum(-0.45);
+   hframe__7__7__7->SetMaximum(0.25);
+   hframe__7__7__7->SetDirectory(0);
+   hframe__7__7__7->SetStats(0);
+   hframe__7__7__7->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
+   hframe__7__7__7->GetXaxis()->SetNdivisions(505);
+   hframe__7__7__7->GetXaxis()->SetLabelSize(0.1);
+   hframe__7__7__7->GetXaxis()->SetTitleSize(0.1);
+   hframe__7__7__7->GetXaxis()->SetTitleOffset(1.01);
+   hframe__7__7__7->GetYaxis()->SetNdivisions(205);
+   hframe__7__7__7->Draw(" ");
    line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -790,12 +790,12 @@
    gre->SetPoint(5,0.466061,-0.111421);
    gre->SetPointError(5,0,0.0738139);
    
-   TH1F *Graph99 = new TH1F("Graph99","Graph",100,0.0168849,0.510791);
-   Graph99->SetMinimum(-0.2101192);
-   Graph99->SetMaximum(0.08849207);
-   Graph99->SetDirectory(0);
-   Graph99->SetStats(0);
-   gre->SetHistogram(Graph99);
+   TH1F *Graph999 = new TH1F("Graph999","Graph",100,0.0168849,0.510791);
+   Graph999->SetMinimum(-0.2101192);
+   Graph999->SetMaximum(0.08849207);
+   Graph999->SetDirectory(0);
+   Graph999->SetStats(0);
+   gre->SetHistogram(Graph999);
    
    gre->Draw("p");
    
@@ -859,12 +859,12 @@
    gre->SetPoint(5,0.466061,-0.111421);
    gre->SetPointError(5,0,0.0738139);
    
-   TH1F *Graph1010 = new TH1F("Graph1010","Graph",100,0.0168849,0.510791);
-   Graph1010->SetMinimum(-0.2101192);
-   Graph1010->SetMaximum(0.08849207);
-   Graph1010->SetDirectory(0);
-   Graph1010->SetStats(0);
-   gre->SetHistogram(Graph1010);
+   TH1F *Graph101010 = new TH1F("Graph101010","Graph",100,0.0168849,0.510791);
+   Graph101010->SetMinimum(-0.2101192);
+   Graph101010->SetMaximum(0.08849207);
+   Graph101010->SetDirectory(0);
+   Graph101010->SetStats(0);
+   gre->SetHistogram(Graph101010);
    
    gre->Draw("p");
    pad1_10->Modified();
@@ -889,22 +889,22 @@
    pad1_14->SetFrameFillStyle(0);
    pad1_14->SetFrameBorderMode(0);
    
-   TH1F *hframe__8__8 = new TH1F("hframe__8__8","",21,0.007,0.8);
-   hframe__8__8->SetMinimum(0);
-   hframe__8__8->SetMaximum(0.45);
-   hframe__8__8->SetDirectory(0);
-   hframe__8__8->SetStats(0);
-   hframe__8__8->GetXaxis()->SetTitle("-t [GeV^{2}]");
-   hframe__8__8->GetXaxis()->CenterTitle(true);
-   hframe__8__8->GetXaxis()->SetNdivisions(205);
-   hframe__8__8->GetXaxis()->SetLabelFont(63);
-   hframe__8__8->GetXaxis()->SetLabelOffset(0.02);
-   hframe__8__8->GetXaxis()->SetLabelSize(25);
-   hframe__8__8->GetXaxis()->SetTitleSize(30);
-   hframe__8__8->GetXaxis()->SetTitleOffset(5);
-   hframe__8__8->GetXaxis()->SetTitleFont(63);
-   hframe__8__8->GetYaxis()->SetNdivisions(205);
-   hframe__8__8->Draw(" ");
+   TH1F *hframe__8__8__8 = new TH1F("hframe__8__8__8","",21,0.007,0.8);
+   hframe__8__8__8->SetMinimum(0);
+   hframe__8__8__8->SetMaximum(0.45);
+   hframe__8__8__8->SetDirectory(0);
+   hframe__8__8__8->SetStats(0);
+   hframe__8__8__8->GetXaxis()->SetTitle("-t [GeV^{2}]");
+   hframe__8__8__8->GetXaxis()->CenterTitle(true);
+   hframe__8__8__8->GetXaxis()->SetNdivisions(205);
+   hframe__8__8__8->GetXaxis()->SetLabelFont(63);
+   hframe__8__8__8->GetXaxis()->SetLabelOffset(0.02);
+   hframe__8__8__8->GetXaxis()->SetLabelSize(25);
+   hframe__8__8__8->GetXaxis()->SetTitleSize(30);
+   hframe__8__8__8->GetXaxis()->SetTitleOffset(5);
+   hframe__8__8__8->GetXaxis()->SetTitleFont(63);
+   hframe__8__8__8->GetYaxis()->SetNdivisions(205);
+   hframe__8__8__8->Draw(" ");
    line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -921,12 +921,12 @@
    graph->SetPoint(4,0.260879,0.233569);
    graph->SetPoint(5,0.466061,0.338914);
    
-   TH1F *Graph_Graph_Graph22 = new TH1F("Graph_Graph_Graph22","Graph",100,0.0168849,0.510791);
-   Graph_Graph_Graph22->SetMinimum(0.0183564);
-   Graph_Graph_Graph22->SetMaximum(0.3680556);
-   Graph_Graph_Graph22->SetDirectory(0);
-   Graph_Graph_Graph22->SetStats(0);
-   graph->SetHistogram(Graph_Graph_Graph22);
+   TH1F *Graph_Graph_Graph_Graph222 = new TH1F("Graph_Graph_Graph_Graph222","Graph",100,0.0168849,0.510791);
+   Graph_Graph_Graph_Graph222->SetMinimum(0.0183564);
+   Graph_Graph_Graph_Graph222->SetMaximum(0.3680556);
+   Graph_Graph_Graph_Graph222->SetDirectory(0);
+   Graph_Graph_Graph_Graph222->SetStats(0);
+   graph->SetHistogram(Graph_Graph_Graph_Graph222);
    
    graph->Draw("p");
    pad1_14->Modified();
@@ -951,18 +951,18 @@
    pad1_3->SetFrameFillStyle(0);
    pad1_3->SetFrameBorderMode(0);
    
-   TH1F *hframe__9__9 = new TH1F("hframe__9__9","",20,0.04,0.33);
-   hframe__9__9->SetMinimum(-0.65);
-   hframe__9__9->SetMaximum(0.25);
-   hframe__9__9->SetDirectory(0);
-   hframe__9__9->SetStats(0);
-   hframe__9__9->GetXaxis()->SetTitle("x_{Bj}");
-   hframe__9__9->GetXaxis()->SetNdivisions(505);
-   hframe__9__9->GetXaxis()->SetLabelSize(0.1);
-   hframe__9__9->GetXaxis()->SetTitleSize(0.1);
-   hframe__9__9->GetXaxis()->SetTitleOffset(1.01);
-   hframe__9__9->GetYaxis()->SetNdivisions(205);
-   hframe__9__9->Draw(" ");
+   TH1F *hframe__9__9__9 = new TH1F("hframe__9__9__9","",20,0.04,0.33);
+   hframe__9__9__9->SetMinimum(-0.65);
+   hframe__9__9__9->SetMaximum(0.25);
+   hframe__9__9__9->SetDirectory(0);
+   hframe__9__9__9->SetStats(0);
+   hframe__9__9__9->GetXaxis()->SetTitle("x_{Bj}");
+   hframe__9__9__9->GetXaxis()->SetNdivisions(505);
+   hframe__9__9__9->GetXaxis()->SetLabelSize(0.1);
+   hframe__9__9__9->GetXaxis()->SetTitleSize(0.1);
+   hframe__9__9__9->GetXaxis()->SetTitleOffset(1.01);
+   hframe__9__9__9->GetYaxis()->SetNdivisions(205);
+   hframe__9__9__9->Draw(" ");
    line = new TLine(-0.1,0,0.33,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -1092,12 +1092,12 @@
    gre->SetPoint(5,0.245365,-0.0767465);
    gre->SetPointError(5,0,0.0847879);
    
-   TH1F *Graph1111 = new TH1F("Graph1111","Graph",100,0.0294405,0.2649945);
-   Graph1111->SetMinimum(-0.322966);
-   Graph1111->SetMaximum(0.03813298);
-   Graph1111->SetDirectory(0);
-   Graph1111->SetStats(0);
-   gre->SetHistogram(Graph1111);
+   TH1F *Graph111111 = new TH1F("Graph111111","Graph",100,0.0294405,0.2649945);
+   Graph111111->SetMinimum(-0.322966);
+   Graph111111->SetMaximum(0.03813298);
+   Graph111111->SetDirectory(0);
+   Graph111111->SetStats(0);
+   gre->SetHistogram(Graph111111);
    
    gre->Draw("p");
    line = new TLine(0,0,0,0);
@@ -1113,7 +1113,7 @@
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   entry=leg->AddEntry("NULL","GHL11","l");
+   entry=leg->AddEntry("NULL","GGL11","l");
 
    ci = TColor::GetColor("#009900");
    entry->SetLineColor(ci);
@@ -1147,18 +1147,18 @@
    pad1_7->SetFrameFillStyle(0);
    pad1_7->SetFrameBorderMode(0);
    
-   TH1F *hframe__10__10 = new TH1F("hframe__10__10","",20,0.04,0.33);
-   hframe__10__10->SetMinimum(-0.45);
-   hframe__10__10->SetMaximum(0.3);
-   hframe__10__10->SetDirectory(0);
-   hframe__10__10->SetStats(0);
-   hframe__10__10->GetXaxis()->SetTitle("x_{Bj}");
-   hframe__10__10->GetXaxis()->SetNdivisions(505);
-   hframe__10__10->GetXaxis()->SetLabelSize(0.1);
-   hframe__10__10->GetXaxis()->SetTitleSize(0.1);
-   hframe__10__10->GetXaxis()->SetTitleOffset(1.01);
-   hframe__10__10->GetYaxis()->SetNdivisions(205);
-   hframe__10__10->Draw(" ");
+   TH1F *hframe__10__10__10 = new TH1F("hframe__10__10__10","",20,0.04,0.33);
+   hframe__10__10__10->SetMinimum(-0.45);
+   hframe__10__10__10->SetMaximum(0.3);
+   hframe__10__10__10->SetDirectory(0);
+   hframe__10__10__10->SetStats(0);
+   hframe__10__10__10->GetXaxis()->SetTitle("x_{Bj}");
+   hframe__10__10__10->GetXaxis()->SetNdivisions(505);
+   hframe__10__10__10->GetXaxis()->SetLabelSize(0.1);
+   hframe__10__10__10->GetXaxis()->SetTitleSize(0.1);
+   hframe__10__10__10->GetXaxis()->SetTitleOffset(1.01);
+   hframe__10__10__10->GetYaxis()->SetNdivisions(205);
+   hframe__10__10__10->Draw(" ");
    line = new TLine(-0.1,0,0.33,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -1184,12 +1184,12 @@
    gre->SetPoint(5,0.245365,-0.140742);
    gre->SetPointError(5,0,0.0851516);
    
-   TH1F *Graph1212 = new TH1F("Graph1212","Graph",100,0.0294405,0.2649945);
-   Graph1212->SetMinimum(-0.2575563);
-   Graph1212->SetMaximum(0.122396);
-   Graph1212->SetDirectory(0);
-   Graph1212->SetStats(0);
-   gre->SetHistogram(Graph1212);
+   TH1F *Graph121212 = new TH1F("Graph121212","Graph",100,0.0294405,0.2649945);
+   Graph121212->SetMinimum(-0.2575563);
+   Graph121212->SetMaximum(0.122396);
+   Graph121212->SetDirectory(0);
+   Graph121212->SetStats(0);
+   gre->SetHistogram(Graph121212);
    
    gre->Draw("p");
    
@@ -1253,12 +1253,12 @@
    gre->SetPoint(5,0.245365,-0.140742);
    gre->SetPointError(5,0,0.0851516);
    
-   TH1F *Graph1313 = new TH1F("Graph1313","Graph",100,0.0294405,0.2649945);
-   Graph1313->SetMinimum(-0.2575563);
-   Graph1313->SetMaximum(0.122396);
-   Graph1313->SetDirectory(0);
-   Graph1313->SetStats(0);
-   gre->SetHistogram(Graph1313);
+   TH1F *Graph131313 = new TH1F("Graph131313","Graph",100,0.0294405,0.2649945);
+   Graph131313->SetMinimum(-0.2575563);
+   Graph131313->SetMaximum(0.122396);
+   Graph131313->SetDirectory(0);
+   Graph131313->SetStats(0);
+   gre->SetHistogram(Graph131313);
    
    gre->Draw("p");
    pad1_7->Modified();
@@ -1283,18 +1283,18 @@
    pad1_11->SetFrameFillStyle(0);
    pad1_11->SetFrameBorderMode(0);
    
-   TH1F *hframe__11__11 = new TH1F("hframe__11__11","",20,0.04,0.33);
-   hframe__11__11->SetMinimum(-0.45);
-   hframe__11__11->SetMaximum(0.25);
-   hframe__11__11->SetDirectory(0);
-   hframe__11__11->SetStats(0);
-   hframe__11__11->GetXaxis()->SetTitle("x_{Bj}");
-   hframe__11__11->GetXaxis()->SetNdivisions(505);
-   hframe__11__11->GetXaxis()->SetLabelSize(0.1);
-   hframe__11__11->GetXaxis()->SetTitleSize(0.1);
-   hframe__11__11->GetXaxis()->SetTitleOffset(1.01);
-   hframe__11__11->GetYaxis()->SetNdivisions(205);
-   hframe__11__11->Draw(" ");
+   TH1F *hframe__11__11__11 = new TH1F("hframe__11__11__11","",20,0.04,0.33);
+   hframe__11__11__11->SetMinimum(-0.45);
+   hframe__11__11__11->SetMaximum(0.25);
+   hframe__11__11__11->SetDirectory(0);
+   hframe__11__11__11->SetStats(0);
+   hframe__11__11__11->GetXaxis()->SetTitle("x_{Bj}");
+   hframe__11__11__11->GetXaxis()->SetNdivisions(505);
+   hframe__11__11__11->GetXaxis()->SetLabelSize(0.1);
+   hframe__11__11__11->GetXaxis()->SetTitleSize(0.1);
+   hframe__11__11__11->GetXaxis()->SetTitleOffset(1.01);
+   hframe__11__11__11->GetYaxis()->SetNdivisions(205);
+   hframe__11__11__11->Draw(" ");
    line = new TLine(-0.1,0,0.33,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -1320,12 +1320,12 @@
    gre->SetPoint(5,0.245365,-0.0229779);
    gre->SetPointError(5,0,0.0797144);
    
-   TH1F *Graph1414 = new TH1F("Graph1414","Graph",100,0.0294405,0.2649945);
-   Graph1414->SetMinimum(-0.1204411);
-   Graph1414->SetMaximum(0.09254417);
-   Graph1414->SetDirectory(0);
-   Graph1414->SetStats(0);
-   gre->SetHistogram(Graph1414);
+   TH1F *Graph141414 = new TH1F("Graph141414","Graph",100,0.0294405,0.2649945);
+   Graph141414->SetMinimum(-0.1204411);
+   Graph141414->SetMaximum(0.09254417);
+   Graph141414->SetDirectory(0);
+   Graph141414->SetStats(0);
+   gre->SetHistogram(Graph141414);
    
    gre->Draw("p");
    
@@ -1389,12 +1389,12 @@
    gre->SetPoint(5,0.245365,-0.0229779);
    gre->SetPointError(5,0,0.0797144);
    
-   TH1F *Graph1515 = new TH1F("Graph1515","Graph",100,0.0294405,0.2649945);
-   Graph1515->SetMinimum(-0.1204411);
-   Graph1515->SetMaximum(0.09254417);
-   Graph1515->SetDirectory(0);
-   Graph1515->SetStats(0);
-   gre->SetHistogram(Graph1515);
+   TH1F *Graph151515 = new TH1F("Graph151515","Graph",100,0.0294405,0.2649945);
+   Graph151515->SetMinimum(-0.1204411);
+   Graph151515->SetMaximum(0.09254417);
+   Graph151515->SetDirectory(0);
+   Graph151515->SetStats(0);
+   gre->SetHistogram(Graph151515);
    
    gre->Draw("p");
    pad1_11->Modified();
@@ -1419,22 +1419,22 @@
    pad1_15->SetFrameFillStyle(0);
    pad1_15->SetFrameBorderMode(0);
    
-   TH1F *hframe__12__12 = new TH1F("hframe__12__12","",20,0.04,0.33);
-   hframe__12__12->SetMinimum(0);
-   hframe__12__12->SetMaximum(0.45);
-   hframe__12__12->SetDirectory(0);
-   hframe__12__12->SetStats(0);
-   hframe__12__12->GetXaxis()->SetTitle("x_{B}");
-   hframe__12__12->GetXaxis()->CenterTitle(true);
-   hframe__12__12->GetXaxis()->SetNdivisions(205);
-   hframe__12__12->GetXaxis()->SetLabelFont(63);
-   hframe__12__12->GetXaxis()->SetLabelOffset(0.02);
-   hframe__12__12->GetXaxis()->SetLabelSize(25);
-   hframe__12__12->GetXaxis()->SetTitleSize(30);
-   hframe__12__12->GetXaxis()->SetTitleOffset(5);
-   hframe__12__12->GetXaxis()->SetTitleFont(63);
-   hframe__12__12->GetYaxis()->SetNdivisions(205);
-   hframe__12__12->Draw(" ");
+   TH1F *hframe__12__12__12 = new TH1F("hframe__12__12__12","",20,0.04,0.33);
+   hframe__12__12__12->SetMinimum(0);
+   hframe__12__12__12->SetMaximum(0.45);
+   hframe__12__12__12->SetDirectory(0);
+   hframe__12__12__12->SetStats(0);
+   hframe__12__12__12->GetXaxis()->SetTitle("x_{B}");
+   hframe__12__12__12->GetXaxis()->CenterTitle(true);
+   hframe__12__12__12->GetXaxis()->SetNdivisions(205);
+   hframe__12__12__12->GetXaxis()->SetLabelFont(63);
+   hframe__12__12__12->GetXaxis()->SetLabelOffset(0.02);
+   hframe__12__12__12->GetXaxis()->SetLabelSize(25);
+   hframe__12__12__12->GetXaxis()->SetTitleSize(30);
+   hframe__12__12__12->GetXaxis()->SetTitleOffset(5);
+   hframe__12__12__12->GetXaxis()->SetTitleFont(63);
+   hframe__12__12__12->GetYaxis()->SetNdivisions(205);
+   hframe__12__12__12->Draw(" ");
    
    graph = new TGraph(6);
    graph->SetName("Graph");
@@ -1448,12 +1448,12 @@
    graph->SetPoint(4,0.157213,0.152533);
    graph->SetPoint(5,0.245365,0.164045);
    
-   TH1F *Graph_Graph_Graph33 = new TH1F("Graph_Graph_Graph33","Graph",100,0.0294405,0.2649945);
-   Graph_Graph_Graph33->SetMinimum(0.1107434);
-   Graph_Graph_Graph33->SetMaximum(0.1688906);
-   Graph_Graph_Graph33->SetDirectory(0);
-   Graph_Graph_Graph33->SetStats(0);
-   graph->SetHistogram(Graph_Graph_Graph33);
+   TH1F *Graph_Graph_Graph_Graph333 = new TH1F("Graph_Graph_Graph_Graph333","Graph",100,0.0294405,0.2649945);
+   Graph_Graph_Graph_Graph333->SetMinimum(0.1107434);
+   Graph_Graph_Graph_Graph333->SetMaximum(0.1688906);
+   Graph_Graph_Graph_Graph333->SetDirectory(0);
+   Graph_Graph_Graph_Graph333->SetStats(0);
+   graph->SetHistogram(Graph_Graph_Graph_Graph333);
    
    graph->Draw("p");
    pad1_15->Modified();
@@ -1478,18 +1478,18 @@
    pad1_4->SetFrameFillStyle(0);
    pad1_4->SetFrameBorderMode(0);
    
-   TH1F *hframe__13__13 = new TH1F("hframe__13__13","",10,0.95,11.5);
-   hframe__13__13->SetMinimum(-0.65);
-   hframe__13__13->SetMaximum(0.25);
-   hframe__13__13->SetDirectory(0);
-   hframe__13__13->SetStats(0);
-   hframe__13__13->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
-   hframe__13__13->GetXaxis()->SetNdivisions(505);
-   hframe__13__13->GetXaxis()->SetLabelSize(0.1);
-   hframe__13__13->GetXaxis()->SetTitleSize(0.1);
-   hframe__13__13->GetXaxis()->SetTitleOffset(1.01);
-   hframe__13__13->GetYaxis()->SetNdivisions(205);
-   hframe__13__13->Draw(" ");
+   TH1F *hframe__13__13__13 = new TH1F("hframe__13__13__13","",10,0.95,11.5);
+   hframe__13__13__13->SetMinimum(-0.65);
+   hframe__13__13__13->SetMaximum(0.25);
+   hframe__13__13__13->SetDirectory(0);
+   hframe__13__13__13->SetStats(0);
+   hframe__13__13__13->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
+   hframe__13__13__13->GetXaxis()->SetNdivisions(505);
+   hframe__13__13__13->GetXaxis()->SetLabelSize(0.1);
+   hframe__13__13__13->GetXaxis()->SetTitleSize(0.1);
+   hframe__13__13__13->GetXaxis()->SetTitleOffset(1.01);
+   hframe__13__13__13->GetYaxis()->SetNdivisions(205);
+   hframe__13__13__13->Draw(" ");
    line = new TLine(0.95,0,11.5,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -1619,12 +1619,12 @@
    gre->SetPoint(5,5.810414,-0.1650849);
    gre->SetPointError(5,0,0.0573595);
    
-   TH1F *Graph1616 = new TH1F("Graph1616","Graph",100,0.734514,6.316146);
-   Graph1616->SetMinimum(-0.3693253);
-   Graph1616->SetMaximum(-0.08820479);
-   Graph1616->SetDirectory(0);
-   Graph1616->SetStats(0);
-   gre->SetHistogram(Graph1616);
+   TH1F *Graph161616 = new TH1F("Graph161616","Graph",100,0.734514,6.316146);
+   Graph161616->SetMinimum(-0.3693253);
+   Graph161616->SetMaximum(-0.08820479);
+   Graph161616->SetDirectory(0);
+   Graph161616->SetStats(0);
+   gre->SetHistogram(Graph161616);
    
    gre->Draw("p");
    pad1_4->Modified();
@@ -1649,18 +1649,18 @@
    pad1_8->SetFrameFillStyle(0);
    pad1_8->SetFrameBorderMode(0);
    
-   TH1F *hframe__14__14 = new TH1F("hframe__14__14","",10,0.95,11.5);
-   hframe__14__14->SetMinimum(-0.45);
-   hframe__14__14->SetMaximum(0.3);
-   hframe__14__14->SetDirectory(0);
-   hframe__14__14->SetStats(0);
-   hframe__14__14->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
-   hframe__14__14->GetXaxis()->SetNdivisions(505);
-   hframe__14__14->GetXaxis()->SetLabelSize(0.1);
-   hframe__14__14->GetXaxis()->SetTitleSize(0.1);
-   hframe__14__14->GetXaxis()->SetTitleOffset(1.01);
-   hframe__14__14->GetYaxis()->SetNdivisions(205);
-   hframe__14__14->Draw(" ");
+   TH1F *hframe__14__14__14 = new TH1F("hframe__14__14__14","",10,0.95,11.5);
+   hframe__14__14__14->SetMinimum(-0.45);
+   hframe__14__14__14->SetMaximum(0.3);
+   hframe__14__14__14->SetDirectory(0);
+   hframe__14__14__14->SetStats(0);
+   hframe__14__14__14->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
+   hframe__14__14__14->GetXaxis()->SetNdivisions(505);
+   hframe__14__14__14->GetXaxis()->SetLabelSize(0.1);
+   hframe__14__14__14->GetXaxis()->SetTitleSize(0.1);
+   hframe__14__14__14->GetXaxis()->SetTitleOffset(1.01);
+   hframe__14__14__14->GetYaxis()->SetNdivisions(205);
+   hframe__14__14__14->Draw(" ");
    line = new TLine(0.95,0,11.5,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -1686,12 +1686,12 @@
    gre->SetPoint(5,5.85101,-0.0650933);
    gre->SetPointError(5,0,0.0574801);
    
-   TH1F *Graph1717 = new TH1F("Graph1717","Graph",100,0.734514,6.316146);
-   Graph1717->SetMinimum(-0.1478742);
-   Graph1717->SetMaximum(0.1557358);
-   Graph1717->SetDirectory(0);
-   Graph1717->SetStats(0);
-   gre->SetHistogram(Graph1717);
+   TH1F *Graph171717 = new TH1F("Graph171717","Graph",100,0.734514,6.316146);
+   Graph171717->SetMinimum(-0.1478742);
+   Graph171717->SetMaximum(0.1557358);
+   Graph171717->SetDirectory(0);
+   Graph171717->SetStats(0);
+   gre->SetHistogram(Graph171717);
    
    gre->Draw("p");
    
@@ -1755,12 +1755,12 @@
    gre->SetPoint(5,5.85101,-0.0650933);
    gre->SetPointError(5,0,0.0574801);
    
-   TH1F *Graph1818 = new TH1F("Graph1818","Graph",100,0.734514,6.316146);
-   Graph1818->SetMinimum(-0.1478742);
-   Graph1818->SetMaximum(0.1557358);
-   Graph1818->SetDirectory(0);
-   Graph1818->SetStats(0);
-   gre->SetHistogram(Graph1818);
+   TH1F *Graph181818 = new TH1F("Graph181818","Graph",100,0.734514,6.316146);
+   Graph181818->SetMinimum(-0.1478742);
+   Graph181818->SetMaximum(0.1557358);
+   Graph181818->SetDirectory(0);
+   Graph181818->SetStats(0);
+   gre->SetHistogram(Graph181818);
    
    gre->Draw("p");
    pad1_8->Modified();
@@ -1785,18 +1785,18 @@
    pad1_12->SetFrameFillStyle(0);
    pad1_12->SetFrameBorderMode(0);
    
-   TH1F *hframe__15__15 = new TH1F("hframe__15__15","",10,0.95,11.5);
-   hframe__15__15->SetMinimum(-0.45);
-   hframe__15__15->SetMaximum(0.25);
-   hframe__15__15->SetDirectory(0);
-   hframe__15__15->SetStats(0);
-   hframe__15__15->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
-   hframe__15__15->GetXaxis()->SetNdivisions(505);
-   hframe__15__15->GetXaxis()->SetLabelSize(0.1);
-   hframe__15__15->GetXaxis()->SetTitleSize(0.1);
-   hframe__15__15->GetXaxis()->SetTitleOffset(1.01);
-   hframe__15__15->GetYaxis()->SetNdivisions(205);
-   hframe__15__15->Draw(" ");
+   TH1F *hframe__15__15__15 = new TH1F("hframe__15__15__15","",10,0.95,11.5);
+   hframe__15__15__15->SetMinimum(-0.45);
+   hframe__15__15__15->SetMaximum(0.25);
+   hframe__15__15__15->SetDirectory(0);
+   hframe__15__15__15->SetStats(0);
+   hframe__15__15__15->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
+   hframe__15__15__15->GetXaxis()->SetNdivisions(505);
+   hframe__15__15__15->GetXaxis()->SetLabelSize(0.1);
+   hframe__15__15__15->GetXaxis()->SetTitleSize(0.1);
+   hframe__15__15__15->GetXaxis()->SetTitleOffset(1.01);
+   hframe__15__15__15->GetYaxis()->SetNdivisions(205);
+   hframe__15__15__15->Draw(" ");
    line = new TLine(0.95,0,11.5,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -1822,12 +1822,12 @@
    gre->SetPoint(5,5.85101,-0.0169471);
    gre->SetPointError(5,0,0.0560335);
    
-   TH1F *Graph1919 = new TH1F("Graph1919","Graph",100,0.734514,6.316146);
-   Graph1919->SetMinimum(-0.1270012);
-   Graph1919->SetMaximum(0.09349007);
-   Graph1919->SetDirectory(0);
-   Graph1919->SetStats(0);
-   gre->SetHistogram(Graph1919);
+   TH1F *Graph191919 = new TH1F("Graph191919","Graph",100,0.734514,6.316146);
+   Graph191919->SetMinimum(-0.1270012);
+   Graph191919->SetMaximum(0.09349007);
+   Graph191919->SetDirectory(0);
+   Graph191919->SetStats(0);
+   gre->SetHistogram(Graph191919);
    
    gre->Draw("p");
    
@@ -1891,12 +1891,12 @@
    gre->SetPoint(5,5.85101,-0.0169471);
    gre->SetPointError(5,0,0.0560335);
    
-   TH1F *Graph2020 = new TH1F("Graph2020","Graph",100,0.734514,6.316146);
-   Graph2020->SetMinimum(-0.1270012);
-   Graph2020->SetMaximum(0.09349007);
-   Graph2020->SetDirectory(0);
-   Graph2020->SetStats(0);
-   gre->SetHistogram(Graph2020);
+   TH1F *Graph202020 = new TH1F("Graph202020","Graph",100,0.734514,6.316146);
+   Graph202020->SetMinimum(-0.1270012);
+   Graph202020->SetMaximum(0.09349007);
+   Graph202020->SetDirectory(0);
+   Graph202020->SetStats(0);
+   gre->SetHistogram(Graph202020);
    
    gre->Draw("p");
    pad1_12->Modified();
@@ -1921,22 +1921,22 @@
    pad1_16->SetFrameFillStyle(0);
    pad1_16->SetFrameBorderMode(0);
    
-   TH1F *hframe__16__16 = new TH1F("hframe__16__16","",10,0.95,11.5);
-   hframe__16__16->SetMinimum(0);
-   hframe__16__16->SetMaximum(0.45);
-   hframe__16__16->SetDirectory(0);
-   hframe__16__16->SetStats(0);
-   hframe__16__16->GetXaxis()->SetTitle("Q^{2} [GeV^{2}]");
-   hframe__16__16->GetXaxis()->CenterTitle(true);
-   hframe__16__16->GetXaxis()->SetNdivisions(205);
-   hframe__16__16->GetXaxis()->SetLabelFont(63);
-   hframe__16__16->GetXaxis()->SetLabelOffset(0.02);
-   hframe__16__16->GetXaxis()->SetLabelSize(25);
-   hframe__16__16->GetXaxis()->SetTitleSize(30);
-   hframe__16__16->GetXaxis()->SetTitleOffset(5);
-   hframe__16__16->GetXaxis()->SetTitleFont(63);
-   hframe__16__16->GetYaxis()->SetNdivisions(205);
-   hframe__16__16->Draw(" ");
+   TH1F *hframe__16__16__16 = new TH1F("hframe__16__16__16","",10,0.95,11.5);
+   hframe__16__16__16->SetMinimum(0);
+   hframe__16__16__16->SetMaximum(0.45);
+   hframe__16__16__16->SetDirectory(0);
+   hframe__16__16__16->SetStats(0);
+   hframe__16__16__16->GetXaxis()->SetTitle("Q^{2} [GeV^{2}]");
+   hframe__16__16__16->GetXaxis()->CenterTitle(true);
+   hframe__16__16__16->GetXaxis()->SetNdivisions(205);
+   hframe__16__16__16->GetXaxis()->SetLabelFont(63);
+   hframe__16__16__16->GetXaxis()->SetLabelOffset(0.02);
+   hframe__16__16__16->GetXaxis()->SetLabelSize(25);
+   hframe__16__16__16->GetXaxis()->SetTitleSize(30);
+   hframe__16__16__16->GetXaxis()->SetTitleOffset(5);
+   hframe__16__16__16->GetXaxis()->SetTitleFont(63);
+   hframe__16__16__16->GetYaxis()->SetNdivisions(205);
+   hframe__16__16__16->Draw(" ");
    
    graph = new TGraph(6);
    graph->SetName("Graph");
@@ -1950,12 +1950,12 @@
    graph->SetPoint(4,3.76701,0.158857);
    graph->SetPoint(5,5.85101,0.181278);
    
-   TH1F *Graph_Graph_Graph44 = new TH1F("Graph_Graph_Graph44","Graph",100,0.734514,6.316146);
-   Graph_Graph_Graph44->SetMinimum(0.0926488);
-   Graph_Graph_Graph44->SetMaximum(0.1893352);
-   Graph_Graph_Graph44->SetDirectory(0);
-   Graph_Graph_Graph44->SetStats(0);
-   graph->SetHistogram(Graph_Graph_Graph44);
+   TH1F *Graph_Graph_Graph_Graph444 = new TH1F("Graph_Graph_Graph_Graph444","Graph",100,0.734514,6.316146);
+   Graph_Graph_Graph_Graph444->SetMinimum(0.0926488);
+   Graph_Graph_Graph_Graph444->SetMaximum(0.1893352);
+   Graph_Graph_Graph_Graph444->SetDirectory(0);
+   Graph_Graph_Graph_Graph444->SetStats(0);
+   graph->SetHistogram(Graph_Graph_Graph_Graph444);
    
    graph->Draw("p");
    pad1_16->Modified();
