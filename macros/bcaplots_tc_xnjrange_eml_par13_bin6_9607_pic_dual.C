@@ -1,7 +1,7 @@
 {
 //=========Macro generated from canvas: combined/
-//=========  (Wed Jul  6 14:13:57 2011) by ROOT version5.14/00
-   TCanvas *combined = new TCanvas("combined", "",-0,0,1400,1000);
+//=========  (Thu Oct  6 17:24:30 2011) by ROOT version5.28/00b
+   TCanvas *combined = new TCanvas("combined", "",1,22,1280,756);
    gStyle->SetOptStat(0);
    combined->SetHighLightColor(2);
    combined->Range(0,0,1,1);
@@ -33,7 +33,7 @@
    pad1_1 = new TPad("pad1_1", "pad1_1",0,0.746749,0.364784,0.973991);
    pad1_1->Draw();
    pad1_1->cd();
-   pad1_1->Range(-2.43553,-0.35,-0.09691,0.25);
+   pad1_1->Range(-2.435528,-0.35,-0.09691001,0.25);
    pad1_1->SetFillStyle(4000);
    pad1_1->SetBorderMode(0);
    pad1_1->SetBorderSize(0);
@@ -48,28 +48,26 @@
    pad1_1->SetFrameFillStyle(0);
    pad1_1->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.35);
-   hframe->SetMaximum(0.25);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetTitle("A_{C}^{cos (0#phi)}");
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->GetYaxis()->SetLabelOffset(0.015);
-   hframe->GetYaxis()->SetLabelSize(0.14);
-   hframe->GetYaxis()->SetTitleSize(0.19);
-   hframe->GetYaxis()->SetTitleOffset(0.35);
-   hframe->Draw(" ");
-//Primitive: xaxis/-t_{c} (GeV^{2}). You must implement TAxis::SavePrimitive
+   TH1F *hframe__1__1 = new TH1F("hframe__1__1","",21,0.009,0.8);
+   hframe__1__1->SetMinimum(-0.35);
+   hframe__1__1->SetMaximum(0.25);
+   hframe__1__1->SetDirectory(0);
+   hframe__1__1->SetStats(0);
+   hframe__1__1->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
+   hframe__1__1->GetXaxis()->SetNdivisions(505);
+   hframe__1__1->GetXaxis()->SetLabelSize(0.1);
+   hframe__1__1->GetXaxis()->SetTitleSize(0.1);
+   hframe__1__1->GetXaxis()->SetTitleOffset(1.01);
+   hframe__1__1->GetYaxis()->SetTitle("A_{C}^{cos (0#phi)}");
+   hframe__1__1->GetYaxis()->SetNdivisions(205);
+   hframe__1__1->GetYaxis()->SetLabelOffset(0.015);
+   hframe__1__1->GetYaxis()->SetLabelSize(0.14);
+   hframe__1__1->GetYaxis()->SetTitleSize(0.19);
+   hframe__1__1->GetYaxis()->SetTitleOffset(0.35);
+   hframe__1__1->Draw(" ");
    TLine *line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
-//Primitive: yaxis/A_{C}^{cos (0#phi)}. You must implement TAxis::SavePrimitive
    
    TGraphErrors *gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -78,7 +76,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0311593);
    gre->SetPointError(0,0,0.0084078);
    gre->SetPoint(1,0.04394,-0.00658054);
@@ -91,6 +88,14 @@
    gre->SetPointError(4,0,0.0257291);
    gre->SetPoint(5,0.466061,-0.23428);
    gre->SetPointError(5,0,0.0898136);
+   
+   TH1F *Graph11 = new TH1F("Graph11","Graph",100,0.0168849,0.510791);
+   Graph11->SetMinimum(-0.3569063);
+   Graph11->SetMaximum(0.03684639);
+   Graph11->SetDirectory(0);
+   Graph11->SetStats(0);
+   gre->SetHistogram(Graph11);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -139,7 +144,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0311593);
    gre->SetPointError(0,0,0.0084078);
    gre->SetPoint(1,0.04394,-0.00658054);
@@ -152,9 +156,21 @@
    gre->SetPointError(4,0,0.0257291);
    gre->SetPoint(5,0.466061,-0.23428);
    gre->SetPointError(5,0,0.0898136);
-   gre->Draw("psame");
-   TLatex *   tex = new TLatex(0.02,0.15,"0.03 < x_{B} < 0.08");
-   tex->SetTextSize(0.14);
+   
+   TH1F *Graph22 = new TH1F("Graph22","Graph",100,0.0168849,0.510791);
+   Graph22->SetMinimum(-0.3569063);
+   Graph22->SetMaximum(0.03684639);
+   Graph22->SetDirectory(0);
+   Graph22->SetStats(0);
+   gre->SetHistogram(Graph22);
+   
+   gre->Draw("p");
+   TLatex *   tex = new TLatex(0.022,0.16,"0.03 < x_{B} < 0.08 ");
+   tex->SetTextSize(0.12);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.022,0.06,"<Q^{2}> = 1.56 GeV^{2}");
+   tex->SetTextSize(0.12);
    tex->SetLineWidth(2);
    tex->Draw();
    pad1_1->Modified();
@@ -164,7 +180,7 @@
    pad1_4 = new TPad("pad1_4", "pad1_4",0,0.519507,0.364784,0.746749);
    pad1_4->Draw();
    pad1_4->cd();
-   pad1_4->Range(-2.43553,-0.45,-0.09691,0.25);
+   pad1_4->Range(-2.435528,-0.45,-0.09691001,0.25);
    pad1_4->SetFillStyle(4000);
    pad1_4->SetBorderMode(0);
    pad1_4->SetBorderSize(0);
@@ -179,28 +195,26 @@
    pad1_4->SetFrameFillStyle(0);
    pad1_4->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.45);
-   hframe->SetMaximum(0.25);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetTitle("A_{C}^{cos #phi}");
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->GetYaxis()->SetLabelOffset(0.015);
-   hframe->GetYaxis()->SetLabelSize(0.14);
-   hframe->GetYaxis()->SetTitleSize(0.19);
-   hframe->GetYaxis()->SetTitleOffset(0.4);
-   hframe->Draw(" ");
-//Primitive: xaxis/-t_{c} (GeV^{2}). You must implement TAxis::SavePrimitive
+   TH1F *hframe__2__2 = new TH1F("hframe__2__2","",21,0.009,0.8);
+   hframe__2__2->SetMinimum(-0.45);
+   hframe__2__2->SetMaximum(0.25);
+   hframe__2__2->SetDirectory(0);
+   hframe__2__2->SetStats(0);
+   hframe__2__2->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
+   hframe__2__2->GetXaxis()->SetNdivisions(505);
+   hframe__2__2->GetXaxis()->SetLabelSize(0.1);
+   hframe__2__2->GetXaxis()->SetTitleSize(0.1);
+   hframe__2__2->GetXaxis()->SetTitleOffset(1.01);
+   hframe__2__2->GetYaxis()->SetTitle("A_{C}^{cos #phi}");
+   hframe__2__2->GetYaxis()->SetNdivisions(205);
+   hframe__2__2->GetYaxis()->SetLabelOffset(0.015);
+   hframe__2__2->GetYaxis()->SetLabelSize(0.14);
+   hframe__2__2->GetYaxis()->SetTitleSize(0.19);
+   hframe__2__2->GetYaxis()->SetTitleOffset(0.4);
+   hframe__2__2->Draw(" ");
    line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
-//Primitive: yaxis/A_{C}^{cos #phi}. You must implement TAxis::SavePrimitive
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -209,7 +223,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0133299);
    gre->SetPointError(0,0,0.0116678);
    gre->SetPoint(1,0.04394,0.0190523);
@@ -222,6 +235,14 @@
    gre->SetPointError(4,0,0.0439502);
    gre->SetPoint(5,0.466061,-0.0542242);
    gre->SetPointError(5,0,0.158136);
+   
+   TH1F *Graph33 = new TH1F("Graph33","Graph",100,0.0168849,0.510791);
+   Graph33->SetMinimum(-0.2527585);
+   Graph33->SetMaximum(0.2320215);
+   Graph33->SetDirectory(0);
+   Graph33->SetStats(0);
+   gre->SetHistogram(Graph33);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -270,7 +291,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0133299);
    gre->SetPointError(0,0,0.0116678);
    gre->SetPoint(1,0.04394,0.0190523);
@@ -283,7 +303,15 @@
    gre->SetPointError(4,0,0.0439502);
    gre->SetPoint(5,0.466061,-0.0542242);
    gre->SetPointError(5,0,0.158136);
-   gre->Draw("psame");
+   
+   TH1F *Graph44 = new TH1F("Graph44","Graph",100,0.0168849,0.510791);
+   Graph44->SetMinimum(-0.2527585);
+   Graph44->SetMaximum(0.2320215);
+   Graph44->SetDirectory(0);
+   Graph44->SetStats(0);
+   gre->SetHistogram(Graph44);
+   
+   gre->Draw("p");
    pad1_4->Modified();
    pad1->cd();
   
@@ -291,7 +319,7 @@
    pad1_7 = new TPad("pad1_7", "pad1_7",0,0.292265,0.364784,0.519507);
    pad1_7->Draw();
    pad1_7->cd();
-   pad1_7->Range(-2.43553,-0.25,-0.09691,0.3);
+   pad1_7->Range(-2.435528,-0.25,-0.09691001,0.3);
    pad1_7->SetFillStyle(4000);
    pad1_7->SetBorderMode(0);
    pad1_7->SetBorderSize(0);
@@ -306,28 +334,26 @@
    pad1_7->SetFrameFillStyle(0);
    pad1_7->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.25);
-   hframe->SetMaximum(0.3);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetTitle("A_{C}^{cos (2#phi)}");
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->GetYaxis()->SetLabelOffset(0.015);
-   hframe->GetYaxis()->SetLabelSize(0.14);
-   hframe->GetYaxis()->SetTitleSize(0.19);
-   hframe->GetYaxis()->SetTitleOffset(0.35);
-   hframe->Draw(" ");
-//Primitive: xaxis/-t_{c} (GeV^{2}). You must implement TAxis::SavePrimitive
+   TH1F *hframe__3__3 = new TH1F("hframe__3__3","",21,0.009,0.8);
+   hframe__3__3->SetMinimum(-0.25);
+   hframe__3__3->SetMaximum(0.3);
+   hframe__3__3->SetDirectory(0);
+   hframe__3__3->SetStats(0);
+   hframe__3__3->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
+   hframe__3__3->GetXaxis()->SetNdivisions(505);
+   hframe__3__3->GetXaxis()->SetLabelSize(0.1);
+   hframe__3__3->GetXaxis()->SetTitleSize(0.1);
+   hframe__3__3->GetXaxis()->SetTitleOffset(1.01);
+   hframe__3__3->GetYaxis()->SetTitle("A_{C}^{cos (2#phi)}");
+   hframe__3__3->GetYaxis()->SetNdivisions(205);
+   hframe__3__3->GetYaxis()->SetLabelOffset(0.015);
+   hframe__3__3->GetYaxis()->SetLabelSize(0.14);
+   hframe__3__3->GetYaxis()->SetTitleSize(0.19);
+   hframe__3__3->GetYaxis()->SetTitleOffset(0.35);
+   hframe__3__3->Draw(" ");
    line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
-//Primitive: yaxis/A_{C}^{cos (2#phi)}. You must implement TAxis::SavePrimitive
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -336,7 +362,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0323579);
    gre->SetPointError(0,0,0.0117045);
    gre->SetPoint(1,0.04394,-0.0190702);
@@ -349,6 +374,14 @@
    gre->SetPointError(4,0,0.0362712);
    gre->SetPoint(5,0.466061,-0.108929);
    gre->SetPointError(5,0,0.113101);
+   
+   TH1F *Graph55 = new TH1F("Graph55","Graph",100,0.0168849,0.510791);
+   Graph55->SetMinimum(-0.2499526);
+   Graph55->SetMaximum(0.08511871);
+   Graph55->SetDirectory(0);
+   Graph55->SetStats(0);
+   gre->SetHistogram(Graph55);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -397,7 +430,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0323579);
    gre->SetPointError(0,0,0.0117045);
    gre->SetPoint(1,0.04394,-0.0190702);
@@ -410,7 +442,15 @@
    gre->SetPointError(4,0,0.0362712);
    gre->SetPoint(5,0.466061,-0.108929);
    gre->SetPointError(5,0,0.113101);
-   gre->Draw("psame");
+   
+   TH1F *Graph66 = new TH1F("Graph66","Graph",100,0.0168849,0.510791);
+   Graph66->SetMinimum(-0.2499526);
+   Graph66->SetMaximum(0.08511871);
+   Graph66->SetDirectory(0);
+   Graph66->SetStats(0);
+   gre->SetHistogram(Graph66);
+   
+   gre->Draw("p");
    pad1_7->Modified();
    pad1->cd();
   
@@ -418,7 +458,7 @@
    pad1_10 = new TPad("pad1_10", "pad1_10",0,0,0.364784,0.292265);
    pad1_10->Draw();
    pad1_10->cd();
-   pad1_10->Range(-2.43553,-0.443334,-0.09691,0.3);
+   pad1_10->Range(-2.435528,-0.4433336,-0.09691001,0.3);
    pad1_10->SetFillStyle(4000);
    pad1_10->SetBorderMode(0);
    pad1_10->SetBorderSize(0);
@@ -433,28 +473,26 @@
    pad1_10->SetFrameFillStyle(0);
    pad1_10->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.25);
-   hframe->SetMaximum(0.3);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("-t [GeV^{2}]");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetTitle("A_{C}^{cos (3#phi)}");
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->GetYaxis()->SetLabelOffset(0.015);
-   hframe->GetYaxis()->SetLabelSize(0.1);
-   hframe->GetYaxis()->SetTitleSize(0.15);
-   hframe->GetYaxis()->SetTitleOffset(0.5);
-   hframe->Draw(" ");
-//Primitive: xaxis/-t [GeV^{2}]. You must implement TAxis::SavePrimitive
+   TH1F *hframe__4__4 = new TH1F("hframe__4__4","",21,0.009,0.8);
+   hframe__4__4->SetMinimum(-0.25);
+   hframe__4__4->SetMaximum(0.3);
+   hframe__4__4->SetDirectory(0);
+   hframe__4__4->SetStats(0);
+   hframe__4__4->GetXaxis()->SetTitle("-t [GeV^{2}]");
+   hframe__4__4->GetXaxis()->SetNdivisions(505);
+   hframe__4__4->GetXaxis()->SetLabelSize(0.1);
+   hframe__4__4->GetXaxis()->SetTitleSize(0.1);
+   hframe__4__4->GetXaxis()->SetTitleOffset(1.01);
+   hframe__4__4->GetYaxis()->SetTitle("A_{C}^{cos (3#phi)}");
+   hframe__4__4->GetYaxis()->SetNdivisions(205);
+   hframe__4__4->GetYaxis()->SetLabelOffset(0.015);
+   hframe__4__4->GetYaxis()->SetLabelSize(0.1);
+   hframe__4__4->GetYaxis()->SetTitleSize(0.15);
+   hframe__4__4->GetYaxis()->SetTitleOffset(0.5);
+   hframe__4__4->Draw(" ");
    line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
-//Primitive: yaxis/A_{C}^{cos (3#phi)}. You must implement TAxis::SavePrimitive
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -463,7 +501,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0160056);
    gre->SetPointError(0,0,0.0116624);
    gre->SetPoint(1,0.04394,0.0127603);
@@ -476,6 +513,14 @@
    gre->SetPointError(4,0,0.0273527);
    gre->SetPoint(5,0.466061,-0.0837074);
    gre->SetPointError(5,0,0.0613807);
+   
+   TH1F *Graph77 = new TH1F("Graph77","Graph",100,0.0168849,0.510791);
+   Graph77->SetMinimum(-0.1684498);
+   Graph77->SetMaximum(0.1118908);
+   Graph77->SetDirectory(0);
+   Graph77->SetStats(0);
+   gre->SetHistogram(Graph77);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -524,7 +569,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0160056);
    gre->SetPointError(0,0,0.0116624);
    gre->SetPoint(1,0.04394,0.0127603);
@@ -537,7 +581,15 @@
    gre->SetPointError(4,0,0.0273527);
    gre->SetPoint(5,0.466061,-0.0837074);
    gre->SetPointError(5,0,0.0613807);
-   gre->Draw("psame");
+   
+   TH1F *Graph88 = new TH1F("Graph88","Graph",100,0.0168849,0.510791);
+   Graph88->SetMinimum(-0.1684498);
+   Graph88->SetMaximum(0.1118908);
+   Graph88->SetDirectory(0);
+   Graph88->SetStats(0);
+   gre->SetHistogram(Graph88);
+   
+   gre->Draw("p");
    pad1_10->Modified();
    pad1->cd();
   
@@ -545,7 +597,7 @@
    pad1_2 = new TPad("pad1_2", "pad1_2",0.364784,0.746749,0.674012,0.973991);
    pad1_2->Draw();
    pad1_2->cd();
-   pad1_2->Range(-2.04576,-0.35,-0.09691,0.25);
+   pad1_2->Range(-2.045757,-0.35,-0.09691001,0.25);
    pad1_2->SetFillStyle(4000);
    pad1_2->SetBorderMode(0);
    pad1_2->SetBorderSize(0);
@@ -560,19 +612,18 @@
    pad1_2->SetFrameFillStyle(0);
    pad1_2->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.35);
-   hframe->SetMaximum(0.25);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->Draw(" ");
-//Primitive: xaxis/Q^{2} (GeV^{2}). You must implement TAxis::SavePrimitive
+   TH1F *hframe__5__5 = new TH1F("hframe__5__5","",21,0.009,0.8);
+   hframe__5__5->SetMinimum(-0.35);
+   hframe__5__5->SetMaximum(0.25);
+   hframe__5__5->SetDirectory(0);
+   hframe__5__5->SetStats(0);
+   hframe__5__5->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
+   hframe__5__5->GetXaxis()->SetNdivisions(505);
+   hframe__5__5->GetXaxis()->SetLabelSize(0.1);
+   hframe__5__5->GetXaxis()->SetTitleSize(0.1);
+   hframe__5__5->GetXaxis()->SetTitleOffset(1.01);
+   hframe__5__5->GetYaxis()->SetNdivisions(205);
+   hframe__5__5->Draw(" ");
    line = new TLine(0.009,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -584,7 +635,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,0.0201682);
    gre->SetPointError(0,0,0.0150053);
    gre->SetPoint(1,0.04394,-0.0130729);
@@ -597,6 +647,14 @@
    gre->SetPointError(4,0,0.0176156);
    gre->SetPoint(5,0.466061,-0.0768459);
    gre->SetPointError(5,0,0.037952);
+   
+   TH1F *Graph99 = new TH1F("Graph99","Graph",100,0.0168849,0.510791);
+   Graph99->SetMinimum(-0.129795);
+   Graph99->SetMaximum(0.05017064);
+   Graph99->SetDirectory(0);
+   Graph99->SetStats(0);
+   gre->SetHistogram(Graph99);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -645,7 +703,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,0.0201682);
    gre->SetPointError(0,0,0.0150053);
    gre->SetPoint(1,0.04394,-0.0130729);
@@ -658,9 +715,21 @@
    gre->SetPointError(4,0,0.0176156);
    gre->SetPoint(5,0.466061,-0.0768459);
    gre->SetPointError(5,0,0.037952);
-   gre->Draw("psame");
-   TLatex *   tex = new TLatex(0.02,0.15,"0.08 < x_{B} < 0.12");
-   tex->SetTextSize(0.14);
+   
+   TH1F *Graph1010 = new TH1F("Graph1010","Graph",100,0.0168849,0.510791);
+   Graph1010->SetMinimum(-0.129795);
+   Graph1010->SetMaximum(0.05017064);
+   Graph1010->SetDirectory(0);
+   Graph1010->SetStats(0);
+   gre->SetHistogram(Graph1010);
+   
+   gre->Draw("p");
+      tex = new TLatex(0.022,0.16,"0.08 < x_{B} < 0.12");
+   tex->SetTextSize(0.12);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.022,0.06,"<Q^{2}> = 2.52 GeV^{2}");
+   tex->SetTextSize(0.12);
    tex->SetLineWidth(2);
    tex->Draw();
    pad1_2->Modified();
@@ -670,7 +739,7 @@
    pad1_5 = new TPad("pad1_5", "pad1_5",0.364784,0.519507,0.674012,0.746749);
    pad1_5->Draw();
    pad1_5->cd();
-   pad1_5->Range(-2.04576,-0.45,-0.09691,0.25);
+   pad1_5->Range(-2.045757,-0.45,-0.09691001,0.25);
    pad1_5->SetFillStyle(4000);
    pad1_5->SetBorderMode(0);
    pad1_5->SetBorderSize(0);
@@ -685,19 +754,18 @@
    pad1_5->SetFrameFillStyle(0);
    pad1_5->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.45);
-   hframe->SetMaximum(0.25);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->Draw(" ");
-//Primitive: xaxis/Q^{2} (GeV^{2}). You must implement TAxis::SavePrimitive
+   TH1F *hframe__6__6 = new TH1F("hframe__6__6","",21,0.009,0.8);
+   hframe__6__6->SetMinimum(-0.45);
+   hframe__6__6->SetMaximum(0.25);
+   hframe__6__6->SetDirectory(0);
+   hframe__6__6->SetStats(0);
+   hframe__6__6->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
+   hframe__6__6->GetXaxis()->SetNdivisions(505);
+   hframe__6__6->GetXaxis()->SetLabelSize(0.1);
+   hframe__6__6->GetXaxis()->SetTitleSize(0.1);
+   hframe__6__6->GetXaxis()->SetTitleOffset(1.01);
+   hframe__6__6->GetYaxis()->SetNdivisions(205);
+   hframe__6__6->Draw(" ");
    line = new TLine(0.009,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -709,7 +777,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,0.0485);
    gre->SetPointError(0,0,0.0214823);
    gre->SetPoint(1,0.04394,-0.00154069);
@@ -722,6 +789,14 @@
    gre->SetPointError(4,0,0.0251272);
    gre->SetPoint(5,0.466061,0.0230025);
    gre->SetPointError(5,0,0.0629283);
+   
+   TH1F *Graph1111 = new TH1F("Graph1111","Graph",100,0.0168849,0.510791);
+   Graph1111->SetMinimum(-0.0570967);
+   Graph1111->SetMaximum(0.1489541);
+   Graph1111->SetDirectory(0);
+   Graph1111->SetStats(0);
+   gre->SetHistogram(Graph1111);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -770,7 +845,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,0.0485);
    gre->SetPointError(0,0,0.0214823);
    gre->SetPoint(1,0.04394,-0.00154069);
@@ -783,7 +857,15 @@
    gre->SetPointError(4,0,0.0251272);
    gre->SetPoint(5,0.466061,0.0230025);
    gre->SetPointError(5,0,0.0629283);
-   gre->Draw("psame");
+   
+   TH1F *Graph1212 = new TH1F("Graph1212","Graph",100,0.0168849,0.510791);
+   Graph1212->SetMinimum(-0.0570967);
+   Graph1212->SetMaximum(0.1489541);
+   Graph1212->SetDirectory(0);
+   Graph1212->SetStats(0);
+   gre->SetHistogram(Graph1212);
+   
+   gre->Draw("p");
    pad1_5->Modified();
    pad1->cd();
   
@@ -791,7 +873,7 @@
    pad1_8 = new TPad("pad1_8", "pad1_8",0.364784,0.292265,0.674012,0.519507);
    pad1_8->Draw();
    pad1_8->cd();
-   pad1_8->Range(-2.04576,-0.25,-0.09691,0.3);
+   pad1_8->Range(-2.045757,-0.25,-0.09691001,0.3);
    pad1_8->SetFillStyle(4000);
    pad1_8->SetBorderMode(0);
    pad1_8->SetBorderSize(0);
@@ -806,19 +888,18 @@
    pad1_8->SetFrameFillStyle(0);
    pad1_8->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.25);
-   hframe->SetMaximum(0.3);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->Draw(" ");
-//Primitive: xaxis/Q^{2} (GeV^{2}). You must implement TAxis::SavePrimitive
+   TH1F *hframe__7__7 = new TH1F("hframe__7__7","",21,0.009,0.8);
+   hframe__7__7->SetMinimum(-0.25);
+   hframe__7__7->SetMaximum(0.3);
+   hframe__7__7->SetDirectory(0);
+   hframe__7__7->SetStats(0);
+   hframe__7__7->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
+   hframe__7__7->GetXaxis()->SetNdivisions(505);
+   hframe__7__7->GetXaxis()->SetLabelSize(0.1);
+   hframe__7__7->GetXaxis()->SetTitleSize(0.1);
+   hframe__7__7->GetXaxis()->SetTitleOffset(1.01);
+   hframe__7__7->GetYaxis()->SetNdivisions(205);
+   hframe__7__7->Draw(" ");
    line = new TLine(0.009,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -830,7 +911,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.00180144);
    gre->SetPointError(0,0,0.0208018);
    gre->SetPoint(1,0.04394,0.0367917);
@@ -843,6 +923,14 @@
    gre->SetPointError(4,0,0.0243632);
    gre->SetPoint(5,0.466061,-0.0459972);
    gre->SetPointError(5,0,0.0559827);
+   
+   TH1F *Graph1313 = new TH1F("Graph1313","Graph",100,0.0168849,0.510791);
+   Graph1313->SetMinimum(-0.1176378);
+   Graph1313->SetMaximum(0.07025645);
+   Graph1313->SetDirectory(0);
+   Graph1313->SetStats(0);
+   gre->SetHistogram(Graph1313);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -891,7 +979,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.00180144);
    gre->SetPointError(0,0,0.0208018);
    gre->SetPoint(1,0.04394,0.0367917);
@@ -904,7 +991,15 @@
    gre->SetPointError(4,0,0.0243632);
    gre->SetPoint(5,0.466061,-0.0459972);
    gre->SetPointError(5,0,0.0559827);
-   gre->Draw("psame");
+   
+   TH1F *Graph1414 = new TH1F("Graph1414","Graph",100,0.0168849,0.510791);
+   Graph1414->SetMinimum(-0.1176378);
+   Graph1414->SetMaximum(0.07025645);
+   Graph1414->SetDirectory(0);
+   Graph1414->SetStats(0);
+   gre->SetHistogram(Graph1414);
+   
+   gre->Draw("p");
    pad1_8->Modified();
    pad1->cd();
   
@@ -912,7 +1007,7 @@
    pad1_11 = new TPad("pad1_11", "pad1_11",0.364784,0,0.674012,0.292265);
    pad1_11->Draw();
    pad1_11->cd();
-   pad1_11->Range(-2.04576,-0.443334,-0.09691,0.3);
+   pad1_11->Range(-2.045757,-0.4433336,-0.09691001,0.3);
    pad1_11->SetFillStyle(4000);
    pad1_11->SetBorderMode(0);
    pad1_11->SetBorderSize(0);
@@ -927,19 +1022,18 @@
    pad1_11->SetFrameFillStyle(0);
    pad1_11->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.25);
-   hframe->SetMaximum(0.3);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("-t [GeV^{2}]");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->Draw(" ");
-//Primitive: xaxis/-t [GeV^{2}]. You must implement TAxis::SavePrimitive
+   TH1F *hframe__8__8 = new TH1F("hframe__8__8","",21,0.009,0.8);
+   hframe__8__8->SetMinimum(-0.25);
+   hframe__8__8->SetMaximum(0.3);
+   hframe__8__8->SetDirectory(0);
+   hframe__8__8->SetStats(0);
+   hframe__8__8->GetXaxis()->SetTitle("-t [GeV^{2}]");
+   hframe__8__8->GetXaxis()->SetNdivisions(505);
+   hframe__8__8->GetXaxis()->SetLabelSize(0.1);
+   hframe__8__8->GetXaxis()->SetTitleSize(0.1);
+   hframe__8__8->GetXaxis()->SetTitleOffset(1.01);
+   hframe__8__8->GetYaxis()->SetNdivisions(205);
+   hframe__8__8->Draw(" ");
    line = new TLine(0.009,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -951,7 +1045,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0139476);
    gre->SetPointError(0,0,0.0205888);
    gre->SetPoint(1,0.04394,0.000181694);
@@ -964,6 +1057,14 @@
    gre->SetPointError(4,0,0.0244047);
    gre->SetPoint(5,0.466061,0.0236044);
    gre->SetPointError(5,0,0.0480984);
+   
+   TH1F *Graph1515 = new TH1F("Graph1515","Graph",100,0.0168849,0.510791);
+   Graph1515->SetMinimum(-0.07559787);
+   Graph1515->SetMaximum(0.08509377);
+   Graph1515->SetDirectory(0);
+   Graph1515->SetStats(0);
+   gre->SetHistogram(Graph1515);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -1012,7 +1113,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0139476);
    gre->SetPointError(0,0,0.0205888);
    gre->SetPoint(1,0.04394,0.000181694);
@@ -1025,7 +1125,15 @@
    gre->SetPointError(4,0,0.0244047);
    gre->SetPoint(5,0.466061,0.0236044);
    gre->SetPointError(5,0,0.0480984);
-   gre->Draw("psame");
+   
+   TH1F *Graph1616 = new TH1F("Graph1616","Graph",100,0.0168849,0.510791);
+   Graph1616->SetMinimum(-0.07559787);
+   Graph1616->SetMaximum(0.08509377);
+   Graph1616->SetDirectory(0);
+   Graph1616->SetStats(0);
+   gre->SetHistogram(Graph1616);
+   
+   gre->Draw("p");
    pad1_11->Modified();
    pad1->cd();
   
@@ -1033,7 +1141,7 @@
    pad1_3 = new TPad("pad1_3", "pad1_3",0.674012,0.746749,0.98324,0.973991);
    pad1_3->Draw();
    pad1_3->cd();
-   pad1_3->Range(-2.04576,-0.35,-0.09691,0.25);
+   pad1_3->Range(-2.045757,-0.35,-0.09691001,0.25);
    pad1_3->SetFillStyle(4000);
    pad1_3->SetBorderMode(0);
    pad1_3->SetBorderSize(0);
@@ -1048,19 +1156,18 @@
    pad1_3->SetFrameFillStyle(0);
    pad1_3->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.35);
-   hframe->SetMaximum(0.25);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("x_{Bj}");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->Draw(" ");
-//Primitive: xaxis/x_{Bj}. You must implement TAxis::SavePrimitive
+   TH1F *hframe__9__9 = new TH1F("hframe__9__9","",21,0.009,0.8);
+   hframe__9__9->SetMinimum(-0.35);
+   hframe__9__9->SetMaximum(0.25);
+   hframe__9__9->SetDirectory(0);
+   hframe__9__9->SetStats(0);
+   hframe__9__9->GetXaxis()->SetTitle("x_{Bj}");
+   hframe__9__9->GetXaxis()->SetNdivisions(505);
+   hframe__9__9->GetXaxis()->SetLabelSize(0.1);
+   hframe__9__9->GetXaxis()->SetTitleSize(0.1);
+   hframe__9__9->GetXaxis()->SetTitleOffset(1.01);
+   hframe__9__9->GetYaxis()->SetNdivisions(205);
+   hframe__9__9->Draw(" ");
    line = new TLine(-0.1,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -1072,7 +1179,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0240245);
    gre->SetPointError(0,0,0.0448072);
    gre->SetPoint(1,0.04394,0.0343708);
@@ -1085,6 +1191,14 @@
    gre->SetPointError(4,0,0.0154493);
    gre->SetPoint(5,0.466061,-0.0233882);
    gre->SetPointError(5,0,0.0211303);
+   
+   TH1F *Graph1717 = new TH1F("Graph1717","Graph",100,0.0168849,0.510791);
+   Graph1717->SetMinimum(-0.08097333);
+   Graph1717->SetMaximum(0.06472623);
+   Graph1717->SetDirectory(0);
+   Graph1717->SetStats(0);
+   gre->SetHistogram(Graph1717);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -1133,7 +1247,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.0240245);
    gre->SetPointError(0,0,0.0448072);
    gre->SetPoint(1,0.04394,0.0343708);
@@ -1146,9 +1259,21 @@
    gre->SetPointError(4,0,0.0154493);
    gre->SetPoint(5,0.466061,-0.0233882);
    gre->SetPointError(5,0,0.0211303);
-   gre->Draw("psame");
-      tex = new TLatex(0.02,0.15,"0.12 < x_{B} < 0.35");
-   tex->SetTextSize(0.14);
+   
+   TH1F *Graph1818 = new TH1F("Graph1818","Graph",100,0.0168849,0.510791);
+   Graph1818->SetMinimum(-0.08097333);
+   Graph1818->SetMaximum(0.06472623);
+   Graph1818->SetDirectory(0);
+   Graph1818->SetStats(0);
+   gre->SetHistogram(Graph1818);
+   
+   gre->Draw("p");
+      tex = new TLatex(0.02,0.16,"0.12 < x_{B} < 0.35");
+   tex->SetTextSize(0.12);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.02,0.06,"<Q^{2}> 4.34 GeV^{2}");
+   tex->SetTextSize(0.12);
    tex->SetLineWidth(2);
    tex->Draw();
    pad1_3->Modified();
@@ -1158,7 +1283,7 @@
    pad1_6 = new TPad("pad1_6", "pad1_6",0.674012,0.519507,0.98324,0.746749);
    pad1_6->Draw();
    pad1_6->cd();
-   pad1_6->Range(-2.04576,-0.45,-0.09691,0.25);
+   pad1_6->Range(-2.045757,-0.45,-0.09691001,0.25);
    pad1_6->SetFillStyle(4000);
    pad1_6->SetBorderMode(0);
    pad1_6->SetBorderSize(0);
@@ -1173,19 +1298,18 @@
    pad1_6->SetFrameFillStyle(0);
    pad1_6->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.45);
-   hframe->SetMaximum(0.25);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("x_{Bj}");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->Draw(" ");
-//Primitive: xaxis/x_{Bj}. You must implement TAxis::SavePrimitive
+   TH1F *hframe__10__10 = new TH1F("hframe__10__10","",21,0.009,0.8);
+   hframe__10__10->SetMinimum(-0.45);
+   hframe__10__10->SetMaximum(0.25);
+   hframe__10__10->SetDirectory(0);
+   hframe__10__10->SetStats(0);
+   hframe__10__10->GetXaxis()->SetTitle("x_{Bj}");
+   hframe__10__10->GetXaxis()->SetNdivisions(505);
+   hframe__10__10->GetXaxis()->SetLabelSize(0.1);
+   hframe__10__10->GetXaxis()->SetTitleSize(0.1);
+   hframe__10__10->GetXaxis()->SetTitleOffset(1.01);
+   hframe__10__10->GetYaxis()->SetNdivisions(205);
+   hframe__10__10->Draw(" ");
    line = new TLine(-0.1,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -1197,7 +1321,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.00694807);
    gre->SetPointError(0,0,0.0642501);
    gre->SetPoint(1,0.04394,-0.0439235);
@@ -1210,6 +1333,14 @@
    gre->SetPointError(4,0,0.0215255);
    gre->SetPoint(5,0.466061,0.0780502);
    gre->SetPointError(5,0,0.0302542);
+   
+   TH1F *Graph1919 = new TH1F("Graph1919","Graph",100,0.0168849,0.510791);
+   Graph1919->SetMinimum(-0.08914843);
+   Graph1919->SetMaximum(0.1262547);
+   Graph1919->SetDirectory(0);
+   Graph1919->SetStats(0);
+   gre->SetHistogram(Graph1919);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -1258,7 +1389,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.00694807);
    gre->SetPointError(0,0,0.0642501);
    gre->SetPoint(1,0.04394,-0.0439235);
@@ -1271,7 +1401,15 @@
    gre->SetPointError(4,0,0.0215255);
    gre->SetPoint(5,0.466061,0.0780502);
    gre->SetPointError(5,0,0.0302542);
-   gre->Draw("psame");
+   
+   TH1F *Graph2020 = new TH1F("Graph2020","Graph",100,0.0168849,0.510791);
+   Graph2020->SetMinimum(-0.08914843);
+   Graph2020->SetMaximum(0.1262547);
+   Graph2020->SetDirectory(0);
+   Graph2020->SetStats(0);
+   gre->SetHistogram(Graph2020);
+   
+   gre->Draw("p");
    pad1_6->Modified();
    pad1->cd();
   
@@ -1279,7 +1417,7 @@
    pad1_9 = new TPad("pad1_9", "pad1_9",0.674012,0.292265,0.98324,0.519507);
    pad1_9->Draw();
    pad1_9->cd();
-   pad1_9->Range(-2.04576,-0.25,-0.09691,0.3);
+   pad1_9->Range(-2.045757,-0.25,-0.09691001,0.3);
    pad1_9->SetFillStyle(4000);
    pad1_9->SetBorderMode(0);
    pad1_9->SetBorderSize(0);
@@ -1294,19 +1432,18 @@
    pad1_9->SetFrameFillStyle(0);
    pad1_9->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.25);
-   hframe->SetMaximum(0.3);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("x_{Bj}");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->Draw(" ");
-//Primitive: xaxis/x_{Bj}. You must implement TAxis::SavePrimitive
+   TH1F *hframe__11__11 = new TH1F("hframe__11__11","",21,0.009,0.8);
+   hframe__11__11->SetMinimum(-0.25);
+   hframe__11__11->SetMaximum(0.3);
+   hframe__11__11->SetDirectory(0);
+   hframe__11__11->SetStats(0);
+   hframe__11__11->GetXaxis()->SetTitle("x_{Bj}");
+   hframe__11__11->GetXaxis()->SetNdivisions(505);
+   hframe__11__11->GetXaxis()->SetLabelSize(0.1);
+   hframe__11__11->GetXaxis()->SetTitleSize(0.1);
+   hframe__11__11->GetXaxis()->SetTitleOffset(1.01);
+   hframe__11__11->GetYaxis()->SetNdivisions(205);
+   hframe__11__11->Draw(" ");
    line = new TLine(-0.1,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -1318,7 +1455,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.012948);
    gre->SetPointError(0,0,0.0647931);
    gre->SetPoint(1,0.04394,-0.00521571);
@@ -1331,6 +1467,14 @@
    gre->SetPointError(4,0,0.0211713);
    gre->SetPoint(5,0.466061,0.0684001);
    gre->SetPointError(5,0,0.0296542);
+   
+   TH1F *Graph2121 = new TH1F("Graph2121","Graph",100,0.0168849,0.510791);
+   Graph2121->SetMinimum(-0.09532064);
+   Graph2121->SetMaximum(0.1156338);
+   Graph2121->SetDirectory(0);
+   Graph2121->SetStats(0);
+   gre->SetHistogram(Graph2121);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -1379,7 +1523,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,-0.012948);
    gre->SetPointError(0,0,0.0647931);
    gre->SetPoint(1,0.04394,-0.00521571);
@@ -1392,7 +1535,15 @@
    gre->SetPointError(4,0,0.0211713);
    gre->SetPoint(5,0.466061,0.0684001);
    gre->SetPointError(5,0,0.0296542);
-   gre->Draw("psame");
+   
+   TH1F *Graph2222 = new TH1F("Graph2222","Graph",100,0.0168849,0.510791);
+   Graph2222->SetMinimum(-0.09532064);
+   Graph2222->SetMaximum(0.1156338);
+   Graph2222->SetDirectory(0);
+   Graph2222->SetStats(0);
+   gre->SetHistogram(Graph2222);
+   
+   gre->Draw("p");
    pad1_9->Modified();
    pad1->cd();
   
@@ -1400,7 +1551,7 @@
    pad1_12 = new TPad("pad1_12", "pad1_12",0.674012,0,0.98324,0.292265);
    pad1_12->Draw();
    pad1_12->cd();
-   pad1_12->Range(-2.04576,-0.443334,-0.09691,0.3);
+   pad1_12->Range(-2.045757,-0.4433336,-0.09691001,0.3);
    pad1_12->SetFillStyle(4000);
    pad1_12->SetBorderMode(0);
    pad1_12->SetBorderSize(0);
@@ -1415,19 +1566,18 @@
    pad1_12->SetFrameFillStyle(0);
    pad1_12->SetFrameBorderMode(0);
    
-   TH1 *hframe = new TH1F("hframe","",21,0.009,0.8);
-   hframe->SetMinimum(-0.25);
-   hframe->SetMaximum(0.3);
-   hframe->SetDirectory(0);
-   hframe->SetStats(0);
-   hframe->GetXaxis()->SetTitle("-t [GeV^{2}]");
-   hframe->GetXaxis()->SetNdivisions(505);
-   hframe->GetXaxis()->SetLabelSize(0.1);
-   hframe->GetXaxis()->SetTitleSize(0.1);
-   hframe->GetXaxis()->SetTitleOffset(1.01);
-   hframe->GetYaxis()->SetNdivisions(205);
-   hframe->Draw(" ");
-//Primitive: xaxis/-t [GeV^{2}]. You must implement TAxis::SavePrimitive
+   TH1F *hframe__12__12 = new TH1F("hframe__12__12","",21,0.009,0.8);
+   hframe__12__12->SetMinimum(-0.25);
+   hframe__12__12->SetMaximum(0.3);
+   hframe__12__12->SetDirectory(0);
+   hframe__12__12->SetStats(0);
+   hframe__12__12->GetXaxis()->SetTitle("-t [GeV^{2}]");
+   hframe__12__12->GetXaxis()->SetNdivisions(505);
+   hframe__12__12->GetXaxis()->SetLabelSize(0.1);
+   hframe__12__12->GetXaxis()->SetTitleSize(0.1);
+   hframe__12__12->GetXaxis()->SetTitleOffset(1.01);
+   hframe__12__12->GetYaxis()->SetNdivisions(205);
+   hframe__12__12->Draw(" ");
    line = new TLine(-0.1,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
@@ -1439,7 +1589,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,0.0263736);
    gre->SetPointError(0,0,0.0620828);
    gre->SetPoint(1,0.04394,-0.0269532);
@@ -1452,6 +1601,14 @@
    gre->SetPointError(4,0,0.0212238);
    gre->SetPoint(5,0.466061,0.0607685);
    gre->SetPointError(5,0,0.0292444);
+   
+   TH1F *Graph2323 = new TH1F("Graph2323","Graph",100,0.0168849,0.510791);
+   Graph2323->SetMinimum(-0.07976187);
+   Graph2323->SetMaximum(0.105447);
+   Graph2323->SetDirectory(0);
+   Graph2323->SetStats(0);
+   gre->SetHistogram(Graph2323);
+   
    gre->Draw("p");
    
    Double_t *dum = 0;
@@ -1500,7 +1657,6 @@
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
    gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.525);
    gre->SetPoint(0,0.018761,0.0263736);
    gre->SetPointError(0,0,0.0620828);
    gre->SetPoint(1,0.04394,-0.0269532);
@@ -1513,7 +1669,15 @@
    gre->SetPointError(4,0,0.0212238);
    gre->SetPoint(5,0.466061,0.0607685);
    gre->SetPointError(5,0,0.0292444);
-   gre->Draw("psame");
+   
+   TH1F *Graph2424 = new TH1F("Graph2424","Graph",100,0.0168849,0.510791);
+   Graph2424->SetMinimum(-0.07976187);
+   Graph2424->SetMaximum(0.105447);
+   Graph2424->SetDirectory(0);
+   Graph2424->SetStats(0);
+   gre->SetHistogram(Graph2424);
+   
+   gre->Draw("p");
    pad1_12->Modified();
    pad1->cd();
    pad1->Modified();
@@ -1521,4 +1685,5 @@
    combined->Modified();
    combined->cd();
    combined->SetSelected(combined);
+   combined->ToggleToolBar();
 }
