@@ -1,0 +1,17 @@
+1996-2007 and 2006-2007 data associated fractions taken from the same gmcdual production based on non-recoil experimental geometry
+
+  Double_t total_assocBH = 0.132095;                                                                                                                                                                   
+  Double_t assoc_q2[7]= {0.100706, 0.115763, 0.130940, 0.143032, 0.158857, 0.181278};
+  Double_t assoc_xbj[7]= {0.129707, 0.115589, 0.125639, 0.137194, 0.152533, 0.164045};
+  Double_t assoc_tc[7]= {0.047498, 0.074583, 0.111150, 0.158666, 0.233569, 0.338914};
+
+1996-2007 data associated fractions taken from gmcdual production for xbj binned -t range
+
+                 0.03<x<0.08  0.08<x<0.12  0.12<x<0.35
+0.00 < tc < 0.03  0.045537     0.053992     0.071327
+0.03 < tc < 0.06  0.070487     0.074054     0.085041
+0.06 < tc < 0.10  0.110748     0.111848     0.098143
+0.10 < tc < 0.20  0.162119     0.159917     0.141670
+0.20 < tc < 0.35  0.235112     0.256475     0.214425
+0.35 < tc < 0.70  0.330882     0.346887     0.325245
+
