@@ -1,0 +1,1578 @@
+<?xml version="1.0"?>
+<dc90second>
+<respondent name="contalbrigo">
++-------------------------------------------------------------------+ |
+2011.11.15: 57/153 CANDIDATE AUTHORS HAVE RESPONDED TO DC90/circ2 |
++-------------------------------------------------------------------+
+===========================================================================
+M. Contalbrigo [contalbrigo@fe.infn.it] accept DATE: 2011.10.25
+COMMENTS: Dear DC90, thank you for the updated draft. I did not take too
+much attention to the text, as it sounds basically fine to me. However
+there are still several points for which I miss a clarification. 
+
+<reply status="complete" type="general">
+Dear Marco,
+
+There are a couple of general points to bear in mind with our replies to your comments. The first is that the associated fraction in each bin is poorly known; we used three parameterisations that produced a 20-30% variance between them and picked Brasse as the middle one. So, a lot of your concerns about the associated fractions in each bin and with different geometries are difficult to answer from that point of view, because the genuine answer is that we don&apos;t really know enough to construct an accurate MC model. The second is about beam slopes. Elke and Zhenyu produced an internal report that detailed the affect that beam slopes may have on DVCS asymmetries. The conclusion from their work is more or less that the beam slopes have a very, very small affect. To see an effect in the TTSA amplitudes, one needs to have a beam slope in the MC about 10 times that expected in the experiment. So, although we have not done dedicated work there (neither have DC69, 80, 81, 91 or 92), we&apos;re not concerned by that.
+</reply>
+
+
+<comment>
+I do not see a response to my general comments to the first circulation,
+which I report below. In our acceptance x and Q2 are highly correlated
+and this is not adressed in the text referring to the 1D projections.
+The 2D projection is superior since resolve part of the correlations.
+However, you should check how the associated fraction behaves in the 2D
+binning. I assume this is not a big deal, and can be done by anybody
+involved in DVCS analysis. 
+
+<reply status="todo complete">
+I have a feeling that anyone reading our paper should realise that xB and Q2 are correlated at a fixed-target, fixed-angle experiment. In fact, we didn&apos;t feel it necessary to mention in DC69 at all. If you feel very strongly about it, then we can include a sentence, but we give the average kinematics of every bin and I think that any reader should see that there&apos;s an obvious relationship. If you do feel strongly about it, please contact the DC directly.
+
+The associated fraction in each bin has the caveat written above. However, we have looked at that and it is included in the plots.
+</reply>
+</comment>
+
+<comment>
+By comparing 2006-2007 with published result
+we do a statistics test. Fine and probably acceptable (although not so
+powerful given the small bin number). However I see a possible
+systematic trend for the non-zero AC^cos amplitudes in Fig.3. Did you
+check if in the high stitictics MC there is a systematic effect due to
+the different vertex distribution ? 
+<reply status="incomplete todo">
+</reply>
+</comment>
+
+<comment>
+Is the associated fraction insensitive to the different geometry ? Also the beam slope could play a
+role, see analysis issues below. 
+<reply status="complete">
+Pretty much, the associated fraction is insensitive to the different geometry. Compare figure 3 in the current paper and figure 2 of DC69, for example.
+</reply>
+</comment>
+
+<comment>
+After the submission of the draft, the
+yield dependence in 2007 was explained by an unaccounted detector
+effect. Did you extend the multi-clusters study on the full dataset and
+check the consequences in the values (minor changes I hope) and in the
+systematics (reduction) ? 
+<reply status="complete check">
+We did extend the multicluster analysis to the entire dataset and found that we had odd results in the 2005 electron data set. We don't have the manpower to investigate that, so it was decided to do multicluster for 2006-07 and leave the 1996-2005 dataset as it was published.
+</reply>
+</comment>
+
+<comment>
+Are we going to mention in the paper the
+availability of the rebinned (in 4 bins) version of the results ?
+<reply status="complete todo">
+I have no strong feeling about this one way or the other. To see if it illicits any strong response, I included a sentence in the conclusion; we can always take it out if someone has a problem with it
+</reply>
+</comment>
+
+<comment>
+Regarding some analysis issues rised in the past, I am still missing
+some informations: *) what is the conclusion of the H0 test (slide 27 of
+June release-update) ? I see the numbers moving in opposite directions
+for 2006 + and - helicity: is this affecting the asymmetry ? 
+<reply status="complete">
+Jonathan checked this at the time. He tells me that the difference in the asymmetry is so small that one does not see it to three significant figures, i.e. the accuracy to which we publish.
+</reply>
+</comment>
+<comment>
+*) is the
+average kinematics of 2006/2007 the same of previous long-target-cell
+runs ? 
+<reply status="complete">
+Obviously they&apos;re not identical, but they are within 1% of each other.
+</reply>
+</comment>
+
+<comment>
+*) it is odd you use a model for systematic evaluation which
+"describes data well" but does not enter the final plots, where the
+comparison is made with different models. Looking to the plots in the
+June release-update I would say, once more, the model we use for
+systematics is far to be the best description of our data. It hardly
+describes the AC^cosphi amplitude and overestimates the ALU,I^sinphi. It
+is a pity for the result claimed to have the "best HERMES statistical
+accuracy". I understand there is a manpower problem here. Thus do we
+take MC model minus reconstruced-asymmetry as absolute value or do we
+propagate the relative systematic effect to data ? The motivation given
+in 413 sounds odd. One expect improvements with time, so there is no
+point to justify the choice to resemble what was done 2 years ago for a
+less precise measurement. Actually from 558-559 it is not clear if you
+kept the published 1996-2005 systematics or you re-evaluated it in the
+total sample. From slide 61 in the June release-update I understand the
+systematic for the total sample was re-evaluated from scratch,
+automatically accounting for correlations between 96-05 and 06-07
+systematics (something not clarified in the text). Did you use the old
+MC production for 96-05, meaning the 96-05 all-in-one would stay
+untouched ? By the way you did not mention the background subtraction in
+558-588. 
+<reply status="jonathan incomplete todo">
+The 1996-2005 data sample systematics were kept as was published. The combined data sample's systematics are averages of the 4-in-1, Missing Mass and Background systematic uncertainties.
+</reply>
+</comment>
+<comment>
+*) to my understanding the new productions account for the best
+knowledge of detector misalignment, but do not account for beam slopes.
+The sensitivity of any analysis on the latter (systematic error) should
+be still studied with dedicated MC productions. Was it considered ? 
+<reply status="complete">
+It was considered, albeit briefly. We don&apos;t have the manpower to make new and analyse new MC productions, but there&apos;s an indication from Elke and Zhenyu&apos;s report that this is not a problem.
+</reply>
+</comment>
+<comment>
+Some additional point: 304-305: the sentence is not correct, since you
+extract the asymmetry moments instead of the cross-section moments. In
+principle you have (more) physically motivated modulations which stem
+from the ones in the denominator. 
+<reply status="complete todo">
+We have rephrased this as &quot;are motivated by the physics processes under investigation&quot;
+</reply>
+</comment>
+
+<comment>
+448: here you may want to refer to
+upcoming publications adressing the associated fraction issue. 
+<reply status="complete">
+This would be awkward as we don&apos;t have any physical document to reference, even conference proceedings and we&quot;d rather not promise future work. If you feel very strongly about this, please contact the committee. Otherwise, we won&apos;t make a reference.
+</reply>
+</comment>
+
+<comment>
+Fig.2 and 3: these are used to only compare 96-05 and 06-07 results. I would be in
+favor to add the 06-07 systematics here, in order the Figures can be
+used to show the new complete 06/07 result, otherwise presented only
+into tables, together with the comparison. 
+<reply status="committee">
+These figures do have both the statistical and the total uncertainties in them. That&apos;s not such an unusual way to present data and we&apos;re concerned that putting the extra systematics onto the plot could be confusing.
+</reply>
+</comment>
+
+<comment>
+629-631: which is the order
+of magnitude of the expected suppression in our kinematical regime. Do
+the DATA agree with this expectation ? I think this should be part of
+the discussion.
+<reply status="committee todo incomplete">
+The expected surpression is maybe 1 order of magnitude. You can see from the predictions from KM and GGL that the data more or less agrees with this purely kinematic relationship. We can include an extra line in the text.
+</reply>
+</comment>
+
+<comment>
+632-634: to my eye there is a trend. Have you made a
+statistical test to support your statement, i.e. did you try to fit a
+slope for xB and Q2 dependence and look to its significance ? 
+<reply status="todo incomplete">
+In any trend, one should also consider the systematics band. When you build that into your comparison, the seeming-dependence becomes much less obvious.
+</reply>
+</comment>
+
+<comment>
+676-677:
+the description of the AC^cos(0phi) terms is not extraordinary in xB and
+Q2. It is anyway difficult to judge given the compressed plot. Can you
+expand vertically the first row in Fig.5, using a bit of space from the
+second row ? 
+<reply status="committee complete">
+The axes are chosen carefully to as to be absolutely the same for every row in the plot. If we blew up the axis for the first row, we&apos;d ruin that effect and make it more difficult to compare the amplitudes.
+</reply>
+</comment>
+
+<comment>
+743-744: statistically most precise presented by HERMES
+(summary) is different from statistically most precise in the HERMES
+kinematic regime (abstract). Which one of the two ? 
+<reply status="todo complete">
+In effect, they&apos;re the same thing. We have changed the abstract to match the summary precisely.
+</reply>
+</comment>
+
+<comment>
+Figure 7: the too
+enlarged scale somewhat downgrade the significance of our result, since
+everything seems close to zero. I would suggest to zoom the scale and
+highlight the points of small statistical error (making the last
+visible!). The ones with large error are less interesting anyway and can
+partly lay outside of the plot.
+<reply status="committee todo incomplete">
+</reply>
+</comment>
+</respondent>
+
+<respondent name="schnell">
+===========================================================================
+G. Schnell [Gunar.schnell@desy.de] accept DATE: 2011.10.23 COMMENTS:
+++++++++++++++++ Comments to Draft 90, 2nd circulation
+++++++++++++++++++++ "Beam-helicity and beam-charge asymmetries in the
+BH and DVCS processes on an unpolarized proton target"
++++++++++++++++++++++++++++++ version 2.0
++++++++++++++++++++++++++++++++++ 
+I am happy to see this draft moving
+towards publication! I think most of the work has been done, though I
+still feel a bit uneasy with a few aspects, though. In particular, still
+little is said how the data sets were combined (especially w.r.t. the
+systematics), and the beam-charge asymmetry partially has still a very
+small uncertainty despite substantial false A_C seen in SIDIS. But if I
+am the only one worrying about this ... 
+
+Before sending out my comments I
+went through the answers to my previous comments. Unfortunately, for
+many points only a "disagree" was given, which does not help clarifying
+the points. If I still need such clarification I will bring it up again
+here. frequent notations in these comments: -> ... change to -?-> ...
+maybe change to rm ... remove rm(?)... maybe remove for commenting the
+\usepackage{lineno} option would be more helpful as often the lines are
+in between numbers given to the left. 
+<comment>
+006 it was Bethe and Heitler after
+which this process was named and not after Bethe-Heitler --> use en-dash
+(in latex: "--") (throughout the manuscript!) 
+<reply status="todo complete">
+agreed.
+</reply>
+</comment>
+<comment>
+016 -> \sc{Hermes} 
+</comment>
+<reply status="todo complete">
+agreed.
+</reply>
+<comment>
+018 I don&apos;t know where you read that JHEP encourages the appearance of the
+logo on the title page, but I will not endorse it. We will stick to "The
+HERMES Collaboration" on the first page with the authorlist separated
+and appearing later on. The authorlist will need to be updated before
+submission to the DESY directorate. If Naomi does not provide one on
+time let me know! 
+<reply status="todo complete">
+I read it in the official JHEP manual for authors: http://jhep.sissa.it/jhep/help/JHEP/TeXclass/DOCS/JHEP-author-manual.pdf
+Nevertheless, we have removed it since you don&apos;t like it.
+</reply>
+</comment>
+<comment>
+082 collaboration -?-> Collaboration (as it refers to
+HERMES Collaboration) 
+</comment>
+<reply status="todo complete">
+agreed.
+</reply>
+<comment>
+084 rm "statistically" -- I hope it is THE most
+precise set of measurement, including systematics (otherwise why mention
+in the abstract). 
+<reply status="complete">
+No, it&apos;s not really the most precise. The recoil detector result can claim to be the most precise because it has no associated fraction in the data set. DC90 is the most precise only when considering the associated fraction to be a part of the signal. It does have the most statistical precision, though, which is why we&apos;ve worded this sentence in this way.
+</reply>
+</comment>
+<comment>
+153 -> "HERMES Collaboration" 
+</comment>
+<reply status="todo">
+</reply>
+<comment>
+152ff I still don&apos;t like
+the connection of "ALTHOUGH GPDs ... difficult to access experimentally,
+the HERMES ...". What has our measurement to do with the fact that "GPDs
+are difficult to access", and why this needs to be connected by an
+ALTHOUGH? At least I would then add other experiments either. The
+argument that this is not meant as a review I don&apos;t like: a) there are
+not that many other results (you list 8 HERMES publications!), and b) it
+is common practice to acknowledge the work of others who have done the
+same kind of work as oneself. How would you feel if COMPASS publishes,
+e.g., its special beam-charge asymmetry but ignores your very
+measurement of DC90? 
+</comment>
+<reply status="todo complete">
+Well, some people may be put off doing DVCS measurements (I have heard complaints that this business is too complicated to be useful from other physicists before). Although the connection to GPDs and then to GTMDs and thus to Wigner Distributions and hence actual quarks is complicated, we&apos;ve made the measurement anyway. We are somewhat used to other people not referencing our DVCS results, actually. However, maybe we can take the high road and cite them anyway.
+</reply>
+<comment>
+156 if you make such statements I would feel better
+to add the relevant reference ([Ji] and later [Burkardt] etc.) 
+</comment>
+<reply status="todo complete">
+Ji is already referenced in the first line. It was an oversight not to mention Burkardt though.
+</reply>
+<comment>
+179 -> exclusive leptoproduction 
+</comment>
+<reply status="todo complete">
+agreed.
+</reply>
+<comment>
+211 we present "results related to the
+following ..." as we nowhere in the paper we report the phi dependent
+asymmetries (1.6)-(1.8) 
+</comment>
+<reply status="todo complete">
+agreed.
+</reply>
+<comment>
+265 [15] is not really the reference to the
+numbers given 
+</comment>
+<reply status="todo">
+</reply>
+<comment>
+266 [16] and [17] are not the references to the numbers
+given 
+</comment>
+<reply status="todo incomplete">
+</reply>
+<comment>
+270 you forgot the E_gamma > 5GeV constraint and --as I mentioned
+already in the comments to version 1.0-- the experimental cut on the
+polar (opening) angle between lepton and the real photon (done already
+on HRC/uDST level as the clusters in the calo need to be separable).
+Since at least the BH amplitude depends strongly on that angle I still
+feel this should be mentioned. 
+</comment>
+<reply status="todo incomplete">
+</reply>
+<comment>
+278 "calorimeter" -> "spectrometer
+(mainly the calorimeter)" 
+</comment>
+<reply status="todo complete">
+agreed.
+</reply>
+<comment>
+279 q and p already defined 
+</comment>
+<reply status="complete">
+Yes, but as we wrote in the previous reply, we find it useful to redefine them here, as they haven&apos;t been used for a couple of pages.
+</reply>
+<comment>
+314 Almost everything in this section from here on has nothing to do with the
+"Experimental Extraction". Move the discussion to the theory part, e.g.,
+end of section 1 with the slight modification of referring to
+\mathcal{A} instead of the experimental A&apos;s. 
+</comment>
+<reply status="committee">
+</reply>
+<comment>
+317 -> c^I
+</comment>
+<reply status="todo">
+</reply>
+<comment>
+326 -> leading-twist 
+</comment>
+<reply status="todo">
+</reply>
+<comment>
+331 be consistent with your "k" factor: sometimes a
+capital K sometimes a small k (equations, 334, Table 1, 595 ...) 
+</comment>
+<reply status="todo">
+</reply>
+<comment>
+334 missing space between "ref." and [12]. Actually, you use abbreviations
+for reference and equation but not for figure and table. Why so
+inconsistent? Even more, you use "eq." and "Eq." -> more consistency
+</comment>
+<reply status="todo">
+Yes, you&apos;re correct. However, our experience with JHEP has been that they pick their own set of abbreviations and apply them before publication anyway. We&apos;ll take a look at it anyhow.
+</reply>
+<comment>
+Table 1 I protest against oversimplification: From your description it
+is not at all clear and even more counterintuitive why, e.g., the first
+entry is twist-2 and the second twist-3. It is, according to the table,
+the same CFF and the twist of the involved GPD determines the the twist
+of the CFF and such (besides kinematic suppression) its suppression
+(according to 318ff) Careful reading of BKM reveals that the table is
+misleading, if not wrong: these are different CFFs appearing in row 1&amp;2
+(and likewise rows 4-6). What is missing is that the "C-functions" have
+as an argument a set of GPDs (the "C-functions" are a kind of meta
+function). And the CFFs in row one and two involve different sets of
+GPDs (cf. [BKM] table 1). Either expand the discussion (even more a
+reason to put this in the theory section and not the
+experimental-extraction section) or remove, but don&apos;t let the same CFF
+be once twist-2 and another time twist-3. 
+</comment>
+<reply status="complete todo">
+Yes and no. Using the Wandura-Wilczek approximation, one can write twist-3 quantities in terms of twist-2 quantities with some extra correction factor. That&quot;s what we refer to here, so in a sense, the same CFF is accessed on both twist-2 and twist-3 levels. However, you&quot;re correct that this is not explicitly stated, so we&quot;ve rewritten it for clarity.
+</reply>
+<comment>
+372 no page break 
+<reply status="todo complete">
+agreed.
+</reply>
+</comment>
+
+<comment>
+411 ref. -> refs. 
+<reply status="todo">
+</reply>
+</comment>
+
+<comment>
+421 isn&apos;t there a note by A.Kiselev for the surveying measurement?
+I don&apos;t think it does justice to his work when citing [19] instead. (but
+if there isn&apos;t anything written up ...?) 
+<reply status="todo">
+</reply>
+</comment>
+
+<comment>
+Table 2 I must admit I still
+feel rather uncomfortable with quoting an experimental uncertainty of
+down to 0.002 on our beam-charge asymmetry having seen large false
+asymmetries (e.g., in SIDIS). As I have no means of quantifying these
+effects in DVCS I don&apos;t know yet what to do. And I am not too happy
+about the answers given to this concern in the first round of comments.
+Maybe I had been less concerned for the preRD data set - for whatever
+reason; but when one claims the most precise measurement also the
+validity of the systematics studies needs to be checked. Maybe the
+statistical uncertainty of the previous measurement was by far not as
+good and thus the requirement on the systematics not so stringent. When
+one finally enters high statistical precision, one needs to make sure
+that the systematics live up to such standards and this is the
+difference between 1996-2005 and 1996-2007! 
+<reply status="comittee incomplete">
+I understand the concern, but it&quot;s not clear about how to reply to this without some concrete suggestion.
+</reply>
+</comment>
+
+<comment>
+451 -> figures 2-5 in ...
+<reply status="todo">
+</reply>
+</comment>
+
+<comment>
+454 no page break 
+<reply status="todo">
+</reply>
+</comment>
+
+<comment>
+551 Figs -> figures 
+<reply status="todo">
+</reply>
+</comment>
+
+<comment>
+Figs 2-7 are still not consistent
+in style. In particular, Figs. 4 to 7 lack fine tuning as - marker sizes
+too small in 4&amp;5 - font size for theory labels too small in Fig. 5 -
+distances of y-axis labels are different in basically each figure - too
+many axis-value labels on assoc. fractions, especially in Fig. 5 they
+start to overlap - y-axis numbers are not aligned - almost all font
+sizes in Figs. 6 and 7 are different in the two figures 
+<reply status="todo complete">
+Agreed. This is a consequence of having two different plot authors; after Jonathan left to go work for the IAEA, Jennifer made a couple of the plots. We will make them consistent for the next time around.
+</reply>
+</comment>
+
+<comment>
+595 is that really the reason for the vanishing at low t? And, again (I mentioned
+this already in previous comments), I don&apos;t agree with the argument (and
+the answer to the comments). Eq. 3.5 deals with the numerator of the
+asymmetry only. Even if the numerator goes to zero the asymmetry does
+not have to do so, e.g., when the denominator has the same suppression
+factor K involved. Indeed, looking carefully at [BKM] one finds that
+most terms in the denominator have this factor K and even K^2, except
+the suppressed DVCS contribution (and some BH terms). This info is not
+given in the draft. Actually, the non-vanishing of the asymmetry
+amplitude does tell you something about the sizes of these terms as you
+will only see the vanishing with t->0 when the terms with K factor in
+the denominator become smaller than the terms without it. Well, I would
+be happy with "... approaches zero due to the different powers in K that
+appear in the terms in the numerator and denominator of this amplitude
+and K vanishing in the limit t>0." (or something like that, just a bit
+more polished) The current text refers to Eq. 3.5 and that is just not
+an sufficient answer. 
+<reply status="todo incomplete">
+Broadly agreed. We will send you a new version before the final submission.
+</reply>
+</comment>
+
+<comment>
+636 -> leading-twist amplitude (or is this hyphenation really not needed?) 
+<reply status="todo complete">
+Hyphenation is needed. Have done so.
+</reply>
+</comment>
+
+<comment>
+641 I am sorry to come back to this: try
+to find "Jefferson Laboratory" on JLAB&apos;s official webpage. It&apos;s name is
+"Jefferson Lab" or "Thomas Jefferson National Accelorator Facility"
+(TJNAF). Why not stick to it? Likewise 645 and 683 645 these references
+are NOT publications from Hall A but by CLAS 
+<reply status="todo">
+My point is that &apos;Lab&apos; is not a word in English; it&apos;s an abbreviation for Laboratory or Labrador. It is a word in middle English, it meant to tell tales, but it is rarely used in that context today.
+I understand that JLab don&apos;t have the word Laboratory on their webpage, but Laboratory is implied by Lab. and the full word is more formal than the abbreviation.
+In fact, the OED marks &apos;lab&apos; explicitly as colloquial, which is something that I wanted to avoid. 
+</reply>
+</comment>
+
+<comment>
+Figs. 6 and 7 -- why don&apos;t
+you provide the assoc. fractions. These results are the potentially more
+valuable ones as 2D is better than 1d (e.g., correlations less
+integration over large regions in phase space etc.), but you forgot to
+just add this information. 
+<reply status="todo complete">
+Due to requests from you and Marco, we have added this information.
+</reply>
+</comment>
+
+<comment>
+753 \sc{desy} -> \sc{Desy} (twice) 
+<reply status="todo complete">
+agreed.
+</reply>
+</comment>
+<comment>
+Tables you wrote in the answers to my previous comments that you would adopt the
+DC69 style. However, the t and Q2 ranges still don&apos;t have units! I am
+also afraid the tables are too big. 
+<reply status="todo incomplete committee">
+We've updated the tables now. Not sure how to reply to the idea that they are too big; how exactly do you mean? They fit on the page. Too much information?
+</reply>
+</comment>
+
+<comment>
+Table 4 the systematic uncertainty on the overall A_C cosPhi amplitude appears too big and for sure is
+inconsistent with the corresponding entry in Table 2. 
+<reply status="todo check">
+This was a typo. We&apos;ve fixed that.
+</reply>
+</comment>
+
+<comment>
+Tables: should I worry about the significant improvement of the stat. uncertainty on the
+beam-spin asymmetry amplitudes compared to version 1.0 (or better be
+happy;-)? Is that due to the multi-cluster algorithm? What about the
+systematics? Are those changes also mainly due to the multi-cluster
+algorithm? Indeed, with all the changes in the tables, who actually did
+the independent cross check? Please make sure all the entries in the
+tables are correct!! Those are THE data tables to be used for global
+analyses. Where are the correlation matrices (or covariance matrices).
+Please add them as they are needed for (a correct) global analysis. (see
+published version of DC91 for instance) 
+<reply status="todo complete committee">
+The wrong latex files were included in the version for first circulation. Jonathan and I have independently gone over the tables for the current (3rd circ.) version and they are now correct. The independent cross-check was done by Dietmar; the analysis updates have not been cross-checked (no manpower). We have also added the covariance matrices as requested.
+</reply>
+</comment>
+
+<comment>
+Bibliographies in JHEP: - include titles of references - also include preprint links - separate
+journal name from edition, e.g., Phys. Lett. B 380 - correct way for NIM
+is "Nucl. Instrum. Meth." - what about dc91, why not included in list of
+HERMES DVCS papers? [17] Met. -> Meth. [25] will get updated I assume
+<reply status="complete todo">
+When writing DC80, I was explicitly told by Klaus *not* to include titles and preprints in the bibliography. So, for DC90, I followed the style set in DC69. I&apos;ll change it back. DC91 was not published when we first wrote the bibliography and was overseen. The references do need to be updated.
+</reply>
+</comment>
+
+</respondent>
+
+<respondent name="ellinghaus">
+===========================================================================
+F. Ellinghaus [Frank.Ellinghaus@desy.de] accept DATE: 2011.10.12
+COMMENTS: Dear All, the results still seem strange to me, but look much
+more reasonable by now. 
+<comment>
+Still, how come the BCA cosphi has this large
+statistical uncertainty (table 4, 0.021) while the other harmonics have
+uncertainties on the order of 0.004 or 0.005? 
+<reply status="todo complete">
+This is a typo that is now fixed.
+</reply>
+</comment>
+
+<comment>
+At least the systematic
+uncertainties do not grow anymore by factor two when you combine the
+results. Strangely enough from your answer I understand you disagree
+with me, still, you changed the systematics so that they don&apos;t look
+wrong anymore, i.e., they do not grow anymore by factor of two but
+mostly stay the same after the combination, which is what I expected.
+Can you please clarify the issue, i.e, what did you do so that the
+systematics now behave as I expected, while they don&apos;t show the dramatic
+growth anymore you think they need to show? (Quoting from the first
+circulation:" Frank: Basically, the results get worse when you combine
+the 1996-2005 and the 2006/07 data, when compared to the 2006/07 data
+alone. This is due to a dramatic increase in the systematic uncertainty,
+see, e.g., ALUI-sinphi (0.026 -> 0.047) or AC-cosphi (0.003 -> 0.014) in
+tables 3-6. This cannot happen as the results are in agreement (i.e.,
+there is no error inflation in order to release tension between
+results.) Basically, by adding information your result cannot get worse
+if the combination is done the right/best way. AUTHORS: SYSTEMATIC
+UNCERTAINTY FOR NEW RESULTS WAS DONE USING A DIFFERENT GENERATOR AND A
+DIFFERENT GEOMETRY IN THE MC. IT&apos;S PERFECTLY REASONABLE FOR THE
+SYSTEMATIC ERROR TO GET WORSE WHEN ADDING TWO DIFFERENT RESULTS, IN FACT
+IT IS EXPECTED. IT WOULD BE UNREASONABLE IF THE STATISTICAL ERROR WERE
+TO WORSEN, BUT THAT DID NOT HAPPEN.)"
+<reply status="complete check">
+The systematics were previously done by generating MC files for 96-05 geometry with the dual generator and MC files for 06-07 with the VGG generator, combining them in proportion and extracting the 4-in-1 uncertainty, along with an averging of the uncertainty due to the missing-mass spread and the background uncertainties. In this instance, it is expected that the systematic uncertainty grows by some factor. I didn&apos;t think that a factor of 2 was unreasonable, but I had no prior expectations.
+
+For the second circulation, the procedure for calculating uncertainties is different. We don't have the ability to generate the dual model asymmetries with the 06-07 geometry, so a compromise was needed. After taking into account comments from the first circulation, at the second release meeting in June we presented systematics calculated at the average kinematics of each bin using the (unfixed) dual generator with the 96-05 geometry and averaging them; this is what you see in the second circulation. We then used the multi-cluster method for the 06-07 dataset and averaged the missing-mass and background uncertainties between the two datasets. This was the preferred method. The geometry change makes very little difference to the actual asymmetries, and the collaboration preferred to use the same generator over using the more accurate 06-07 geometry.
+
+If you need more dialogue on this issue, please contact the DC directly.
+</reply>
+</comment>
+
+<comment>
+I asked already last time but still
+from your answer have not 100% understood if you reanalyzed the
+1996-2005 data or if you have taken the published 1996-2005 data and
+combined the published values with the new 2006-2007 result? You should
+take the published data as is and combine with the new result, except
+you found a bug in the old analysis. The paper is not explicit in that
+respect, e.g, line 504: "extracted separately from previously published
+1996-2005". What does that mean, you extracted from something already
+published? Please rephrase.... 
+<reply status="todo complete check">
+Jonathan re-analysed 1996-2005 and obtained precisely the same result as Dietmar and Hongxue. Then, in each kinematic bin, he extracts phi values for events in 06-07. He then fits the asymmetries in each bin to the collective phi values. In truth, it makes little difference to do things this way than it does to average them, but it&apos;s slightly easier to include the correctpolarisations and luminosities. The systematics are calculated by averaging the systematics calculated in DC69 with the systematics calculated for the 06-07 dataset. We&apos;ve rephrased the relevant piece of the paper.
+</reply>
+</comment>
+
+<comment>
+Next you talk about "can therefore be
+extracted from the complete hydrogen" (line 548), "extracted from the
+complete 1996-2007 hydrogen" (line 551), "combined results are
+extracted" (abstract), and similarly in the summary. This is not
+correct. Please change to something like "the results are combined" as
+there hopefully was no new extraction on the old and published data.
+Same ambiguities are in the captions of figure 2 and 3. Simply use
+"published" when talking about the old data, and extracted only when
+talking about the 2006/2007 data. 
+<reply status="todo complete check">
+If youread the reply above, you can see that the results are extracted from the complete dataset and so this is correct. Following the same method but excluding the 06-07 dataset results in precisely the same values as DC69, so we&apos;re happy that what's done is accurate.
+</reply>
+</comment>
+
+<comment>
+Also, last time I said: "Unfortunately
+it is not stated at all how the combination is done", which meant,
+please state how you combine the published and the new data set. State
+that in the paper please, I should have been more specific about that.
+The important part here is to say which systematic uncertainties are
+fully correleated, partially correlated, and uncorrelated. This
+paragraph has to be there. You only touch the issue in line 516, please
+extend the discussion. 
+<reply status="todo complete">
+Agreed. This is improved in this version.
+</reply>
+</comment>
+
+<comment>
+Three more things: Abstract "represent the most
+statistically precise" Skip this. It sounds like we have good stat
+precision and terribly large systematic uncertainties. Either one has
+the "overall best precision" or one should not mention it. Nobody cares
+if only the stat. unc is small, but the sys unc is potentially
+humongous. Please also remove this statement in the summary. 
+<reply status="complete">
+I wrote a similar reply to Marco above. This is not the most precise data set because it includes an (unknown) amount of delta-production data. It is statistically more precise than the recoil dataset, but because we never assigned a systematic error to the fraction of associated production we cannot quantify the true systematic error on the measurement (in truth we never did in any of our DVCS measurements, but people still cared). It may be possible to say more about this if we ever manage to extract an associated asymmetry, but that looks like being so far from completion that we&apos;d rather not address it in this paper.
+</reply>
+</comment>
+
+<comment>
+Abstract: 080: "The beam charge asymmetry ....more precise...analyzed in the same
+manner..." Please also include a statement on the BSA, i.e., say that it
+has similar precision. Also, if you don&apos;t do it the next sentence
+"Results from the two data sets are found to be compatible with each
+other" will only talk about BCA, but you want to talk about both. 
+<reply status="complete">
+The precision in the BHA is different to the precision in the BCA due to the fraction of the beam polarisation; it inflates the BHA but not the BCA. The statement &quot;Results from the two datasets...&quot; refers generally to results from the two datasets; it doesn&apos; explicitly address the BHA or the BCA.
+</reply>
+</comment>
+<comment>
+513: Say which test was used. "A test" sounds just funny. The name whould be
+enough, further details are not needed. Cheers, Frank
+<reply status="todo complete">
+It was Student&apos;s test. This will be added.
+</reply>
+</comment>
+</respondent>
+
+<respondent name="akopov">
+===========================================================================
+N. Akopov [akopov@mail.desy.de] accept DATE: 2011.10.11 COMMENTS:
+submitted for group Yerevan Dear DC90, Here are some comments mainly
+from the side of new PhD student A. Petrosyan: - 
+
+<comment>
+L 160-161 you are
+writing &apos;proton&apos; when in the up rows you use &apos;nucleon&apos; words. 
+<reply status="todo complete">
+We tend to use the two interchangably under the assumption of isospin symmetry. We&apos;ll check the paper for consistency, although in many cases we talk about lepton-nucleon in a theoretical sense and electron/positron -proton scattering as an experimental reality.
+</reply>
+</comment>
+
+<comment>
+In L 164-165 and L 171-172 you have &apos;lepton-proton&apos; case, I think again it
+should be &apos;lepton-nucleon&apos; 
+<reply status="todo compelte">
+Same as previously.
+</reply>
+</comment>
+<comment>
+L 168-169 In the introduction you are writing ep--->e&apos;p&apos;y when on Fig.1. eN--->e&apos;N&apos;y?
+<reply status="todo complete">
+Same reply as previously.
+</reply>
+</comment>
+<comment>
+L 185-186 "M" the nucleon mass, I think it should be the target mass. 
+<reply status="todo complete">
+Should be the proton mass.
+</reply>
+</comment>
+<comment>
+In set of formulaes at L 198-199 just skip &apos;and&apos; and replace it with comma 
+<reply status="complete">
+If we do this, we get lots of comments telling us that the last comma in a list should be replaced with an &quot;and&quot;. The important thing is to be consistent and that&apos;s what we&apos;re focussing on, so we&apos; keeping the ands.
+</reply>
+</comment>
+<comment>
+L 209-210 &apos;unpolarised target&apos; -> &apos;unpolarised hydrogen target&apos;
+<reply status="todo complete">
+agreed.
+</reply>
+</comment>
+<comment>
+L 230-231 just skip &apos;and&apos; 
+<reply status="complete">
+see previous reply.
+</reply>
+</comment>
+<comment>
+L 278-279 &apos;p&apos; -> &apos;P&apos; 
+<reply status="todo incomplete">
+</reply>
+</comment>
+<comment>
+L 331-336) no any definition of the kinamatic factor k in ref[12] 
+<reply status="todo incomplete">
+</reply>
+</comment>
+<comment>
+L 331-336 and L345-357 Why you taking in Table1 for rows 346-348 and 350-352 the same
+function? Best regards, Norik
+<reply status="todo complete">
+The beam helicity and beam charge asymmetries access the imaginary and real parts of that asymmetry respectively. Twist-3 access is approximated as twist-2 plus some small (dominated) correction factors using the Wandura-Wliczek approximation. We&apos;ve added a little detail about that to avoid confusion in the future.
+</reply>
+</comment>
+</respondent>
+<respondent name="deconinck">
+===========================================================================
+W. Deconinck [wdeconinck@wm.edu] accept DATE: 2011.10.11 COMMENTS: Very
+nice draft! Some minor comments. 
+<comment>
+abstract: replace "results [...] are found to be compatible" -> "results [...] are compatible" without
+ambiguity 
+<reply status="todo committee incomplete">
+This was at Andy&quot;s insistence. Why?
+</reply>
+</comment>
+<comment>
+162: "throughout" -> "at the start and end", otherwise it somehow sounds as though x is changing continuously 
+<reply status="todo committee">
+</reply>
+</comment>
+<comment>
+177: "for the constraint of" -> "to constrain" 
+<reply status="complete">
+I prefer the current phrasing.
+</reply>
+</comment>
+<comment>
+306: "as both" -> "both as" 
+<reply status="todo complete">
+Agreed.
+</reply>
+</comment>
+<comment>
+446: "the latter events": do you mean that the calo does not allow separation
+*only* for the Delta+ excitation? it is unclear what is exactly meant
+And I&apos;ll say it once more, as for every DVCS draft in the past few
+years, "An additional scale uncertainty [...] due to the *uncertainty*
+of the beam polarisation measurement", not imprecision please.
+<reply status="todo complete">
+We only considered the Delta+ excitation; what exactly are you driving at? 
+Personally, I do not see any major difference between imprecision and uncertainty; I actually find imprecision to be more sympathetic. However a couple of commenters found imprecision disconcerting, so I'll change it.
+</reply>
+</comment>
+</respondent>
+<respondent name="steiger">
+===========================================================================
+J.J.M. Steijger [josst@nikhef.nl] accept DATE: 2011.10.11 COMMENTS:
+submitted for group NIKHEF Nice draft. Just a few points. 
+<comment>
+169-170: The way this is phrased makes it a general statement about the mechanism of
+(e,e&apos;gamma), but as such it is then incorrect. For instance, (e,e&apos;gamma)
+at low values of W or Q2 cannot be described by the DVCS diagram shown,
+and even at Hermes kinematic conditions it is a question if not more
+diagrams contribute. Therefore, at least include some words such as: At
+Hermes kinematical conditions the exclusive ......can be (or: is assumed
+to be) described by two .... or state explicitly that even at Hermes
+kinematics there may be other diagrams contributing. 
+<reply status="complete committee">
+We, very carefully, do not say that exlcusive leptoproduction arises solely from those diagrams. As it is written, the paper only states that those diagrams create exclusive leptoproduction. It does not say that only those diagrams create exclusive leptoproduction, or that any arbitrary exclusive leptoproduction must have a contribution from those diagrams, so I&apos;m not sure your complaint is valid. Please contact the DC directly if you have strong feelings on the matter.
+</reply>
+</comment>
+<comment>
+168: Same remark. Say that assuming the diagrams of fig. 1 (or under the conditions
+mentioned), the square .... 
+<reply status="committee complete">
+Considering that we are talking of exclusive electroproduction, which other processes do you have in mind as potential contributors?
+</reply>
+</comment>
+<comment>
+243: refers (singular as in line 242) 
+<reply status="todo complete">
+Agreed.
+</reply>
+</comment>
+<comment>
+245: Remove &apos;additionally&apos;; it is superfluous 
+<reply status="complete">
+I disagree. It makes it clear that this analysis includes the new dataset in addition to the older one. Without the additionally, it could be read as just the same analysis on a different data set.
+</reply>
+</comment>
+<comment>
+270: Events with exactly ...spectrometer, were selected. 
+<reply status="complete">
+This is a stylistic objection with which I disagree. I generally prefer to follow subject-verb-object order in a sentence as often as possible because I find it very clear to follow. Given that no-one else had this objection, we will leave the paper as it is.
+</reply>
+</comment>
+<comment>
+314, 328, 338, 339, 425 and 498 ,respectively, (comma&apos;s) 
+<reply status="complete">
+Another stylistic objection and again I disagree. Compare with the sentence &quot;The boy ran quickly to the finish line&quot; and &quot;The boy ran, quickly, to the finish line&quot;. Neither is better, and given that the sentence structure in this part of the paper is often complicated I prefer to have as few commas as possible.
+</reply>
+</comment>
+<comment>
+326-327: The phrasing here is inaccurate. That
+the leading twist amplitudes are the mentioned ones is just a general
+fact, but if a twist expansion makes sense at all, depends on the
+kinematical conditions. But that then should be said already in the
+previous paragraph. Futhermore both A_C^0phi and A_C^1phi are twist-2,
+and thus leading twist, according to Table 1 and as stated in line 602.
+Therefore remove &apos;At Hermes kinematic conditions&apos;. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+334+: Why did you remove the formula about k? As a reader one should not have to consult
+other papers for simple definitions, especially not when they are
+relevant for the interpretation and used later on, as in this case in
+line 595. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+408-409: What do you mean here by radiative effects? Normally
+BH is the major part of those. but BH is explicitly treated here. And
+(probably related to this): what is meant by &apos;during detection&apos;? This
+will not be understandable for a reader. Please be specific. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+421+: &apos;thanks to&apos; seems better than &apos;due to&apos; 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+424: beam-polarisation (with hyphen) 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+425: comma after periods (2006-2007,), or better style: ... of
+2.8% for the 1996-2005 and of 3.4% for the 2006-2007 data taking
+periods. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+428+: Remove &apos;both&apos; (or put it after contains if you wnat to
+keep it) 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+451: last row of THE figures (there is no row of figures)
+Caption figs 2, 4 and 6: imprecision -> uncertainty 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+629-632: These
+sentences are not accurately phrased and too brief. Why not be a little
+more specific and therefore much more clear? Given eq. 3.6? there is
+some relation (therefore not &apos;expected&apos;, but most probably
+&apos;approximate&apos;) between A_C^0phi and A_C^1phi, which depends on the
+kinematic factor given in table 1. That factor is called a suppression
+factor, but is it really a suppression at Hermes kinematics? And how
+does it depend on x_B and Q2? If I look at the data then I see the
+following: t dependence: ratio of A_C^0phi to A_C^1phi is about -0.6.
+That is not really a suppression. And is that roughly consistent with
+the numerical value of the factor given in table 1? x_B and Q2
+dependence: here the ratio seems to go from well below -1.0 at small
+values of x_B or Q2 to around zero at large values of x_B or Q2. Is that
+(at least qualitatively) consistent with the given factor in table 1? If
+both answers are yes, mention it. If the answer is no, say something
+more about the relation between A_C^0phi and A_C^1phi, such as the
+possible contribution of other terms, with the conclusion that at our
+kinematics the relation is not valid/useful. In either case do not speak
+about a suppression factor; it is just a kinematic factor (which at
+special kinematics, e.g., large Q2, gives suppression).
+<reply status="todo">
+</reply>
+</comment>
+</respondent>
+<respondent name="zupranski">
+===========================================================================
+P. Zupranski [zupran@fuw.edu.pl] accept DATE: 2011.10.11 COMMENTS:
+submitted for group Warsaw The paper is very nicely written. We&apos;ve read
+it with pleasure. We have some minor suggestions (comments): 
+<comment>
+163 active quark >> interacting quark 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+318 wouldn&apos;t it help the reader to understand
+the phi dependence if the C-functions were given explicitly? 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+Table 1: We would suggest to replace in column "Relative Suppression" the (-) sign
+by 1.0 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+368 hence the >> hence on the 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+405 could we call a window set on
+the missing mass a standard? 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+678 shows >> show 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+592: Is the weak dependence of the amplitude in the region of large -t really necessary
+for its strong dependence in the region of -t approaching zero??
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+Correction to the affiliation 25: National Centre for Nuclear Research,
+00681 Warsaw, Poland
+<reply status="todo">
+</reply>
+</comment>
+</respondent>
+<respondent name="gliske">
+===========================================================================
+S. Gliske [sgliske@anl.gov] accept DATE: 2011.10.10 COMMENTS: Very
+complete, careful presentation. Well done and thanks! 
+<comment>
+031 I&apos;m not sure how this is being handled, for all of us who are now at somewhere else.
+I possibly should have a "now at High Energy Physics Division, Argonne
+National Laboratory, Argonne, Illinois 60439-4843, USA" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+494 the caption describes the older data as 1996-2005, while the actual label on the
+plot has the reference. Perhaps the reference should be mentioned in the
+text of the caption? You do mention the shapes of the markers, so it is
+not really imperative. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+498 commas before and after &apos;respectively&apos; 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+642 minimalist -> minimalistic
+<reply status="todo">
+</reply>
+</comment>
+</respondent>
+<respondent name="manaenkov">
+===========================================================================
+S.I. Manaenkov [sman@mail.desy.de] accept DATE: 2011.10.10 COMMENTS: My
+congratulation to DC-90 people. 
+<comment>
+Comments 163 "the start and the end of the process" - It is unclear which process are you discussing? DVCS? BH?
+I would change the second and third paragraphs. In this case DVCS and BH
+processes are defined and you may to refer to Fig.1 in explanation of
+variable $\xi$. Now your explanation is not clear absolutely. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+199 The word "and" must not be in the same line as equation. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+204 As far as I understand "unit charge of lepton" is nothing else as 1.6 10^{-19} C.
+You assume "the sign of the lepton charge" I think. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+230, 332 The word "and" must not be in the same line as equation. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+334 ref.[12] --> ref.~[12] 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+594 "-t approaches zero". Since one photon is virtual and
+another photon is real -t can never approach zero. You should write "-t
+approaches its minimal value allowed by kinematics". 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+776 Are there many Appendices? I see only one: Tables. There is Appendix A but there is no
+(at least) B. Best wishes, Sergei
+<reply status="todo">
+</reply>
+</comment>
+</respondent>
+<respondent name="pappalardo">
+===========================================================================
+L.L. Pappalardo [pappalardo@fe.infn.it] accept DATE: 2011.10.10
+COMMENTS: submitted for group Ferrara Thanks for this well written
+paper! We have only a few minor comments/suggestions. Dettailed
+comments: 
+<comment>
+Figure 1: should be postponed right after line 178 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+157: "parton positions" -> "parton densities" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+181 &amp; 189: reduce white space before equations 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+204: why defining here "e_l" when a different symbol
+("e") and its definition is already given in 186? Just skip "and e_l is
+...lepton." 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+207: replace description of symbols V and W with, e.g.:
+"where V (W) denotes BH, DVCS or I (DVCS or I)" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+243: "refer" -> "refers" (as in previous line) 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+270: "An event was selected as having" -> "Events were selected if having" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+278: skip "q is the four-momentum of the virtual photon" (already defined in 164-165) 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+278: skip "p is the initial four-momentum of the target proton" (already defined in 160) 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+303-304: "would describe the fitted distribution perfectly" -> "would exactly describe the fitted distribution" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+321-322: skip "Leading twist is twist 2" and postpone it, in parenthesis, in 323, before full stop. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+332: skip "and" from eq. 3.5 335: "can be written as [12]:"
+<reply status="todo">
+</reply>
+</comment>
+</respondent>
+<respondent name="zihlmann">
+===========================================================================
+B. Zihlmann [zihlmann@jlab.org] accept DATE: 2011.10.03 COMMENTS:
+<reply type="general">
+Dear Beni, A lot of your comments are subjective and style based. Very few of them are obviously wrong, however they don't really correct the text; they just change to a slightly different way of doing things. Since I am obviously biased towards my own way of doing things, where such a comment has come up, I have just written &quot; disagree&quot;. If there&quot;s any clarification wanted, please contact me directly.
+</reply>
+<comment>
+077 remove "the" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+078 replace "from" by "off" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+081 replace "the" by "an" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+084 put "most" after "statistically" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+155 why "would allow"? this sounds like you are not convinced. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+164 remove "written as" and put "the skewness
+\chi is" before "half the ..." 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+164 ... ; and -Q^2 = q^2 is the square of... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+188 and 194 too many times "can be written as". try something else.
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+249 replace "will be published" by "will be made available" If that is
+what you want to say otherwise if it refers to this paper it is not
+necessary at all. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+266 put "respectively" at the end of the sentence. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+270... An event is selected when having ... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+275 ... photon is required 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+276... An event sample is selected .... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+281 ... region is defined .... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+282... is shifted ... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+304 I do not understand the use of "fitted" in this
+sentence. Something does not add up here logically. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+309 ... is used ...
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+315 switch "interference" and "DVCS" to follow the order of "s" and "c"
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+327- 330 For an unpolarized target, these asymmetry amplitudes are
+sensitive to the Fourier coefficients s_{1,unp}^I and c_{1,unp}^I. ->
+keep it simple. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+335... is found in ref. ... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+338- remove all "respectively". not needed. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+339 342 remove "in eq. 3.7". not needed 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+344 replace "upon" by "on" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+362 I would replace "inherently" by "expected to
+be" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+396 replace "produced" by "these" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+397 replace "on" by "in" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+398 rewrite the last sentence of this paragraph. again keep it simple. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+401... Another contribution ... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+402 ... Such shifts are observed in ... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+408... resolution, radiative processes and finite bin ... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+411- Rewrite this sentence. An event generator does not describe data. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+413 There is a whole chain of steps that contribute to the final description of the
+data. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+424- 427 why not write something like: There is an additional
+scale uncertainty of 2.8% and 3.4% for the two data taking periods due
+to the systematic uncertainty in the beam polarization measurement. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+428 coma after "both" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+441 replace "due to" by "from" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+446 ... allow a separation .... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+450 ... The resulting associated fraction is labeled
+"Assoc. fraction" and are shown in the last row of the figures. ... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+496... while the total error .... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+497 it is never nice to use the word "imprecision" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+506 .. in figure 2 and 3. Each asymmetry amplitude is
+shown integrated over all kinematic variables ("overall") as well as a
+function of -t, x_B and Q^2. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+511 ... caption of the figures. ... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+513 replace "check the" by "test for a" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+515 replace "largely" by "highly"
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+515 remove "significant" ... for an incompatibility ... -> If you want
+to keep the word "significant" then you have to provide the reader with
+numbers. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+516 ... between the two data sets. ... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+552 replace "approximately" by "almost" -> I have one question here. you analyzed
+the two data set independently and combined. Is the combined result the
+same as the proper average of the two independent results? In principle
+you should get the same results. Literally the same!!! 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+559 replace "explained" by "outlined" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+581 replace "imprecision" by "uncertainty" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+583 replace "simulated" by "estimated" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+588 remove "the results were". 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+589 remove "which are" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+592- 595 please rewrite this sentence less
+complicated. keep it simple. We do not need to write like Marcel Proust.
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+596 ... can constrain the GPD H. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+598 ...zero over the whole kinematic
+range in -t, x_B and Q^2 covered by HERMES. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+601 ... estimated with the same approach as for the beam helicity asymmetry. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+624 replace "simulated" by "estimated" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+633 remove "and have no significant variation
+in value" and add "whole" between "the range" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+639 "used for the data extractions" this last part does not make sense. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+640 "calculation from a global fit of" does not sound right rather "results of a global fit of"
+makes sense. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+641 ... HERMES, Jefferson Lab, and the... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+641 remove "(very)" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+644 I am not sure what you mean by "Regge dependence". Don&apos;t
+you mean "Regge Ansatz" ? 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+644 ... represents a model fit without the data ... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+645 ... Jefferson Lab., the .... 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+669 replace "imprecision" by
+"uncertainty" 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+675 remove the last sentence. The model includes our data!
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+677- 685 I recommend to rewrite this entire paragraph. keep it simple.
+make clear simple sentences. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+715 ... GPDs, the amplitudes shown in Figs. 4 and 5 are split up into three regions in x_B and shown in Figs. 6 and 7. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+716- 720 try to improve on these last three sentences.
+<reply status="todo">
+</reply>
+</comment>
+</respondent>
+<respondent name="rith">
+===========================================================================
+K. Rith [klaus.rith@desy.de] accept DATE: 2011.09.15 COMMENTS: Dear
+DC90, in my view the paper is nearly perfect. I have only few comments
+Klaus 
+<comment>
+007 I propose to swap &apos;Bethe-Heitler&apos; and &apos;DVCS&apos;. Of course the BH
+cross section is much larger than the DVCS cross section, but DVCS is
+the process we are interested in. 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+013-049 authorlist needs to be
+updated: - double affiliations missing - &apos;Now at...&apos; affiliations
+missing - names of (most of) the candidate authors who didn&apos;t respond to
+the 1st circulation to be dropped 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+086 more keywords should be added 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+262 twice &apos;data ..were collected&apos; in consecutive lines 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+269 &apos;consult refs....&apos; is unpolite. You shouldn&apos;t command the reader to do something.
+In my view &apos;more details are given in refs...&apos; reads better 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+282 is &apos;reflect&apos; the correct word? 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+335 I didn&apos;t find the definition of the
+kinematic factor k in Ref. [12]. Anyway, there are so many formulae in
+this paper that it wouldn&apos;t harm to give also explicitely this
+definition here and it would also be more polite to the reader who
+otherwise is forced to look it up in another publication. One needs it
+anyway to understand the arguments in line 595 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+355 Ditto for the constant K 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+737 Delete &apos;new&apos;. It doesn&apos;t make much sense to call a nearly
+6 years old data set &apos;new&apos; 
+<reply status="todo">
+</reply>
+</comment>
+<comment>
+877 since I couldn&apos;t find the definitions of k and K in this paper I wonder whether it is the correct reference
+<reply status="todo">
+</reply>
+</comment>
+</respondent>
+</dc90second>
