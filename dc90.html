@@ -1,7 +1,70 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<link rel="StyleSheet" href="dc90.css" TYPE="text/css" media="screen">
+<!--<link rel="StyleSheet" href="dc90.css" TYPE="text/css" media="screen">-->
+<style type="text/css">
+
+div.container{
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.respondent{
+display: block;
+border: solid 1px;
+}
+p.comment{
+display: block;
+border: 1px dashed;
+text-indent: 1em;
+background: #DDDDFF;
+}
+p.reply{
+border: 1px;
+text-indent: 2em;
+background: #DDFFDD;
+width: 70%;
+}
+p.complete{
+background: #55FF55;
+text-decoration:underline;
+}
+p.incomplete{
+background: #FFBBBB;
+}
+p.todo{
+text-decoration: none;
+}
+p.committee{
+background: #FF0000;
+}
+
+.commentkey{
+border: 1px dashed;
+text-indent: 1em;
+background: #DDDDFF;
+}
+.replykey{
+border: 1px;
+text-indent: 2em;
+background: #DDFFDD;
+}
+.completekey{
+background: #55FF55;
+text-decoration:underline;
+}
+.incompletekey{
+background: #FFBBBB;
+}
+.todokey{
+text-decoration: none;
+}
+.committeekey{
+background: #FF0000;
+}</style>
+
+
 </head>
 <body>
 <div class="container">
@@ -735,7 +798,7 @@ We tend to use the two interchangably under the assumption of isospin symmetry. 
 <p class="comment">
 In L 164-165 and L 171-172 you have &apos;lepton-proton&apos; case, I think again it
 should be &apos;lepton-nucleon&apos; 
-<p class="reply todo compelte">
+<p class="reply compelte todo">
 Same as previously.
 </p>
 </p>
@@ -772,11 +835,13 @@ see previous reply.
 <p class="comment">
 L 278-279 &apos;p&apos; -> &apos;P&apos; 
 <p class="reply todo incomplete">
+We need to check this.
 </p>
 </p>
 <p class="comment">
 L 331-336) no any definition of the kinamatic factor k in ref[12] 
-<p class="reply todo incomplete">
+<p class="reply complete todo">
+We have added this definition to the paper and updated the bibliography.
 </p>
 </p>
 <p class="comment">
@@ -801,6 +866,7 @@ This was at Andy&quot;s insistence. Why?
 <p class="comment">
 162: "throughout" -> "at the start and end", otherwise it somehow sounds as though x is changing continuously 
 <p class="reply todo committee">
+Need to check this.
 </p>
 </p>
 <p class="comment">
