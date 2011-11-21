@@ -1,0 +1,235 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{jheppub}
+\pdfoutput=1
+\toccontinuoustrue
+\usepackage{lscape}
+\usepackage{vruler}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{appendix}
+
+\newcommand{\blue}[1]{{\color{blue}{#1}\color{black}}}
+\newcommand{\red}[1]{{\color{red}{#1}\color{black}}}
+
+\def\desy{{\sc desy}}
+
+\begin{document}
+\title{Beam-Helicity and Beam-Charge Asymmetries \\
+        in the Bethe-Heitler and DVCS processes on \\
+        an Unpolarised Proton Target
+  	\underline{Paper Tag: PDVCS0607 (v2.0)}
+        \underline{Drafting Committee: DC90 (\today)}
+}
+
+
+% List of Institute Addresses 
+\collaboration{The HERMES Collaboration}
+\collaborationImg{\includegraphics{hermeslogo.pdf}}
+
+\author[12]{A.~Airapetian}
+\author[26]{N.~Akopov}
+\author[5]{Z.~Akopov}
+\author[6]{E.C.~Aschenauer}
+\author[25]{W.~Augustyniak}
+\author[26]{R.~Avakian}
+\author[26]{A.~Avetissian}
+\author[5]{E.~Avetisyan}
+\author[15]{B.~Ball}
+\author[18]{S.~Belostotski}
+\author[10]{N.~Bianchi}
+\author[17,24]{H.P.~Blok}
+\author[6]{H.~B\"ottcher}
+\author[5]{A.~Borissov}
+\author[13]{J.~Bowles}
+\author[12]{I.~Brodski}
+\author[19]{V.~Bryzgalov}
+\author[13]{J.~Burns}
+\author[9]{M.~Capiluppi}
+\author[10]{G.P.~Capitani}
+\author[21]{E.~Cisbani}
+\author[9]{G.~Ciullo}
+\author[9]{M.~Contalbrigo}
+\author[9]{P.F.~Dalpiaz}
+\author[5]{W.~Deconinck}
+\author[2]{R.~De~Leo}
+\author[5,22,11]{L.~De~Nardo}
+\author[10]{E.~De~Sanctis}
+\author[8]{M.~Diefenthaler}
+\author[10]{P.~Di~Nezza}
+\author[17]{J.~Dreschler}
+\author[12]{M.~D\"uren}
+\author[12]{M.~Ehrenfried}
+\author[26]{G.~Elbakian}
+\author[4]{F.~Ellinghaus}
+\author[6]{R.~Fabbri}
+\author[10]{A.~Fantoni}
+\author[22]{L.~Felawka}
+\author[21]{S.~Frullani}
+\author[6]{D.~Gabbert}
+\author[19]{G.~Gapienko}
+\author[19]{V.~Gapienko}
+\author[21]{F.~Garibaldi}
+\author[5,18,22]{G.~Gavrilov}
+\author[26]{V.~Gharibyan}
+\author[9]{F.~Giordano}
+\author[15]{S.~Gliske}
+\author[5]{M.~Golembiovskaya}
+\author[10]{C.~Hadjidakis}
+\author[5]{M.~Hartig}
+\author[10]{D.~Hasch}
+\author[23]{T.~Hasegawa}
+\author[13]{G.~Hill}
+\author[6]{A.~Hillenbrand}
+\author[13]{M.~Hoek}
+\author[5]{Y.~Holler}
+\author[6]{I.~Hristova}
+\author[23]{Y.~Imazu}
+\author[19]{A.~Ivanilov}
+\author[18]{A.~Izotov}
+\author[1]{H.E.~Jackson}
+\author[18]{A.~Jgoun}
+\author[11]{H.S.~Jo}
+\author[14]{S.~Joosten}
+\author[13]{R.~Kaiser}
+\author[26]{G.~Karyan}
+\author[12]{T.~Keri}
+\author[4]{E.~Kinney}
+\author[18]{A.~Kisselev}
+\author[23]{N.~Kobayashi}
+\author[19]{V.~Korotkov}
+\author[16]{V.~Kozlov}
+\author[18]{P.~Kravchenko}
+\author[7]{V.G.~Krivokhijine}
+\author[2]{L.~Lagamba}
+\author[14]{R.~Lamb}
+\author[17]{L.~Lapik\'as}
+\author[13]{I.~Lehmann}
+\author[9]{P.~Lenisa}
+\author[14]{L.A.~Linden-Levy}
+\author[11]{A.~L\'opez~Ruiz}
+\author[15]{W.~Lorenzon}
+\author[5]{X.-G.~Lu}
+\author[23]{X.-R.~Lu}
+\author[3]{B.-Q.~Ma}
+\author[13]{D.~Mahon}
+\author[14]{N.C.R.~Makins}
+\author[18]{S.I.~Manaenkov}
+\author[21]{L.~Manfr\'e}
+\author[3]{Y.~Mao}
+\author[25]{B.~Marianski}
+\author[4]{A.~Martinez de la Ossa}
+\author[26]{H.~Marukyan}
+\author[22]{C.A.~Miller}
+\author[23]{Y.~Miyachi}
+\author[26]{A.~Movsisyan}
+\author[10]{V.~Muccifora}
+\author[13]{M.~Murray}
+\author[8]{A.~Mussgiller}
+\author[2]{E.~Nappi}
+\author[18]{Y.~Naryshkin}
+\author[8]{A.~Nass}
+\author[6]{M.~Negodaev}
+\author[6]{W.-D.~Nowak}
+\author[9]{L.L.~Pappalardo}
+\author[12]{R.~Perez-Benito}
+\author[8]{N.~Pickert}
+\author[8]{M.~Raithel}
+\author[1]{P.E.~Reimer}
+\author[10]{A.R.~Reolon}
+\author[6]{C.~Riedl}
+\author[8]{K.~Rith}
+\author[13]{G.~Rosner}
+\author[5]{A.~Rostomyan}
+\author[14]{J.~Rubin}
+\author[11]{D.~Ryckbosch}
+\author[19]{Y.~Salomatin}
+\author[20]{F.~Sanftl}
+\author[20]{A.~Sch\"afer}
+\author[11]{G.~Schnell}
+\author[5]{K.P.~Sch\"uler}
+\author[13]{B.~Seitz}
+\author[23]{T.-A.~Shibata}
+\author[7]{V.~Shutov}
+\author[9]{M.~Stancari}
+\author[9]{M.~Statera}
+\author[8]{E.~Steffens}
+\author[17]{J.J.M.~Steijger}
+\author[12]{H.~Stenzel}
+\author[6]{J.~Stewart}
+\author[8]{F.~Stinzing}
+\author[26]{S.~Taroian}
+\author[16]{A.~Terkulov}
+\author[25]{A.~Trzcinski}
+\author[11]{M.~Tytgat}
+\author[11]{A.~Vandenbroucke}
+\author[17]{P.B.~van~der~Nat}
+\author[11]{Y.~Van~Haarlem}
+\author[11]{C.~Van~Hulse}
+\author[5]{M.~Varanda}
+\author[18]{D.~Veretennikov}
+\author[18]{V.~Vikhrov}
+\author[2]{I.~Vilardi}
+\author[8]{C.~Vogel}
+\author[3]{S.~Wang}
+\author[8]{S.~Yaschenko}
+\author[3]{H.~Ye}
+\author[5]{Z.~Ye}
+\author[22]{S.~Yen}
+\author[12]{W.~Yu}
+\author[8]{D.~Zeiler}
+\author[5]{B.~Zihlmann}
+\author[25]{P.~Zupranski}
+
+\affiliation[1]{Physics Division, Argonne National Laboratory, Argonne, Illinois 60439-4843, USA}
+\affiliation[2]{Istituto Nazionale di Fisica Nucleare, Sezione di Bari, 70124 Bari, Italy}
+\affiliation[3]{School of Physics, Peking University, Beijing 100871, China}
+\affiliation[4]{Nuclear Physics Laboratory, University of Colorado, Boulder, Colorado 80309-0390, USA}
+\affiliation[5]{DESY, 22603 Hamburg, Germany}
+\affiliation[6]{DESY, 15738 Zeuthen, Germany}
+\affiliation[7]{Joint Institute for Nuclear Research, 141980 Dubna, Russia}
+\affiliation[8]{Physikalisches Institut, Universit\"at Erlangen-N\"urnberg, 91058 Erlangen, Germany}
+\affiliation[9]{Istituto Nazionale di Fisica Nucleare, Sezione di Ferrara and Dipartimento di Fisica, Universit\`a di Ferrara, 44100 Ferrara, Italy}
+\affiliation[10]{Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali di Frascati, 00044 Frascati, Italy}
+\affiliation[11]{Department of Subatomic and Radiation Physics, University of Gent, 9000 Gent, Belgium}
+\affiliation[12]{Physikalisches Institut, Universit\"at Gie{\ss}en, 35392 Gie{\ss}en, Germany}
+\affiliation[13]{SUPA, School of Physics and Astronomy, University of Glasgow, Glasgow G12 8QQ, United Kingdom}
+\affiliation[14]{Department of Physics, University of Illinois, Urbana, Illinois 61801-3080, USA}
+\affiliation[15]{Randall Laboratory of Physics, University of Michigan, Ann Arbor, Michigan 48109-1040, USA }
+\affiliation[16]{Lebedev Physical Institute, 117924 Moscow, Russia}
+\affiliation[17]{National Institute for Subatomic Physics (Nikhef), 1009 DB Amsterdam, The Netherlands}
+\affiliation[18]{Petersburg Nuclear Physics Institute, Gatchina, Leningrad region, 188300 Russia}
+\affiliation[19]{Institute for High Energy Physics, Protvino, Moscow region, 142281 Russia}
+\affiliation[20]{Institut f\"ur Theoretische Physik, Universit\"at Regensburg, 93040 Regensburg, Germany}
+\affiliation[21]{Istituto Nazionale di Fisica Nucleare, Sezione Roma 1, Gruppo Sanit\`a and Physics Laboratory, Istituto Superiore di Sanit\`a, 00161 Roma, Italy}
+\affiliation[22]{TRIUMF, Vancouver, British Columbia V6T 2A3, Canada}
+\affiliation[23]{Department of Physics, Tokyo Institute of Technology, Tokyo 152, Japan}
+\affiliation[24]{Department of Physics and Astronomy, Vrije Universiteit, 1081 HV Amsterdam, The Netherlands}
+\affiliation[25]{National Center for Nuclear Research, 00-689 Warsaw, Poland}
+\affiliation[26]{Yerevan Physics Institute, 375036 Yerevan, Armenia}
+
+\abstract{
+Beam-helicity and beam-charge asymmetries in the hard exclusive leptoproduction of real photons from an unpolarised proton target by a 27.6\,GeV lepton beam 
+are extracted from the H{\sc ermes} data set of 2006-2007 using a
+missing-mass event selection technique. The beam-charge asymmetry
+amplitudes extracted from the new data set are more
+precise than those extracted from the earlier data
+set of 1996-2005 previously analysed in the same manner by the
+collaboration. Results from the two data sets are found to be
+compatible with each other. Combined results from these data sets are
+extracted and represent the most statistically precise asymmetry amplitude measurements available in the H{\sc ermes} kinematic region.
+}
+\keywords{lepton-nucleon scattering}
+
+\setvruler[15pt][1][1][3][1][30pt][30pt][-42pt]
+\maketitle
+
+\include{theory}
+\include{experiment_and_data}
+\include{background_and_systematic_dual}
+\include{results_dual}
+\include{summary}
+\include{append_dual}
+\bibliographystyle{natbib}
+\bibliography{jburnsref}
+\end{document}

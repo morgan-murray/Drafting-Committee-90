@@ -1,0 +1,60 @@
+
+div.container{
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.respondent{
+display: block;
+border: solid 1px;
+}
+p.comment{
+display: block;
+border: 1px dashed;
+text-indent: 1em;
+background: #DDDDFF;
+}
+p.reply{
+border: 1px;
+text-indent: 2em;
+background: #DDFFDD;
+width: 70%;
+}
+p.complete{
+background: #55FF55;
+text-decoration:underline;
+}
+p.incomplete{
+background: #FFBBBB;
+}
+p.todo{
+text-decoration: none;
+}
+p.committee{
+background: #FF0000;
+}
+
+.commentkey{
+border: 1px dashed;
+text-indent: 1em;
+background: #DDDDFF;
+}
+.replykey{
+border: 1px;
+text-indent: 2em;
+background: #DDFFDD;
+}
+.completekey{
+background: #55FF55;
+text-decoration:underline;
+}
+.incompletekey{
+background: #FFBBBB;
+}
+.todokey{
+text-decoration: none;
+}
+.committeekey{
+background: #FF0000;
+}

@@ -1,0 +1,264 @@
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showpacs' option to make PACS codes appear
+%  Add 'showkeys' option to make keywords appear
+
+\documentclass[aps,prl,twocolumn,superscriptaddress]{revtex4}
+%\documentclass[aps,prl,preprint,superscriptaddress]{revtex4}
+%\documentclass[aps,prl,preprint,groupedaddress]{revtex4}
+
+% Enable use of graphics
+
+\usepackage{graphicx}
+
+% You should use BibTeX and apsrev.bst for references
+% Choosing a journal automatically selects the correct APS
+% BibTeX style file (bst file), so only uncomment the line
+% below if necessary.
+
+%\bibliographystyle{apsrev}
+
+
+% ===========================================================================
+
+\begin{document}
+
+\title{
+  Beam Helicity and Charge Asymmetries in the Bethe-Heitler and Deeply-Virtual Compton Scattering Processes on an Unpol Proton Target \\
+  \underline{Paper Tag: dvcsP0607}
+  \hspace*{1cm}\underline{Drafting Committee: 90}
+}
+
+% List of Institute Addresses 
+
+\def\groupargonne{\affiliation{Physics Division, Argonne National Laboratory, Argonne, Illinois 60439-4843, USA}}
+\def\groupbari{\affiliation{Istituto Nazionale di Fisica Nucleare, Sezione di Bari, 70124 Bari, Italy}}
+\def\groupbeijing{\affiliation{School of Physics, Peking University, Beijing 100871, China}}
+\def\groupcolorado{\affiliation{Nuclear Physics Laboratory, University of Colorado, Boulder, Colorado 80309-0390, USA}}
+\def\groupdesy{\affiliation{DESY, 22603 Hamburg, Germany}}
+\def\groupzeuthen{\affiliation{DESY, 15738 Zeuthen, Germany}}
+\def\groupdubna{\affiliation{Joint Institute for Nuclear Research, 141980 Dubna, Russia}}
+\def\grouperlangen{\affiliation{Physikalisches Institut, Universit\"at Erlangen-N\"urnberg, 91058 Erlangen, Germany}}
+\def\groupferrara{\affiliation{Istituto Nazionale di Fisica Nucleare, Sezione di Ferrara and Dipartimento di Fisica, Universit\`a di Ferrara, 44100 Ferrara, Italy}}
+\def\groupfrascati{\affiliation{Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali di Frascati, 00044 Frascati, Italy}}
+\def\groupgent{\affiliation{Department of Subatomic and Radiation Physics, University of Gent, 9000 Gent, Belgium}}
+\def\groupgiessen{\affiliation{Physikalisches Institut, Universit\"at Gie{\ss}en, 35392 Gie{\ss}en, Germany}}
+\def\groupglasgow{\affiliation{SUPA, School of Physics and Astronomy, University of Glasgow, Glasgow G12 8QQ, United Kingdom}}
+\def\groupillinois{\affiliation{Department of Physics, University of Illinois, Urbana, Illinois 61801-3080, USA}}
+\def\groupmichigan{\affiliation{Randall Laboratory of Physics, University of Michigan, Ann Arbor, Michigan 48109-1040, USA }}
+\def\groupmoscow{\affiliation{Lebedev Physical Institute, 117924 Moscow, Russia}}
+\def\groupnikhef{\affiliation{National Institute for Subatomic Physics (Nikhef), 1009 DB Amsterdam, The Netherlands}}
+\def\groupstpetersburg{\affiliation{Petersburg Nuclear Physics Institute, Gatchina, Leningrad region, 188300 Russia}}
+\def\groupprotvino{\affiliation{Institute for High Energy Physics, Protvino, Moscow region, 142281 Russia}}
+\def\groupregensburg{\affiliation{Institut f\"ur Theoretische Physik, Universit\"at Regensburg, 93040 Regensburg, Germany}}
+\def\grouprome{\affiliation{Istituto Nazionale di Fisica Nucleare, Sezione Roma 1, Gruppo Sanit\`a and Physics Laboratory, Istituto Superiore di Sanit\`a, 00161 Roma, Italy}}
+\def\grouptriumf{\affiliation{TRIUMF, Vancouver, British Columbia V6T 2A3, Canada}}
+\def\grouptokyo{\affiliation{Department of Physics, Tokyo Institute of Technology, Tokyo 152, Japan}}
+\def\groupamsterdam{\affiliation{Department of Physics and Astronomy, Vrije Universiteit, 1081 HV Amsterdam, The Netherlands}}
+\def\groupwarsaw{\affiliation{Andrzej Soltan Institute for Nuclear Studies, 00-689 Warsaw, Poland}}
+\def\groupyerevan{\affiliation{Yerevan Physics Institute, 375036 Yerevan, Armenia}}
+\def\groupnone{\noaffiliation}
+
+% Set Institute Order 
+
+\groupargonne
+\groupbari
+\groupbeijing
+\groupcolorado
+\groupdesy
+\groupzeuthen
+\groupdubna
+\grouperlangen
+\groupferrara
+\groupfrascati
+\groupgent
+\groupgiessen
+\groupglasgow
+\groupillinois
+\groupmichigan
+\groupmoscow
+\groupnikhef
+\groupstpetersburg
+\groupprotvino
+\groupregensburg
+\grouprome
+\grouptriumf
+\grouptokyo
+\groupamsterdam
+\groupwarsaw
+\groupyerevan
+
+% List of Authors 
+
+\author{A.~Airapetian}  \groupgiessen
+\author{N.~Akopov}  \groupyerevan
+\author{Z.~Akopov}  \groupdesy
+\author{E.C.~Aschenauer}  \groupzeuthen
+\author{W.~Augustyniak}  \groupwarsaw
+\author{R.~Avakian}  \groupyerevan
+\author{A.~Avetissian}  \groupyerevan
+\author{E.~Avetisyan}  \groupdesy
+\author{B.~Ball}  \groupmichigan
+\author{S.~Belostotski}  \groupstpetersburg
+\author{N.~Bianchi}  \groupfrascati
+\author{H.P.~Blok}  \groupnikhef \groupamsterdam
+\author{H.~B\"ottcher}  \groupzeuthen
+\author{A.~Borissov}  \groupdesy
+\author{J.~Bowles}  \groupglasgow
+\author{I.~Brodski}  \groupgiessen
+\author{V.~Bryzgalov}  \groupprotvino
+\author{J.~Burns}  \groupglasgow
+\author{M.~Capiluppi}  \groupferrara
+\author{G.P.~Capitani}  \groupfrascati
+\author{E.~Cisbani}  \grouprome
+\author{G.~Ciullo}  \groupferrara
+\author{M.~Contalbrigo}  \groupferrara
+\author{P.F.~Dalpiaz}  \groupferrara
+\author{W.~Deconinck}  \groupdesy
+\author{R.~De~Leo}  \groupbari
+\author{L.~De~Nardo}  \groupdesy \grouptriumf
+\author{E.~De~Sanctis}  \groupfrascati
+\author{M.~Diefenthaler}  \grouperlangen
+\author{P.~Di~Nezza}  \groupfrascati
+\author{J.~Dreschler}  \groupnikhef
+\author{M.~D\"uren}  \groupgiessen
+\author{M.~Ehrenfried}  \groupgiessen
+\author{G.~Elbakian}  \groupyerevan
+\author{F.~Ellinghaus}  \groupcolorado
+\author{R.~Fabbri}  \groupzeuthen
+\author{A.~Fantoni}  \groupfrascati
+\author{L.~Felawka}  \grouptriumf
+\author{S.~Frullani}  \grouprome
+\author{D.~Gabbert}  \groupzeuthen
+\author{G.~Gapienko}  \groupprotvino
+\author{V.~Gapienko}  \groupprotvino
+\author{F.~Garibaldi}  \grouprome
+\author{G.~Gavrilov}  \groupdesy \groupstpetersburg \grouptriumf
+\author{V.~Gharibyan}  \groupyerevan
+\author{F.~Giordano}  \groupferrara
+\author{S.~Gliske}  \groupmichigan
+\author{M.~Golembiovskaya}  \groupdesy
+\author{C.~Hadjidakis}  \groupfrascati
+\author{M.~Hartig}  \groupdesy
+\author{D.~Hasch}  \groupfrascati
+\author{T.~Hasegawa}  \grouptokyo
+\author{G.~Hill}  \groupglasgow
+\author{A.~Hillenbrand}  \groupzeuthen
+\author{M.~Hoek}  \groupglasgow
+\author{Y.~Holler}  \groupdesy
+\author{I.~Hristova}  \groupzeuthen
+\author{Y.~Imazu}  \grouptokyo
+\author{A.~Ivanilov}  \groupprotvino
+\author{A.~Izotov}  \groupstpetersburg
+\author{H.E.~Jackson}  \groupargonne
+\author{A.~Jgoun}  \groupstpetersburg
+\author{H.S.~Jo}  \groupgent
+\author{S.~Joosten}  \groupillinois
+\author{R.~Kaiser}  \groupglasgow
+\author{G.~Karyan}  \groupyerevan
+\author{T.~Keri}  \groupgiessen
+\author{E.~Kinney}  \groupcolorado
+\author{A.~Kisselev}  \groupstpetersburg
+\author{N.~Kobayashi}  \grouptokyo
+\author{V.~Korotkov}  \groupprotvino
+\author{V.~Kozlov}  \groupmoscow
+\author{P.~Kravchenko}  \groupstpetersburg
+\author{V.G.~Krivokhijine}  \groupdubna
+\author{L.~Lagamba}  \groupbari
+\author{R.~Lamb}  \groupillinois
+\author{L.~Lapik\'as}  \groupnikhef
+\author{I.~Lehmann}  \groupglasgow
+\author{P.~Lenisa}  \groupferrara
+\author{L.A.~Linden-Levy}  \groupillinois
+\author{A.~L\'opez~Ruiz}  \groupgent
+\author{W.~Lorenzon}  \groupmichigan
+\author{X.-G.~Lu}  \groupdesy
+\author{B.-Q.~Ma}  \groupbeijing
+\author{D.~Mahon}  \groupglasgow
+\author{N.C.R.~Makins}  \groupillinois
+\author{S.I.~Manaenkov}  \groupstpetersburg
+\author{L.~Manfr\'e}  \grouprome
+\author{Y.~Mao}  \groupbeijing
+\author{B.~Marianski}  \groupwarsaw
+\author{A.~Martinez de la Ossa}  \groupcolorado
+\author{H.~Marukyan}  \groupyerevan
+\author{C.A.~Miller}  \grouptriumf
+\author{Y.~Miyachi}  \grouptokyo
+\author{A.~Movsisyan}  \groupyerevan
+\author{V.~Muccifora}  \groupfrascati
+\author{M.~Murray}  \groupglasgow
+\author{A.~Mussgiller}  \grouperlangen
+\author{E.~Nappi}  \groupbari
+\author{Y.~Naryshkin}  \groupstpetersburg
+\author{A.~Nass}  \grouperlangen
+\author{M.~Negodaev}  \groupzeuthen
+\author{W.-D.~Nowak}  \groupzeuthen
+\author{L.L.~Pappalardo}  \groupferrara
+\author{R.~Perez-Benito}  \groupgiessen
+\author{N.~Pickert}  \grouperlangen
+\author{M.~Raithel}  \grouperlangen
+\author{P.E.~Reimer}  \groupargonne
+\author{A.R.~Reolon}  \groupfrascati
+\author{C.~Riedl}  \groupzeuthen
+\author{K.~Rith}  \grouperlangen
+\author{G.~Rosner}  \groupglasgow
+\author{A.~Rostomyan}  \groupdesy
+\author{J.~Rubin}  \groupargonne
+\author{D.~Ryckbosch}  \groupgent
+\author{Y.~Salomatin}  \groupprotvino
+\author{F.~Sanftl}  \groupregensburg
+\author{A.~Sch\"afer}  \groupregensburg
+\author{G.~Schnell}  \groupgent
+\author{K.P.~Sch\"uler}  \groupdesy
+\author{B.~Seitz}  \groupglasgow
+\author{T.-A.~Shibata}  \grouptokyo
+\author{V.~Shutov}  \groupdubna
+\author{M.~Stancari}  \groupferrara
+\author{M.~Statera}  \groupferrara
+\author{E.~Steffens}  \grouperlangen
+\author{J.J.M.~Steijger}  \groupnikhef
+\author{H.~Stenzel}  \groupgiessen
+\author{J.~Stewart}  \groupzeuthen
+\author{F.~Stinzing}  \grouperlangen
+\author{S.~Taroian}  \groupyerevan
+\author{A.~Terkulov}  \groupmoscow
+\author{A.~Trzcinski}  \groupwarsaw
+\author{M.~Tytgat}  \groupgent
+\author{A.~Vandenbroucke}  \groupgent
+\author{P.B.~van~der~Nat}  \groupnikhef
+\author{Y.~Van~Haarlem}  \groupgent
+\author{C.~Van~Hulse}  \groupgent
+\author{M.~Varanda}  \groupdesy
+\author{D.~Veretennikov}  \groupstpetersburg
+\author{V.~Vikhrov}  \groupstpetersburg
+\author{I.~Vilardi}  \groupbari
+\author{C.~Vogel}  \grouperlangen
+\author{S.~Wang}  \groupbeijing
+\author{S.~Yaschenko}  \grouperlangen
+\author{H.~Ye}  \groupbeijing
+\author{Z.~Ye}  \groupdesy
+\author{S.~Yen}  \grouptriumf
+\author{W.~Yu}  \groupgiessen
+\author{V.~Zagrebelnyy}  \groupdesy \groupgiessen
+\author{D.~Zeiler}  \grouperlangen
+\author{B.~Zihlmann}  \groupdesy
+\author{P.~Zupranski}  \groupwarsaw
+
+\collaboration{The HERMES Collaboration} \noaffiliation
+
+\date{\today}
+
+\begin{abstract}
+% insert abstract here
+\end{abstract}
+
+% insert suggested PACS numbers in braces
+\pacs{}
+
+% maketitle must be placed here
+\maketitle
+
+\end{document}
