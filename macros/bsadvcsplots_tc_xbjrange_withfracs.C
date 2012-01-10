@@ -1,7 +1,7 @@
 {
 //=========Macro generated from canvas: combined/
 //=========  (Wed Dec 21 11:30:00 2011) by ROOT version5.28/00b
-   TCanvas *combined = new TCanvas("combined", "",3,22,1280,756);
+   TCanvas *combined = new TCanvas("combined", "",3,22,1280,900);
    gStyle->SetOptStat(0);
    combined->SetHighLightColor(2);
    combined->Range(0,0,1,1);
@@ -29,7 +29,7 @@
    pad1->SetFrameBorderMode(0);
   
 // ------------>Primitives in pad: pad1_1
-   pad1_1 = new TPad("pad1_1", "pad1_1",0,0.75,0.379903,1);
+   pad1_1 = new TPad("pad1_1", "pad1_1",0,0.75,0.4,1);
    pad1_1->Draw();
    pad1_1->cd();
    pad1_1->Range(-2.695373,-0.45,-0.09691001,0.3);
@@ -37,7 +37,7 @@
    pad1_1->SetBorderMode(0);
    pad1_1->SetBorderSize(0);
    pad1_1->SetLogx();
-   pad1_1->SetLeftMargin(0.25);
+   pad1_1->SetLeftMargin(0.3);
    pad1_1->SetRightMargin(0);
    pad1_1->SetTopMargin(0);
    pad1_1->SetBottomMargin(0);
@@ -56,7 +56,7 @@
    hframe__1__1__1->GetXaxis()->SetNdivisions(505);
    hframe__1__1__1->GetXaxis()->SetLabelSize(0.1);
    hframe__1__1__1->GetXaxis()->SetTitleSize(0.1);
-   hframe__1__1__1->GetXaxis()->SetTitleOffset(1.01);
+   hframe__1__1__1->GetXaxis()->SetTitleOffset(1.1);
    hframe__1__1__1->GetYaxis()->SetTitle("A_{LU,I}^{sin #phi}");
    hframe__1__1__1->GetYaxis()->CenterTitle(true);
    hframe__1__1__1->GetYaxis()->SetNdivisions(205);
@@ -64,7 +64,7 @@
    hframe__1__1__1->GetYaxis()->SetLabelOffset(0.02);
    hframe__1__1__1->GetYaxis()->SetLabelSize(25);
    hframe__1__1__1->GetYaxis()->SetTitleSize(35);
-   hframe__1__1__1->GetYaxis()->SetTitleOffset(2.5);
+   hframe__1__1__1->GetYaxis()->SetTitleOffset(3);
    hframe__1__1__1->GetYaxis()->SetTitleFont(63);
    hframe__1__1__1->Draw(" ");
    TLine *line = new TLine(0,0,0.8,0);
@@ -142,7 +142,7 @@
    tex->SetTextSize(0.12);
    tex->SetLineWidth(2);
    tex->Draw();
-      tex = new TLatex(0.02155416,0.05141525,"<Q^{2}> 1.56 GeV^{2}");
+      tex = new TLatex(0.02155416,0.05141525,"<Q^{2}> = 1.56 GeV^{2}");
    tex->SetTextSize(0.12);
    tex->SetLineWidth(2);
    tex->Draw();
@@ -150,7 +150,7 @@
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_4
-   pad1_4 = new TPad("pad1_4", "pad1_4",0,0.5,0.379903,0.75);
+   pad1_4 = new TPad("pad1_4", "pad1_4",0,0.5,0.4,0.75);
    pad1_4->Draw();
    pad1_4->cd();
    pad1_4->Range(-2.695373,-0.45,-0.09691001,0.45);
@@ -158,7 +158,7 @@
    pad1_4->SetBorderMode(0);
    pad1_4->SetBorderSize(0);
    pad1_4->SetLogx();
-   pad1_4->SetLeftMargin(0.25);
+   pad1_4->SetLeftMargin(0.3);
    pad1_4->SetRightMargin(0);
    pad1_4->SetTopMargin(0);
    pad1_4->SetBottomMargin(0);
@@ -177,7 +177,7 @@
    hframe__2__2__2->GetXaxis()->SetNdivisions(505);
    hframe__2__2__2->GetXaxis()->SetLabelSize(0.1);
    hframe__2__2__2->GetXaxis()->SetTitleSize(0.1);
-   hframe__2__2__2->GetXaxis()->SetTitleOffset(1.01);
+   hframe__2__2__2->GetXaxis()->SetTitleOffset(1.1);
    hframe__2__2__2->GetYaxis()->SetTitle("A_{LU,DVCS}^{sin #phi}");
    hframe__2__2__2->GetYaxis()->CenterTitle(true);
    hframe__2__2__2->GetYaxis()->SetNdivisions(205);
@@ -185,7 +185,7 @@
    hframe__2__2__2->GetYaxis()->SetLabelOffset(0.02);
    hframe__2__2__2->GetYaxis()->SetLabelSize(25);
    hframe__2__2__2->GetYaxis()->SetTitleSize(35);
-   hframe__2__2__2->GetYaxis()->SetTitleOffset(2.5);
+   hframe__2__2__2->GetYaxis()->SetTitleOffset(3);
    hframe__2__2__2->GetYaxis()->SetTitleFont(63);
    hframe__2__2__2->Draw(" ");
    line = new TLine(0,0,0.8,0);
@@ -292,7 +292,7 @@
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_7
-   pad1_7 = new TPad("pad1_7", "pad1_7",0,0.25,0.379903,0.5);
+   pad1_7 = new TPad("pad1_7", "pad1_7",0,0.25,0.4,0.5);
    pad1_7->Draw();
    pad1_7->cd();
    pad1_7->Range(-2.695373,-0.3,-0.09691001,0.5);
@@ -300,7 +300,7 @@
    pad1_7->SetBorderMode(0);
    pad1_7->SetBorderSize(0);
    pad1_7->SetLogx();
-   pad1_7->SetLeftMargin(0.25);
+   pad1_7->SetLeftMargin(0.3);
    pad1_7->SetRightMargin(0);
    pad1_7->SetTopMargin(0);
    pad1_7->SetBottomMargin(0);
@@ -319,7 +319,7 @@
    hframe__3__3__3->GetXaxis()->SetNdivisions(505);
    hframe__3__3__3->GetXaxis()->SetLabelSize(0.1);
    hframe__3__3__3->GetXaxis()->SetTitleSize(0.1);
-   hframe__3__3__3->GetXaxis()->SetTitleOffset(1.01);
+   hframe__3__3__3->GetXaxis()->SetTitleOffset(1.1);
    hframe__3__3__3->GetYaxis()->SetTitle("A_{LU,I}^{sin (2#phi)}");
    hframe__3__3__3->GetYaxis()->CenterTitle(true);
    hframe__3__3__3->GetYaxis()->SetNdivisions(205);
@@ -327,7 +327,7 @@
    hframe__3__3__3->GetYaxis()->SetLabelOffset(0.02);
    hframe__3__3__3->GetYaxis()->SetLabelSize(25);
    hframe__3__3__3->GetYaxis()->SetTitleSize(35);
-   hframe__3__3__3->GetYaxis()->SetTitleOffset(2.5);
+   hframe__3__3__3->GetYaxis()->SetTitleOffset(3);
    hframe__3__3__3->GetYaxis()->SetTitleFont(63);
    hframe__3__3__3->Draw(" ");
    line = new TLine(0,0,0.8,0);
@@ -434,7 +434,7 @@
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_a1
-   pad1_a1 = new TPad("pad1_a1", "pad1_a1",0,0,0.379903,0.25);
+   pad1_a1 = new TPad("pad1_a1", "pad1_a1",0,0,0.4,0.25);
    pad1_a1->Draw();
    pad1_a1->cd();
    pad1_a1->Range(-2.840899,-0.3,-0.09691001,0.45);
@@ -442,7 +442,7 @@
    pad1_a1->SetBorderMode(0);
    pad1_a1->SetBorderSize(0);
    pad1_a1->SetLogx();
-   pad1_a1->SetLeftMargin(0.25);
+   pad1_a1->SetLeftMargin(0.3);
    pad1_a1->SetRightMargin(0);
    pad1_a1->SetTopMargin(0);
    pad1_a1->SetBottomMargin(0.4);
@@ -473,7 +473,7 @@
    hframe__21__5__4__4->GetYaxis()->SetLabelOffset(0.02);
    hframe__21__5__4__4->GetYaxis()->SetLabelSize(25);
    hframe__21__5__4__4->GetYaxis()->SetTitleSize(25);
-   hframe__21__5__4__4->GetYaxis()->SetTitleOffset(3.4);
+   hframe__21__5__4__4->GetYaxis()->SetTitleOffset(4);
    hframe__21__5__4__4->GetYaxis()->SetTitleFont(63);
    hframe__21__5__4__4->Draw(" ");
    line = new TLine(0,0,2,0);
@@ -504,7 +504,7 @@
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_2
-   pad1_2 = new TPad("pad1_2", "pad1_2",0.379903,0.75,0.681374,1);
+   pad1_2 = new TPad("pad1_2", "pad1_2",0.4,0.75,0.7,1);
    pad1_2->Draw();
    pad1_2->cd();
    pad1_2->Range(-2.045757,-0.45,-0.09691001,0.3);
@@ -617,7 +617,7 @@
    tex->SetTextSize(0.12);
    tex->SetLineWidth(2);
    tex->Draw();
-      tex = new TLatex(0.02,0.06,"<Q^{2}> 2.52 GeV^{2}");
+      tex = new TLatex(0.02,0.06,"<Q^{2}> = 2.52 GeV^{2}");
    tex->SetTextSize(0.12);
    tex->SetLineWidth(2);
    tex->Draw();
@@ -625,7 +625,7 @@
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_5
-   pad1_5 = new TPad("pad1_5", "pad1_5",0.379903,0.5,0.681374,0.75);
+   pad1_5 = new TPad("pad1_5", "pad1_5",0.4,0.5,0.7,0.75);
    pad1_5->Draw();
    pad1_5->cd();
    pad1_5->Range(-2.045757,-0.45,-0.09691001,0.45);
@@ -767,7 +767,7 @@
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_8
-   pad1_8 = new TPad("pad1_8", "pad1_8",0.379903,0.25,0.681374,0.5);
+   pad1_8 = new TPad("pad1_8", "pad1_8",0.4,0.25,0.7,0.5);
    pad1_8->Draw();
    pad1_8->cd();
    pad1_8->Range(-2.045757,-0.3,-0.09691001,0.5);
@@ -909,7 +909,7 @@
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_a2
-   pad1_a2 = new TPad("pad1_a2", "pad1_a2",0.379903,0,0.681374,0.25);
+   pad1_a2 = new TPad("pad1_a2", "pad1_a2",0.4,0,0.7,0.25);
    pad1_a2->Draw();
    pad1_a2->cd();
    pad1_a2->Range(-2.154902,-0.3,-0.09691001,0.45);
@@ -971,7 +971,7 @@
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_3
-   pad1_3 = new TPad("pad1_3", "pad1_3",0.681374,0.75,0.982846,1);
+   pad1_3 = new TPad("pad1_3", "pad1_3",0.7,0.75,0.982846,1);
    pad1_3->Draw();
    pad1_3->cd();
    pad1_3->Range(-2.045757,-0.45,-0.09691001,0.3);
@@ -1076,7 +1076,7 @@
    tex->SetTextSize(0.12);
    tex->SetLineWidth(2);
    tex->Draw();
-      tex = new TLatex(0.022,0.06,"<Q^{2}> 4.34 GeV^{2}");
+      tex = new TLatex(0.022,0.06,"<Q^{2}> = 4.34 GeV^{2}");
    tex->SetTextSize(0.12);
    tex->SetLineWidth(2);
    tex->Draw();
@@ -1084,7 +1084,7 @@
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_6
-   pad1_6 = new TPad("pad1_6", "pad1_6",0.681374,0.5,0.982846,0.75);
+   pad1_6 = new TPad("pad1_6", "pad1_6",0.7,0.5,0.982846,0.75);
    pad1_6->Draw();
    pad1_6->cd();
    pad1_6->Range(-2.045757,-0.45,-0.09691001,0.45);
@@ -1218,7 +1218,7 @@
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_9
-   pad1_9 = new TPad("pad1_9", "pad1_9",0.681374,0.25,0.982846,0.5);
+   pad1_9 = new TPad("pad1_9", "pad1_9",0.7,0.25,0.982846,0.5);
    pad1_9->Draw();
    pad1_9->cd();
    pad1_9->Range(-2.045757,-0.3,-0.09691001,0.5);
@@ -1352,7 +1352,7 @@
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_a3
-   pad1_a3 = new TPad("pad1_a3", "pad1_a3",0.681374,0,0.982846,0.25);
+   pad1_a3 = new TPad("pad1_a3", "pad1_a3",0.7,0,0.982846,0.25);
    pad1_a3->Draw();
    pad1_a3->cd();
    pad1_a3->Range(-2.154902,-0.3,-0.09691001,0.45);
