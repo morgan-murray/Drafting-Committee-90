@@ -48,7 +48,7 @@
    pad1_1->SetFrameBorderMode(0);
    
    TH1F *hframe__1__1 = new TH1F("hframe__1__1","",3,0,2);
-   hframe__1__1->SetMinimum(-0.65);
+   hframe__1__1->SetMinimum(-0.69);
    hframe__1__1->SetMaximum(0.25);
    hframe__1__1->SetDirectory(0);
    hframe__1__1->SetStats(0);
@@ -89,25 +89,34 @@
    Graph11->SetStats(0);
    gre->SetHistogram(Graph11);
    
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(1);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetPoint(0,1,-0.222422);
-   gre->SetPointError(0,0,0.0325037);
-   
-   TH1F *Graph22 = new TH1F("Graph22","Graph",100,0.9,2.1);
-   Graph22->SetMinimum(-0.2614264);
-   Graph22->SetMaximum(-0.1834176);
-   Graph22->SetDirectory(0);
-   Graph22->SetStats(0);
-   gre->SetHistogram(Graph22);
-   
+	float s1i_o_s =-0.6
+	float s1i_o_e;
+	s1i_o_e=-0.6+0.022;
+	
+	float s1i_o_s2=-0.67
+	float s1i_o_e2;
+	s1i_o_e2=-0.67+0.020;
+	
+	Double_t *dum = 0;
+	TPolyLine *pline = new TPolyLine(4,dum,dum,"");
+	pline->SetFillColor(2);
+	pline->SetPoint(0,0.5,s1i_o_s);
+	pline->SetPoint(1,0.5,s1i_o_e);
+	pline->SetPoint(2,1.5,s1i_o_e);
+	pline->SetPoint(3,1.5,s1i_o_s);
+	pline->Draw("fsame");
+	
+	Double_t *dum = 0;
+	TPolyLine *pline = new TPolyLine(4,dum,dum,"");
+	pline->SetFillColor(4);
+	pline->SetFillStyle(0);
+	pline->SetPoint(0,0.5,s1i_o_s2);
+	pline->SetPoint(1,0.5,s1i_o_e2);
+	pline->SetPoint(2,1.5,s1i_o_e2);
+	pline->SetPoint(3,1.5,s1i_o_s2);
+	pline->Draw("fsame");
+	
+	
    gre->Draw("p");
    
    gre = new TGraphErrors(1);
@@ -129,25 +138,7 @@
    
    gre->Draw("p");
    
-   gre = new TGraphErrors(1);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,1.2,-0.224);
-   gre->SetPointError(0,0,0.0344093);
-   
-   TH1F *Graph44 = new TH1F("Graph44","Graph",100,1.1,2.3);
-   Graph44->SetMinimum(-0.2652912);
-   Graph44->SetMaximum(-0.1827088);
-   Graph44->SetDirectory(0);
-   Graph44->SetStats(0);
-   gre->SetHistogram(Graph44);
-   
-   gre->Draw("p");
-   pad1_1->Modified();
+pad1_1->Modified();
    pad1->cd();
   
 // ------------>Primitives in pad: pad1_5
@@ -169,7 +160,7 @@
    pad1_5->SetFrameBorderMode(0);
    
    TH1F *hframe__2__2 = new TH1F("hframe__2__2","",3,0,2);
-   hframe__2__2->SetMinimum(-0.45);
+   hframe__2__2->SetMinimum(-0.475);
    hframe__2__2->SetMaximum(0.3);
    hframe__2__2->SetDirectory(0);
    hframe__2__2->SetStats(0);
@@ -212,26 +203,35 @@
    
    gre->Draw("p");
    
-   gre = new TGraphErrors(1);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetPoint(0,1,0.00461972);
-   gre->SetPointError(0,0,0.0235812);
-   
-   TH1F *Graph66 = new TH1F("Graph66","Graph",100,0.9,2.1);
-   Graph66->SetMinimum(-0.02367772);
-   Graph66->SetMaximum(0.03291716);
-   Graph66->SetDirectory(0);
-   Graph66->SetStats(0);
-   gre->SetHistogram(Graph66);
-   
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(1);
+	float s1d_o_s =-0.4
+	float s1d_o_e;
+	s1d_o_e=-0.4+0.003;
+	
+	float s1d_o_s2=-0.45
+	float s1d_o_e2;
+	s1d_o_e2=-0.45+0.004;
+	
+	Double_t *dum = 0;
+	TPolyLine *pline = new TPolyLine(4,dum,dum,"");
+	pline->SetFillColor(2);
+	pline->SetPoint(0,0.5,s1d_o_s);
+	pline->SetPoint(1,0.5,s1d_o_e);
+	pline->SetPoint(2,1.5,s1d_o_e);
+	pline->SetPoint(3,1.5,s1d_o_s);
+	pline->Draw("fsame");
+	
+	Double_t *dum = 0;
+	TPolyLine *pline = new TPolyLine(4,dum,dum,"");
+	pline->SetFillColor(4);
+	pline->SetFillStyle(0);
+	pline->SetPoint(0,0.5,s1d_o_s2);
+	pline->SetPoint(1,0.5,s1d_o_e2);
+	pline->SetPoint(2,1.5,s1d_o_e2);
+	pline->SetPoint(3,1.5,s1d_o_s2);
+	pline->Draw("fsame");
+	
+	
+gre = new TGraphErrors(1);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -248,25 +248,7 @@
    Graph77->SetStats(0);
    gre->SetHistogram(Graph77);
    
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(1);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,1.2,0.043);
-   gre->SetPointError(0,0,0.0282843);
-   
-   TH1F *Graph88 = new TH1F("Graph88","Graph",100,1.1,2.3);
-   Graph88->SetMinimum(0.00905884);
-   Graph88->SetMaximum(0.07694116);
-   Graph88->SetDirectory(0);
-   Graph88->SetStats(0);
-   gre->SetHistogram(Graph88);
-   
+	
    gre->Draw("p");
    pad1_5->Modified();
    pad1->cd();
@@ -290,7 +272,7 @@
    pad1_9->SetFrameBorderMode(0);
    
    TH1F *hframe__3__3 = new TH1F("hframe__3__3","",3,0,2);
-   hframe__3__3->SetMinimum(-0.45);
+   hframe__3__3->SetMinimum(-0.475);
    hframe__3__3->SetMaximum(0.25);
    hframe__3__3->SetDirectory(0);
    hframe__3__3->SetStats(0);
@@ -332,26 +314,36 @@
    gre->SetHistogram(Graph99);
    
    gre->Draw("p");
-   
-   gre = new TGraphErrors(1);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetPoint(0,1,0.00518217);
-   gre->SetPointError(0,0,0.023479);
-   
-   TH1F *Graph1010 = new TH1F("Graph1010","Graph",100,0.9,2.1);
-   Graph1010->SetMinimum(-0.02299263);
-   Graph1010->SetMaximum(0.03335697);
-   Graph1010->SetDirectory(0);
-   Graph1010->SetStats(0);
-   gre->SetHistogram(Graph1010);
-   
-   gre->Draw("p");
-   
+	
+	float s2_o_s =-0.4
+	float s2_o_e;
+	s2_o_e=-0.4+0.003;
+	
+	float s2_o_s2=-0.45
+	float s2_o_e2;
+	s2_o_e2=-0.45+0.002;
+	
+	Double_t *dum = 0;
+	TPolyLine *pline = new TPolyLine(4,dum,dum,"");
+	pline->SetFillColor(2);
+	pline->SetPoint(0,0.5,s2_o_s);
+	pline->SetPoint(1,0.5,s2_o_e);
+	pline->SetPoint(2,1.5,s2_o_e);
+	pline->SetPoint(3,1.5,s2_o_s);
+	pline->Draw("fsame");
+	
+	Double_t *dum = 0;
+	TPolyLine *pline = new TPolyLine(4,dum,dum,"");
+	pline->SetFillColor(4);
+	pline->SetFillStyle(0);
+	pline->SetPoint(0,0.5,s2_o_s2);
+	pline->SetPoint(1,0.5,s2_o_e2);
+	pline->SetPoint(2,1.5,s2_o_e2);
+	pline->SetPoint(3,1.5,s2_o_s2);
+	pline->Draw("fsame");
+	
+	
+      
    gre = new TGraphErrors(1);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
@@ -369,25 +361,7 @@
    Graph1111->SetStats(0);
    gre->SetHistogram(Graph1111);
    
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(1);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,1.2,-0.035);
-   gre->SetPointError(0,0,0.0280713);
-   
-   TH1F *Graph1212 = new TH1F("Graph1212","Graph",100,1.1,2.3);
-   Graph1212->SetMinimum(-0.06868556);
-   Graph1212->SetMaximum(-0.00131444);
-   Graph1212->SetDirectory(0);
-   Graph1212->SetStats(0);
-   gre->SetHistogram(Graph1212);
-   
+      
    gre->Draw("p");
    pad1_9->Modified();
    pad1->cd();
@@ -475,8 +449,8 @@
    pad1_2->SetFrameFillStyle(0);
    pad1_2->SetFrameBorderMode(0);
    
-   TH1F *hframe__5__5 = new TH1F("hframe__5__5","",21,0.009,0.8);
-   hframe__5__5->SetMinimum(-0.65);
+   TH1F *hframe__5__5 = new TH1F("hframe__5__5","",21,0.007,0.8);
+   hframe__5__5->SetMinimum(-0.69);
    hframe__5__5->SetMaximum(0.25);
    hframe__5__5->SetDirectory(0);
    hframe__5__5->SetStats(0);
@@ -520,35 +494,34 @@
    
    gre->Draw("p");
    
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetPoint(0,0.018761,-0.216888);
-   gre->SetPointError(0,0,0);
-   gre->SetPoint(1,0.04394,-0.221564);
-   gre->SetPointError(1,0,0);
-   gre->SetPoint(2,0.078792,-0.16277);
-   gre->SetPointError(2,0,0);
-   gre->SetPoint(3,0.142805,-0.246042);
-   gre->SetPointError(3,0,0);
-   gre->SetPoint(4,0.260879,-0.296519);
-   gre->SetPointError(4,0,0);
-   gre->SetPoint(5,0.466061,-0.18867);
-   gre->SetPointError(5,0,0);
-   
-   TH1F *Graph1414 = new TH1F("Graph1414","Graph",100,0.0168849,0.510791);
-   Graph1414->SetMinimum(-0.3098939);
-   Graph1414->SetMaximum(-0.1493951);
-   Graph1414->SetDirectory(0);
-   Graph1414->SetStats(0);
-   gre->SetHistogram(Graph1414);
-   
-   gre->Draw("p");
-   
+	
+	Double_t s1i_t_x[] = {0.01,0.01, 0.03,0.03,0.06,0.06,
+		0.1,0.1,0.2,0.2,0.35,0.35,0.7,0.7};
+	
+	Double_t ds1i_t[]={0.010,0.014,0.012,0.011,0.006,0.015};
+	Double_t s1i_t_y[] = {s1i_o_s,s1i_o_s+ds1i_t[0],s1i_o_s+ds1i_t[0], 
+		s1i_o_s+ds1i_t[1], s1i_o_s+ds1i_t[1],s1i_o_s+ds1i_t[2], s1i_o_s+ds1i_t[2],
+		s1i_o_s+ds1i_t[3], s1i_o_s+ds1i_t[3],s1i_o_s+ds1i_t[4], s1i_o_s+ds1i_t[4],
+		s1i_o_s+ds1i_t[5], s1i_o_s+ds1i_t[5],s1i_o_s};
+	
+	TPolyLine *s1iline = new TPolyLine(14,s1i_t_x,s1i_t_y,"");
+	s1iline->SetFillColor(2);
+	s1iline->Draw("fsame");
+	
+	Double_t ds1i_t2[]={0.010,0.016,0.009,0.013,0.013,0.013};
+	Double_t s1i_t_y2[] = {s1i_o_s2,s1i_o_s2+ds1i_t2[0],s1i_o_s2+ds1i_t2[0], 
+		s1i_o_s2+ds1i_t2[1], s1i_o_s2+ds1i_t2[1], s1i_o_s2+ds1i_t2[2], s1i_o_s2+ds1i_t2[2],
+		s1i_o_s2+ds1i_t2[3], s1i_o_s2+ds1i_t2[3],s1i_o_s2+ds1i_t2[4],s1i_o_s2+ds1i_t2[4],
+		s1i_o_s2+ds1i_t2[5], s1i_o_s2+ds1i_t2[5],s1i_o_s2};
+	
+	
+	TPolyLine *s1iline2 = new TPolyLine(14,s1i_t_x,s1i_t_y2,"");
+	s1iline2->SetFillColor(4);
+	s1iline2->SetFillStyle(0);
+	s1iline2->Draw("f");
+	
+	
+	
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
@@ -578,34 +551,7 @@
    
    gre->Draw("p");
    
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,0.020761,-0.225);
-   gre->SetPointError(0,0,0);
-   gre->SetPoint(1,0.04794,-0.231);
-   gre->SetPointError(1,0,0);
-   gre->SetPoint(2,0.084792,-0.193);
-   gre->SetPointError(2,0,0);
-   gre->SetPoint(3,0.156805,-0.249);
-   gre->SetPointError(3,0,0);
-   gre->SetPoint(4,0.278879,-0.256);
-   gre->SetPointError(4,0,0);
-   gre->SetPoint(5,0.491061,-0.158);
-   gre->SetPointError(5,0,0);
-   
-   TH1F *Graph1616 = new TH1F("Graph1616","Graph",100,0.0186849,0.538091);
-   Graph1616->SetMinimum(-0.2658);
-   Graph1616->SetMaximum(-0.1482);
-   Graph1616->SetDirectory(0);
-   Graph1616->SetStats(0);
-   gre->SetHistogram(Graph1616);
-   
-   gre->Draw("p");
+ 
    
    TLegend *leg = new TLegend(0.07,0.69,0.83,0.99,NULL,"b1NDC");
    leg->SetBorderSize(0);
@@ -657,8 +603,8 @@
    pad1_6->SetFrameFillStyle(0);
    pad1_6->SetFrameBorderMode(0);
    
-   TH1F *hframe__6__6 = new TH1F("hframe__6__6","",21,0.009,0.8);
-   hframe__6__6->SetMinimum(-0.45);
+   TH1F *hframe__6__6 = new TH1F("hframe__6__6","",21,0.007,0.8);
+   hframe__6__6->SetMinimum(-0.475);
    hframe__6__6->SetMaximum(0.3);
    hframe__6__6->SetDirectory(0);
    hframe__6__6->SetStats(0);
@@ -702,34 +648,27 @@
    
    gre->Draw("p");
    
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetPoint(0,0.018761,0.0308845);
-   gre->SetPointError(0,0,0.0509804);
-   gre->SetPoint(1,0.04394,-0.024383);
-   gre->SetPointError(1,0,0.0526484);
-   gre->SetPoint(2,0.078792,-0.00975083);
-   gre->SetPointError(2,0,0.0566615);
-   gre->SetPoint(3,0.142805,0.00683326);
-   gre->SetPointError(3,0,0.0492961);
-   gre->SetPoint(4,0.260879,0.0857849);
-   gre->SetPointError(4,0,0.0661058);
-   gre->SetPoint(5,0.466061,-0.111135);
-   gre->SetPointError(5,0,0.0978686);
-   
-   TH1F *Graph1818 = new TH1F("Graph1818","Graph",100,0.0168849,0.510791);
-   Graph1818->SetMinimum(-0.245093);
-   Graph1818->SetMaximum(0.1879801);
-   Graph1818->SetDirectory(0);
-   Graph1818->SetStats(0);
-   gre->SetHistogram(Graph1818);
-   
-   gre->Draw("p");
+	Double_t ds1d_t[]={0.003,0.006,0.005,0.003,0.003,0.024};
+	Double_t s1d_t_y[] = {s1d_o_s,s1d_o_s+ds1d_t[0],s1d_o_s+ds1d_t[0], 
+		s1d_o_s+ds1d_t[1], s1d_o_s+ds1d_t[1],s1d_o_s+ds1d_t[2], s1d_o_s+ds1d_t[2],
+		s1d_o_s+ds1d_t[3], s1d_o_s+ds1d_t[3],s1d_o_s+ds1d_t[4], s1d_o_s+ds1d_t[4],
+		s1d_o_s+ds1d_t[5], s1d_o_s+ds1d_t[5],s1d_o_s};
+	
+	TPolyLine *s1dline = new TPolyLine(14,s1i_t_x,s1d_t_y,"");
+	s1dline->SetFillColor(2);
+	s1dline->Draw("fsame");
+	
+	Double_t ds1d_t2[]={0.007,0.010,0.011,0.008,0.015,0.010};
+	Double_t s1d_t_y2[] = {s1d_o_s2,s1d_o_s2+ds1d_t2[0],s1d_o_s2+ds1d_t2[0], 
+		s1d_o_s2+ds1d_t2[1], s1d_o_s2+ds1d_t2[1], s1d_o_s2+ds1d_t2[2], s1d_o_s2+ds1d_t2[2],
+		s1d_o_s2+ds1d_t2[3], s1d_o_s2+ds1d_t2[3],s1d_o_s2+ds1d_t2[4],s1d_o_s2+ds1d_t2[4],
+		s1d_o_s2+ds1d_t2[5], s1d_o_s2+ds1d_t2[5],s1d_o_s2};
+	
+	
+	TPolyLine *s1dline2 = new TPolyLine(14,s1i_t_x,s1d_t_y2,"");
+	s1dline2->SetFillColor(4);
+	s1dline2->SetFillStyle(0);
+	s1dline2->Draw("f");
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -758,35 +697,7 @@
    Graph1919->SetStats(0);
    gre->SetHistogram(Graph1919);
    
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,0.020761,0.095);
-   gre->SetPointError(0,0,0.0623939);
-   gre->SetPoint(1,0.04794,0.091);
-   gre->SetPointError(1,0,0.0628013);
-   gre->SetPoint(2,0.084792,-0.051);
-   gre->SetPointError(2,0,0.0698713);
-   gre->SetPoint(3,0.156805,0.02);
-   gre->SetPointError(3,0,0.0585491);
-   gre->SetPoint(4,0.278879,0.126);
-   gre->SetPointError(4,0,0.0804114);
-   gre->SetPoint(5,0.491061,-0.101);
-   gre->SetPointError(5,0,0.114438);
-   
-   TH1F *Graph2020 = new TH1F("Graph2020","Graph",100,0.0186849,0.538091);
-   Graph2020->SetMinimum(-0.2576229);
-   Graph2020->SetMaximum(0.2485963);
-   Graph2020->SetDirectory(0);
-   Graph2020->SetStats(0);
-   gre->SetHistogram(Graph2020);
-   
+      
    gre->Draw("p");
    pad1_6->Modified();
    pad1->cd();
@@ -810,8 +721,8 @@
    pad1_10->SetFrameFillStyle(0);
    pad1_10->SetFrameBorderMode(0);
    
-   TH1F *hframe__7__7 = new TH1F("hframe__7__7","",21,0.009,0.8);
-   hframe__7__7->SetMinimum(-0.45);
+   TH1F *hframe__7__7 = new TH1F("hframe__7__7","",21,0.007,0.8);
+   hframe__7__7->SetMinimum(-0.475);
    hframe__7__7->SetMaximum(0.25);
    hframe__7__7->SetDirectory(0);
    hframe__7__7->SetStats(0);
@@ -855,36 +766,31 @@
    
    gre->Draw("p");
    
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetPoint(0,0.018761,-0.0319219);
-   gre->SetPointError(0,0,0.0510181);
-   gre->SetPoint(1,0.04394,0.062113);
-   gre->SetPointError(1,0,0.0520971);
-   gre->SetPoint(2,0.078792,0.0385765);
-   gre->SetPointError(2,0,0.0560671);
-   gre->SetPoint(3,0.142805,0.00712064);
-   gre->SetPointError(3,0,0.0492646);
-   gre->SetPoint(4,0.260879,-0.0352889);
-   gre->SetPointError(4,0,0.0663758);
-   gre->SetPoint(5,0.466061,-0.0555367);
-   gre->SetPointError(5,0,0.099974);
-   
-   TH1F *Graph2222 = new TH1F("Graph2222","Graph",100,0.0168849,0.510791);
-   Graph2222->SetMinimum(-0.1824828);
-   Graph2222->SetMaximum(0.1411822);
-   Graph2222->SetDirectory(0);
-   Graph2222->SetStats(0);
-   gre->SetHistogram(Graph2222);
-   
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
+	Double_t ds2_t[]={0.003,0.002,0.006,0.008,0.008,0.026};
+	Double_t s2_t_y[] = {s2_o_s,s2_o_s+ds2_t[0],s2_o_s+ds2_t[0], 
+		s2_o_s+ds2_t[1], s2_o_s+ds2_t[1],s2_o_s+ds2_t[2], s2_o_s+ds2_t[2],
+		s2_o_s+ds2_t[3], s2_o_s+ds2_t[3],s2_o_s+ds2_t[4], s2_o_s+ds2_t[4],
+		s2_o_s+ds2_t[5], s2_o_s+ds2_t[5],s2_o_s};
+	
+	TPolyLine *s2line = new TPolyLine(14,s1i_t_x,s2_t_y,"");
+	s2line->SetFillColor(2);
+	s2line->Draw("fsame");
+	
+	Double_t ds2_t2[]={0.006,0.012,0.006,0.012,0.013,0.025};
+	Double_t s2_t_y2[] = {s2_o_s2,s2_o_s2+ds2_t2[0],s2_o_s2+ds2_t2[0], 
+		s2_o_s2+ds2_t2[1], s2_o_s2+ds2_t2[1], s2_o_s2+ds2_t2[2], s2_o_s2+ds2_t2[2],
+		s2_o_s2+ds2_t2[3], s2_o_s2+ds2_t2[3],s2_o_s2+ds2_t2[4],s2_o_s2+ds2_t2[4],
+		s2_o_s2+ds2_t2[5], s2_o_s2+ds2_t2[5],s2_o_s2};
+	
+	
+	TPolyLine *s2line2 = new TPolyLine(14,s1i_t_x,s2_t_y2,"");
+	s2line2->SetFillColor(4);
+	s2line2->SetFillStyle(0);
+	s2line2->Draw("f");
+	
+	
+	
+    gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -911,35 +817,7 @@
    Graph2323->SetStats(0);
    gre->SetHistogram(Graph2323);
    
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,0.020761,0.057);
-   gre->SetPointError(0,0,0.0612944);
-   gre->SetPoint(1,0.04794,-0.039);
-   gre->SetPointError(1,0,0.0621691);
-   gre->SetPoint(2,0.084792,-0.063);
-   gre->SetPointError(2,0,0.0682642);
-   gre->SetPoint(3,0.156805,-0.041);
-   gre->SetPointError(3,0,0.0592284);
-   gre->SetPoint(4,0.278879,-0.065);
-   gre->SetPointError(4,0,0.0810494);
-   gre->SetPoint(5,0.491061,-0.201);
-   gre->SetPointError(5,0,0.118663);
-   
-   TH1F *Graph2424 = new TH1F("Graph2424","Graph",100,0.0186849,0.538091);
-   Graph2424->SetMinimum(-0.3634587);
-   Graph2424->SetMaximum(0.1620901);
-   Graph2424->SetDirectory(0);
-   Graph2424->SetStats(0);
-   gre->SetHistogram(Graph2424);
-   
+     
    gre->Draw("p");
    pad1_10->Modified();
    pad1->cd();
@@ -1027,7 +905,7 @@
    pad1_3->SetFrameBorderMode(0);
    
    TH1F *hframe__9__9 = new TH1F("hframe__9__9","",20,0.04,0.33);
-   hframe__9__9->SetMinimum(-0.65);
+   hframe__9__9->SetMinimum(-0.69);
    hframe__9__9->SetMaximum(0.25);
    hframe__9__9->SetDirectory(0);
    hframe__9__9->SetStats(0);
@@ -1071,36 +949,31 @@
    
    gre->Draw("p");
    
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetMarkerSize(0.85);
-   gre->SetPoint(0,0.04907,-0.237217);
-   gre->SetPointError(0,0,0.0915708);
-   gre->SetPoint(1,0.069647,-0.235237);
-   gre->SetPointError(1,0,0.0682017);
-   gre->SetPoint(2,0.089392,-0.262885);
-   gre->SetPointError(2,0,0.0652278);
-   gre->SetPoint(3,0.113598,-0.222827);
-   gre->SetPointError(3,0,0.0659304);
-   gre->SetPoint(4,0.157213,-0.21552);
-   gre->SetPointError(4,0,0.0642939);
-   gre->SetPoint(5,0.245365,-0.113055);
-   gre->SetPointError(5,0,0.112187);
-   
-   TH1F *Graph2626 = new TH1F("Graph2626","Graph",100,0.0294405,0.2649945);
-   Graph2626->SetMinimum(-0.3615798);
-   Graph2626->SetMaximum(0.03192398);
-   Graph2626->SetDirectory(0);
-   Graph2626->SetStats(0);
-   gre->SetHistogram(Graph2626);
-   
-   gre->Draw("p");
-   
+	
+	Double_t s1i_x_x[] = {0.042,0.042,0.06,0.06,0.08,0.08,0.1,0.1,0.13,0.13,0.2,0.2,0.3,0.3};
+	
+	Double_t ds1i_x[]={0.076,0.047,0.033,0.030,0.013,0.021};
+	Double_t s1i_x_y[] = {s1i_o_s,s1i_o_s+ds1i_x[0],s1i_o_s+ds1i_x[0], 
+		s1i_o_s+ds1i_x[1], s1i_o_s+ds1i_x[1],s1i_o_s+ds1i_x[2], s1i_o_s+ds1i_x[2],
+		s1i_o_s+ds1i_x[3], s1i_o_s+ds1i_x[3],s1i_o_s+ds1i_x[4], s1i_o_s+ds1i_x[4],
+		s1i_o_s+ds1i_x[5], s1i_o_s+ds1i_x[5],s1i_o_s};
+	
+	TPolyLine *s1iline2 = new TPolyLine(14,s1i_x_x,s1i_x_y,"");
+	s1iline2->SetFillColor(2);
+	s1iline2->Draw("fsame");
+	
+	Double_t ds1i_x2[]={0.067,0.034,0.018,0.032,0.023,0.005};
+	Double_t s1i_x_y2[] = {s1i_o_s2,s1i_o_s2+ds1i_x2[0],s1i_o_s2+ds1i_x2[0], 
+		s1i_o_s2+ds1i_x2[1], s1i_o_s2+ds1i_x2[1], s1i_o_s2+ds1i_x2[2], s1i_o_s2+ds1i_x2[2],
+		s1i_o_s2+ds1i_x2[3], s1i_o_s2+ds1i_x2[3],s1i_o_s2+ds1i_x2[4],s1i_o_s2+ds1i_x2[4],
+		s1i_o_s2+ds1i_x2[5], s1i_o_s2+ds1i_x2[5],s1i_o_s2};
+	
+	
+	TPolyLine *s1iline2x = new TPolyLine(14,s1i_x_x,s1i_x_y2,"");
+	s1iline2x->SetFillColor(4);
+	s1iline2x->SetFillStyle(0);
+	s1iline2x->Draw("f");
+	
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
@@ -1129,35 +1002,7 @@
    gre->SetHistogram(Graph2727);
    
    gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,0.05107,-0.248);
-   gre->SetPointError(0,0,0.0899389);
-   gre->SetPoint(1,0.073647,-0.191);
-   gre->SetPointError(1,0,0.0680955);
-   gre->SetPoint(2,0.095392,-0.215);
-   gre->SetPointError(2,0,0.0713092);
-   gre->SetPoint(3,0.121598,-0.248);
-   gre->SetPointError(3,0,0.0778781);
-   gre->SetPoint(4,0.167213,-0.244);
-   gre->SetPointError(4,0,0.0803617);
-   gre->SetPoint(5,0.257365,-0.04);
-   gre->SetPointError(5,0,0.13909);
-   
-   TH1F *Graph2828 = new TH1F("Graph2828","Graph",100,0.0304405,0.2779945);
-   Graph2828->SetMinimum(-0.3816418);
-   Graph2828->SetMaximum(0.1427929);
-   Graph2828->SetDirectory(0);
-   Graph2828->SetStats(0);
-   gre->SetHistogram(Graph2828);
-   
-   gre->Draw("p");
+  
    pad1_3->Modified();
    pad1->cd();
   
@@ -1181,7 +1026,7 @@
    pad1_7->SetFrameBorderMode(0);
    
    TH1F *hframe__10__10 = new TH1F("hframe__10__10","",20,0.04,0.33);
-   hframe__10__10->SetMinimum(-0.45);
+   hframe__10__10->SetMinimum(-0.475);
    hframe__10__10->SetMaximum(0.3);
    hframe__10__10->SetDirectory(0);
    hframe__10__10->SetStats(0);
@@ -1225,35 +1070,29 @@
    
    gre->Draw("p");
    
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetPoint(0,0.04907,0.00152516);
-   gre->SetPointError(0,0,0.0506212);
-   gre->SetPoint(1,0.069647,0.0104439);
-   gre->SetPointError(1,0,0.0497411);
-   gre->SetPoint(2,0.089392,0.0693852);
-   gre->SetPointError(2,0,0.0562013);
-   gre->SetPoint(3,0.113598,-0.0151861);
-   gre->SetPointError(3,0,0.0587089);
-   gre->SetPoint(4,0.157213,0.014061);
-   gre->SetPointError(4,0,0.0633543);
-   gre->SetPoint(5,0.245365,-0.111221);
-   gre->SetPointError(5,0,0.111436);
-   
-   TH1F *Graph3030 = new TH1F("Graph3030","Graph",100,0.0294405,0.2649945);
-   Graph3030->SetMinimum(-0.2574813);
-   Graph3030->SetMaximum(0.1604108);
-   Graph3030->SetDirectory(0);
-   Graph3030->SetStats(0);
-   gre->SetHistogram(Graph3030);
-   
-   gre->Draw("p");
-   
+	Double_t ds1d_x[]={0.005,0.004,0.004,0.007,0.006,0.017};
+	Double_t s1d_x_y[] = {s1d_o_s,s1d_o_s+ds1d_x[0],s1d_o_s+ds1d_x[0], 
+		s1d_o_s+ds1d_x[1], s1d_o_s+ds1d_x[1],s1d_o_s+ds1d_x[2], s1d_o_s+ds1d_x[2],
+		s1d_o_s+ds1d_x[3], s1d_o_s+ds1d_x[3],s1d_o_s+ds1d_x[4], s1d_o_s+ds1d_x[4],
+		s1d_o_s+ds1d_x[5], s1d_o_s+ds1d_x[5],s1d_o_s};
+	
+	TPolyLine *s1dlinex = new TPolyLine(14,s1i_x_x,s1d_x_y,"");
+	s1dlinex->SetFillColor(2);
+	s1dlinex->Draw("fsame");
+	
+	Double_t ds1d_x2[]={0.011,0.007,0.014,0.016,0.016,0.048};
+	Double_t s1d_x_y2[] = {s1d_o_s2,s1d_o_s2+ds1d_x2[0],s1d_o_s2+ds1d_x2[0], 
+		s1d_o_s2+ds1d_x2[1], s1d_o_s2+ds1d_x2[1], s1d_o_s2+ds1d_x2[2], s1d_o_s2+ds1d_x2[2],
+		s1d_o_s2+ds1d_x2[3], s1d_o_s2+ds1d_x2[3],s1d_o_s2+ds1d_x2[4],s1d_o_s2+ds1d_x2[4],
+		s1d_o_s2+ds1d_x2[5], s1d_o_s2+ds1d_x2[5],s1d_o_s2};
+	
+	
+	TPolyLine *s1dline2x = new TPolyLine(14,s1i_x_x,s1d_x_y2,"");
+	s1dline2x->SetFillColor(4);
+	s1dline2x->SetFillStyle(0);
+	s1dline2x->Draw("f");
+	
+     
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
@@ -1281,35 +1120,7 @@
    Graph3131->SetStats(0);
    gre->SetHistogram(Graph3131);
    
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,0.05107,0.087);
-   gre->SetPointError(0,0,0.0600167);
-   gre->SetPoint(1,0.073647,0.023);
-   gre->SetPointError(1,0,0.0673647);
-   gre->SetPoint(2,0.095392,0.026);
-   gre->SetPointError(2,0,0.0655134);
-   gre->SetPoint(3,0.121598,0.033);
-   gre->SetPointError(3,0,0.069857);
-   gre->SetPoint(4,0.167213,0.066);
-   gre->SetPointError(4,0,0.0766877);
-   gre->SetPoint(5,0.257365,-0.196);
-   gre->SetPointError(5,0,0.104657);
-   
-   TH1F *Graph3232 = new TH1F("Graph3232","Graph",100,0.0304405,0.2779945);
-   Graph3232->SetMinimum(-0.3454244);
-   Graph3232->SetMaximum(0.1917841);
-   Graph3232->SetDirectory(0);
-   Graph3232->SetStats(0);
-   gre->SetHistogram(Graph3232);
-   
+     
    gre->Draw("p");
    pad1_7->Modified();
    pad1->cd();
@@ -1334,7 +1145,7 @@
    pad1_11->SetFrameBorderMode(0);
    
    TH1F *hframe__11__11 = new TH1F("hframe__11__11","",20,0.04,0.33);
-   hframe__11__11->SetMinimum(-0.45);
+   hframe__11__11->SetMinimum(-0.475);
    hframe__11__11->SetMaximum(0.25);
    hframe__11__11->SetDirectory(0);
    hframe__11__11->SetStats(0);
@@ -1377,36 +1188,32 @@
    gre->SetHistogram(Graph3333);
    
    gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetPoint(0,0.04907,-0.0643547);
-   gre->SetPointError(0,0,0.0520189);
-   gre->SetPoint(1,0.069647,0.0242121);
-   gre->SetPointError(1,0,0.0508888);
-   gre->SetPoint(2,0.089392,0.0278678);
-   gre->SetPointError(2,0,0.056304);
-   gre->SetPoint(3,0.113598,-0.0123599);
-   gre->SetPointError(3,0,0.0599961);
-   gre->SetPoint(4,0.157213,0.0461591);
-   gre->SetPointError(4,0,0.061957);
-   gre->SetPoint(5,0.245365,0.0456434);
-   gre->SetPointError(5,0,0.102979);
-   
-   TH1F *Graph3434 = new TH1F("Graph3434","Graph",100,0.0294405,0.2649945);
-   Graph3434->SetMinimum(-0.1428732);
-   Graph3434->SetMaximum(0.175122);
-   Graph3434->SetDirectory(0);
-   Graph3434->SetStats(0);
-   gre->SetHistogram(Graph3434);
-   
-   gre->Draw("p");
-   
+  
+	Double_t ds2_x[]={0.010,0.012,0.007,0.010,0.010,0.015};
+	Double_t s2_x_y[] = {s2_o_s,s2_o_s+ds2_x[0],s2_o_s+ds2_x[0], 
+		s2_o_s+ds2_x[1], s2_o_s+ds2_x[1],s2_o_s+ds2_x[2], s2_o_s+ds2_x[2],
+		s2_o_s+ds2_x[3], s2_o_s+ds2_x[3],s2_o_s+ds2_x[4], s2_o_s+ds2_x[4],
+		s2_o_s+ds2_x[5], s2_o_s+ds2_x[5],s2_o_s};
+	
+	TPolyLine *s2linex = new TPolyLine(14,s1i_x_x,s2_x_y,"");
+	s2linex->SetFillColor(2);
+	s2linex->Draw("fsame");
+	
+	Double_t ds2_x2[]={0.008,0.003,0.018,0.010,0.012,0.022};
+	Double_t s2_x_y2[] = {s2_o_s2,s2_o_s2+ds2_x2[0],s2_o_s2+ds2_x2[0], 
+		s2_o_s2+ds2_x2[1], s2_o_s2+ds2_x2[1],s2_o_s2+ds2_x2[2],s2_o_s2+ds2_x2[2],
+		s2_o_s2+ds2_x2[3], s2_o_s2+ds2_x2[3],s2_o_s2+ds2_x2[4],s2_o_s2+ds2_x2[4],
+		s2_o_s2+ds2_x2[5], s2_o_s2+ds2_x2[5],s2_o_s2};
+	
+	
+	TPolyLine *s2line2x = new TPolyLine(14,s1i_x_x,s2_x_y2,"");
+	s2line2x->SetFillColor(4);
+	s2line2x->SetFillStyle(0);
+	s2line2x->Draw("f");
+	
+	
+	
+     
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
@@ -1433,36 +1240,7 @@
    Graph3535->SetDirectory(0);
    Graph3535->SetStats(0);
    gre->SetHistogram(Graph3535);
-   
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,0.05107,-0.028);
-   gre->SetPointError(0,0,0.0595399);
-   gre->SetPoint(1,0.073647,0.011);
-   gre->SetPointError(1,0,0.0570789);
-   gre->SetPoint(2,0.095392,0.046);
-   gre->SetPointError(2,0,0.070342);
-   gre->SetPoint(3,0.121598,-0.039);
-   gre->SetPointError(3,0,0.0726911);
-   gre->SetPoint(4,0.167213,-0.229);
-   gre->SetPointError(4,0,0.0769415);
-   gre->SetPoint(5,0.257365,-0.138);
-   gre->SetPointError(5,0,0.133821);
-   
-   TH1F *Graph3636 = new TH1F("Graph3636","Graph",100,0.0304405,0.2779945);
-   Graph3636->SetMinimum(-0.3481699);
-   Graph3636->SetMaximum(0.1585703);
-   Graph3636->SetDirectory(0);
-   Graph3636->SetStats(0);
-   gre->SetHistogram(Graph3636);
-   
+     
    gre->Draw("p");
    pad1_11->Modified();
    pad1->cd();
@@ -1550,7 +1328,7 @@
    pad1_4->SetFrameBorderMode(0);
    
    TH1F *hframe__13__13 = new TH1F("hframe__13__13","",10,0.95,11.5);
-   hframe__13__13->SetMinimum(-0.65);
+   hframe__13__13->SetMinimum(-0.69);
    hframe__13__13->SetMaximum(0.25);
    hframe__13__13->SetDirectory(0);
    hframe__13__13->SetStats(0);
@@ -1594,36 +1372,31 @@
    
    gre->Draw("p");
    
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetPoint(0,1.19965,-0.192987);
-   gre->SetPointError(0,0,0.0790653);
-   gre->SetPoint(1,1.59143,-0.311304);
-   gre->SetPointError(1,0,0.0828917);
-   gre->SetPoint(2,2.08034,-0.223973);
-   gre->SetPointError(2,0,0.0658353);
-   gre->SetPoint(3,2.76859,-0.218778);
-   gre->SetPointError(3,0,0.0696407);
-   gre->SetPoint(4,3.76701,-0.179997);
-   gre->SetPointError(4,0,0.0700325);
-   gre->SetPoint(5,5.85101,-0.199861);
-   gre->SetPointError(5,0,0.0741171);
-   
-   TH1F *Graph3838 = new TH1F("Graph3838","Graph",100,0.734514,6.316146);
-   Graph3838->SetMinimum(-0.4226188);
-   Graph3838->SetMaximum(-0.08154138);
-   Graph3838->SetDirectory(0);
-   Graph3838->SetStats(0);
-   gre->SetHistogram(Graph3838);
-   
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
+	Double_t s1i_q_x[] = {1.0,1.0,1.4,1.4,1.8,1.8,2.4,2.4,3.2,3.2,4.5,4.5,10.0,10.0};
+	
+	Double_t ds1i_q[]={0.061,0.062,0.042,0.044,0.031,0.004};
+	Double_t s1i_q_y[] = {s1i_o_s,s1i_o_s+ds1i_q[0],s1i_o_s+ds1i_q[0], 
+		s1i_o_s+ds1i_q[1], s1i_o_s+ds1i_q[1],s1i_o_s+ds1i_q[2], s1i_o_s+ds1i_q[2],
+		s1i_o_s+ds1i_q[3], s1i_o_s+ds1i_q[3],s1i_o_s+ds1i_q[4], s1i_o_s+ds1i_q[4],
+		s1i_o_s+ds1i_q[5], s1i_o_s+ds1i_q[5],s1i_o_s};
+	
+	TPolyLine *s1iline2q = new TPolyLine(14,s1i_q_x,s1i_q_y,"");
+	s1iline2q->SetFillColor(2);
+	s1iline2q->Draw("fsame");
+	
+	Double_t ds1i_q2[]={0.055,0.042,0.031,0.041,0.040,0.008};
+	Double_t s1i_q_y2[] = {s1i_o_s2,s1i_o_s2+ds1i_q2[0],s1i_o_s2+ds1i_q2[0], 
+		s1i_o_s2+ds1i_q2[1], s1i_o_s2+ds1i_q2[1],s1i_o_s2+ds1i_q2[2],s1i_o_s2+ds1i_q2[2],
+		s1i_o_s2+ds1i_q2[3], s1i_o_s2+ds1i_q2[3],s1i_o_s2+ds1i_q2[4],s1i_o_s2+ds1i_q2[4],
+		s1i_o_s2+ds1i_q2[5], s1i_o_s2+ds1i_q2[5],s1i_o_s2};
+	
+	
+	TPolyLine *s1iline2q = new TPolyLine(14,s1i_q_x,s1i_q_y2,"");
+	s1iline2q->SetFillColor(4);
+	s1iline2q->SetFillStyle(0);
+	s1iline2q->Draw("f");
+
+	gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
    gre->SetFillColor(1);
@@ -1650,35 +1423,7 @@
    Graph3939->SetStats(0);
    gre->SetHistogram(Graph3939);
    
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,1.24965,-0.247);
-   gre->SetPointError(0,0,0.0806598);
-   gre->SetPoint(1,1.67143,-0.151);
-   gre->SetPointError(1,0,0.0790759);
-   gre->SetPoint(2,2.18034,-0.23);
-   gre->SetPointError(2,0,0.0711126);
-   gre->SetPoint(3,2.90859,-0.425);
-   gre->SetPointError(3,0,0.079404);
-   gre->SetPoint(4,3.94701,-0.102);
-   gre->SetPointError(4,0,0.0858836);
-   gre->SetPoint(5,6.10101,-0.129);
-   gre->SetPointError(5,0,0.0943398);
-   
-   TH1F *Graph4040 = new TH1F("Graph4040","Graph",100,0.764514,6.586146);
-   Graph4040->SetMinimum(-0.5532328);
-   Graph4040->SetMaximum(0.03271236);
-   Graph4040->SetDirectory(0);
-   Graph4040->SetStats(0);
-   gre->SetHistogram(Graph4040);
-   
+     
    gre->Draw("p");
    pad1_4->Modified();
    pad1->cd();
@@ -1703,7 +1448,7 @@
    pad1_8->SetFrameBorderMode(0);
    
    TH1F *hframe__14__14 = new TH1F("hframe__14__14","",10,0.95,11.5);
-   hframe__14__14->SetMinimum(-0.45);
+   hframe__14__14->SetMinimum(-0.475);
    hframe__14__14->SetMaximum(0.3);
    hframe__14__14->SetDirectory(0);
    hframe__14__14->SetStats(0);
@@ -1746,36 +1491,31 @@
    gre->SetHistogram(Graph4141);
    
    gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetPoint(0,1.19965,-0.00123263);
-   gre->SetPointError(0,0,0.0505806);
-   gre->SetPoint(1,1.59143,0.0471263);
-   gre->SetPointError(1,0,0.0562526);
-   gre->SetPoint(2,2.08034,0.0140374);
-   gre->SetPointError(2,0,0.0509501);
-   gre->SetPoint(3,2.76859,0.0103876);
-   gre->SetPointError(3,0,0.054097);
-   gre->SetPoint(4,3.76701,-0.0247593);
-   gre->SetPointError(4,0,0.0628056);
-   gre->SetPoint(5,5.85101,-0.0361114);
-   gre->SetPointError(5,0,0.0739098);
-   
-   TH1F *Graph4242 = new TH1F("Graph4242","Graph",100,0.734514,6.316146);
-   Graph4242->SetMinimum(-0.1313612);
-   Graph4242->SetMaximum(0.1247189);
-   Graph4242->SetDirectory(0);
-   Graph4242->SetStats(0);
-   gre->SetHistogram(Graph4242);
-   
-   gre->Draw("p");
-   
+
+	
+	Double_t ds1d_q[]={0.002,0.011,0.005,0.007,0.006,0.007};
+	Double_t s1d_q_y[] = {s1d_o_s,s1d_o_s+ds1d_q[0],s1d_o_s+ds1d_q[0], 
+		s1d_o_s+ds1d_q[1], s1d_o_s+ds1d_q[1],s1d_o_s+ds1d_q[2], s1d_o_s+ds1d_q[2],
+		s1d_o_s+ds1d_q[3], s1d_o_s+ds1d_q[3],s1d_o_s+ds1d_q[4], s1d_o_s+ds1d_q[4],
+		s1d_o_s+ds1d_q[5], s1d_o_s+ds1d_q[5],s1d_o_s};
+	
+	TPolyLine *s1dlineq = new TPolyLine(14,s1i_q_x,s1d_q_y,"");
+	s1dlineq->SetFillColor(2);
+	s1dlineq->Draw("fsame");
+	
+	Double_t ds1d_q2[]={0.010,0.016,0.013,0.015,0.012,0.013};
+	Double_t s1d_q_y2[] = {s1d_o_s2,s1d_o_s2+ds1d_q2[0],s1d_o_s2+ds1d_q2[0], 
+		s1d_o_s2+ds1d_q2[1], s1d_o_s2+ds1d_q2[1],s1d_o_s2+ds1d_q2[2],s1d_o_s2+ds1d_q2[2],
+		s1d_o_s2+ds1d_q2[3], s1d_o_s2+ds1d_q2[3],s1d_o_s2+ds1d_q2[4],s1d_o_s2+ds1d_q2[4],
+		s1d_o_s2+ds1d_q2[5], s1d_o_s2+ds1d_q2[5],s1d_o_s2};
+	
+	
+	TPolyLine *s1dline2q = new TPolyLine(14,s1i_q_x,s1d_q_y2,"");
+	s1dline2q->SetFillColor(4);
+	s1dline2q->SetFillStyle(0);
+	s1dline2q->Draw("f");
+	
+      
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
@@ -1802,36 +1542,7 @@
    Graph4343->SetDirectory(0);
    Graph4343->SetStats(0);
    gre->SetHistogram(Graph4343);
-   
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,1.24965,0.078);
-   gre->SetPointError(0,0,0.0598415);
-   gre->SetPoint(1,1.67143,0.034);
-   gre->SetPointError(1,0,0.068884);
-   gre->SetPoint(2,2.18034,0.052);
-   gre->SetPointError(2,0,0.065307);
-   gre->SetPoint(3,2.90859,0.212);
-   gre->SetPointError(3,0,0.0696348);
-   gre->SetPoint(4,3.94701,-0.097);
-   gre->SetPointError(4,0,0.0759539);
-   gre->SetPoint(5,6.10101,-0.125);
-   gre->SetPointError(5,0,0.0939042);
-   
-   TH1F *Graph4444 = new TH1F("Graph4444","Graph",100,0.764514,6.586146);
-   Graph4444->SetMinimum(-0.2689581);
-   Graph4444->SetMaximum(0.3316887);
-   Graph4444->SetDirectory(0);
-   Graph4444->SetStats(0);
-   gre->SetHistogram(Graph4444);
-   
+     
    gre->Draw("p");
    pad1_8->Modified();
    pad1->cd();
@@ -1856,7 +1567,7 @@
    pad1_12->SetFrameBorderMode(0);
    
    TH1F *hframe__15__15 = new TH1F("hframe__15__15","",10,0.95,11.5);
-   hframe__15__15->SetMinimum(-0.45);
+   hframe__15__15->SetMinimum(-0.475);
    hframe__15__15->SetMaximum(0.25);
    hframe__15__15->SetDirectory(0);
    hframe__15__15->SetStats(0);
@@ -1900,34 +1611,29 @@
    
    gre->Draw("p");
    
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(2);
-   gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
-   gre->SetPoint(0,1.19965,-0.0204741);
-   gre->SetPointError(0,0,0.0517651);
-   gre->SetPoint(1,1.59143,-0.0214012);
-   gre->SetPointError(1,0,0.0545947);
-   gre->SetPoint(2,2.08034,0.0154407);
-   gre->SetPointError(2,0,0.0533287);
-   gre->SetPoint(3,2.76859,0.0276075);
-   gre->SetPointError(3,0,0.048876);
-   gre->SetPoint(4,3.76701,-0.015856);
-   gre->SetPointError(4,0,0.0626363);
-   gre->SetPoint(5,5.85101,0.0689734);
-   gre->SetPointError(5,0,0.0722195);
-   
-   TH1F *Graph4646 = new TH1F("Graph4646","Graph",100,0.734514,6.316146);
-   Graph4646->SetMinimum(-0.1004608);
-   Graph4646->SetMaximum(0.1631614);
-   Graph4646->SetDirectory(0);
-   Graph4646->SetStats(0);
-   gre->SetHistogram(Graph4646);
-   
-   gre->Draw("p");
+	
+	Double_t ds2_q[]={0.010,0.005,0.008,0.006,0.008,0.013};
+	Double_t s2_q_y[] = {s2_o_s,s2_o_s+ds2_q[0],s2_o_s+ds2_q[0], 
+		s2_o_s+ds2_q[1], s2_o_s+ds2_q[1],s2_o_s+ds2_q[2], s2_o_s+ds2_q[2],
+		s2_o_s+ds2_q[3], s2_o_s+ds2_q[3],s2_o_s+ds2_q[4], s2_o_s+ds2_q[4],
+		s2_o_s+ds2_q[5], s2_o_s+ds2_q[5],s2_o_s};
+	
+	TPolyLine *s2lineq = new TPolyLine(14,s1i_q_x,s2_q_y,"");
+	s2lineq->SetFillColor(2);
+	s2lineq->Draw("fsame");
+	
+	Double_t ds2_q2[]={0.005,0.004,0.009,0.011,0.003,0.009};
+	Double_t s2_q_y2[] = {s2_o_s2,s2_o_s2+ds2_q2[0],s2_o_s2+ds2_q2[0], 
+		s2_o_s2+ds2_q2[1], s2_o_s2+ds2_q2[1],s2_o_s2+ds2_q2[2],s2_o_s2+ds2_q2[2],
+		s2_o_s2+ds2_q2[3], s2_o_s2+ds2_q2[3],s2_o_s2+ds2_q2[4],s2_o_s2+ds2_q2[4],
+		s2_o_s2+ds2_q2[5], s2_o_s2+ds2_q2[5],s2_o_s2};
+	
+	
+	TPolyLine *s2line2q = new TPolyLine(14,s1i_q_x,s2_q_y2,"");
+	s2line2q->SetFillColor(4);
+	s2line2q->SetFillStyle(0);
+	s2line2q->Draw("f");
+	
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -1956,35 +1662,7 @@
    Graph4747->SetStats(0);
    gre->SetHistogram(Graph4747);
    
-   gre->Draw("p");
-   
-   gre = new TGraphErrors(6);
-   gre->SetName("Graph");
-   gre->SetTitle("Graph");
-   gre->SetFillColor(1);
-   gre->SetLineColor(4);
-   gre->SetMarkerColor(4);
-   gre->SetMarkerStyle(26);
-   gre->SetPoint(0,1.24965,-0.034);
-   gre->SetPointError(0,0,0.0582151);
-   gre->SetPoint(1,1.67143,0.042);
-   gre->SetPointError(1,0,0.0661211);
-   gre->SetPoint(2,2.18034,-0.047);
-   gre->SetPointError(2,0,0.0626498);
-   gre->SetPoint(3,2.90859,0.034);
-   gre->SetPointError(3,0,0.070859);
-   gre->SetPoint(4,3.94701,-0.116);
-   gre->SetPointError(4,0,0.0760592);
-   gre->SetPoint(5,6.10101,-0.161);
-   gre->SetPointError(5,0,0.0924392);
-   
-   TH1F *Graph4848 = new TH1F("Graph4848","Graph",100,0.764514,6.586146);
-   Graph4848->SetMinimum(-0.2895952);
-   Graph4848->SetMaximum(0.1442771);
-   Graph4848->SetDirectory(0);
-   Graph4848->SetStats(0);
-   gre->SetHistogram(Graph4848);
-   
+     
    gre->Draw("p");
    pad1_12->Modified();
    pad1->cd();
