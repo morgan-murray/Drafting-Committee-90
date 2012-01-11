@@ -3,7 +3,7 @@ The new data presented in this work were collected in 2006 and 2007. As in ref.~
 spectrometer \cite{Ack98} using the longitudinally polarised 27.6\,GeV
 electron and positron beams incident upon an unpolarised hydrogen gas
 target internal to the H{\sc era} lepton storage ring at D{\sc esy}. The integrated luminosities of the electron and positron data samples, respectively, are
-approximately 246\,pb$^{-1}$ and 1460\,pb$^{-1}$~\cite{Ben01}, with average beam polarisations of 30.3\,\% and 39.2\% \cite{tpol,lpol}. The procedure used to select events is similar to that used in ref.~\cite{Air09}.
+approximately 246\,pb$^{-1}$ and 1460\,pb$^{-1}$~\cite{Ben01}, with average beam polarisations of \red{$0.303$ and $0.392$.} \cite{tpol,lpol}. The procedure used to select events is similar to that used in ref.~\cite{Air09}.
 A brief summary of this procedure is outlined in the following; consult
 refs.~\cite{Zei09,Bur10} for more details. 
 
@@ -15,28 +15,37 @@ Q$^{2}$ $<$ 10\,GeV$^{2}$, 0.03 $<$ $x_{\textrm{B}}$ $<$ 0.35,
 $-t < 0.7$\,GeV$^2$, $W^{2}$ $>$
 9\,GeV$^{2}$ and $\nu$ $<$ 22\,GeV, where $W$ is the invariant mass of the
 $\gamma^{*}p$ system and $\nu$ is the energy of the virtual photon in the target
-rest frame. The polar angle between the virtual and real photons was required to
+rest frame. The polar angle between the \red{directions of the} virtual and real photons was required to
 be within the limits 5~mrad $<$
 $\theta_{\gamma^{*}\gamma}$ $<$ 45~mrad. 
 
-An event sample was selected using a missing-mass technique requiring
+An event sample was selected requiring
 that the squared missing-mass $M_{\textrm{X}}^{2}=(q+M_{P}-q')^{2}$
 of the $e\,p \rightarrow\, e'\,\gamma\, \textrm{X}$ measurement
 corresponded to the square of the proton mass within the limits of the
 energy resolution of the H{\sc ermes} \red{spectrometer (mainly the calorimeter)}. Here, $q$ is the
-four-momentum of the virtual photon, $M_{P}$ is the initial four-momentum
-of the target proton\red{, i.e. the mass of the proton,} and $q'$ is the four-momentum of the produced
+four-momentum of the virtual photon, $p$ is the initial four-momentum
+of the target proton and $q'$ is the four-momentum of the produced
 photon. The ``exclusive region'' was defined as $-$($1.5$\,GeV)$^{2} <
 M_{\textrm{X}}^{2}$ $<$ (1.7\,GeV)$^{2}$, as in
 ref.~\cite{Air09}. This exclusive region was shifted by up to
 0.17\,GeV$^{2}$ for certain subsets of the data in order to reflect observed differences in the distributions of the electron and positron data samples~\cite{Bur10}. 
+\red{The data sample in the exclusive region contains events \red{not only} involving production of real photons in which the proton remains intact, \red{but also}
+events involving the excitation of the target proton to a $\Delta^+$
+resonant state (``associated production''). The recoiling proton is not detected and the calorimeter resolution does not allow separation of \red{all of} the latter events from the rest of the data sample.
+No systematic uncertainty is assigned for the contribution from these
+events; they are treated as part of the signal. A Monte Carlo
+calculation based on the parameterisation from ref.~\cite{Bra76} is
+used to estimate the fractional contribution to the event sample from resonant
+production in each kinematic bin. The results, called the associated fractions and labelled ``Assoc. fraction'', are shown in the last row of figures~\ref{bsa_xbjrange}--\ref{bca_xbjrange2} in the results section. The method used to perform this estimation is described in detail in
+ref.~\cite{Air08}.}
 
 \section{Experimental Extraction of Asymmetry Amplitudes}
 
 The expectation value of the experimental yield $N$ is parameterised as
 \begin{equation}
  \langle N(e_{\ell},P_{\ell},\phi)\rangle =
-\mathcal{L}(e_{\ell},P_{\ell})\eta(e_{\ell},\phi)\textrm{d}\sigma_{\textrm{UU}}
+\mathcal{L}(e_{\ell},P_{\ell})\eta(e_{\ell},\phi)\sigma_{\textrm{UU}}
 (\phi)\times
 [1+P_{\ell}\mathcal{A}_{\textrm{LU}}^{\textrm{DVCS}}(\phi)+e_{\ell}P_{\ell}
 \mathcal{A}_{\textrm{LU}}^{\textrm{I}}(\phi)+e_{\ell}\mathcal{A}_{\textrm{C}}
@@ -44,22 +53,21 @@ The expectation value of the experimental yield $N$ is parameterised as
 \end{equation}
 where $P_\ell$ is the beam polarisation, $\mathcal{L}$ is the integrated luminosity, $\eta$ is the detection
 efficiency and d$\sigma_{\textrm{UU}}$ denotes the
-cross section for an unpolarised target integrated over both beam charges and
-beam helicities. The asymmetries $\mathcal{A}_{\textrm{LU}}^{\textrm{I}}(\phi)$,
-$\mathcal{A}_{\textrm{LU}}^{\textrm{DVCS}}(\phi)$ and
+cross section for an unpolarised target \red{summed} over both beam charges and
+beam helicities. The asymmetries $\mathcal{A}_{\textrm{LU}}^{\textrm{DVCS}}(\phi)$, $\mathcal{A}_{\textrm{LU}}^{\textrm{I}}(\phi)$ and
 $\mathcal{A}_{\textrm{C}}(\phi)$ are expanded in
 $\phi$ as
-\begin{equation}
-\mathcal{A}_{\textrm{LU}}^{\textrm{I}}(\phi) \simeq \sum^{2}_{n=1}
-A_{\textrm{LU,I}}^{\sin(n\phi)}\sin(n\phi) 
-+ \sum^{1}_{n=0} A_{\textrm{LU,I}}^{\cos(n\phi)}\cos(n\phi), 
-\label{alui_asym}
-\end{equation}
 \begin{equation}
  \mathcal{A}_{\textrm{LU}}^{\textrm{DVCS}}(\phi) \simeq 
 A_{\textrm{LU,DVCS}}^{\sin\phi}\sin\phi 
 + \sum^{1}_{n=0} A_{\textrm{LU,DVCS}}^{\cos(n\phi)}\cos(n\phi), 
 \label{aludvcs_asym}
+\end{equation}
+\begin{equation}
+\mathcal{A}_{\textrm{LU}}^{\textrm{I}}(\phi) \simeq \sum^{2}_{n=1}
+A_{\textrm{LU,I}}^{\sin(n\phi)}\sin(n\phi) 
++ \sum^{1}_{n=0} A_{\textrm{LU,I}}^{\cos(n\phi)}\cos(n\phi), 
+\label{alui_asym}
 \end{equation}
 \begin{equation}
 \mathcal{A}_{\textrm{C}}(\phi) \simeq \sum^{3}_{n=0}
@@ -90,61 +98,57 @@ $A_{\textrm{C}}^{\cos(n\phi)}$ relate respectively to the Fourier
 coefficients $s_{n,\textrm{unp}}^{W}$ and $c_{n,\textrm{unp}}^{I}$ from the interference and DVCS terms in eqs.~\ref{e:alui}-\ref{e:ac}. The asymmetry amplitudes
 may also be affected by the lepton propagators and the other
 $\phi$-dependent terms in the denominators in
-eqs.~\ref{e:alui}-\ref{e:ac}. 
-The asymmetry amplitudes $A_{\textrm{LU},\textrm{I}}^{\sin(2\phi)}$,
-$A^{\cos(0\phi)}_{\textrm{C}}$ and $A^{\cos(2\phi)}_{\textrm{C}}$ also depend
-upon this $\mathcal{C}$-function. However, the
-$A^{\cos(0\phi)}_{\textrm{C}}$ amplitude is kinematically suppressed
-compared to the $A^{\cos\phi}_{\textrm{C}}$ amplitude, and the
-$A_{\textrm{LU,I}}^{\sin(2\phi)}$ and $A^{\cos(2\phi)}_{\textrm{C}}$
-amplitudes are higher twist quantities (see Table~\ref{tab_amplitudes}).
+eqs.~\ref{e:alui}-\ref{e:ac}.
 
-The DVCS asymmetry amplitude $A^{\sin\phi}_{\textrm{LU,DVCS}}$ has a
+The DVCS asymmetry amplitude $A^{\sin\phi}_{\textrm{LU,DVCS}}$ \red{receives} a
 contribution from the $\mathcal{C}_{\textrm{unp}}^{\textrm{DVCS}}$-function,
-which is bilinear in CFFs. However, this twist-3 amplitude is inherently small at HERMES kinematic conditions due to the size of the $s_{1}^{\textrm{DVCS}}$ Fourier coefficient compared to the contribution from the $c_{n}^{\textrm{BH}}$ coefficients in the denominator of Eq.~\ref{e:aludvcs}. As a result of the more complicated dependence on the CFFs and this suppression, it
+which is bilinear in CFFs. However, this twist-3 amplitude is inherently small \red{in} HERMES kinematic conditions due to the size of the $s_{1}^{\textrm{DVCS}}$ Fourier coefficient compared to the contribution from the $c_{n}^{\textrm{BH}}$ coefficients in the denominator of Eq.~\ref{e:aludvcs}. As a result of the more complicated dependence on the CFFs and this suppression, it
 is more difficult to constrain GPDs via the measurement of $A^{\sin\phi}_{\textrm{LU,DVCS}}$ than from the kinematically-unsuppressed leading twist amplitudes.
+
+\red{The leading-twist asymmetry amplitudes are $A_{\textrm{C}}^{\cos(0\phi)}$, $A_{\textrm{C}}^{\cos\phi}$ and $A_{\textrm{LU,I}}^{\sin\phi}$, which are proportional to the fourier coefficients defined in eqs.~\ref{eq:c0}---\ref{eq:c1}. Whilst all of these amplitudes receive contributions from $\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$, $c_{0,\textrm{unp}}^{\textrm{I}}$ is kinematically suppressed in comparison to $c_{1,\textrm{unp}}^{\textrm{I}}$, so $A_{\textrm{C}}^{\cos\phi}$ and $A_{\textrm{LU,I}}^{\sin\phi}$ are expected to have the largest magnitude in H{\sc ermes} kinematic conditions.
+
+Although strictly dependent on higher-twist quantities, the asymmetry amplitudes $A_{\textrm{LU},\textrm{I}}^{\sin(2\phi)}$ and $A^{\cos(2\phi)}_{\textrm{C}}$ can also be expressed as having a dependence on $\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$ using the Wandzura-Wilzcek approximation. Neglecting antiquark-gluon-quark contributions, these higher-twist dependent amplitudes can be considered as being kinematically suppressed compared to the leading-twist amplitudes.}
 
 The $A^{\cos(3\phi)}_{\textrm{C}}$ amplitude depends on the
 $c_{3,\textrm{unp}}^{\textrm{I}}$ Fourier coefficient and hence the
 $\mathcal{C}_{\textrm{T,unp}}^{\textrm{I}}$-function. Although the CFFs
-in this function are of leading twist, they relate to gluon helicity-flip GPDs and are thus suppressed by $\alpha_{\textrm{S}}/\pi$,
-where $\alpha_{\textrm{S}}$ is the strong coupling constant. Table~\ref{tab_amplitudes} presents the asymmetry amplitudes extracted in this analysis and the
-related Fourier coefficients, dominant $\mathcal{C}$-function, twist-level and level of suppression.
+in this function are of leading twist, they relate to gluon helicity-flip GPDs and are thus suppressed by $\alpha_{\textrm{S}}/\pi$, where $\alpha_{\textrm{S}}$ is the strong coupling constant. Table~\ref{tab_amplitudes} presents the asymmetry amplitudes extracted in this analysis and the
+related Fourier coefficients, dominant $\mathcal{C}$-function, and the twist-level at which the contributing GPDs enter.
 \begin{table}
 \begin{center}
 \resizebox{\textwidth}{!} {
 \begin{tabular}{|c|c|c|c|c|}
 \hline
-Asymmetry Amplitude& Fourier Coefficient& Dominant CFF Dependence & Twist-Level & Relative Suppression   \\ 
+Asymmetry Amplitude& Fourier Coefficient& Dominant CFF Dependence & Twist-Level   \\ 
 \hline
 \hline
 $A_{\textrm{LU,I}}^{\sin\phi}$ & $s_{1,\textrm{unp}}^{\textrm{I}}$  &
 $\mathfrak{Im}\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$
-&  2 & --\\
+&  2 \\
 \hline
 $A_{\textrm{LU,I}}^{\sin(2\phi)}$ & $s_{2,\textrm{unp}}^{\textrm{I}}$ 
 &
 $\mathfrak{Im}\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$
-&  3 & $1/Q$\\
+&  3 \\
 \hline
 \hline
 $A_{\textrm{LU,DVCS}}^{\sin\phi}$ & $s_{1, \textrm{unp}}^{\textrm{DVCS}}$ &
-$\mathfrak{Im}\mathcal{C}_{\textrm{unp}}^{\textrm{DVCS}}$ &  3 & $1/Q$ \\
+$\mathfrak{Im}\mathcal{C}_{\textrm{unp}}^{\textrm{DVCS}}$ &  3 \\
 \hline
 \hline
 $A_{\textrm{C}}^{\cos(0\phi)}$ & $c_{0,\textrm{unp}}^{\textrm{I}}$  &
-$\mathfrak{Re}\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$ & 2& $\frac{(2-y)^2K}{(1-y)(2-2y+y^2)}$
+$\mathfrak{Re}\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$ & 2
 \\
 \hline
 $A_{\textrm{C}}^{\cos\phi}$ & $c_{1,\textrm{unp}}^{\textrm{I}}$  &
-$\mathfrak{Re}\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$ & 2 & --
+$\mathfrak{Re}\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$ & 2
 \\
 \hline
 $A_{\textrm{C}}^{\cos(2\phi)}$ & $c_{2,\textrm{unp}}^{\textrm{I}}$ &
-$\mathfrak{Re}\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$ & 3 & $1/Q$ \\
+$\mathfrak{Re}\mathcal{C}_{\textrm{unp}}^{\textrm{I}}$ & 3 \\
 \hline
 $A_{\textrm{C}}^{\cos(3\phi)}$ & $c_{3,\textrm{unp}}^{\textrm{I}}$ &
-$\mathfrak{Re}\mathcal{C}_{\textrm{T,unp}}^{\textrm{I}}$ &  2 & $\alpha_{\textrm{S}}/\pi$ \\
+$\mathfrak{Re}\mathcal{C}_{\textrm{T,unp}}^{\textrm{I}}$ &  2 \\
 \hline
  \end{tabular}
 }
