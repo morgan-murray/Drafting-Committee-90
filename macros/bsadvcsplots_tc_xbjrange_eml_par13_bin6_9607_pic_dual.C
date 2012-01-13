@@ -140,12 +140,17 @@
    gre->SetHistogram(Graph1);
    
    gre->Draw("p");
-   TLatex *   tex = new TLatex(0.022,0.15,"0.03 < x_{B} < 0.08");
-   tex->SetTextSize(0.12);
+   TLatex *   tex = new TLatex(0.04,0.15,"0.03 < x_{B} < 0.08");
+
+   // Alterations from stock
+   tex->SetTextFont(43);
+   tex->SetTextSize(18);
    tex->SetLineWidth(2);
    tex->Draw();
- tex = new TLatex(0.02,0.06,"<Q^{2}> 1.56 GeV^{2}");
-   tex->SetTextSize(0.12);
+   tex = new TLatex(0.04,0.06,"<Q^{2}> 1.56 GeV^{2}");
+   tex->SetTextFont(43);
+   tex->SetTextSize(18);
+   // end alterations from stock
    tex->SetLineWidth(2);
    tex->Draw();
    pad1_1->Modified();
@@ -550,12 +555,14 @@
    gre->SetHistogram(Graph6);
    
    gre->Draw("p");
-      tex = new TLatex(0.02,0.16,"0.08 < x_{B} < 0.12");
-   tex->SetTextSize(0.12);
+   tex = new TLatex(0.04,0.16,"0.08 < x_{B} < 0.12");
+   tex->SetTextFont(43);   
+   tex->SetTextSize(18);
    tex->SetLineWidth(2);
    tex->Draw();
- tex = new TLatex(0.02,0.06,"<Q^{2}> 2.52 GeV^{2}");
-   tex->SetTextSize(0.12);
+   tex = new TLatex(0.04,0.06,"<Q^{2}> 2.52 GeV^{2}");
+   tex->SetTextFont(43);
+   tex->SetTextSize(18);
    tex->SetLineWidth(2);
    tex->Draw();
    pad1_2->Modified();
@@ -952,12 +959,14 @@
    gre->SetHistogram(Graph11);
    
    gre->Draw("p");
-      tex = new TLatex(0.022,0.16,"0.12 < x_{B} < 0.35");
-   tex->SetTextSize(0.12);
+   tex = new TLatex(0.04,0.16,"0.12 < x_{B} < 0.35");
+   tex->SetTextFont(43);
+   tex->SetTextSize(18);
    tex->SetLineWidth(2);
    tex->Draw();
- tex = new TLatex(0.022,0.06,"<Q^{2}> 4.34 GeV^{2}");
-   tex->SetTextSize(0.12);
+   tex = new TLatex(0.04,0.06,"<Q^{2}> 4.34 GeV^{2}");
+   tex->SetTextFont(43);
+   tex->SetTextSize(18);
    tex->SetLineWidth(2);
    tex->Draw();
    pad1_3->Modified();
