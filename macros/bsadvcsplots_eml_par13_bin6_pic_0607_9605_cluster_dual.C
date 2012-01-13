@@ -553,10 +553,11 @@ gre = new TGraphErrors(1);
    
  
    
-   TLegend *leg = new TLegend(0.07,0.69,0.83,0.99,NULL,"b1NDC");
+   TLegend *leg = new TLegend(0.07,0.79,0.83,0.99,NULL,"b1NDC");
    leg->SetBorderSize(0);
    leg->SetTextColor(4);
-   leg->SetTextFont(62);
+   leg->SetTextFont(13);
+   leg->SetTextSize(18);
    leg->SetLineColor(0);
    leg->SetLineStyle(1);
    leg->SetLineWidth(1);

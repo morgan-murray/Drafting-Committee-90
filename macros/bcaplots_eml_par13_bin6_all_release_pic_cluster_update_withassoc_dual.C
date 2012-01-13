@@ -730,9 +730,10 @@
    line->SetLineStyle(2);
    line->Draw();
    
-   TLegend *leg = new TLegend(0.07,0.69,0.85,0.99,NULL,"b1NDC");
+   TLegend *leg = new TLegend(0.07,0.60,0.85,0.90,NULL,"b1NDC");
    leg->SetBorderSize(0);
-   leg->SetTextFont(62);
+   leg->SetTextFont(13);
+   leg->SetTextSize(18);
    leg->SetLineColor(0);
    leg->SetLineStyle(1);
    leg->SetLineWidth(1);
@@ -1497,9 +1498,10 @@
    
    gre->Draw("p");
    
-   leg = new TLegend(0.06749772,0.8198627,0.8985507,0.9942914,NULL,"b1NDC");
+   leg = new TLegend(0.06749772,0.70,0.8985507,0.95,NULL,"b1NDC");
    leg->SetBorderSize(0);
-   leg->SetTextFont(62);
+   leg->SetTextFont(13);
+   leg->SetTextSize(18);
    leg->SetLineColor(0);
    leg->SetLineStyle(1);
    leg->SetLineWidth(1);
