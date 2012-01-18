@@ -1,9 +1,6 @@
 \section{Background Corrections and Systematic Uncertainties for the
   2006-2007 Data}
-The extracted asymmetry amplitudes are subject to systematic uncertainties that
-result from a combination of background processes, 
-shifts in the missing-mass distributions and various detector and binning
-effects determined in the same manner as in refs.~\cite{Air08,Air09}.
+The extracted asymmetry amplitudes are subject to systematic uncertainties \red{contributions} that result from a combination of background processes, shifts in the missing-mass distributions\red{,} and various detector and binning effects determined in the same manner as \red{used} in refs.~\cite{Air08,Air09} \red{in orer to maintain consistency with the results published in ref.~\cite{Air09} and therefore facilitate the combination of the two data sets}.
 
 The contribution to the uncertainties on the amplitude measurements
 arising from background in the data from neutral meson
@@ -24,9 +21,7 @@ uncertainty.
 
 The predominant contribution to the systematic uncertainty arises from detector
 effects. These include the acceptance of the spectrometer, smearing
-effects due to detector resolution (e.g. the opening angle between the scattered lepton and produced photon trajectories that can be resolved in the calorimeter), external radiation in detector material, and the finite bin width of the $-t$, $x_{\textrm{B}}$ and $Q^{2}$ projections. In order to quantify these effects, events were generated using a Monte Carlo simulation of the spectrometer that included them. An event generator based on the GPD model described in ref.~\cite{Guz06} was
-used for the simulation because it\red{s output} describes the data well and was employed in ref.~\cite{Air09}. Asymmetry amplitudes were extracted
-from these simulated events using the same analysis procedure used to
+effects due to detector resolution (e.g. the \red{minimum} opening angle between the scattered lepton and produced photon trajectories that can be resolved in the calorimeter), external radiation in detector material, \red{potential misalignment} and the finite bin width of the $-t$, $x_{\textrm{B}}$ and $Q^{2}$ projections. In order to quantify these effects, events were generated using a Monte Carlo simulation of the spectrometer that included them. An event generator based on the GPD model described in ref.~\cite{Guz06} was used for the simulation because it\red{s output} describes the data well and was employed in ref.~\cite{Air09}. Asymmetry amplitudes were extracted from these simulated events using the same analysis procedure used to
 extract amplitudes from experimental data. In each kinematic bin, the
 systematic uncertainty was determined as the difference between the asymmetry amplitude reconstructed from the simulated data and that
 calculated from the GPD model at the average $-t$, $x_{\textrm{B}}$ and
@@ -35,9 +30,8 @@ $Q^{2}$ value for that bin.
 The total systematic uncertainty for the 2006-2007 data sample was
 determined for each kinematic bin by adding in quadrature the
   uncertainties arising from the background correction, the
-  missing-mass shifts, and the detector effects.  The 1996-2005 sample also has a
-systematic uncertainty from misalignment of the spectrometer~\cite{Air09}, which has been eliminated for the 2006-2007 data sample due to improved
-  surveying measurements. Therefore, because the systematic uncertainty calculation for the 2006-07 data is identical to that for the 1996-2005 data, the systematic uncertainty for 2006-07 is overestimated. This overestimate is very slight, because the systematic uncertainty contribution from potential misalignment is very small.
+  missing-mass shifts, and the detector effects.  The 1996-2005 sample also has a systematic uncertainty from misalignment of the spectrometer~\cite{Air09}, which has been eliminated for the 2006-2007 data sample due to improved
+  surveying measurements. \red{However}, because the systematic uncertainty calculation for the 2006-07 data \red{uses the same Monte Carlo generator and reconstruction technique as was used} for the 1996-2005 data, the systematic uncertainty for 2006-07 is overestimated\red{; t}his overestimate is very slight, because the systematic uncertainty contribution from potential misalignment \red{affecting the 1996-2005 data set} is very small.
 
 The contribution from each uncertainty to each amplitude extracted from the 2006-2007 data (in a single, overall kinematic bin) is summarised in Table~\ref{table_systematic_contributions_0607}.
 
@@ -47,34 +41,30 @@ The beam polarisation measurements have total uncertainties of 2.8\% for the 199
 \begin{table}
  \begin{center}
 \resizebox{\textwidth}{!} {
- \begin{tabular}{|c|c|c|c|c|c|c|}
+ \begin{tabular}{|c|c||c|c|c|c|c|}
   \hline
- & $A$ $\pm$ $\delta_{stat.}$ $\pm$ $\delta_{syst.}$ & Background & Missing-Mass Shift  & Detector Effects & & Total \\
-  \hline
-  \hline
-  $A_{\textrm{LU,I}}^{\sin\phi}$ & -0.222  $\pm$  0.023  $\pm$   0.022 & 0.002 & 0.001 & 0.022 & & 0.022 \\
-  \hline
-  $A_{\textrm{LU,DVCS}}^{\sin\phi}$ & 0.005  $\pm$  0.023  $\pm$  0.003 & 0.002 & 0.002 & 0.001 & & 0.003 \\
-  \hline
-  $A_{\textrm{LU,I}}^{\sin(2\phi)}$ & 0.005  $\pm$  0.023  $\pm$   0.003 & 0.003 & 0.001 & 0.001 & & 0.003 \\
+ & $A$ $\pm$ $\delta_{stat.}$& Background & Missing-Mass Shift  & Detector Effects & & Total $\delta_{syst.}$ \\
   \hline
   \hline
-  $A_{\textrm{C}}^{\cos(0\phi)}$ & -0.024 $\pm$  0.004 $\pm$  0.011 & 0.001 & 0.003 & 0.010 & & 0.011 \\
+  $A_{\textrm{LU,I}}^{\sin\phi}$ & -0.222  $\pm$  0.023  & 0.002 & 0.001 & 0.022 & & 0.022 \\
   \hline
-  $A_{\textrm{C}}^{\cos\phi}$ & 0.032  $\pm$  0.006 $\pm$   0.002 & 0.002 & 0.001 & 0.001 & & 0.002 \\
+  $A_{\textrm{LU,DVCS}}^{\sin\phi}$ & 0.005  $\pm$  0.023  & 0.002 & 0.002 & 0.001 & & 0.003 \\
   \hline
-  $A_{\textrm{C}}^{\cos(2\phi)}$ & -0.004  $\pm$  0.005  $\pm$   0.014 & 0.001 & 0.000 & 0.014 & & 0.014 \\
+  $A_{\textrm{LU,I}}^{\sin(2\phi)}$ & 0.005  $\pm$  0.023  & 0.003 & 0.001 & 0.001 & & 0.003 \\
   \hline
-  $A_{\textrm{C}}^{\cos(3\phi)}$ & 0.001  $\pm$   0.005   $\pm$   0.004 & 0.000 & 0.001 & 0.003 & & 0.004 \\
+  \hline
+  $A_{\textrm{C}}^{\cos(0\phi)}$ & -0.024 $\pm$  0.004 & 0.001 & 0.003 & 0.010 & & 0.011 \\
+  \hline
+  $A_{\textrm{C}}^{\cos\phi}$ & 0.032  $\pm$  0.006 & 0.002 & 0.001 & 0.001 & & 0.002 \\
+  \hline
+  $A_{\textrm{C}}^{\cos(2\phi)}$ & -0.004  $\pm$  0.005 & 0.001 & 0.000 & 0.014 & & 0.014 \\
+  \hline
+  $A_{\textrm{C}}^{\cos(3\phi)}$ & 0.001  $\pm$   0.005 & 0.000 & 0.001 & 0.003 & & 0.004 \\
   \hline
  \end{tabular}
 }
-  \caption{The contributions to the overall systematic 
-uncertainties of the extracted asymmetry amplitudes due to the
-background correction, the time-dependent shifts of the missing-mass
-distributions and detector effects for the 2006-2007 data. The total
-systematic uncertainties of the amplitudes, shown in the
-right-most column, are the individual contributions added in quadrature.}
+  \caption{\red{The values of the asymmetries extracted in a single bin over the entire kinematic range with their statistical uncertainties are presented in the second column of this table. The third, fourth and fifth columns show t}he contributions to the overall systematic uncertainties of the extracted asymmetry amplitudes due to the background correction, the time-dependent shifts of the missing-mass distributions and detector effects for the 2006-2007 data. The total
+systematic uncertainties of the amplitudes, shown in the right-most column, are the individual contributions added in quadrature.}
   \label{table_systematic_contributions_0607}
 \end{center}
 \end{table}
