@@ -745,36 +745,6 @@
    gre->SetHistogram(Graph1916);
    
    gre->Draw("p");
-   
-   TLegend *leg = new TLegend(0.07,0.63,0.83,0.99,NULL,"b1NDC");
-   leg->SetBorderSize(0);
-   leg->SetTextColor(4);
-   leg->SetTextFont(13);
-   leg->SetTextSize(18);
-   leg->SetLineColor(0);
-   leg->SetLineStyle(1);
-   leg->SetLineWidth(1);
-   leg->SetFillColor(0);
-   leg->SetFillStyle(0);
-   TLegendEntry *entry=leg->AddEntry("NULL","2006-2007","p");
-   entry->SetLineColor(1);
-   entry->SetLineStyle(1);
-   entry->SetLineWidth(1);
-   entry->SetMarkerColor(2);
-   entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(1);
-   entry->SetTextAlign(12);
-   entry->SetTextColor(1);
-   entry=leg->AddEntry("NULL","JHEP11 (2009) 083","p");
-   entry->SetLineColor(1);
-   entry->SetLineStyle(1);
-   entry->SetLineWidth(1);
-   entry->SetMarkerColor(4);
-   entry->SetMarkerStyle(26);
-   entry->SetMarkerSize(1);
-   entry->SetTextAlign(12);
-   entry->SetTextColor(1);
-   leg->Draw();
    pad1_2->Modified();
    pad1->cd();
   
@@ -813,6 +783,7 @@
    line->SetLineStyle(2);
    line->Draw();
    
+   // Draw legend in this pad
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
    gre->SetTitle("Graph");
@@ -937,6 +908,40 @@
    Graph231819->SetStats(0);
    gre->SetHistogram(Graph231819);
    
+   // Draw legend here
+
+
+   TLegend *leg = new TLegend(0.07,0.63,0.83,0.99,NULL,"b1NDC");
+   leg->SetBorderSize(0);
+   leg->SetTextColor(4);
+   leg->SetTextFont(13);
+   leg->SetTextSize(18);
+   leg->SetLineColor(0);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(0);
+   TLegendEntry *entry=leg->AddEntry("NULL","2006-2007","p");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(2);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextAlign(12);
+   entry->SetTextColor(1);
+   entry=leg->AddEntry("NULL","JHEP11 (2009) 083","p");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(4);
+   entry->SetMarkerStyle(26);
+   entry->SetMarkerSize(1);
+   entry->SetTextAlign(12);
+   entry->SetTextColor(1);
+   leg->Draw();
+   
+
    gre->Draw("p");
    pad1_6->Modified();
    pad1->cd();
