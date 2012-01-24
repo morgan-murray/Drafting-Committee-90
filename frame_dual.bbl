@@ -1,192 +1,111 @@
 \begin{thebibliography}{10}
 
 \bibitem{Mue94}
-\emph{Wave Functions, Evolution Equations and Evolution Kernels from Light-Ray Operators of QCD}
-D. M\"uller et al., 
-Fortschr. Phys. {\bf 42} (1994) 101 arXiv:hep-ph/9812448v1. 
+D. M\"uller et al., \emph{Wave Functions, Evolution Equations and Evolution Kernels from Light-Ray Operators of QCD}
+Fortschr. Phys. {\bf 42} (1994) 101 [arxiv:hep-ph/9812448]. 
 
 \bibitem{Ji97}
-\emph{Gauge-Invariant Decomposition of Nucleon Spin}
-X.~Ji, 
-Phys. Rev. Lett. {\bf 78} (1997) 610 arXiv:hep-ph/9603249v1.\\
+X.~Ji, \emph{Gauge-Invariant Decomposition of Nucleon Spin}
+Phys. Rev. Lett. {\bf 78} (1997) 610 [arxiv:hep-ph/9603249].\\
 
-\emph{Deeply virtual Compton scattering}
-X.~Ji, 
-Phys. Rev. \textbf{D55} (1997) 7114 arXiv:hep-ph/9609381.
+X.~Ji, \emph{Deeply virtual Compton scattering}
+Phys. Rev. D \textbf{55} (1997) 7114 [arxiv:hep-ph/9609381].
 
 \bibitem{Rad97}
-\emph{Scaling Limit of Deeply Virtual Compton Scattering}
-A.~V. Radyushkin, 
-Phys. Lett. \textbf{B380} (1996) 417 arXiv:hep-ph/9604317.
+A.~V. Radyushkin, \emph{Scaling Limit of Deeply Virtual Compton Scattering}
+Phys. Lett. B \textbf{380} (1996) 417 [arxiv:hep-ph/9604317].
 
 \bibitem{Bur00}
-\emph{Impact Parameter Dependent Parton Distributions and Off-Forward Parton Distributions}
-M.~Burkardt, 
-Phys. Rev. \textbf{D62} (2000) 071503 arXiv:hep-ph/0005108v2.
+M.~Burkardt, \emph{Impact Parameter Dependent Parton Distributions and Off-Forward Parton Distributions for $\zeta\to 0$}
+Phys. Rev. D \textbf{62} (2000) 071503 [ariv:hep-ph/0005108].
 Errarum-ibid Phys. Rev. \textbf{D66} (2002) 119903. 
 
-\bibitem{Air00}
-\emph{Exclusive Leptoproduction of rho0 Mesons on Hydrogen at Intermediate W Values}
-H{\sc ermes} Collaboration, A. Airapetian et al.,
-Eur. Phys. Jour. \textbf{C17} (2000) 389 arXiv:hep-ex/0004023
-
-\bibitem{Air00b}
-\emph{Measurement of Angular Distributions and $R=\frac{\sigma_L}{\sigma_T}$ in Diffractive Electroproduction of $\rho^0$ Mesons}
-H{\sc ermes} Collaboration, K. Ackerstaff et al.,
-Eur. Phys. Jour. \textbf{C18} (2000) 303 arXiv:hep-ex/0002016
-
 \bibitem{Air01}
-\emph{Measurement of the Beam-Spin Azimuthal Asymmetry associated with Deeply-Virtual Compton Scattering}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Phys. Rev. Lett. \textbf{87} (2001) 182001 arXiv:hep-ex/0106068.
-
-\bibitem{Air01a}
-\emph{Double-Spin Asymmetry in the Cross Section for Exclusive $\rho^0$ Production in Lepton-Nucleon Scattering}
-H{\sc ermes} Collaboration, K. Ackerstaff et al.,
-Phys. Lett. \textbf{B513} (2001) 301 arXiv:hep-ex/0102037
-
-\bibitem{Air02}
-\emph{Single-spin Azimuthal Asymmetries in Electroproduction of Exclusive $\pi^+$}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Phys. Lett. \textbf{B535} (2002) 85 arXiv:hep-ex/0112022
-
-\bibitem{Air03}
-\emph{Double-spin Asymmetries in the Cross Section of Diffractive $\rho^0$ and $\phi$ Production at Intermediate Energies}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Eur. Phys. J. \textbf{C29} (2003) 171 arXiv:hep-ex/0302012
-
-\bibitem{Air04}
-\emph{Hard Exclusive Electroproduction of $\pi^+$ $\pi^-$ Pairs}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Phys. Lett. \textbf{B599} (2004) 212 arXiv:hep-ex/0406052
+H{\sc ermes} Collaboration, A. Airapetian et al., \emph{Measurement of the Beam-Spin Azimuthal Asymmetry associated with Deeply-Virtual Compton Scattering}
+Phys. Rev. Lett. \textbf{87} (2001) 182001 [arxiv:hep-ex/0106068].
 
 \bibitem{Air06}
-\emph{The Beam-Charge Azimuthal Asymmetry and Deeply Virtual Compton Scattering }
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Phys. Rev. \textbf{D75} (2007) 011103 arXiv:hep-ex/0605108.
+H{\sc ermes} Collaboration, A. Airapetian et al., \emph{The Beam-Charge Azimuthal Asymmetry and Deeply Virtual Compton Scattering }
+Phys. Rev. D \textbf{75} (2007) 011103 [arxiv:hep-ex/0605108].
 
 \bibitem{Air08}
-\emph{Measurement of Azimuthal Asymmetries With Respect To Both Beam Charge and Transverse Target Polarization in Exclusive Electroproduction of Real Photons}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-JHEP \textbf{06} (2008) 066 arXiv:0802.2499.
-
-\bibitem{Air08a}
-\emph{Cross sections for hard exclusive electroproduction of $\pi^+$ mesons on a hydrogen target}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Phys. Lett. \textbf{B659} (2008) 486 arXiv:0707.0222
+H{\sc ermes} Collaboration, A. Airapetian et al., \emph{Measurement of Azimuthal Asymmetries With Respect To Both Beam Charge and Transverse Target Polarization in Exclusive Electroproduction of Real Photons}
+JHEP \textbf{06} (2008) 066 [arxiv:0802.2499].
 
 \bibitem{Air09}
-\emph{Separation of contributions from deeply virtual Compton scattering and its interference with the Bethe--Heitler process in measurements on a hydrogen target}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-JHEP {\bf 11} (2009) 083 arXiv:0909.3587.
-
-\bibitem{Air09a}
-\emph{Spin Density Matrix Elements in Exclusive $\rho^0$ Electroduction on $^1H$ and $^2H$ Targets at 27.6\,$GeV$ Beam Energy}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Eur. Phys. J. \textbf{C62} (2009) 659 arXiv:0901.0701
-
-\bibitem{Air09b}
-\emph{Exclusive $\rho^0$ electroproduction on transversely polarized protons}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Phys. Lett. \textbf{B679} (2009) 100 arXiv:0906.5160
+H{\sc ermes} Collaboration, A. Airapetian et al., \emph{Separation of contributions from deeply virtual Compton scattering and its interference with the Bethe--Heitler process in measurements on a hydrogen target}
+JHEP {\bf 11} (2009) 083 [arxiv:0909.3587].
 
 \bibitem{Air10}
-\emph{Measurement of azimuthal asymmetries associated with deeply virtual Compton scattering on an unpolarized deuterium target}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Nucl. Phys. {\bf B829} (2010) 1 arXiv:0911.0095.
+H{\sc ermes} Collaboration, A. Airapetian et al., \emph{Measurement of azimuthal asymmetries associated with deeply virtual Compton scattering on an unpolarized deuterium target}
+Nucl. Phys. B {\bf 829} (2010) 1 [arxiv:0911.0095].
 
 \bibitem{Air10a}
-\emph{Nuclear-mass dependence of beam-helicity and beam-charge azimuthal asymmetries in DVCS}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Phys. Rev. {\bf C81} (2010) 035202 arXiv:0911.0091.
+H{\sc ermes} Collaboration, A. Airapetian et al., \emph{Nuclear-mass dependence of beam-helicity and beam-charge azimuthal asymmetries in DVCS}
+Phys. Rev. C {\bf 81} (2010) 035202 [arxiv:0911.0091].
 
 \bibitem{Air10b}
-\emph{Exclusive Leptoproduction of Real Photons on a Longitudinally Polarised Hydrogen target}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-JHEP {\bf 06} (2010) 019 arXiv:1004.0177.
-
-\bibitem{Air10c}
-\emph{Single-spin azimuthal asymmetry in exclusive electroproduction of $\pi^+$ mesons on transversely polarized protons}
-H{\sc ermes} Collaboration, A. Airapetian et al.,
-Phys. Lett. \textbf{B682} (2010) 345 arXiv:0907.2596
+H{\sc ermes} Collaboration, A. Airapetian et al., \emph{Exclusive Leptoproduction of Real Photons on a Longitudinally Polarised Hydrogen target}
+JHEP {\bf 06} (2010) 019 [arxiv:1004.0177].
 
 \bibitem{Air11}
-\emph{Measurement of azimuthal asymmetries associated with deeply virtual Compton scattering on a longitudinally polarized deuterium target}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Nucl. Phys. {\bf B842} (2011) 265 arXiv:1008.3996.
+H{\sc ermes} Collaboration, A. Airapetian et al., \emph{Measurement of azimuthal asymmetries associated with deeply virtual Compton scattering on a longitudinally polarized deuterium target}
+Nucl. Phys. B {\bf 842} (2011) 265 [arxiv:1008.3996].
 
 \bibitem{Air11a}
-\emph{Measurement of double-spin asymmetries associated with deeply virtual Compton scattering on a transversely polarized hydrogen target}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Phys. Lett. {\bf B704} (2011) 15 arXiv:1106.2990
-
-\bibitem{Air11b}
-\emph{Ratios of Helicity Amplitudes of Exclusive $\rho^0$ Electroproduction}
-H{\sc ermes} Collaboration, A. Airapetian et al., 
-Eur. Phys. J. \textbf{C71} (2011) 1609 arXiv:1012.3676
+H{\sc ermes} Collaboration, A. Airapetian et al., \emph{Measurement of double-spin asymmetries associated with deeply virtual Compton scattering on a transversely polarized hydrogen target}
+Phys. Lett. B {\bf 704} (2011) 15 [arxiv:1106.2990]
 
 \bibitem{Bel02b}
-\emph{Theory of Deeply Virtual Compton Scattering}
-A.V. Belitsky, D. M\"uller and A. Kirchner,
-Nucl.Phys. \textbf{B629} (2002) 323 arXiv:hep-ph/0112108v2
+A.V. Belitsky, D. M\"uller and A. Kirchner, \emph{Theory of Deeply Virtual Compton Scattering on the nucleon}
+Nucl. Phys. B \textbf{629} (2002) 323 [arxiv:hep-ph/0112108].
 
 \bibitem{Tre04}
-\emph{Single-spin asymmetries: The Trento conventions}
-A. Bacchetta, U D’Alesio, M Diehl and C. A. Miller,
-Phys. Rev. \textbf{D70} (2004) 117504 arXiv:hep-ph/0410050.
+A. Bacchetta, U D’Alesio, M Diehl and C. A. Miller, \emph{Single-spin asymmetries: The Trento conventions}
+Phys. Rev. D \textbf{70} (2004) 117504 [arxiv:hep-ph/0410050].
 
 \bibitem{Ack98}
-\emph{The H{\sc ermes} Spectrometer}
-H{\sc ermes} Collaboration, K. Ackerstaff et al., 
-Nucl. Instr. and Meth. {\bf A417} (1998)~230.
+H{\sc ermes} Collaboration, K. Ackerstaff et al., \emph{The H{\sc ermes} Spectrometer}
+Nucl. Instrum. Meth. A {\bf 417} (1998)~230 [arxiv:hep-ex/9806008].
 
 \bibitem{Zei09}
-\emph{Deeply Virtual Compton Scattering off an Unpolarized Hydrogen Target at the HERMES Experiment}
-D.~Zeiler, 
+D.~Zeiler, \emph{Deeply Virtual Compton Scattering off an Unpolarized Hydrogen Target at the HERMES Experiment}
 Ph.D. thesis, Universit\"at Erlangen--N\"urnberg, Germany, October 2009, \\ D{\sc esy}-THESIS-2009-041.
 
 \bibitem{Bur10}
-\emph{Deeply Virtual Compton Scattering off an Unpolarised Hydrogen Target at HERMES}
-J. Burns, 
+J. Burns, \emph{Deeply Virtual Compton Scattering off an Unpolarised Hydrogen Target at HERMES}
 Ph.D. thesis, University of Glasgow, United Kingdom, August 2010, \\ D{\sc esy}-THESIS-2010-036.
 
 \bibitem{Bar90}
-\emph{Extended maximum likelihood}
-R. Barlow,
-Nucl. Instr. and Meth. {\bf A297} (1990) 496.
+R. Barlow, \emph{Extended maximum likelihood}
+Nucl. Instrum. Meth. A {\bf 297} (1990) 496.
 
 \bibitem{Wan}
-\emph{Sum rules for spin-dependent electroproduction-test of relativistic constituent quarks}
-S.~Wandzura and F.~Wilczek,
+S.~Wandzura and F.~Wilczek, \emph{Sum rules for spin-dependent electroproduction-test of relativistic constituent quarks}
 Phys. Lett. \textbf{B425} (1977) 195.
 
 \bibitem{Bra76}
-\emph{Parametrization of the $Q^2$ dependence of $\gamma_Vp$ total cross sections in the resonance region}
-F. W. Brasse et al.,
-Nucl. Phys. {\bf B110} (1976) 413.
+F. W. Brasse et al., \emph{Parametrization of the $Q^2$ dependence of $\gamma_Vp$ total cross sections in the resonance region}
+Nucl. Phys. B {\bf 110} (1976) 413.
 
 \bibitem{Guz06}
-\emph{Dual parametrization of the proton generalized parton distribution functions H and E, and description of the deeply virtual Compton scattering cross sections and asymmetries}
-V. Guzey and T. Teckentrup, 
-Phys. Rev. {\bf D74} (2006) 054027 arXiv:hep-ph/0607099.\\
+V. Guzey and T. Teckentrup, \emph{Dual parametrization of the proton generalized parton distribution functions H and E, and description of the deeply virtual Compton scattering cross sections and asymmetries}
+Phys. Rev. D {\bf 74} (2006) 054027 [arxiv:hep-ph/0607099].\\
 
-\emph{On the mistake in the implementation of the minimal model of the dual parametrization and resulting inability to describe the high-energy deeply virtual Compton data}
-V. Guzey and T. Teckentrup, 
-Phys. Rev. {\bf D79} (2009) 017501 arXiv:0810.3899.
+V. Guzey and T. Teckentrup, \emph{On the mistake in the implementation of the minimal model of the dual parametrization and resulting inability to describe the high-energy deeply virtual Compton data}
+Phys. Rev. D {\bf 79} (2009) 017501 [arxiv:0810.3899].
 
 \bibitem{Kum09}
-\emph{Deeply virtual Compton scattering at small $x_B$ and the access to the GPD H}
-K. Kumericki and D. M\"uller, 
-Nucl. Phys. {\bf B841} 1 (2010) arXiv:0904.0458v2.
+K. Kumericki and D. M\"uller, \emph{Deeply virtual Compton scattering at small $x_B$ and the access to the GPD H}
+Nucl. Phys. B {\bf 841} 1 (2010) [arxiv:0904.0458].
 
 \bibitem{Cam06}
-\emph{Scaling Tests of the Cross Section for Deeply Virtual Compton Scattering}
-C. Camacho et al.,
-Phys. Rev. Lett. \textbf{97} (2006) 262002 arXiv:nucl-ex/0607029v2
+C. Camacho et al., \emph{Scaling Tests of the Cross Section for Deeply Virtual Compton Scattering}
+Phys. Rev. Lett. \textbf{97} (2006) 262002 [arxiv:nucl-ex/0607029]
 
 \bibitem{Liu11}
 \emph{Flexible Parametrization of Generalized Parton Distributions from Deeply Virtual Compton Scattering Observables}
 G. Goldstein, J. Hernandez and S. Liuti, 
-Phys. Rev. {\bf D84} 034007 (2011) arXiv:1012.3776v2
+Phys. Rev. D {\bf 84} 034007 (2011) [arxiv:1012.3776]
 
 \end{thebibliography}
