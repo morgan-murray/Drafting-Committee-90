@@ -56,6 +56,58 @@ H{\sc ermes} Collaboration, A. Airapetian et al., \emph{Measurement of azimuthal
 H{\sc ermes} Collaboration, A. Airapetian et al., \emph{Measurement of double-spin asymmetries associated with deeply virtual Compton scattering on a transversely polarized hydrogen target}
 \\Phys. Lett. B {\bf 704} (2011) 15 [arxiv:1106.2990].
 
+\bibitem{h101}
+H1 Collaboration, C. Adloff et al., \emph{Measurement of deeply virtual Compton scattering at H{\sc era}}
+\\Phys. Lett. B {\bf 517} (2001) 47 [arxiv:hep-ex/0107005].
+ 
+\bibitem{h105}
+H1 Collaboration, A. Aktas et al., \emph{Measurement of deeply virtual Compton scattering at H{\sc era}}
+\\Eur. Phys. J. C {\bf 44} (2005) 1 [arxiv:hep-ex/0505061].
+
+\bibitem{h107}
+H1 Collaboration, F. D. Aaron et al., \emph{Measurement of deeply virtual Compton scattering and its $t$-dependence at H{\sc era}}
+\\Phys. Lett. B {\bf 659} (2007) 769 [arxiv:0709.4114].
+
+\bibitem{h109}
+H1 Collaboration, F. D. Aaron et al., \emph{Deeply virtual Compton scattering and its Beam Charge Asymmetry in $e^{\pm}$ Collisions at H{\sc era}}
+Phys. Lett. B {\bf 681} (2009) 391 [arxiv:09075289].
+
+\bibitem{zeu03}
+Z{\sc eus} Collaboration, S. Chekanov et al., \emph{Measurement of deeply virtual Compton scattering at H{\sc ERA}}
+Phys. Lett. B {\bf 573} (2003) 46 [arxiv:hep-ex/0305028].
+
+\bibitem{zeu08}
+Z{\sc eus} Collaboration, S. Chekanov et al., \emph{A measurement of the $Q^2$, $W$ and $t$ dependences of deeply virtual Compton scattering at H{sc era}}
+JHEP {\bf 05} (2009) 108 [arxiv:0812.2517].
+
+\bibitem{Maz07}
+JLab Hall A Collaboration, M. Mazouz et al., \emph{Deeply virtual Compton scattering off the neutron}
+\\Phys. Rev. Lett. {\bf 99} (2007) 242501 [arxiv:0709.0450].
+
+\bibitem{Cam06}
+JLab Hall A Collaboration,  C. Camacho et al., \emph{Scaling Tests of the Cross Section for Deeply Virtual Compton Scattering}
+\\Phys. Rev. Lett. \textbf{97} (2006) 262002 [arxiv:nucl-ex/0607029].
+
+\bibitem{Ste01}
+JLab C{\sc las} Collaboration, S. Stepanyan et al., \emph{Observation of exclusive DVCS in polarized electron beam asymmetry measurements}
+\\Phys. Rev. Lett. {\bf 87} (2001) 182002 [arxiv:hep-ex/0107043].
+
+\bibitem{Che06}
+JLab C{\sc las} Collaboration, S. Chen et al., \emph{Measurement of Deeply Virtual Compton Scattering with a Polarized Proton Target}
+\\Phys. Rev. Lett. {\bf 97} (2006) 072002 [arxiv:hep-ex/0605012].
+
+\bibitem{Gir08}
+JLab C{\sc las} Collaboration, F. X. Girod et al., \emph{Measurement of Deeply Virtual Compton Scattering Beam-Spin Asymmetries}
+\\Phys. Rev. Lett. \textbf{100} (2008) 162002 [arxiv:0711.0755].
+
+\bibitem{Gav09}
+JLab C{\sc las} Collaboration, G. Gavalian et al., \emph{Beam Spin Asymmetries in DVCS at CLAS with 4.8GeV}
+\\Phys. Rev. C {\bf 80} (2009) 035206 [arxiv:0812.2950].
+
+\bibitem{Com10}
+C{\sc ompass} Collaboration, \emph{C{\sc ompass} II proposal}
+\\C{\sc ern}/SPSC-2010-014, SPSC-P-340
+
 \bibitem{Bel02b}
 A.V. Belitsky, D. M\"uller and A. Kirchner, \emph{Theory of Deeply Virtual Compton Scattering on the nucleon}
 \\Nucl. Phys. B \textbf{629} (2002) 323 [arxiv:hep-ph/0112108].
@@ -110,11 +162,6 @@ K. Kumericki, D. M\"uller and K. Passek-Kumericki, \emph{Towards a fitting proce
 \bibitem{Kum08}
 K. Kumericki, D. M\"uller and K. Passek-Kumericki, \emph{Sum rules and dualities for generalized parton distributions: is there a holographic principle?}
 \\Eur. Phys. J. C \textbf{58} (2008) 193 [arxiv:0805.0152].
-
-
-\bibitem{Cam06}
-C. Camacho et al., \emph{Scaling Tests of the Cross Section for Deeply Virtual Compton Scattering}
-\\Phys. Rev. Lett. \textbf{97} (2006) 262002 [arxiv:nucl-ex/0607029].
 
 \bibitem{Liu11}
 G. Goldstein, J. Hernandez and S. Liuti, \emph{Flexible Parametrization of Generalized Parton Distributions from Deeply Virtual Compton Scattering Observables}
