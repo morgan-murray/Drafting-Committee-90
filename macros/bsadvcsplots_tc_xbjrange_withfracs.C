@@ -70,29 +70,12 @@
    TLine *line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
    line->Draw();
-   
+
    Double_t *dum = 0;
-   TPolyLine *pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(5);
-   pline->SetPoint(0,0.011,-0.4);
-   pline->SetPoint(1,0.011,-0.38052);
-   pline->SetPoint(2,0.03,-0.38052);
-   pline->SetPoint(3,0.03,-0.375742);
-   pline->SetPoint(4,0.06,-0.375742);
-   pline->SetPoint(5,0.06,-0.381611);
-   pline->SetPoint(6,0.11,-0.381611);
-   pline->SetPoint(7,0.11,-0.380414);
-   pline->SetPoint(8,0.2,-0.380414);
-   pline->SetPoint(9,0.2,-0.385927);
-   pline->SetPoint(10,0.3,-0.385927);
-   pline->SetPoint(11,0.3,-0.391618);
-   pline->SetPoint(12,0.7,-0.391618);
-   pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("f");
-   
-   Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(1);
+   pline = new TPolyLine(15,dum,dum,"");
+   //   pline->SetFillColor(2);
+   pline->SetLineWidth(1);
+   pline->SetLineColor(2);
    pline->SetFillStyle(0);
    pline->SetPoint(0,0.011,-0.4);
    pline->SetPoint(1,0.011,-0.38052);
@@ -108,7 +91,9 @@
    pline->SetPoint(11,0.3,-0.391618);
    pline->SetPoint(12,0.7,-0.391618);
    pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("fsame");
+   pline->SetPoint(14,0.011,-0.4);
+   pline->Draw("l same");
+
    
    TGraphErrors *gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -140,12 +125,12 @@
    gre->Draw("p");
    TLatex *   tex = new TLatex(0.04,0.15,"0.03 < x_{B} < 0.08");
    tex->SetTextFont(43);
-   tex->SetTextSize(18);
+   tex->SetTextSize(22);
    tex->SetLineWidth(2);
    tex->Draw();
-   tex = new TLatex(0.04,0.05141525,"<Q^{2}> = 1.56 GeV^{2}");
+   tex = new TLatex(0.04,0.05141525,"#LTQ^{2}#GT = 1.56 GeV^{2}");
    tex->SetTextFont(43);
-   tex->SetTextSize(18);
+   tex->SetTextSize(22);
    tex->SetLineWidth(2);
    tex->Draw();
    pad1_1->Modified();
@@ -223,9 +208,10 @@
    
    gre->Draw("p");
    
+      
    Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(5);
+   pline = new TPolyLine(15,dum,dum,"");
+   pline->SetLineColor(2);
    pline->SetPoint(0,0.011,-0.4);
    pline->SetPoint(1,0.011,-0.391934);
    pline->SetPoint(2,0.03,-0.391934);
@@ -240,27 +226,8 @@
    pline->SetPoint(11,0.3,-0.346743);
    pline->SetPoint(12,0.7,-0.346743);
    pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("f");
-   
-   Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(1);
-   pline->SetFillStyle(0);
-   pline->SetPoint(0,0.011,-0.4);
-   pline->SetPoint(1,0.011,-0.391934);
-   pline->SetPoint(2,0.03,-0.391934);
-   pline->SetPoint(3,0.03,-0.39332);
-   pline->SetPoint(4,0.06,-0.39332);
-   pline->SetPoint(5,0.06,-0.396193);
-   pline->SetPoint(6,0.11,-0.396193);
-   pline->SetPoint(7,0.11,-0.394097);
-   pline->SetPoint(8,0.2,-0.394097);
-   pline->SetPoint(9,0.2,-0.393546);
-   pline->SetPoint(10,0.3,-0.393546);
-   pline->SetPoint(11,0.3,-0.346743);
-   pline->SetPoint(12,0.7,-0.346743);
-   pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("fsame");
+   pline->SetPoint(14,0.011,-0.4);
+   pline->Draw("l same");
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -365,29 +332,10 @@
    
    gre->Draw("p");
    
-   Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(5);
-   pline->SetPoint(0,0.011,-0.25);
-   pline->SetPoint(1,0.011,-0.236403);
-   pline->SetPoint(2,0.03,-0.236403);
-   pline->SetPoint(3,0.03,-0.243185);
-   pline->SetPoint(4,0.06,-0.243185);
-   pline->SetPoint(5,0.06,-0.238045);
-   pline->SetPoint(6,0.11,-0.238045);
-   pline->SetPoint(7,0.11,-0.240865);
-   pline->SetPoint(8,0.2,-0.240865);
-   pline->SetPoint(9,0.2,-0.240256);
-   pline->SetPoint(10,0.3,-0.240256);
-   pline->SetPoint(11,0.3,-0.234318);
-   pline->SetPoint(12,0.7,-0.234318);
-   pline->SetPoint(13,0.7,-0.25);
-   pline->Draw("f");
    
    Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(1);
-   pline->SetFillStyle(0);
+   pline = new TPolyLine(15,dum,dum,"");
+   pline->SetLineColor(2);
    pline->SetPoint(0,0.011,-0.25);
    pline->SetPoint(1,0.011,-0.236403);
    pline->SetPoint(2,0.03,-0.236403);
@@ -402,7 +350,8 @@
    pline->SetPoint(11,0.3,-0.234318);
    pline->SetPoint(12,0.7,-0.234318);
    pline->SetPoint(13,0.7,-0.25);
-   pline->Draw("fsame");
+   pline->SetPoint(14,0.011,-0.25);
+   pline->Draw("l same");
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -470,7 +419,7 @@
    hframe__21__5__4__4->GetXaxis()->SetTitleFont(63);
    hframe__21__5__4__4->GetYaxis()->SetTitle("#splitline{Assoc.}{fraction}");
    hframe__21__5__4__4->GetYaxis()->CenterTitle(true);
-   hframe__21__5__4__4->GetYaxis()->SetNdivisions(205);
+   hframe__21__5__4__4->GetYaxis()->SetNdivisions(003);
    hframe__21__5__4__4->GetYaxis()->SetLabelFont(63);
    hframe__21__5__4__4->GetYaxis()->SetLabelOffset(0.02);
    hframe__21__5__4__4->GetYaxis()->SetLabelSize(25);
@@ -549,8 +498,8 @@
    line->Draw();
    
    Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(5);
+   pline = new TPolyLine(15,dum,dum,"");
+   pline->SetLineColor(2);
    pline->SetPoint(0,0.011,-0.4);
    pline->SetPoint(1,0.011,-0.391844);
    pline->SetPoint(2,0.03,-0.391844);
@@ -565,27 +514,8 @@
    pline->SetPoint(11,0.3,-0.390072);
    pline->SetPoint(12,0.7,-0.390072);
    pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("f");
-   
-   Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(1);
-   pline->SetFillStyle(0);
-   pline->SetPoint(0,0.011,-0.4);
-   pline->SetPoint(1,0.011,-0.391844);
-   pline->SetPoint(2,0.03,-0.391844);
-   pline->SetPoint(3,0.03,-0.391991);
-   pline->SetPoint(4,0.06,-0.391991);
-   pline->SetPoint(5,0.06,-0.393411);
-   pline->SetPoint(6,0.11,-0.393411);
-   pline->SetPoint(7,0.11,-0.395089);
-   pline->SetPoint(8,0.2,-0.395089);
-   pline->SetPoint(9,0.2,-0.396748);
-   pline->SetPoint(10,0.3,-0.396748);
-   pline->SetPoint(11,0.3,-0.390072);
-   pline->SetPoint(12,0.7,-0.390072);
-   pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("fsame");
+   pline->SetPoint(14,0.011,-0.4);
+   pline->Draw("l same");
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -617,12 +547,12 @@
    gre->Draw("p");
    tex = new TLatex(0.04,0.16,"0.08 < x_{B} < 0.12");
    tex->SetTextFont(43);
-   tex->SetTextSize(18);
+   tex->SetTextSize(22);
    tex->SetLineWidth(2);
    tex->Draw();
-   tex = new TLatex(0.04,0.06,"<Q^{2}> = 2.52 GeV^{2}");
+   tex = new TLatex(0.04,0.06,"#LTQ^{2}#GT = 2.52 GeV^{2}");
    tex->SetTextFont(43);
-   tex->SetTextSize(18);
+   tex->SetTextSize(22);
    tex->SetLineWidth(2);
    tex->Draw();
    pad1_2->Modified();
@@ -701,8 +631,8 @@
    gre->Draw("p");
    
    Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(5);
+   pline = new TPolyLine(15,dum,dum,"");
+   pline->SetLineColor(2);
    pline->SetPoint(0,0.011,-0.4);
    pline->SetPoint(1,0.011,-0.397085);
    pline->SetPoint(2,0.03,-0.397085);
@@ -717,27 +647,8 @@
    pline->SetPoint(11,0.3,-0.38557);
    pline->SetPoint(12,0.7,-0.38557);
    pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("f");
-   
-   Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(1);
-   pline->SetFillStyle(0);
-   pline->SetPoint(0,0.011,-0.4);
-   pline->SetPoint(1,0.011,-0.397085);
-   pline->SetPoint(2,0.03,-0.397085);
-   pline->SetPoint(3,0.03,-0.393254);
-   pline->SetPoint(4,0.06,-0.393254);
-   pline->SetPoint(5,0.06,-0.39276);
-   pline->SetPoint(6,0.11,-0.39276);
-   pline->SetPoint(7,0.11,-0.390209);
-   pline->SetPoint(8,0.2,-0.390209);
-   pline->SetPoint(9,0.2,-0.39482);
-   pline->SetPoint(10,0.3,-0.39482);
-   pline->SetPoint(11,0.3,-0.38557);
-   pline->SetPoint(12,0.7,-0.38557);
-   pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("fsame");
+   pline->SetPoint(14,0.011,-0.4);
+   pline->Draw("l same");
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -842,28 +753,10 @@
    
    gre->Draw("p");
    
-   Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(5);
-   pline->SetPoint(0,0.011,-0.25);
-   pline->SetPoint(1,0.011,-0.233634);
-   pline->SetPoint(2,0.03,-0.233634);
-   pline->SetPoint(3,0.03,-0.248417);
-   pline->SetPoint(4,0.06,-0.248417);
-   pline->SetPoint(5,0.06,-0.242643);
-   pline->SetPoint(6,0.11,-0.242643);
-   pline->SetPoint(7,0.11,-0.231215);
-   pline->SetPoint(8,0.2,-0.231215);
-   pline->SetPoint(9,0.2,-0.227314);
-   pline->SetPoint(10,0.3,-0.227314);
-   pline->SetPoint(11,0.3,-0.242927);
-   pline->SetPoint(12,0.7,-0.242927);
-   pline->SetPoint(13,0.7,-0.25);
-   pline->Draw("f");
    
    Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(1);
+   pline = new TPolyLine(15,dum,dum,"");
+   pline->SetLineColor(2);
    pline->SetFillStyle(0);
    pline->SetPoint(0,0.011,-0.25);
    pline->SetPoint(1,0.011,-0.233634);
@@ -879,7 +772,8 @@
    pline->SetPoint(11,0.3,-0.242927);
    pline->SetPoint(12,0.7,-0.242927);
    pline->SetPoint(13,0.7,-0.25);
-   pline->Draw("fsame");
+   pline->SetPoint(14,0.011,-0.25);
+   pline->Draw("l same");
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -940,12 +834,12 @@
    hframe__21__a2__8__8->GetXaxis()->CenterTitle(true);
    hframe__21__a2__8__8->GetXaxis()->SetNdivisions(205);
    hframe__21__a2__8__8->GetXaxis()->SetLabelFont(63);
-   hframe__21__a2__8__8->GetXaxis()->SetLabelOffset(0.02);
-   hframe__21__a2__8__8->GetXaxis()->SetLabelSize(25);
+   hframe__21__a2__8__8->GetXaxis()->SetLabelOffset(0.05);
+   hframe__21__a2__8__8->GetXaxis()->SetLabelSize(30);
    hframe__21__a2__8__8->GetXaxis()->SetTitleSize(30);
    hframe__21__a2__8__8->GetXaxis()->SetTitleOffset(4.8);
    hframe__21__a2__8__8->GetXaxis()->SetTitleFont(63);
-   hframe__21__a2__8__8->GetYaxis()->SetNdivisions(205);
+   hframe__21__a2__8__8->GetYaxis()->SetNdivisions(003);
    hframe__21__a2__8__8->Draw(" ");
    line = new TLine(0,0,2,0);
    line->SetLineStyle(2);
@@ -1010,8 +904,8 @@
    line->Draw();
    
    Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(5);
+   pline = new TPolyLine(15,dum,dum,"");
+   pline->SetLineColor(2);
    pline->SetPoint(0,0.011,-0.4);
    pline->SetPoint(1,0.011,-0.333742);
    pline->SetPoint(2,0.03,-0.333742);
@@ -1026,27 +920,8 @@
    pline->SetPoint(11,0.3,-0.354026);
    pline->SetPoint(12,0.7,-0.354026);
    pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("f");
-   
-   Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(1);
-   pline->SetFillStyle(0);
-   pline->SetPoint(0,0.011,-0.4);
-   pline->SetPoint(1,0.011,-0.333742);
-   pline->SetPoint(2,0.03,-0.333742);
-   pline->SetPoint(3,0.03,-0.390803);
-   pline->SetPoint(4,0.06,-0.390803);
-   pline->SetPoint(5,0.06,-0.388939);
-   pline->SetPoint(6,0.11,-0.388939);
-   pline->SetPoint(7,0.11,-0.396135);
-   pline->SetPoint(8,0.2,-0.396135);
-   pline->SetPoint(9,0.2,-0.374607);
-   pline->SetPoint(10,0.3,-0.374607);
-   pline->SetPoint(11,0.3,-0.354026);
-   pline->SetPoint(12,0.7,-0.354026);
-   pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("fsame");
+   pline->SetPoint(14,0.011,-0.4);
+   pline->Draw("l same");
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -1078,12 +953,12 @@
    gre->Draw("p");
    tex = new TLatex(0.04,0.16,"0.12 < x_{B} < 0.35");
    tex->SetTextFont(43);  
-   tex->SetTextSize(18);
+   tex->SetTextSize(22);
    tex->SetLineWidth(2);
    tex->Draw();
-   tex = new TLatex(0.04,0.06,"<Q^{2}> = 4.34 GeV^{2}");
+   tex = new TLatex(0.04,0.06,"#LTQ^{2}#GT = 4.34 GeV^{2}");
    tex->SetTextFont(43);
-   tex->SetTextSize(18);
+   tex->SetTextSize(22);
    tex->SetLineWidth(2);
    tex->Draw();
    pad1_3->Modified();
@@ -1154,8 +1029,8 @@
    gre->Draw("p");
    
    Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(5);
+   pline = new TPolyLine(15,dum,dum,"");
+   pline->SetLineColor(2);
    pline->SetPoint(0,0.011,-0.4);
    pline->SetPoint(1,0.011,-0.347711);
    pline->SetPoint(2,0.03,-0.347711);
@@ -1170,27 +1045,8 @@
    pline->SetPoint(11,0.3,-0.375814);
    pline->SetPoint(12,0.7,-0.375814);
    pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("f");
-   
-   Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(1);
-   pline->SetFillStyle(0);
-   pline->SetPoint(0,0.011,-0.4);
-   pline->SetPoint(1,0.011,-0.347711);
-   pline->SetPoint(2,0.03,-0.347711);
-   pline->SetPoint(3,0.03,-0.39238);
-   pline->SetPoint(4,0.06,-0.39238);
-   pline->SetPoint(5,0.06,-0.397079);
-   pline->SetPoint(6,0.11,-0.397079);
-   pline->SetPoint(7,0.11,-0.397726);
-   pline->SetPoint(8,0.2,-0.397726);
-   pline->SetPoint(9,0.2,-0.390036);
-   pline->SetPoint(10,0.3,-0.390036);
-   pline->SetPoint(11,0.3,-0.375814);
-   pline->SetPoint(12,0.7,-0.375814);
-   pline->SetPoint(13,0.7,-0.4);
-   pline->Draw("fsame");
+   pline->SetPoint(14,0.011,-0.4);
+   pline->Draw("l same");
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -1287,29 +1143,10 @@
    
    gre->Draw("p");
    
-   Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(5);
-   pline->SetPoint(0,0.011,-0.25);
-   pline->SetPoint(1,0.011,-0.208724);
-   pline->SetPoint(2,0.03,-0.208724);
-   pline->SetPoint(3,0.03,-0.24111);
-   pline->SetPoint(4,0.06,-0.24111);
-   pline->SetPoint(5,0.06,-0.243237);
-   pline->SetPoint(6,0.11,-0.243237);
-   pline->SetPoint(7,0.11,-0.242617);
-   pline->SetPoint(8,0.2,-0.242617);
-   pline->SetPoint(9,0.2,-0.245256);
-   pline->SetPoint(10,0.3,-0.245256);
-   pline->SetPoint(11,0.3,-0.202317);
-   pline->SetPoint(12,0.7,-0.202317);
-   pline->SetPoint(13,0.7,-0.25);
-   pline->Draw("f");
    
    Double_t *dum = 0;
-   pline = new TPolyLine(14,dum,dum,"");
-   pline->SetFillColor(1);
-   pline->SetFillStyle(0);
+   pline = new TPolyLine(15,dum,dum,"");
+   pline->SetLineColor(2);
    pline->SetPoint(0,0.011,-0.25);
    pline->SetPoint(1,0.011,-0.208724);
    pline->SetPoint(2,0.03,-0.208724);
@@ -1324,7 +1161,8 @@
    pline->SetPoint(11,0.3,-0.202317);
    pline->SetPoint(12,0.7,-0.202317);
    pline->SetPoint(13,0.7,-0.25);
-   pline->Draw("fsame");
+   pline->SetPoint(14,0.011,-0.25);
+   pline->Draw("l same");
    
    gre = new TGraphErrors(6);
    gre->SetName("Graph");
@@ -1390,7 +1228,7 @@
    hframe__21__a3__12__12->GetXaxis()->SetTitleSize(30);
    hframe__21__a3__12__12->GetXaxis()->SetTitleOffset(4.8);
    hframe__21__a3__12__12->GetXaxis()->SetTitleFont(63);
-   hframe__21__a3__12__12->GetYaxis()->SetNdivisions(205);
+   hframe__21__a3__12__12->GetYaxis()->SetNdivisions(003);
    hframe__21__a3__12__12->Draw(" ");
    line = new TLine(0,0,2,0);
    line->SetLineStyle(2);

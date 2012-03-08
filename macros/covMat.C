@@ -1,5 +1,5 @@
 
-c(){
+covMat(){
  
   int i,j;
   TCanvas *c = new TCanvas("c","",5);
@@ -84,14 +84,14 @@ c(){
   hp->GetXaxis()->SetBinLabel(3,"A^{sin#phi}_{C}");
   hp->GetXaxis()->SetBinLabel(4,"A^{cos(2#phi)}_{C}");
   hp->GetXaxis()->SetBinLabel(5,"A^{cos(3#phi)}_{C}");
-  hp->GetXaxis()->SetBinLabel(6,"A^{cos(0#phi)}_{DVCS}");
-  hp->GetXaxis()->SetBinLabel(7,"A^{sin#phi}_{DVCS}");
-  hp->GetXaxis()->SetBinLabel(8,"A^{cos#phi}_{DVCS}");
-  hp->GetXaxis()->SetBinLabel(9,"A^{sin(2#phi)}_{DVCS}");
-  hp->GetXaxis()->SetBinLabel(10,"A^{cos(0#phi)}_{I}");
-  hp->GetXaxis()->SetBinLabel(11,"A^{sin#phi}_{I}");
-  hp->GetXaxis()->SetBinLabel(12,"A^{cos#phi}_{I}");
-  hp->GetXaxis()->SetBinLabel(13,"A^{sin(2#phi)}_{I}");
+  hp->GetXaxis()->SetBinLabel(6,"A^{cos(0#phi)}_{LU, DVCS}");
+  hp->GetXaxis()->SetBinLabel(7,"A^{sin#phi}_{LU, DVCS}");
+  hp->GetXaxis()->SetBinLabel(8,"A^{cos#phi}_{LU, DVCS}");
+  hp->GetXaxis()->SetBinLabel(9,"A^{sin(2#phi)}_{LU, DVCS}");
+  hp->GetXaxis()->SetBinLabel(10,"A^{cos(0#phi)}_{LU, I}");
+  hp->GetXaxis()->SetBinLabel(11,"A^{sin#phi}_{LU, I}");
+  hp->GetXaxis()->SetBinLabel(12,"A^{cos#phi}_{LU, I}");
+  hp->GetXaxis()->SetBinLabel(13,"A^{sin(2#phi)}_{LU, I}");
   hp->GetXaxis()->SetBit(TAxis::kLabelsVert);
   hp->GetXaxis()->RotateTitle(true);
   hp->GetXaxis()->SetNdivisions(13);
@@ -106,14 +106,14 @@ c(){
   hp->GetYaxis()->SetBinLabel(3,"A^{sin#phi}_{C}");
   hp->GetYaxis()->SetBinLabel(4,"A^{cos(2#phi)}_{C}");
   hp->GetYaxis()->SetBinLabel(5,"A^{cos(3#phi)}_{C}");
-  hp->GetYaxis()->SetBinLabel(6,"A^{cos(0#phi)}_{DVCS}");
-  hp->GetYaxis()->SetBinLabel(7,"A^{sin#phi}_{DVCS}");
-  hp->GetYaxis()->SetBinLabel(8,"A^{cos#phi}_{DVCS}");
-  hp->GetYaxis()->SetBinLabel(9,"A^{sin(2#phi)}_{DVCS}");
-  hp->GetYaxis()->SetBinLabel(10,"A^{cos(0#phi)}_{I}");
-  hp->GetYaxis()->SetBinLabel(11,"A^{sin#phi}_{I}");
-  hp->GetYaxis()->SetBinLabel(12,"A^{cos#phi}_{I}");
-  hp->GetYaxis()->SetBinLabel(13,"A^{sin(2#phi)}_{I}");
+  hp->GetYaxis()->SetBinLabel(6,"A^{cos(0#phi)}_{LU, DVCS}");
+  hp->GetYaxis()->SetBinLabel(7,"A^{sin#phi}_{LU, DVCS}");
+  hp->GetYaxis()->SetBinLabel(8,"A^{cos#phi}_{LU, DVCS}");
+  hp->GetYaxis()->SetBinLabel(9,"A^{sin(2#phi)}_{LU, DVCS}");
+  hp->GetYaxis()->SetBinLabel(10,"A^{cos(0#phi)}_{LU, I}");
+  hp->GetYaxis()->SetBinLabel(11,"A^{sin#phi}_{LU, I}");
+  hp->GetYaxis()->SetBinLabel(12,"A^{cos#phi}_{LU, I}");
+  hp->GetYaxis()->SetBinLabel(13,"A^{sin(2#phi)}_{LU, I}");
   hp->GetYaxis()->SetNoExponent();
   hp->GetYaxis()->SetNdivisions(13);
   hp->GetYaxis()->SetLabelFont(42);

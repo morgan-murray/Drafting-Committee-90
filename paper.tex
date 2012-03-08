@@ -225,7 +225,7 @@ Distribution Functions (PDFs) and nucleon Form Factors (FFs) to provide a
 comprehensive description of the structure of the nucleon. A thorough
 description of the nucleon in terms of GPDs would allow the deduction
 of the total angular momentum of partons in the nucleon, and the
-construction of a longitudinal-momentum-dissected transverse spatial map of parton densities~\cite{Bur00}. The GPDs appear in experimental measurements in the form of complex-valued Compton Form Factors (CFFs), which are flavour-sums of convolutions of GPDs with hard scattering kernels. Constraints on these CFFs, and thus GPDs, can be obtained from measurements of exclusive leptoproduction processes. In particular, the exclusive leptoproduction of a single real photon from a nucleon or nucleus that remains intact ($e\,N\,\rightarrow\,e\,N\,\gamma$; see figure~\ref{spin}) is the simplest to describe and is the most widely-used reaction channel for such work (see \cite{Air01,Air06,Air08,Air09,Air10,Air10a,Air10b,Air11,Air11a,h101,h105,h107,h109,zeu03,zeu08,Maz07,Cam06,Ste01,Che06,Gir08,Gav09,Com10}).
+construction of a longitudinal-momentum-dissected transverse spatial map of parton densities~\cite{Bur00}. The GPDs appear in experimental measurements in the form of complex-valued Compton Form Factors (CFFs), which are flavour-sums of convolutions of GPDs with hard scattering kernels. Constraints on these CFFs, and thus GPDs, can be obtained from measurements of exclusive leptoproduction processes. In particular, the exclusive leptoproduction of a single real photon from a nucleon or nucleus that remains intact ($e\,N\,\rightarrow\,e\,N\,\gamma$; see figure~\ref{spin}) is the simplest to describe and is the most widely-used reaction channel for such work (see \cite{Ji97b,Air01,Air06,Air08,Air09,Air10,Air10a,Air10b,Air11,Air11a,h101,h105,h107,h109,zeu03,zeu08,Maz07,Cam06,Ste01,Che06,Gir08,Gav09,Com10}).
 
 Generalised parton distributions depend upon four kinematic variables: the
 Mandelstam variable $t=(p-p^{\prime})^2$, which is the squared momentum
@@ -432,8 +432,13 @@ electron and positron beams incident upon an unpolarised hydrogen gas
 target internal to the H{\sc era} lepton storage ring at D{\sc esy}. The integrated luminosities of the electron and positron data samples are
 approximately 246\,pb$^{-1}$ and 1460\,pb$^{-1}$, with average beam polarisations of $0.303$ and $0.392$ respectively. The procedure used to select events is similar to that used in ref.~\cite{Air09}. A brief summary of this procedure is outlined in the following; more details are given in refs.~\cite{Zei09,Bur10}.
 
-Events were selected if having exactly one photon and one lepton
-track detected within the acceptance of the spectrometer.
+Events in the 2006-2007 data set were selected if having exactly one
+\red{lepton} track detected within the acceptance of the spectrometer and \red{at
+  least one photon depositing $>5$\,GeV in the electromagnetic
+  calorimeter. The latter selection criterion differs from the photon
+  selection criterion used for the 1996-2005 data set as an intermittent
+  hardware fault in 2006-2007 can cause spurious noise signals in the
+  calorimeter that are misinterpreted as very low energy photons.}
 The event selection is subject to the kinematic constraints 1\,GeV$^{2}$ $<$
 Q$^{2}$ $<$ 10\,GeV$^{2}$, 0.03 $<$ $x_{\textrm{B}}$ $<$ 0.35,
 $-t < 0.7$\,GeV$^2$, $W^{2}$ $>$
@@ -587,17 +592,35 @@ coefficients, dominant $\mathcal{C}$-functions and twist-levels.}
  
 \section{Background Corrections and Systematic Uncertainties for the
   2006-2007 Data}
-The extracted asymmetry amplitudes are subject to systematic uncertainties that result from a combination of background processes, shifts in the missing-mass distributions, and various detector and binning effects determined in the same manner as used in refs.~\cite{Air08,Air09} in order to maintain consistency with the results published in ref.~\cite{Air09} and therefore facilitate the combination of the two data sets.
+The extracted asymmetry amplitudes are subject to systematic uncertainties
+that result from a combination of background processes, shifts in the
+missing-mass distributions, and various detector and binning effects
+determined in the same manner as used in refs.~\cite{Air08,Air09} in order to
+maintain consistency with the results published in ref.~\cite{Air09} and
+therefore facilitate the combination of the two data sets. \red{No systematic
+  uncertainty is assigned from the intermittent fault in the calorimeter
+  mentioned in section 2; the percentage of events affected by the issue is
+  small for the 2006-2007 data sample and completely negligible in the context
+of the combined data sets.}
 
 The contribution to the uncertainties on the amplitude measurements
 arising from background in the data from neutral meson
 production is predominantly due to the failure to identify one of
-  the two photons from the decay of these neutral mesons. The procedure for estimating the corresponding
+  the two photons from the decay of these neutral mesons. \red{The
+    $\mathcal{A}^{\textrm{DVCS}}_{\textrm{LU}}$ amplitudes are corrected for
+  inclfuences from semi-inclusive pion production and an uncertainty is
+  assigned to the affected amplitudes. A further uncertainty is assigned to
+  these amplitudes for the influence of photons produced in decays of
+  exclusively produced pions.} The procedure for estimating the corresponding
 uncertainty on the measured amplitude values is described in detail in
 refs.~\cite{Air08,Air09}. Each measurement in the $-t$, $x_{\textrm{B}}$ and
   $Q^{2}$ projections has this uncertainty estimated at the
   centre of the relevant kinematic bin and included as part of the
-  total systematic uncertainty.
+  total systematic uncertainty. \red{No correction is applied or uncertainty
+    assigned to the amplitudes for the
+    $\mathcal{A}_{\textrm{LU}}^{\textrm{I}}$ or $\mathcal{A}_{\textrm{C}}$
+    asymmetries because influences from meson production are expected to
+    vanish when considering the difference between beam charges.} 
 
 A contribution to the systematic uncertainties of the
   measured amplitudes arises from shifts in  the
@@ -719,7 +742,7 @@ extracted from all the unpolarised hydrogen data recorded at H{\sc ermes} from 1
 
 The results of the beam-helicity and beam-charge asymmetry amplitudes extracted from the complete 1996-2007 hydrogen sample are shown in figures~\ref{bsa_xbjrange} and \ref{bca_xbjrange}. The number of analysable events available from the 2006-2007 data set (70352) is approximately three times greater than the number of events recorded in the 1996-2005 sample (24817). The  asymmetry amplitudes extracted from the complete 1996-2007 data set thus resemble the 2006-2007 result. This resemblance is not so evident for the beam-helicity asymmetry amplitudes as it is for the beam-charge asymmetry amplitudes, because the beam polarisation was lower in 2006 and 2007 than in 1996-2005 and thus the 2006-2007 data has a lower weighting in the combined fit. The major contributions to the systematic error bands associated with the asymmetry amplitudes extracted from the combined data set were determined using Monte Carlo simulations as explained in section~4, i.e. contributions from acceptance, smearing, finite bin widths and misalignment. The background in the combined data sample is estimated using the method from refs.~\cite{Air08,Zei09, Bur10}. The uncertainty contributions due to the observed shifts in the missing-mass distributions for the combined data sets were calculated using the procedure described in section~4 and the results were averaged. The total systematic uncertainties for the combined results are obtained by adding these three independent contributions in quadrature.
 
-The first and second harmonics of $\mathcal{A}_{\textrm{LU,I}}$, which are sensitive to the interference term in the scattering amplitude, are shown in the first and third rows of figure~\ref{bsa_xbjrange}. The leading-twist amplitude $A_{\textrm{LU,I}}^{\sin\phi}$ has the largest magnitude of any of the amplitudes when extracted in a single bin from the entire data set. This amplitude shows no strong dependence on $-t$, $x_{\textrm{B}}$ or $Q^{2}$, implying a strong dependence at smaller values of $-t$ as the amplitude must approach zero as $-t$ approaches its minimum value because of the dependence of the amplitude on the factor $K$ defined in eq.~\ref{eq:K}. The $A_{\textrm{LU,I}}^{\sin\phi}$ amplitude is sensitive to the imaginary part of the CFF $\mathcal{H}$ and thereby can constrain GPD $\textit{H}$. The $A_{\textrm{LU,DVCS}}^{\sin\phi}$ asymmetry is shown in the second row of figure~\ref{bsa_xbjrange}. Both the $A_{\textrm{LU,DVCS}}^{\sin\phi}$ asymmetry amplitude and the $A_{\textrm{LU,I}}^{\sin(2\phi)}$ asymmetry amplitude are compatible with zero, and neither asymmetry amplitude shows any dependence on $-t$, $x_{\textrm{B}}$ or $Q^{2}$.
+The first and second harmonics of $\mathcal{A}^{\textrm{I}}_{\textrm{LU}}$, which are sensitive to the interference term in the scattering amplitude, are shown in the first and third rows of figure~\ref{bsa_xbjrange}. The leading-twist amplitude $A_{\textrm{LU,I}}^{\sin\phi}$ has the largest magnitude of any of the amplitudes when extracted in a single bin from the entire data set. This amplitude shows no strong dependence on $-t$, $x_{\textrm{B}}$ or $Q^{2}$, implying a strong dependence at smaller values of $-t$ as the amplitude must approach zero as $-t$ approaches its minimum value because of the dependence of the amplitude on the factor $K$ defined in eq.~\ref{eq:K}. The $A_{\textrm{LU,I}}^{\sin\phi}$ amplitude is sensitive to the imaginary part of the CFF $\mathcal{H}$ and thereby can constrain GPD $\textit{H}$. The $A_{\textrm{LU,DVCS}}^{\sin\phi}$ asymmetry is shown in the second row of figure~\ref{bsa_xbjrange}. Both the $A_{\textrm{LU,DVCS}}^{\sin\phi}$ asymmetry amplitude and the $A_{\textrm{LU,I}}^{\sin(2\phi)}$ asymmetry amplitude are compatible with zero, and neither asymmetry amplitude shows any dependence on $-t$, $x_{\textrm{B}}$ or $Q^{2}$.
 
 The $A_{\textrm{C}}^{\cos(n\phi)}$ amplitudes are shown in figure~\ref{bca_xbjrange}. The systematic uncertainties are estimated using the same procedure as was used to estimate those for the beam-helicity asymmetries. The leading twist $A_{\textrm{C}}^{\cos(0\phi)}$ and $A_{\textrm{C}}^{\cos\phi}$ amplitudes are both non-zero. There is an expected relationship between $A_{\textrm{C}}^{\cos(0\phi)}$ and $A_{\textrm{C}}^{\cos\phi}$ as they depend on the same $\mathcal{C}$-function. The kinematic suppression of $A_{\textrm{C}}^{\cos(0\phi)}$ with regard to $A_{\textrm{C}}^{\cos\phi}$ is approximately fulfilled. The measured amplitudes are found to diverge with opposite sign from zero at increasing values of $-t$ and they indicate a weak increase with $x_{\textrm{B}}$ and $Q^{2}$. The $A_{\textrm{C}}^{\cos(2\phi)}$ and $A_{\textrm{C}}^{\cos(3\phi)}$ amplitudes are both consistent with zero over the whole range in $-t$, $x_{\textrm{B}}$ and $Q^{2}$. The $A_{\textrm{C}}^{\cos(2\phi)}$ amplitude is related to twist-3 GPDs and $A_{\textrm{C}}^{\cos(3\phi)}$ relates to gluon helicity-flip GPDs. Both of these amplitudes are expected to be suppressed at H{\sc ermes} kinematic conditions compared to the leading twist amplitudes. 
 
@@ -727,11 +750,22 @@ The curves in  figures~\ref{bsa_xbjrange} and~\ref{bca_xbjrange} show the result
 
 The dash-dotted curves in figures~\ref{bsa_xbjrange} and~\ref{bca_xbjrange} show the result of calculations from a fit based on a quark-diquark model with a Regge-inspired term that is included in order to describe accurately parton distribution functions at low $x$ values~\cite{Liu11}. The ``Regge'' term is extended to include contributions that determine the $t$-dependence of the corresponding GPD. The model incorporates fits to global deep-inelastic and elastic scattering data (to account for the $\xi$-independent limits and moments of the underlying GPDs) and DVCS data from Jefferson Lab. (to describe the skewness dependence). It describes the $t$-projections of the $A^{\sin\phi}_{\textrm{LU}}$ amplitude reported here well, but the projections in the other kinematic variables are not as well described. The model describes the trends of the $A_{\textrm{C}}^{\cos(0\phi)}$ and $A_{\textrm{C}}^{\cos\phi}$ asymmetry amplitudes well.
 
-In order to provide more detailed information that can be used in future fits, in particular for the determination of the entanglement of the skewness and $-t$ dependences of GPDs, the amplitudes already presented in figures~\ref{bsa_xbjrange} and~\ref{bca_xbjrange} are shown as a function of $-t$ for three different ranges of $x_{\textrm{B}}$ in figures~\ref{bsa_xbjrange2} and~\ref{bca_xbjrange2}. These figures represent the kinematic dependences of the amplitudes in a less-correlated manner than the one-dimensional projections: within experimental uncertainty, there is no evidence of a correlation between the $-t$ and $x_{\textrm{B}}$ dependences for any of the amplitudes. The results from this paper will be made available in the Durham Database. The results will also be made available in the same 4-bin format as used in previous analyses at H{\sc ermes}~\cite{Air08,Air09,Air10b}.
+In order to provide more detailed information that can be used in future fits,
+in particular for the determination of the entanglement of the skewness and
+$-t$ dependences of GPDs, the amplitudes already presented in
+figures~\ref{bsa_xbjrange} and~\ref{bca_xbjrange} are shown as a function of
+$-t$ for three different ranges of $x_{\textrm{B}}$ in
+figures~\ref{bsa_xbjrange2} and~\ref{bca_xbjrange2}. These figures represent
+the kinematic dependences of the amplitudes in a less-correlated manner than
+the one-dimensional projections: within experimental uncertainty, there is no
+evidence of a correlation between the $-t$ and $x_{\textrm{B}}$ dependences
+for any of the amplitudes. 
+
+The results from this paper will be made available in the Durham Database. The results will also be made available in the same 4-bin format as used in previous analyses at H{\sc ermes}~\cite{Air08,Air09,Air10b}.
 
 \section{Summary}
 Beam-helicity and beam-charge asymmetries in the azimuthal
-distribution of real photons from leptoproduction on an unpolarised
+distribution of real photons from \red{hard exclusive} leptoproduction on an unpolarised
 hydrogen target have been presented. These asymmetries were extracted
 from an unpolarised hydrogen data set taken during the 2006 and 2007
 operating periods of H{\sc ermes}. Analogous asymmetry amplitudes were
@@ -1161,11 +1195,14 @@ x_{\text{B}}\rangle$ & $\langle Q^2 \rangle $ &
 \end{table}
 \clearpage
 \section{Covariance Matrix Results}
-Figure~\ref{pic:covmat} shows the covariance matrix for the 13 parameter fit for all amplitudes extracted in a single bin across the entire kinematic range. The covariance matrix for the fit in each of the kinematic bins presented in figures~\ref{bsa_xbjrange2} and~\ref{bca_xbjrange2} will be made available in the Durham database.
+Figure~\ref{pic:covmat} shows the covariance matrix for the 13 parameter fit for all amplitudes extracted in a single bin across the entire kinematic range. The covariance matrix for the fit in each of the kinematic bins presented in figures~\ref{bsa_xbjrange} to~\ref{bca_xbjrange2} will be made available in the Durham database.
 \begin{figure}[tbh]
 \centering
 \includegraphics[width=\textwidth]{CovMat.pdf}
-\caption{The covariance matrix results for the asymmetries extracted in a single bin across the whole kinematic range.}
+\caption{The covariance matrix results for the asymmetries extracted in a
+  single bin across the whole kinematic range. \red{The size of the symbols in
+the chart reflect the magnitude of the corresponding correlation. Closed
+(open) symbols represent positive (negative) correlations.}}
 \label{pic:covmat}
 \end{figure}
 
@@ -1179,9 +1216,6 @@ D. M\"uller et al., \emph{Wave Functions, Evolution Equations and Evolution Kern
 X.~Ji, \emph{Gauge-Invariant Decomposition of Nucleon Spin}
 \\Phys. Rev. Lett. {\bf 78} (1997) 610 [arxiv:hep-ph/9603249].\\
 
-X.~Ji, \emph{Deeply virtual Compton scattering}
-\\Phys. Rev. D \textbf{55} (1997) 7114 [arxiv:hep-ph/9609381].
-
 \bibitem{Rad97}
 A.~V. Radyushkin, \emph{Scaling Limit of Deeply Virtual Compton Scattering}
 \\Phys. Lett. B \textbf{380} (1996) 417 [arxiv:hep-ph/9604317].
@@ -1190,6 +1224,10 @@ A.~V. Radyushkin, \emph{Scaling Limit of Deeply Virtual Compton Scattering}
 M.~Burkardt, \emph{Impact Parameter Dependent Parton Distributions and Off-Forward Parton Distributions for $\zeta\to 0$}
 \\Phys. Rev. D \textbf{62} (2000) 071503 [ariv:hep-ph/0005108].
 \\Erratum-ibid Phys. Rev. D \textbf{66} (2002) 119903. 
+
+\bibitem{Ji97b}
+X.~Ji, \emph{Deeply virtual Compton scattering}
+\\Phys. Rev. D \textbf{55} (1997) 7114 [arxiv:hep-ph/9609381].
 
 \bibitem{Air01}
 H{\sc ermes} Collaboration, A. Airapetian et al., \emph{Measurement of the Beam-Spin Azimuthal Asymmetry associated with Deeply-Virtual Compton Scattering}
@@ -1252,27 +1290,27 @@ Z{\sc eus} Collaboration, S. Chekanov et al., \emph{A measurement of the $Q^2$, 
 JHEP {\bf 05} (2009) 108 [arxiv:0812.2517].
 
 \bibitem{Maz07}
-JLab Hall A Collaboration, M. Mazouz et al., \emph{Deeply virtual Compton scattering off the neutron}
+Jefferson Lab Hall A Collaboration, M. Mazouz et al., \emph{Deeply virtual Compton scattering off the neutron}
 \\Phys. Rev. Lett. {\bf 99} (2007) 242501 [arxiv:0709.0450].
 
 \bibitem{Cam06}
-JLab Hall A Collaboration,  C. Camacho et al., \emph{Scaling Tests of the Cross Section for Deeply Virtual Compton Scattering}
+Jefferson Lab Hall A Collaboration,  C. Camacho et al., \emph{Scaling Tests of the Cross Section for Deeply Virtual Compton Scattering}
 \\Phys. Rev. Lett. \textbf{97} (2006) 262002 [arxiv:nucl-ex/0607029].
 
 \bibitem{Ste01}
-JLab C{\sc las} Collaboration, S. Stepanyan et al., \emph{Observation of exclusive DVCS in polarized electron beam asymmetry measurements}
+C{\sc las} Collaboration, S. Stepanyan et al., \emph{Observation of exclusive DVCS in polarized electron beam asymmetry measurements}
 \\Phys. Rev. Lett. {\bf 87} (2001) 182002 [arxiv:hep-ex/0107043].
 
 \bibitem{Che06}
-JLab C{\sc las} Collaboration, S. Chen et al., \emph{Measurement of Deeply Virtual Compton Scattering with a Polarized Proton Target}
+C{\sc las} Collaboration, S. Chen et al., \emph{Measurement of Deeply Virtual Compton Scattering with a Polarized Proton Target}
 \\Phys. Rev. Lett. {\bf 97} (2006) 072002 [arxiv:hep-ex/0605012].
 
 \bibitem{Gir08}
-JLab C{\sc las} Collaboration, F. X. Girod et al., \emph{Measurement of Deeply Virtual Compton Scattering Beam-Spin Asymmetries}
+C{\sc las} Collaboration, F. X. Girod et al., \emph{Measurement of Deeply Virtual Compton Scattering Beam-Spin Asymmetries}
 \\Phys. Rev. Lett. \textbf{100} (2008) 162002 [arxiv:0711.4805].
 
 \bibitem{Gav09}
-JLab C{\sc las} Collaboration, G. Gavalian et al., \emph{Beam Spin Asymmetries in DVCS with CLAS with 4.8GeV}
+C{\sc las} Collaboration, G. Gavalian et al., \emph{Beam Spin Asymmetries in DVCS with CLAS with 4.8GeV}
 \\Phys. Rev. C {\bf 80} (2009) 035206 [arxiv:0812.2950].
 
 \bibitem{Com10}
@@ -1319,7 +1357,7 @@ V. Guzey and T. Teckentrup, \emph{On the mistake in the implementation of the mi
 \\Phys. Rev. D {\bf 79} (2009) 017501 [arxiv:0810.3899].
 
 \bibitem{Kum09}
-K. Kumericki and D. M\"uller, \emph{Deeply virtual Compton scattering at small $x_B$ and the access to the GPD H}
+K. Kumeri\v{c}ki and D. M\"uller, \emph{Deeply virtual Compton scattering at small $x_B$ and the access to the GPD H}
 \\Nucl. Phys. B {\bf 841} (2010) 1 [arxiv:0904.0458].
 
 \bibitem{Mue05}
@@ -1327,11 +1365,11 @@ D. M\"uller and A. Sch\"afer, \emph{Complex conformal spin partial wave expansio
 \\Nucl. Phys. B {\bf 739} (2006) 1 [arxiv:hep-ph/0509204].
 
 \bibitem{Kum07}
-K. Kumericki, D. M\"uller and K. Passek-Kumericki, \emph{Towards a fitting procedure for deeply virtual Compton scattering at next-to-leading order and beyond}
+K. Kumeri\v{c}ki, D. M\"uller and K. Passek-Kumeri\v{c}ki, \emph{Towards a fitting procedure for deeply virtual Compton scattering at next-to-leading order and beyond}
 \\Nucl. Phys. B \textbf{794} (2008) 244 [arxiv:hep-ph/0703179].
 
 \bibitem{Kum08}
-K. Kumericki, D. M\"uller and K. Passek-Kumericki, \emph{Sum rules and dualities for generalized parton distributions: is there a holographic principle?}
+K. Kumeri\v{c}ki, D. M\"uller and K. Passek-Kumeri\v{c}ki, \emph{Sum rules and dualities for generalized parton distributions: is there a holographic principle?}
 \\Eur. Phys. J. C \textbf{58} (2008) 193 [arxiv:0805.0152].
 
 \bibitem{Liu11}
