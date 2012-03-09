@@ -60,9 +60,12 @@
    hframe__1__1__1__16__46__1->GetYaxis()->SetTitle("A_{C}^{cos (0#phi)}");
    hframe__1__1__1__16__46__1->GetYaxis()->SetNdivisions(205);
    hframe__1__1__1__16__46__1->GetYaxis()->SetLabelOffset(0.02);
-   hframe__1__1__1__16__46__1->GetYaxis()->SetLabelSize(0.17);
-   hframe__1__1__1__16__46__1->GetYaxis()->SetTitleSize(0.25);
-   hframe__1__1__1__16__46__1->GetYaxis()->SetTitleOffset(0.6);
+   hframe__1__1__1__16__46__1->GetYaxis()->SetLabelFont(63);
+   hframe__1__1__1__16__46__1->GetYaxis()->SetLabelSize(23);
+   hframe__1__1__1__16__46__1->GetYaxis()->SetTitleFont(63);
+   hframe__1__1__1__16__46__1->GetYaxis()->SetTitleSize(36);
+   hframe__1__1__1__16__46__1->GetYaxis()->SetTitleOffset(3.5);
+   hframe__1__1__1__16__46__1->GetYaxis()->CenterTitle();
    hframe__1__1__1__16__46__1->Draw(" ");
    TLine *line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
@@ -149,12 +152,12 @@
    gre->SetHistogram(Graph2222650742);
    
    gre->Draw("p");
-   TLatex *   tex = new TLatex(0.04,0.16,"0.03 < x_{B} < 0.08 ");
+   TLatex *   tex = new TLatex(0.04,-0.12,"0.03 < x_{B} < 0.08 ");
    tex->SetTextFont(43);
    tex->SetTextSize(22);
    tex->SetLineWidth(2);
    tex->Draw();
-      tex = new TLatex(0.04,0.06,"#LTQ^{2}#GT = 1.56 GeV^{2}");
+      tex = new TLatex(0.04,-0.18,"#LTQ^{2}#GT = 1.56 GeV^{2}");
    tex->SetTextFont(43);
    tex->SetTextSize(22);
    tex->SetLineWidth(2);
@@ -183,7 +186,7 @@
    
    TH1F *hframe__2__2__2__17__47__2 = new TH1F("hframe__2__2__2__17__47__2","",21,0.009,0.8);
    hframe__2__2__2__17__47__2->SetMinimum(-0.19);
-   hframe__2__2__2__17__47__2->SetMaximum(0.18);
+   hframe__2__2__2__17__47__2->SetMaximum(0.16);
    hframe__2__2__2__17__47__2->SetDirectory(0);
    hframe__2__2__2__17__47__2->SetStats(0);
    hframe__2__2__2__17__47__2->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
@@ -194,9 +197,12 @@
    hframe__2__2__2__17__47__2->GetYaxis()->SetTitle("A_{C}^{cos #phi}");
    hframe__2__2__2__17__47__2->GetYaxis()->SetNdivisions(205);
    hframe__2__2__2__17__47__2->GetYaxis()->SetLabelOffset(0.02);
-   hframe__2__2__2__17__47__2->GetYaxis()->SetLabelSize(0.17);
-   hframe__2__2__2__17__47__2->GetYaxis()->SetTitleSize(0.25);
-   hframe__2__2__2__17__47__2->GetYaxis()->SetTitleOffset(0.6);
+   hframe__2__2__2__17__47__2->GetYaxis()->SetLabelFont(63);
+   hframe__2__2__2__17__47__2->GetYaxis()->SetLabelSize(23);
+   hframe__2__2__2__17__47__2->GetYaxis()->SetTitleFont(63);
+   hframe__2__2__2__17__47__2->GetYaxis()->SetTitleSize(36);
+   hframe__2__2__2__17__47__2->GetYaxis()->SetTitleOffset(3.5);
+   hframe__2__2__2__17__47__2->GetYaxis()->CenterTitle();
    hframe__2__2__2__17__47__2->Draw(" ");
    line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
@@ -233,6 +239,7 @@
    
    Double_t *dum = 0;
 
+   oset = 0.185;
    pline = new TPolyLine(15,dum,dum,"");
    pline->SetLineColor(2);
    pline->SetPoint(0,0.011,-0.35+oset);
@@ -303,8 +310,8 @@
    pad1_7->SetFrameBorderMode(0);
    
    TH1F *hframe__3__3__3__18__48__3 = new TH1F("hframe__3__3__3__18__48__3","",21,0.009,0.8);
-   hframe__3__3__3__18__48__3->SetMinimum(-0.25);
-   hframe__3__3__3__18__48__3->SetMaximum(0.08);
+   hframe__3__3__3__18__48__3->SetMinimum(-0.27);
+   hframe__3__3__3__18__48__3->SetMaximum(0.09);
    hframe__3__3__3__18__48__3->SetDirectory(0);
    hframe__3__3__3__18__48__3->SetStats(0);
    hframe__3__3__3__18__48__3->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
@@ -315,9 +322,12 @@
    hframe__3__3__3__18__48__3->GetYaxis()->SetTitle("A_{C}^{cos (2#phi)}");
    hframe__3__3__3__18__48__3->GetYaxis()->SetNdivisions(205);
    hframe__3__3__3__18__48__3->GetYaxis()->SetLabelOffset(0.02);
-   hframe__3__3__3__18__48__3->GetYaxis()->SetLabelSize(0.17);
-   hframe__3__3__3__18__48__3->GetYaxis()->SetTitleSize(0.25);
-   hframe__3__3__3__18__48__3->GetYaxis()->SetTitleOffset(0.6);
+   hframe__3__3__3__18__48__3->GetYaxis()->SetLabelFont(63);
+   hframe__3__3__3__18__48__3->GetYaxis()->SetLabelSize(23);
+   hframe__3__3__3__18__48__3->GetYaxis()->SetTitleFont(63);
+   hframe__3__3__3__18__48__3->GetYaxis()->SetTitleSize(36);
+   hframe__3__3__3__18__48__3->GetYaxis()->SetTitleOffset(3.5);
+   hframe__3__3__3__18__48__3->GetYaxis()->CenterTitle();
    hframe__3__3__3__18__48__3->Draw(" ");
    line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
@@ -352,6 +362,7 @@
    
    gre->Draw("p");
    
+   oset = -0.04;
    Double_t *dum = 0;
    pline = new TPolyLine(15,dum,dum,"");
    pline->SetLineColor(2);
@@ -423,8 +434,8 @@
    pad1_10->SetFrameBorderMode(0);
    
    TH1F *hframe__4__4__4__19__49__4 = new TH1F("hframe__4__4__4__19__49__4","",21,0.009,0.8);
-   hframe__4__4__4__19__49__4->SetMinimum(-0.22);
-   hframe__4__4__4__19__49__4->SetMaximum(0.12);
+   hframe__4__4__4__19__49__4->SetMinimum(-0.19);
+   hframe__4__4__4__19__49__4->SetMaximum(0.16);
    hframe__4__4__4__19__49__4->SetDirectory(0);
    hframe__4__4__4__19__49__4->SetStats(0);
    hframe__4__4__4__19__49__4->GetXaxis()->SetTitle("-t [GeV^{2}]");
@@ -435,9 +446,12 @@
    hframe__4__4__4__19__49__4->GetYaxis()->SetTitle("A_{C}^{cos (3#phi)}");
    hframe__4__4__4__19__49__4->GetYaxis()->SetNdivisions(205);
    hframe__4__4__4__19__49__4->GetYaxis()->SetLabelOffset(0.02);
-   hframe__4__4__4__19__49__4->GetYaxis()->SetLabelSize(0.17);
-   hframe__4__4__4__19__49__4->GetYaxis()->SetTitleSize(0.25);
-   hframe__4__4__4__19__49__4->GetYaxis()->SetTitleOffset(0.6);
+   hframe__4__4__4__19__49__4->GetYaxis()->SetLabelFont(63);
+   hframe__4__4__4__19__49__4->GetYaxis()->SetLabelSize(23);
+   hframe__4__4__4__19__49__4->GetYaxis()->SetTitleFont(63);
+   hframe__4__4__4__19__49__4->GetYaxis()->SetTitleSize(36);
+   hframe__4__4__4__19__49__4->GetYaxis()->SetTitleOffset(3.5);
+   hframe__4__4__4__19__49__4->GetYaxis()->CenterTitle();
    hframe__4__4__4__19__49__4->Draw(" ");
    line = new TLine(0,0,0.8,0);
    line->SetLineStyle(2);
@@ -472,6 +486,7 @@
    
    gre->Draw("p");
    
+   oset = 0.04;
    Double_t *dum = 0;
    pline = new TPolyLine(15,dum,dum,"");
    pline->SetLineColor(2);
@@ -550,21 +565,26 @@
    hframe__21__5__4__4__5__20__50__5->GetXaxis()->SetTitle("-t [GeV^{2}]");
    hframe__21__5__4__4__5__20__50__5->GetXaxis()->CenterTitle(true);
    hframe__21__5__4__4__5__20__50__5->GetXaxis()->SetNdivisions(205);
+
    hframe__21__5__4__4__5__20__50__5->GetXaxis()->SetLabelFont(63);
    hframe__21__5__4__4__5__20__50__5->GetXaxis()->SetLabelOffset(0.02);
-   hframe__21__5__4__4__5__20__50__5->GetXaxis()->SetLabelSize(20);
+   hframe__21__5__4__4__5__20__50__5->GetXaxis()->SetLabelSize(23);
+
    hframe__21__5__4__4__5__20__50__5->GetXaxis()->SetTitleSize(25);
    hframe__21__5__4__4__5__20__50__5->GetXaxis()->SetTitleOffset(5.7);
    hframe__21__5__4__4__5__20__50__5->GetXaxis()->SetTitleFont(63);
+
    hframe__21__5__4__4__5__20__50__5->GetYaxis()->SetTitle("#splitline{Assoc.}{fraction}");
    hframe__21__5__4__4__5__20__50__5->GetYaxis()->CenterTitle(true);
    hframe__21__5__4__4__5__20__50__5->GetYaxis()->SetNdivisions(003);
    hframe__21__5__4__4__5__20__50__5->GetYaxis()->SetLabelFont(63);
-   hframe__21__5__4__4__5__20__50__5->GetYaxis()->SetLabelOffset(0.02);
+   hframe__21__5__4__4__5__20__50__5->GetYaxis()->SetLabelOffset(0.03);
    hframe__21__5__4__4__5__20__50__5->GetYaxis()->SetLabelSize(23);
-   hframe__21__5__4__4__5__20__50__5->GetYaxis()->SetTitleSize(22);
-   hframe__21__5__4__4__5__20__50__5->GetYaxis()->SetTitleOffset(5);
+
    hframe__21__5__4__4__5__20__50__5->GetYaxis()->SetTitleFont(63);
+   hframe__21__5__4__4__5__20__50__5->GetYaxis()->SetTitleSize(25);
+   hframe__21__5__4__4__5__20__50__5->GetYaxis()->SetTitleOffset(5);
+
    hframe__21__5__4__4__5__20__50__5->Draw(" ");
    line = new TLine(0,0,2,0);
    line->SetLineStyle(2);
@@ -613,8 +633,8 @@
    pad1_2->SetFrameBorderMode(0);
    
    TH1F *hframe__5__5__6__21__51__6 = new TH1F("hframe__5__5__6__21__51__6","",21,0.009,0.8);
-   hframe__5__5__6__21__51__6->SetMinimum(-0.35);
-   hframe__5__5__6__21__51__6->SetMaximum(0.25);
+   hframe__5__5__6__21__51__6->SetMinimum(-0.29);
+   hframe__5__5__6__21__51__6->SetMaximum(0.06);
    hframe__5__5__6__21__51__6->SetDirectory(0);
    hframe__5__5__6__21__51__6->SetStats(0);
    hframe__5__5__6__21__51__6->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
@@ -657,6 +677,7 @@
    
    gre->Draw("p");
    
+   oset=0.04;
    Double_t *dum = 0;
    pline = new TPolyLine(15,dum,dum,"");
    pline->SetLineColor(2);
@@ -705,12 +726,12 @@
    gre->SetHistogram(Graph10101034588210);
    
    gre->Draw("p");
-      tex = new TLatex(0.04,0.16,"0.08 < x_{B} < 0.12");
+      tex = new TLatex(0.04,-0.12,"0.08 < x_{B} < 0.12");
    tex->SetTextFont(43);
    tex->SetTextSize(22);
    tex->SetLineWidth(2);
    tex->Draw();
-      tex = new TLatex(0.04,0.06,"#LTQ^{2}#GT = 2.52 GeV^{2}");
+      tex = new TLatex(0.04,-0.18,"#LTQ^{2}#GT = 2.52 GeV^{2}");
    tex->SetTextFont(43);
    tex->SetTextSize(22);
    tex->SetLineWidth(2);
@@ -738,8 +759,8 @@
    pad1_5->SetFrameBorderMode(0);
    
    TH1F *hframe__6__6__7__22__52__7 = new TH1F("hframe__6__6__7__22__52__7","",21,0.009,0.8);
-   hframe__6__6__7__22__52__7->SetMinimum(-0.45);
-   hframe__6__6__7__22__52__7->SetMaximum(0.25);
+   hframe__6__6__7__22__52__7->SetMinimum(-0.19);
+   hframe__6__6__7__22__52__7->SetMaximum(0.16);
    hframe__6__6__7__22__52__7->SetDirectory(0);
    hframe__6__6__7__22__52__7->SetStats(0);
    hframe__6__6__7__22__52__7->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
@@ -782,6 +803,7 @@
    
    gre->Draw("p");
    
+   oset = 0.185;
    Double_t *dum = 0;
    pline = new TPolyLine(15,dum,dum,"");
    pline->SetLineColor(2);
@@ -853,8 +875,8 @@
    pad1_8->SetFrameBorderMode(0);
    
    TH1F *hframe__7__7__8__23__53__8 = new TH1F("hframe__7__7__8__23__53__8","",21,0.009,0.8);
-   hframe__7__7__8__23__53__8->SetMinimum(-0.25);
-   hframe__7__7__8__23__53__8->SetMaximum(0.3);
+   hframe__7__7__8__23__53__8->SetMinimum(-0.27);
+   hframe__7__7__8__23__53__8->SetMaximum(0.09);
    hframe__7__7__8__23__53__8->SetDirectory(0);
    hframe__7__7__8__23__53__8->SetStats(0);
    hframe__7__7__8__23__53__8->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
@@ -897,6 +919,7 @@
    
    gre->Draw("p");
    
+   oset = -0.04;
    Double_t *dum = 0;
    pline = new TPolyLine(15,dum,dum,"");
    pline->SetLineColor(2);
@@ -968,15 +991,18 @@
    pad1_11->SetFrameBorderMode(0);
    
    TH1F *hframe__8__8__9__24__54__9 = new TH1F("hframe__8__8__9__24__54__9","",21,0.009,0.8);
-   hframe__8__8__9__24__54__9->SetMinimum(-0.25);
-   hframe__8__8__9__24__54__9->SetMaximum(0.3);
+   hframe__8__8__9__24__54__9->SetMinimum(-0.19);
+   hframe__8__8__9__24__54__9->SetMaximum(0.16);
    hframe__8__8__9__24__54__9->SetDirectory(0);
    hframe__8__8__9__24__54__9->SetStats(0);
    hframe__8__8__9__24__54__9->GetXaxis()->SetTitle("-t [GeV^{2}]");
    hframe__8__8__9__24__54__9->GetXaxis()->SetNdivisions(505);
-   hframe__8__8__9__24__54__9->GetXaxis()->SetLabelSize(0.1);
-   hframe__8__8__9__24__54__9->GetXaxis()->SetTitleSize(0.1);
-   hframe__8__8__9__24__54__9->GetXaxis()->SetTitleOffset(1.01);
+   hframe__8__8__9__24__54__9->GetXaxis()->SetLabelFont(63);
+   hframe__8__8__9__24__54__9->GetXaxis()->SetLabelSize(23);
+   hframe__8__8__9__24__54__9->GetXaxis()->SetLabelOffset(5);
+   hframe__8__8__9__24__54__9->GetXaxis()->SetTitleFont(63);
+   hframe__8__8__9__24__54__9->GetXaxis()->SetTitleSize(25);
+   hframe__8__8__9__24__54__9->GetXaxis()->SetTitleOffset(5);
    hframe__8__8__9__24__54__9->GetYaxis()->SetNdivisions(205);
    hframe__8__8__9__24__54__9->Draw(" ");
    line = new TLine(0.009,0,0.8,0);
@@ -1012,6 +1038,7 @@
    
    gre->Draw("p");
    
+   oset = 0.04;
    Double_t *dum = 0;
    pline = new TPolyLine(15,dum,dum,"");
    pline->SetLineColor(2);
@@ -1091,8 +1118,9 @@
    hframe__21__a2__8__8__10__25__55__10->GetXaxis()->CenterTitle(true);
    hframe__21__a2__8__8__10__25__55__10->GetXaxis()->SetNdivisions(205);
    hframe__21__a2__8__8__10__25__55__10->GetXaxis()->SetLabelFont(63);
-   hframe__21__a2__8__8__10__25__55__10->GetXaxis()->SetLabelOffset(0.02);
-   hframe__21__a2__8__8__10__25__55__10->GetXaxis()->SetLabelSize(20);
+   hframe__21__a2__8__8__10__25__55__10->GetXaxis()->SetLabelSize(23);
+   hframe__21__a2__8__8__10__25__55__10->GetXaxis()->SetLabelOffset(0.03);
+
    hframe__21__a2__8__8__10__25__55__10->GetXaxis()->SetTitleSize(25);
    hframe__21__a2__8__8__10__25__55__10->GetXaxis()->SetTitleOffset(5.7);
    hframe__21__a2__8__8__10__25__55__10->GetXaxis()->SetTitleFont(63);
@@ -1145,8 +1173,8 @@
    pad1_3->SetFrameBorderMode(0);
    
    TH1F *hframe__9__9__11__26__56__11 = new TH1F("hframe__9__9__11__26__56__11","",21,0.009,0.8);
-   hframe__9__9__11__26__56__11->SetMinimum(-0.35);
-   hframe__9__9__11__26__56__11->SetMaximum(0.25);
+   hframe__9__9__11__26__56__11->SetMinimum(-0.29);
+   hframe__9__9__11__26__56__11->SetMaximum(0.06);
    hframe__9__9__11__26__56__11->SetDirectory(0);
    hframe__9__9__11__26__56__11->SetStats(0);
    hframe__9__9__11__26__56__11->GetXaxis()->SetTitle("x_{Bj}");
@@ -1189,6 +1217,7 @@
    
    gre->Draw("p");
    
+   oset = 0.04;
    Double_t *dum = 0;
    pline = new TPolyLine(15,dum,dum,"");
    pline->SetLineColor(2);
@@ -1237,12 +1266,12 @@
    gre->SetHistogram(Graph18181842669018);
    
    gre->Draw("p");
-      tex = new TLatex(0.04,0.16,"0.12 < x_{B} < 0.35");
+      tex = new TLatex(0.04,-0.12,"0.12 < x_{B} < 0.35");
    tex->SetTextFont(43);
    tex->SetTextSize(22);
    tex->SetLineWidth(2);
    tex->Draw();
-      tex = new TLatex(0.04,0.06,"#LTQ^{2}#GT = 4.34 GeV^{2}");
+      tex = new TLatex(0.04,-0.18,"#LTQ^{2}#GT = 4.34 GeV^{2}");
    tex->SetTextFont(43);
    tex->SetTextSize(22);
    tex->SetLineWidth(2);
@@ -1270,8 +1299,8 @@
    pad1_6->SetFrameBorderMode(0);
    
    TH1F *hframe__10__10__12__27__57__12 = new TH1F("hframe__10__10__12__27__57__12","",21,0.009,0.8);
-   hframe__10__10__12__27__57__12->SetMinimum(-0.45);
-   hframe__10__10__12__27__57__12->SetMaximum(0.25);
+   hframe__10__10__12__27__57__12->SetMinimum(-0.19);
+   hframe__10__10__12__27__57__12->SetMaximum(0.16);
    hframe__10__10__12__27__57__12->SetDirectory(0);
    hframe__10__10__12__27__57__12->SetStats(0);
    hframe__10__10__12__27__57__12->GetXaxis()->SetTitle("x_{Bj}");
@@ -1314,6 +1343,7 @@
    
    gre->Draw("p");
    
+   oset = 0.185;
    Double_t *dum = 0;
    pline = new TPolyLine(15,dum,dum,"");
    pline->SetLineColor(2);
@@ -1385,8 +1415,8 @@
    pad1_9->SetFrameBorderMode(0);
    
    TH1F *hframe__11__11__13__28__58__13 = new TH1F("hframe__11__11__13__28__58__13","",21,0.009,0.8);
-   hframe__11__11__13__28__58__13->SetMinimum(-0.25);
-   hframe__11__11__13__28__58__13->SetMaximum(0.3);
+   hframe__11__11__13__28__58__13->SetMinimum(-0.27);
+   hframe__11__11__13__28__58__13->SetMaximum(0.09);
    hframe__11__11__13__28__58__13->SetDirectory(0);
    hframe__11__11__13__28__58__13->SetStats(0);
    hframe__11__11__13__28__58__13->GetXaxis()->SetTitle("x_{Bj}");
@@ -1429,6 +1459,7 @@
    
    gre->Draw("p");
    
+   oset = -0.04;
    Double_t *dum = 0;
    pline = new TPolyLine(15,dum,dum,"");
    pline->SetLineColor(2);
@@ -1500,8 +1531,8 @@
    pad1_12->SetFrameBorderMode(0);
    
    TH1F *hframe__12__12__14__29__59__14 = new TH1F("hframe__12__12__14__29__59__14","",21,0.009,0.8);
-   hframe__12__12__14__29__59__14->SetMinimum(-0.25);
-   hframe__12__12__14__29__59__14->SetMaximum(0.3);
+   hframe__12__12__14__29__59__14->SetMinimum(-0.19);
+   hframe__12__12__14__29__59__14->SetMaximum(0.16);
    hframe__12__12__14__29__59__14->SetDirectory(0);
    hframe__12__12__14__29__59__14->SetStats(0);
    hframe__12__12__14__29__59__14->GetXaxis()->SetTitle("-t [GeV^{2}]");
@@ -1544,7 +1575,7 @@
    
    gre->Draw("p");
    
-   
+   oset = 0.04;
    Double_t *dum = 0;
    pline = new TPolyLine(15,dum,dum,"");
    pline->SetLineColor(2);
@@ -1623,9 +1654,11 @@
    hframe__21__a3__12__12__15__30__60__15->GetXaxis()->SetTitle("-t [GeV^{2}]");
    hframe__21__a3__12__12__15__30__60__15->GetXaxis()->CenterTitle(true);
    hframe__21__a3__12__12__15__30__60__15->GetXaxis()->SetNdivisions(205);
+
    hframe__21__a3__12__12__15__30__60__15->GetXaxis()->SetLabelFont(63);
-   hframe__21__a3__12__12__15__30__60__15->GetXaxis()->SetLabelOffset(0.02);
-   hframe__21__a3__12__12__15__30__60__15->GetXaxis()->SetLabelSize(20);
+   hframe__21__a3__12__12__15__30__60__15->GetXaxis()->SetLabelOffset(0.03);
+   hframe__21__a3__12__12__15__30__60__15->GetXaxis()->SetLabelSize(23);
+
    hframe__21__a3__12__12__15__30__60__15->GetXaxis()->SetTitleSize(25);
    hframe__21__a3__12__12__15__30__60__15->GetXaxis()->SetTitleOffset(5.7);
    hframe__21__a3__12__12__15__30__60__15->GetXaxis()->SetTitleFont(63);
