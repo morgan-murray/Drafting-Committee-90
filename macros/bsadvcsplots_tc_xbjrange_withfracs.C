@@ -54,8 +54,12 @@
    hframe__1__1__1->SetStats(0);
    hframe__1__1__1->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
    hframe__1__1__1->GetXaxis()->SetNdivisions(505);
-   hframe__1__1__1->GetXaxis()->SetLabelSize(0.1);
-   hframe__1__1__1->GetXaxis()->SetTitleSize(0.1);
+   hframe__1__1__1->GetXaxis()->SetLabelFont(63); 
+   hframe__1__1__1->GetXaxis()->SetLabelSize(23);
+   //   hframe__1__1__1->GetXaxis()->SetTitleSize(0.07);
+   hframe__1__1__1->GetXaxis()->SetTitleFont(63); 
+   hframe__1__1__1->GetXaxis()->SetTitleSize(25);
+
    hframe__1__1__1->GetXaxis()->SetTitleOffset(1.1);
    hframe__1__1__1->GetYaxis()->SetTitle("A_{LU,I}^{sin #phi}");
    hframe__1__1__1->GetYaxis()->CenterTitle(true);
@@ -101,7 +105,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,-0.253368);
    gre->SetPointError(0,0,0.0463085);
    gre->SetPoint(1,0.04394,-0.187844);
@@ -162,8 +166,11 @@
    hframe__2__2__2->SetStats(0);
    hframe__2__2__2->GetXaxis()->SetTitle("-t_{c} (GeV^{2})");
    hframe__2__2__2->GetXaxis()->SetNdivisions(505);
-   hframe__2__2__2->GetXaxis()->SetLabelSize(0.1);
-   hframe__2__2__2->GetXaxis()->SetTitleSize(0.1);
+   hframe__2__2__2->GetXaxis()->SetLabelFont(63); 
+   hframe__2__2__2->GetXaxis()->SetLabelSize(23);
+   //hframe__2__2__2->GetXaxis()->SetTitleSize(0.07);
+   hframe__2__2__2->GetXaxis()->SetTitleFont(63); 
+   hframe__2__2__2->GetXaxis()->SetTitleSize(25);
    hframe__2__2__2->GetXaxis()->SetTitleOffset(1.1);
    hframe__2__2__2->GetYaxis()->SetTitle("A_{LU,DVCS}^{sin #phi}");
    hframe__2__2__2->GetYaxis()->CenterTitle(true);
@@ -185,7 +192,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,0.0919501);
    gre->SetPointError(0,0,0.0463417);
    gre->SetPoint(1,0.04394,-0.0211312);
@@ -235,7 +242,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,0.0919501);
    gre->SetPointError(0,0,0.0463417);
    gre->SetPoint(1,0.04394,-0.0211312);
@@ -286,8 +293,12 @@
    hframe__3__3__3->SetStats(0);
    hframe__3__3__3->GetXaxis()->SetTitle("-t [GeV^{2}]");
    hframe__3__3__3->GetXaxis()->SetNdivisions(505);
-   hframe__3__3__3->GetXaxis()->SetLabelSize(0.1);
-   hframe__3__3__3->GetXaxis()->SetTitleSize(0.1);
+   hframe__3__3__3->GetXaxis()->SetLabelFont(63); 
+   hframe__3__3__3->GetXaxis()->SetLabelSize(23);
+   hframe__3__3__3->GetXaxis()->SetTitleFont(63); 
+   hframe__3__3__3->GetXaxis()->SetTitleSize(25);
+
+//GetXaxis()->SetTitleSize(0.07);
    hframe__3__3__3->GetXaxis()->SetTitleOffset(1.1);
    hframe__3__3__3->GetYaxis()->SetTitle("A_{LU,I}^{sin (2#phi)}");
    hframe__3__3__3->GetYaxis()->CenterTitle(true);
@@ -309,7 +320,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,-0.0388297);
    gre->SetPointError(0,0,0.0457382);
    gre->SetPoint(1,0.04394,0.0740203);
@@ -359,7 +370,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,-0.0388297);
    gre->SetPointError(0,0,0.0457382);
    gre->SetPoint(1,0.04394,0.0740203);
@@ -413,8 +424,8 @@
    hframe__21__5__4__4->GetXaxis()->SetNdivisions(205);
    hframe__21__5__4__4->GetXaxis()->SetLabelFont(63);
    hframe__21__5__4__4->GetXaxis()->SetLabelOffset(0.02);
-   hframe__21__5__4__4->GetXaxis()->SetLabelSize(25);
-   hframe__21__5__4__4->GetXaxis()->SetTitleSize(30);
+   hframe__21__5__4__4->GetXaxis()->SetLabelSize(23);
+   hframe__21__5__4__4->GetXaxis()->SetTitleSize(25);
    hframe__21__5__4__4->GetXaxis()->SetTitleOffset(4.8);
    hframe__21__5__4__4->GetXaxis()->SetTitleFont(63);
    hframe__21__5__4__4->GetYaxis()->SetTitle("#splitline{Assoc.}{fraction}");
@@ -480,8 +491,9 @@
    hframe__4__5__5->SetStats(0);
    hframe__4__5__5->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
    hframe__4__5__5->GetXaxis()->SetNdivisions(505);
-   hframe__4__5__5->GetXaxis()->SetLabelSize(0.1);
-   hframe__4__5__5->GetXaxis()->SetTitleSize(0.1);
+   hframe__4__5__5->GetXaxis()->SetLabelFont(63); 
+   hframe__4__5__5->GetXaxis()->SetLabelSize(23);
+   hframe__4__5__5->GetXaxis()->SetTitleSize(0.07);
    hframe__4__5__5->GetXaxis()->SetTitleOffset(1.01);
    hframe__4__5__5->GetYaxis()->SetTitle("A_{LU,I}^{sin #phi}");
    hframe__4__5__5->GetYaxis()->CenterTitle(true);
@@ -523,7 +535,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,-0.163192);
    gre->SetPointError(0,0,0.0784571);
    gre->SetPoint(1,0.04394,-0.302395);
@@ -584,8 +596,9 @@
    hframe__5__6__6->SetStats(0);
    hframe__5__6__6->GetXaxis()->SetTitle("Q^{2} (GeV^{2})");
    hframe__5__6__6->GetXaxis()->SetNdivisions(505);
-   hframe__5__6__6->GetXaxis()->SetLabelSize(0.1);
-   hframe__5__6__6->GetXaxis()->SetTitleSize(0.1);
+   hframe__5__6__6->GetXaxis()->SetLabelFont(63); 
+   hframe__5__6__6->GetXaxis()->SetLabelSize(23);
+   hframe__5__6__6->GetXaxis()->SetTitleSize(0.07);
    hframe__5__6__6->GetXaxis()->SetTitleOffset(1.01);
    hframe__5__6__6->GetYaxis()->SetTitle("A_{LU,DVCS}^{sin #phi}");
    hframe__5__6__6->GetYaxis()->CenterTitle(true);
@@ -607,7 +620,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,-0.0629777);
    gre->SetPointError(0,0,0.0785255);
    gre->SetPoint(1,0.04394,0.0529401);
@@ -656,7 +669,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,-0.0629777);
    gre->SetPointError(0,0,0.0785255);
    gre->SetPoint(1,0.04394,0.0529401);
@@ -707,8 +720,9 @@
    hframe__6__7__7->SetStats(0);
    hframe__6__7__7->GetXaxis()->SetTitle("-t [GeV^{2}]");
    hframe__6__7__7->GetXaxis()->SetNdivisions(505);
-   hframe__6__7__7->GetXaxis()->SetLabelSize(0.1);
-   hframe__6__7__7->GetXaxis()->SetTitleSize(0.1);
+   hframe__6__7__7->GetXaxis()->SetLabelFont(63); 
+   hframe__6__7__7->GetXaxis()->SetLabelSize(23);
+   hframe__6__7__7->GetXaxis()->SetTitleSize(0.07);
    hframe__6__7__7->GetXaxis()->SetTitleOffset(1.01);
    hframe__6__7__7->GetYaxis()->SetTitle("A_{LU,I}^{sin (2#phi)}");
    hframe__6__7__7->GetYaxis()->CenterTitle(true);
@@ -730,7 +744,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,0.0961622);
    gre->SetPointError(0,0,0.0791169);
    gre->SetPoint(1,0.04394,-0.0243103);
@@ -781,7 +795,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,0.0961622);
    gre->SetPointError(0,0,0.0791169);
    gre->SetPoint(1,0.04394,-0.0243103);
@@ -835,8 +849,8 @@
    hframe__21__a2__8__8->GetXaxis()->SetNdivisions(205);
    hframe__21__a2__8__8->GetXaxis()->SetLabelFont(63);
    hframe__21__a2__8__8->GetXaxis()->SetLabelOffset(0.05);
-   hframe__21__a2__8__8->GetXaxis()->SetLabelSize(30);
-   hframe__21__a2__8__8->GetXaxis()->SetTitleSize(30);
+   hframe__21__a2__8__8->GetXaxis()->SetLabelSize(23);
+   hframe__21__a2__8__8->GetXaxis()->SetTitleSize(25);
    hframe__21__a2__8__8->GetXaxis()->SetTitleOffset(4.8);
    hframe__21__a2__8__8->GetXaxis()->SetTitleFont(63);
    hframe__21__a2__8__8->GetYaxis()->SetNdivisions(003);
@@ -894,8 +908,8 @@
    hframe__7__9__9->SetStats(0);
    hframe__7__9__9->GetXaxis()->SetTitle("x_{Bj}");
    hframe__7__9__9->GetXaxis()->SetNdivisions(505);
-   hframe__7__9__9->GetXaxis()->SetLabelSize(0.1);
-   hframe__7__9__9->GetXaxis()->SetTitleSize(0.1);
+   hframe__7__9__9->GetXaxis()->SetLabelFont(63); //GetXaxis()->SetLabelSize(25);
+   hframe__7__9__9->GetXaxis()->SetTitleSize(0.07);
    hframe__7__9__9->GetXaxis()->SetTitleOffset(1.01);
    hframe__7__9__9->GetYaxis()->SetNdivisions(205);
    hframe__7__9__9->Draw(" ");
@@ -929,7 +943,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,-0.237898);
    gre->SetPointError(0,0,0.238162);
    gre->SetPoint(1,0.04394,-0.234912);
@@ -990,8 +1004,8 @@
    hframe__8__10__10->SetStats(0);
    hframe__8__10__10->GetXaxis()->SetTitle("x_{Bj}");
    hframe__8__10__10->GetXaxis()->SetNdivisions(505);
-   hframe__8__10__10->GetXaxis()->SetLabelSize(0.1);
-   hframe__8__10__10->GetXaxis()->SetTitleSize(0.1);
+   hframe__8__10__10->GetXaxis()->SetLabelFont(63); //GetXaxis()->SetLabelSize(25);
+   hframe__8__10__10->GetXaxis()->SetTitleSize(0.07);
    hframe__8__10__10->GetXaxis()->SetTitleOffset(1.01);
    hframe__8__10__10->GetYaxis()->SetNdivisions(205);
    hframe__8__10__10->Draw(" ");
@@ -1005,7 +1019,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,0.00583824);
    gre->SetPointError(0,0,0.236788);
    gre->SetPoint(1,0.04394,0.0369417);
@@ -1054,7 +1068,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,0.00583824);
    gre->SetPointError(0,0,0.236788);
    gre->SetPoint(1,0.04394,0.0369417);
@@ -1105,8 +1119,8 @@
    hframe__9__11__11->SetStats(0);
    hframe__9__11__11->GetXaxis()->SetTitle("-t [GeV^{2}]");
    hframe__9__11__11->GetXaxis()->SetNdivisions(505);
-   hframe__9__11__11->GetXaxis()->SetLabelSize(0.1);
-   hframe__9__11__11->GetXaxis()->SetTitleSize(0.1);
+   hframe__9__11__11->GetXaxis()->SetLabelFont(63); //GetXaxis()->SetLabelSize(25);
+   hframe__9__11__11->GetXaxis()->SetTitleSize(0.07);
    hframe__9__11__11->GetXaxis()->SetTitleOffset(1.01);
    hframe__9__11__11->GetYaxis()->SetNdivisions(205);
    hframe__9__11__11->Draw(" ");
@@ -1120,7 +1134,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,0.274686);
    gre->SetPointError(0,0,0.238983);
    gre->SetPoint(1,0.04394,0.00581289);
@@ -1170,7 +1184,7 @@
    gre->SetFillColor(1);
    gre->SetLineColor(2);
    gre->SetMarkerColor(2);
-   gre->SetMarkerStyle(21);
+   gre->SetMarkerStyle(21); gre->SetMarkerSize(1);
    gre->SetPoint(0,0.018761,0.274686);
    gre->SetPointError(0,0,0.238983);
    gre->SetPoint(1,0.04394,0.00581289);
@@ -1224,8 +1238,8 @@
    hframe__21__a3__12__12->GetXaxis()->SetNdivisions(205);
    hframe__21__a3__12__12->GetXaxis()->SetLabelFont(63);
    hframe__21__a3__12__12->GetXaxis()->SetLabelOffset(0.02);
-   hframe__21__a3__12__12->GetXaxis()->SetLabelSize(25);
-   hframe__21__a3__12__12->GetXaxis()->SetTitleSize(30);
+   hframe__21__a3__12__12->GetXaxis()->SetLabelSize(23);
+   hframe__21__a3__12__12->GetXaxis()->SetTitleSize(25);
    hframe__21__a3__12__12->GetXaxis()->SetTitleOffset(4.8);
    hframe__21__a3__12__12->GetXaxis()->SetTitleFont(63);
    hframe__21__a3__12__12->GetYaxis()->SetNdivisions(003);

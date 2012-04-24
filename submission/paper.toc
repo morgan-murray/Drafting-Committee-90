@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Experiment and Data Selection}{5}{section.2}
+\contentsline {section}{\numberline {3}Experimental Extraction of Asymmetry Amplitudes}{6}{section.3}
+\contentsline {section}{\numberline {4}Background Corrections and Systematic Uncertainties for the 2006-2007 Data}{7}{section.4}
+\contentsline {section}{\numberline {5}Results}{9}{section.5}
+\contentsline {section}{\numberline {6}Summary}{14}{section.6}
+\contentsline {section}{Appendices}{17}{section*.3}
+\contentsline {section}{\numberline {A}Tables of Results}{17}{appendix.A}
+\contentsline {section}{\numberline {B}Covariance Matrix Results}{21}{appendix.B}
