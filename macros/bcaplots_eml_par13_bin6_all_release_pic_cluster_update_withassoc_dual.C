@@ -873,7 +873,7 @@
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   TLegendEntry *entry=leg->AddEntry("NULL","KM10 (a)","l");
+   TLegendEntry *entry=leg->AddEntry("NULL","KM09 (a)","l");
    entry->SetLineColor(4);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
@@ -882,7 +882,7 @@
    entry->SetMarkerSize(1);
    entry->SetTextAlign(12);
    entry->SetTextColor(1);
-   entry=leg->AddEntry("NULL","KM10 (b)","l");
+   entry=leg->AddEntry("NULL","KM09 (b)","l");
    entry->SetLineColor(6);
    entry->SetLineStyle(2);
    entry->SetLineWidth(1);
@@ -1108,17 +1108,17 @@
    gre->SetMarkerStyle(21);
    gre->SetMarkerSize(0.85);
    gre->SetPoint(0,0.018761,-0.0134897);
-   gre->SetPointError(1,0,0.0100014);
+   gre->SetPointError(0,0,0.0100014);
    gre->SetPoint(1,0.04394,0.0045953);
-   gre->SetPointError(2,0,0.0101082);
+   gre->SetPointError(1,0,0.0101082);
    gre->SetPoint(2,0.078792,-0.0233938);
-   gre->SetPointError(3,0,0.0108698);
+   gre->SetPointError(2,0,0.0108698);
    gre->SetPoint(3,0.142805,0.00576635);
-   gre->SetPointError(4,0,0.00938416);
+   gre->SetPointError(3,0,0.00938416);
    gre->SetPoint(4,0.260879,0.0121857);
-   gre->SetPointError(5,0,0.0126546);
+   gre->SetPointError(4,0,0.0126546);
    gre->SetPoint(5,0.466061,0.0296601);
-   gre->SetPointError(6,0,0.0186045);
+   gre->SetPointError(5,0,0.0186045);
    
    TH1F *Graph3616 = new TH1F("Graph3616","Graph",100,0.01041267,10.41267);
    Graph3616->SetMinimum(-0.04251642);

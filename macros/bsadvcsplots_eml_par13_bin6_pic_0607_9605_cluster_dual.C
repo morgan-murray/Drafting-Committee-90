@@ -89,11 +89,11 @@
    Graph11->SetStats(0);
    gre->SetHistogram(Graph11);
    
-	float s1i_o_s =-0.6
+   float s1i_o_s = -0.6;
 	float s1i_o_e;
 	s1i_o_e=-0.6+0.022;
 	
-	float s1i_o_s2=-0.67
+	float s1i_o_s2= -0.67;
 	float s1i_o_e2;
 	s1i_o_e2=-0.67+0.020;
 	
@@ -203,14 +203,14 @@ pad1_1->Modified();
    
    gre->Draw("p");
    
-	float s1d_o_s =-0.4
-	float s1d_o_e;
-	s1d_o_e=-0.4+0.003;
-	
-	float s1d_o_s2=-0.45
-	float s1d_o_e2;
-	s1d_o_e2=-0.45+0.004;
-	
+   float s1d_o_s = -0.4;
+   float s1d_o_e;
+   s1d_o_e=-0.4+0.003;
+   
+   float s1d_o_s2 = -0.45;
+   float s1d_o_e2;
+   s1d_o_e2=-0.45+0.004;
+   
 	Double_t *dum = 0;
 	TPolyLine *pline = new TPolyLine(4,dum,dum,"");
 	pline->SetFillColor(2);
@@ -315,11 +315,11 @@ gre = new TGraphErrors(1);
    
    gre->Draw("p");
 	
-	float s2_o_s =-0.4
+   float s2_o_s = -0.4;
 	float s2_o_e;
 	s2_o_e=-0.4+0.003;
 	
-	float s2_o_s2=-0.45
+	float s2_o_s2 = -0.45;
 	float s2_o_e2;
 	s2_o_e2=-0.45+0.002;
 	

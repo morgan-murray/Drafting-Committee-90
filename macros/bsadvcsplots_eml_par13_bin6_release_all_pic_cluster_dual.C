@@ -538,7 +538,7 @@
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   TLegendEntry *entry=leg->AddEntry("NULL","KM10 (a)","l");
+   TLegendEntry *entry=leg->AddEntry("NULL","KM09 (a)","l");
    entry->SetLineColor(4);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
@@ -547,7 +547,7 @@
    entry->SetMarkerSize(1);
    entry->SetTextAlign(12);
    entry->SetTextColor(1);
-   entry=leg->AddEntry("NULL","KM10 (b)","l");
+   entry=leg->AddEntry("NULL","KM09 (b)","l");
    entry->SetLineColor(6);
    entry->SetLineStyle(2);
    entry->SetLineWidth(1);
